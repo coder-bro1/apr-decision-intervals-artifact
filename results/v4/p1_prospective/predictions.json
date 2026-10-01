@@ -1,0 +1,253 @@
+{
+ "start_state": "final Defects4J evidence (E1+F2+F3+F4+R), decision point 2",
+ "yield_prior": 0.142,
+ "seed": 20261002,
+ "draws": 20000,
+ "target_classes": 99,
+ "target_candidates": 99,
+ "target_bugs": 70,
+ "decided_at_start": 13,
+ "comparisons": [
+  {
+   "comparison": "challenger vs correctness_stage",
+   "start_interval_pp": [
+    -1.6393,
+    1.0246
+   ],
+   "A0_pp": 0.0,
+   "start": "open",
+   "prediction": "cannot be decided by refutation (A0 = 0)",
+   "p_decide": 0.0,
+   "targets": 0
+  },
+  {
+   "comparison": "challenger vs mra",
+   "start_interval_pp": [
+    0.0273,
+    2.8689
+   ],
+   "A0_pp": 1.5369,
+   "start": "decided"
+  },
+  {
+   "comparison": "challenger vs occurrence",
+   "start_interval_pp": [
+    0.5772,
+    3.9139
+   ],
+   "A0_pp": 3.0943,
+   "start": "decided"
+  },
+  {
+   "comparison": "challenger vs codet5_similarity",
+   "start_interval_pp": [
+    -1.6896,
+    6.0973
+   ],
+   "A0_pp": 4.9702,
+   "start": "open",
+   "direction": "+",
+   "need_pp": 1.6896,
+   "helpful_untested_classes": 24,
+   "k_min": 9,
+   "p_decide": 0.0037,
+   "targets": 24,
+   "prediction": "open"
+  },
+  {
+   "comparison": "challenger vs naturalness",
+   "start_interval_pp": [
+    0.4098,
+    10.6557
+   ],
+   "A0_pp": 8.8115,
+   "start": "decided"
+  },
+  {
+   "comparison": "challenger vs entropy_delta",
+   "start_interval_pp": [
+    1.4344,
+    12.5
+   ],
+   "A0_pp": 10.6557,
+   "start": "decided"
+  },
+  {
+   "comparison": "challenger vs prevarank",
+   "start_interval_pp": [
+    0.0,
+    7.582
+   ],
+   "A0_pp": 6.1475,
+   "start": "open",
+   "direction": "+",
+   "need_pp": 0.0,
+   "helpful_untested_classes": 44,
+   "k_min": 1,
+   "p_decide": 0.9986,
+   "targets": 44,
+   "prediction": "decided"
+  },
+  {
+   "comparison": "challenger vs appt",
+   "start_interval_pp": [
+    0.1655,
+    9.3435
+   ],
+   "A0_pp": 8.3189,
+   "start": "decided"
+  },
+  {
+   "comparison": "challenger vs uniform",
+   "start_interval_pp": [
+    0.0328,
+    15.0181
+   ],
+   "A0_pp": 13.3328,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs mra",
+   "start_interval_pp": [
+    0.7104,
+    2.8005
+   ],
+   "A0_pp": 1.5369,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs occurrence",
+   "start_interval_pp": [
+    0.8163,
+    4.2896
+   ],
+   "A0_pp": 3.0943,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs codet5_similarity",
+   "start_interval_pp": [
+    -1.7921,
+    6.8145
+   ],
+   "A0_pp": 4.9702,
+   "start": "open",
+   "direction": "+",
+   "need_pp": 1.7921,
+   "helpful_untested_classes": 25,
+   "k_min": 9,
+   "p_decide": 0.0027,
+   "targets": 25,
+   "prediction": "open"
+  },
+  {
+   "comparison": "correctness_stage vs naturalness",
+   "start_interval_pp": [
+    1.4344,
+    10.2459
+   ],
+   "A0_pp": 8.8115,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs entropy_delta",
+   "start_interval_pp": [
+    1.8443,
+    12.7049
+   ],
+   "A0_pp": 10.6557,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs prevarank",
+   "start_interval_pp": [
+    0.1025,
+    8.0943
+   ],
+   "A0_pp": 6.1475,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs appt",
+   "start_interval_pp": [
+    0.1655,
+    9.9582
+   ],
+   "A0_pp": 8.3189,
+   "start": "decided"
+  },
+  {
+   "comparison": "correctness_stage vs uniform",
+   "start_interval_pp": [
+    0.1558,
+    15.5099
+   ],
+   "A0_pp": 13.3328,
+   "start": "decided"
+  },
+  {
+   "comparison": "prevarank vs mra",
+   "start_interval_pp": [
+    -5.6079,
+    0.9221
+   ],
+   "A0_pp": -4.6107,
+   "start": "open",
+   "direction": "-",
+   "need_pp": 0.9221,
+   "helpful_untested_classes": 38,
+   "k_min": 5,
+   "p_decide": 0.0979,
+   "targets": 38,
+   "prediction": "open"
+  },
+  {
+   "comparison": "prevarank vs occurrence",
+   "start_interval_pp": [
+    -5.6557,
+    2.5649
+   ],
+   "A0_pp": -3.0533,
+   "start": "open",
+   "direction": "-",
+   "need_pp": 2.5649,
+   "helpful_untested_classes": 39,
+   "k_min": 20,
+   "p_decide": 0.0,
+   "targets": 39,
+   "prediction": "open"
+  },
+  {
+   "comparison": "appt vs mra",
+   "start_interval_pp": [
+    -8.3257,
+    1.7129
+   ],
+   "A0_pp": -6.782,
+   "start": "open",
+   "direction": "-",
+   "need_pp": 1.7129,
+   "helpful_untested_classes": 39,
+   "k_min": 9,
+   "p_decide": 0.0253,
+   "targets": 39,
+   "prediction": "open"
+  },
+  {
+   "comparison": "appt vs occurrence",
+   "start_interval_pp": [
+    -8.0333,
+    3.0154
+   ],
+   "A0_pp": -5.2246,
+   "start": "open",
+   "direction": "-",
+   "need_pp": 3.0154,
+   "helpful_untested_classes": 37,
+   "k_min": 15,
+   "p_decide": 0.0,
+   "targets": 37,
+   "prediction": "open"
+  }
+ ]
+}

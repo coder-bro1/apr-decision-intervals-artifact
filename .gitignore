@@ -1,0 +1,47 @@
+# Environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Regenerated output (reproduce.py writes here)
+/reproduced/
+/local-runs/
+
+# Upstream data retrieved locally for level-2 reproduction (not redistributed)
+/upstream/
+/llm_apr_dataset/
+
+# Editors and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and credentials (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Large or raw artefacts
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.pkl
+*.pt
+*.safetensors
+*.bin
+
+# Builder marker
+.release_v3_build
