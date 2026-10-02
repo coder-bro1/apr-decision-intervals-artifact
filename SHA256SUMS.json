@@ -86,7 +86,7 @@
  "audit_research_reassessment_20260913.py": "112f9ae161ed5552fce37631c7055823d2f723ffc2fd8b6dcc8544ee24fae4ad",
  "build_paper_artifacts.py": "e19ef37dcdcddd888613c41b337c50e53345fd51c58cc76902edabc8026db3db",
  "build_validation_contract_step1.py": "2b3a01db02d8e616846d01217d176c6db2b039f86ff7df8f68fe6ad40e758b60",
- "claims.json": "3b85df695172ff1398ea2f74bdd25c1af5698ac207c6bf064d73ad3d9b075313",
+ "claims.json": "9d60d6a13f6545618f500a3d4db813d31038b923fc70f030b182475fc492ba01",
  "empirical_bayes_stream_calibrator.py": "6aa727e85ddad67ed31ae24a767c4c546f8008e877530d61f6f4ee994e096f2f",
  "evaluate_nested_stream_calibration_v2.py": "a8f22c7f4d33a0096af5cd2c8ba4614c153c079c09e2a86486cb8600edfa8382",
  "evaluate_noop_filter.py": "9c42d860c2f0cd0f2c0fe441ddd69278f68c621d11df05c5a88fca116d300c29",

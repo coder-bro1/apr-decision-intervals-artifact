@@ -242,7 +242,7 @@
   }
  },
  {
-  "claim": "Failure audit: all 16 decisions hold in at least 96% of draws",
+  "claim": "Failure audit: each of the 16 decisions holds in at least 96% of draws",
   "where": "Sec. 5.3",
   "file": "results/v4/r1_failure_audit/analysis.json",
   "path": [
