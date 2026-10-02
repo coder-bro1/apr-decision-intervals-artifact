@@ -1,0 +1,254 @@
+{
+ "bugs": 488,
+ "candidates": 2628,
+ "executed": {
+  "tier_P_representatives": 299,
+  "tier_P_jobs": 157,
+  "tier_P_container_hours": 4.6,
+  "tier_S_representatives_so_far": 1219,
+  "tier_S_jobs_so_far": 388,
+  "tier_S_container_hours_so_far": 15.4
+ },
+ "execution_statuses": {
+  "admissible_triggers_pass_semantics_unknown": 136,
+  "controlled_trigger_failure": 836,
+  "compile_command_failed_twice": 473,
+  "unresolved_setup_or_controls": 22,
+  "unresolved_placement_or_repetition": 35,
+  "unresolved_missing_test_evidence": 5,
+  "unresolved_no_admissible_trigger": 10,
+  "unresolved_test_disagreement": 1
+ },
+ "class_label_conflicts_G-E1": 0,
+ "G-E0": [
+  {
+   "a": "challenger_frozen",
+   "b": "occurrence",
+   "bounds_pp": [
+    -17.414617,
+    25.273224
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 299,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0,
+   "topk_pp": {
+    "s1": [
+     -17.414617,
+     25.273224
+    ],
+    "s3": [
+     -36.747414,
+     30.936768
+    ],
+    "s5": [
+     -21.738225,
+     9.382319
+    ],
+    "e5": [
+     -1.0108265027322405,
+     0.9247706869633099
+    ]
+   }
+  },
+  {
+   "a": "occurrence",
+   "b": "uniform",
+   "bounds_pp": [
+    -52.275566,
+    28.777648
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 1464,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0,
+   "topk_pp": {
+    "s1": [
+     -52.275566,
+     28.777648
+    ],
+    "s3": [
+     -15.452283,
+     17.689305
+    ],
+    "s5": [
+     -2.427709,
+     5.708431
+    ],
+    "e5": [
+     -0.7933613062711423,
+     0.8643694704657819
+    ]
+   }
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "uniform",
+   "bounds_pp": [
+    -53.432865,
+    37.793553
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 1518,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "codet5_similarity",
+   "b": "uniform",
+   "bounds_pp": [
+    -53.312923,
+    25.50148
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 1477,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "naturalness",
+   "b": "uniform",
+   "bounds_pp": [
+    -46.75888,
+    51.406453
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 1518,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  }
+ ],
+ "G-E1": [
+  {
+   "a": "challenger_frozen",
+   "b": "occurrence",
+   "bounds_pp": [
+    -3.534836,
+    3.227459
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 43,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0,
+   "topk_pp": {
+    "s1": [
+     -3.534836,
+     3.227459
+    ],
+    "s3": [
+     -5.786495,
+     4.660909
+    ],
+    "s5": [
+     -3.458236,
+     2.183841
+    ],
+    "e5": [
+     -0.14361826697892272,
+     0.16052644418423107
+    ]
+   }
+  },
+  {
+   "a": "occurrence",
+   "b": "uniform",
+   "bounds_pp": [
+    -6.703584,
+    4.688232
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 208,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0,
+   "topk_pp": {
+    "s1": [
+     -6.703584,
+     4.688232
+    ],
+    "s3": [
+     -2.780543,
+     2.81128
+    ],
+    "s5": [
+     -0.605403,
+     1.036788
+    ],
+    "e5": [
+     -0.12028688524590164,
+     0.14022980093676815
+    ]
+   }
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "uniform",
+   "bounds_pp": [
+    -7.185467,
+    4.862737
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 209,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "codet5_similarity",
+   "b": "uniform",
+   "bounds_pp": [
+    -6.689273,
+    3.803018
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 205,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "naturalness",
+   "b": "uniform",
+   "bounds_pp": [
+    -5.903347,
+    7.883896
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 209,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0
+  }
+ ],
+ "G-E1_compile_unknown": [
+  {
+   "a": "challenger_frozen",
+   "b": "occurrence",
+   "bounds_pp": [
+    -8.688525,
+    10.471311
+   ],
+   "result": "open",
+   "relevant_unknown_classes": 146,
+   "class_label_conflicts": 0,
+   "noop_correct_contradictions": 0,
+   "topk_pp": {
+    "s1": [
+     -8.688525,
+     10.471311
+    ],
+    "s3": [
+     -17.599288,
+     16.609582
+    ],
+    "s5": [
+     -11.238778,
+     6.598849
+    ],
+    "e5": [
+     -0.517896174863388,
+     0.45788771792870153
+    ]
+   }
+  }
+ ],
+ "P1_breakdown_G-E1": {
+  "note": "P1 open; no break-down"
+ }
+}

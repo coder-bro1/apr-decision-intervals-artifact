@@ -1,0 +1,58 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_322e8204cbe5ed18922791d54f1407017b82659296631f1f7bbb32d6b5a5dee0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4d6d4d695f21995d131a746819dedbbe67723b06f205c6cb6d034af61c89cb8d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    },
+    {
+      "candidate_id": "obscand_51dd1f92988e0a2161e1ecd5cef8e68d20e2c5134e9bc093dd38d5b432a81732",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    },
+    {
+      "candidate_id": "obscand_880499b0015f5b1edddfe2a4cbca341764d2d1351dde3f8064dd63ff128d2966",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    },
+    {
+      "candidate_id": "obscand_997232a7f4405c4c24f2ec7ad5fc490fbac89e79777efee6be600908368a5a28",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d25ee8b3c82de89b0bdae82b84d76d9489426d5edc2f1f283e00d3fc206d0631",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

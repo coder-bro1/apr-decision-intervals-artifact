@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_bbe8036e471ce46545678807b17651c0f93ee9f125f7efa49678d9288e02b9db",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

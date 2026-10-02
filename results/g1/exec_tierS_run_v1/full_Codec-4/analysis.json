@@ -1,0 +1,35 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.Base64Codec13Test::testEncoder",
+    "org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_54a7744f6db3bc3f5d65b3a91fcf2b86f73c9c9fa70136dc77993b3041f4f083",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_66624624ac6497bdd5e9c0b8d10b9b91a7e65b85c93a8823f3369290b002be52",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6a4263adae59f9e6183220f2e2b3d85a2a2f99af1c3101f3db8dc7448021eb76",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c34ee1ec4f9e4ec86692fd23f751401a3fdef843e22af62c13873cce155d96a9",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

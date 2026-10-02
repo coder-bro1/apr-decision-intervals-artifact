@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_eee5ae544298fef20472a2c775437e175abfede723c82474d045813c96dbc288",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

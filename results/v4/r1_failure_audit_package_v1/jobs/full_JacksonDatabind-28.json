@@ -1,0 +1,11 @@
+{
+  "bug_id": "JacksonDatabind-28",
+  "cases": [
+    {
+      "candidate_id": "obscand_65d032f5ade959bc02ed9c7531e6b5c0a6b24a265c97c5bbdc3292fe02f3f7df",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonDatabind-28",
+  "phase": "full"
+}

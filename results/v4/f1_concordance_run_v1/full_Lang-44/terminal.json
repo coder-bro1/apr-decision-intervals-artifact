@@ -1,0 +1,63 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "79c468d7530998e131b63b7b5088c549184de45168b6dd38f7fdfba4d39176b5",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "179304afa5e6481abb771b10b15d6b3447a73634ee17603dd1606839e101652d",
+    "evidence/benchmark_metadata/active-bugs.csv": "f8687e8569b00725b5468efc8ab15c57e413f511c9be15202c224208c7d0eb9d",
+    "evidence/benchmark_metadata/dependent_tests": "5ea3f1e2b49928c06d606d8c90076f1e3e30ce677c383a1accb5c0e5a17a73bb",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "2b5eeaa3a1aaa96384bdfe9a4be7d1199a371fbc378942799c960458a49f36c7",
+    "evidence/benchmark_metadata/failing_tests/81f10d7f1ef52d44f43b38d81ac3dc1c83d45134": "3afa2ecfaf04e48cfac800ace60a671f1cea94463229b73d512fe99da5bb94cf",
+    "evidence/benchmark_metadata/random_tests": "6410738ebb8974696f84ce271f39d36f46950f6135f5abfff29a00603cc89b86",
+    "evidence/buggy_r1_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/buggy_r1_test0.log": "13ac9046c50a44633cf872232724771b62aee1951ca7cc994023b2551e5a6100",
+    "evidence/buggy_r1_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/buggy_r1_test0_failing_tests.txt": "abc0081cc0414bb984b994b101af85e0eef908ff37307708132131c61baebdde",
+    "evidence/buggy_r2_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/buggy_r2_test0.log": "13ac9046c50a44633cf872232724771b62aee1951ca7cc994023b2551e5a6100",
+    "evidence/buggy_r2_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/buggy_r2_test0_failing_tests.txt": "abc0081cc0414bb984b994b101af85e0eef908ff37307708132131c61baebdde",
+    "evidence/checkout_b.log": "d014f84829e817f8a9c940f6c474235cbab2c13e330f440cd3d1817939483847",
+    "evidence/checkout_f.log": "761c6345e6320935172cf973df7cd51fda881b6a537797cd0b51386b9ae7fc36",
+    "evidence/export_classes.modified.log": "ecf9ea8f2c9f7f3ab9ee5638f0ca9038a3aa3ccbdd26fa2455a9ccdfc7ab30d0",
+    "evidence/export_dir.src.classes.log": "fd357da805b80532492b8f706d872aed0f4de2588adb1584ff85b1693b7d7696",
+    "evidence/export_tests.trigger.log": "05fe79f2d177ccdda71137e31708885020bece620eaa391308b93263970173a4",
+    "evidence/fixed_r1_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/fixed_r1_test0.log": "55db93c205b5354bdc9393573228258420436634412548d8c39e6e3c0ed29785",
+    "evidence/fixed_r1_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/fixed_r2_test0.log": "55db93c205b5354bdc9393573228258420436634412548d8c39e6e3c0ed29785",
+    "evidence/fixed_r2_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "59439a657b80a7e1366b88e613e609a64ec6a768b5254ed30c041def5b3fe22d",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_original.java": "8914dcd8d4801e1910aa3901243acf554241e521583c17a449c8471303016a03",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_patched.java": "29b8932682980d6a711bd6e46383032078c896ecb116d93afcdc509c2daa257f",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_test0.log": "13ac9046c50a44633cf872232724771b62aee1951ca7cc994023b2551e5a6100",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r1_test0_failing_tests.txt": "3a6f491fd6de6d2856a8446b0ec7d60e680ae3228523ce916c66149f6056133c",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_compile.log": "331cca450bb8e8f8a0a9bee672d451234e3a0af86d819ab35de6d9dcb7cd3440",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_original.java": "8914dcd8d4801e1910aa3901243acf554241e521583c17a449c8471303016a03",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_patched.java": "29b8932682980d6a711bd6e46383032078c896ecb116d93afcdc509c2daa257f",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_test0.log": "13ac9046c50a44633cf872232724771b62aee1951ca7cc994023b2551e5a6100",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_test0_all_tests.txt": "963edc77004656f8e28fbfb59a680c126116639e77986bfbb70763567bd6f402",
+    "evidence/obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968_r2_test0_failing_tests.txt": "3a6f491fd6de6d2856a8446b0ec7d60e680ae3228523ce916c66149f6056133c",
+    "evidence/result.json": "c19ad1589cfd679e16d0dd43ae66932e83e6f0b01a0fa8675f21f6c82c540cac",
+    "launch.json": "0f92c63dee84e9e8cbdeef30cfa1cdfa560c0e3f7c7c17f8b3cf2cf8020806a7"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_01062f2e6f60e5d049485a632f4fbfaf2aa8be55e0ec21cc42a3237e915c6968",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.NumberUtilsTest::testLang457"
+      ]
+    }
+  ],
+  "job_id": "full_Lang-44",
+  "package_sha256": "951ee27d63ddeff738f19da12e106fcb5d0b518595547af3b0a44d07a72b1bae",
+  "seconds": 259.5630000000019
+}

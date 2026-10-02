@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.ZipFileTest::testExcessDataInZip64ExtraField"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a1c1c925c1b30d58a21d9ce464ca3b3663e7b9306cb83863a9a8e5789fae996b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipFileTest::testExcessDataInZip64ExtraField"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

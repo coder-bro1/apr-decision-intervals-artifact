@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest::testEventsScheduling"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_cefc64d778a583aa730536247d37761c122a1e1bb0266520582a66d895c5a37e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest::testEventsScheduling"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

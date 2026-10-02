@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9dc2e4e4f42a0eb947ae020b5cc5b8002dcf127f98ae3cf8bd91fa405780d5bf",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

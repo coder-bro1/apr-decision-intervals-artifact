@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testLang328"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_10f789340036fc56c5972705aafe4d17e33da3946cb04ee30827860571645f59",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.LocaleUtilsTest::testLang328"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d1797081c2e206a990b60e365d93c1f6601dda87c7559005b3e949f9e70396c6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.LocaleUtilsTest::testLang328"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

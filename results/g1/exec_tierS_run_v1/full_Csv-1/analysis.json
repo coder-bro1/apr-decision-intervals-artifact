@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVParserTest::testGetLineNumberWithCR"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_fff8b5f03eedc907c4e677ae08f16d09367c67c4d629ecd9ee6090dd3ca0f8d1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVParserTest::testGetLineNumberWithCR"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

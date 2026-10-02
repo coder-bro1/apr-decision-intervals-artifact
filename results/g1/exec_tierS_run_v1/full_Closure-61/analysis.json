@@ -1,0 +1,58 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_37620389d817871d36c0c1f2344735244bd096dbf9ec4c4e2ac6a36d8840e6ec",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6dc912dabd534efe4ea4f3bb0b7a368d0a4fd1808e456d39dc3a6768482fe8ab",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+      ]
+    },
+    {
+      "candidate_id": "obscand_813c09eb98ffbda790b768f0cc6b4e9561fc234739bb3865f33ce1fa329f3cee",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+      ]
+    },
+    {
+      "candidate_id": "obscand_dbe2309efc13c8462f517aa73dfb4e702fb1947876289f9be7c3ecce5952b09c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e2e0ac492dfbb085542713e1b0b6812f7da000b7695513c030c0dfd4bcaeb9e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+        "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

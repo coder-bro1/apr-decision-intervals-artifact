@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBoundaryRangeTooLarge"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_007388cd8a580e899474856c6aa86d9bbff55a1cdbf11f954f25e70d886dff71",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBoundaryRangeTooLarge"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3bcb4b352e0b5228231d9c09c2642c05f54d133172966decd487d40c4fe3e9bd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBoundaryRangeTooLarge"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

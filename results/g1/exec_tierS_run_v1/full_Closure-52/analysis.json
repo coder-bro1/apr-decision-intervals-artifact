@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_315ac3f384e73815f97421499d4176b51c26dbe0970e2941cdd6a20bce9f1328",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

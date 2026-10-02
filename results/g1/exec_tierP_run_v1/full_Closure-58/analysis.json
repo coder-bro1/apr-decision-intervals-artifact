@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9c3013bd2a04abc5cbca914d6cd28cc0d0ee831acc27ebd8d69c720b4eeb8d0a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

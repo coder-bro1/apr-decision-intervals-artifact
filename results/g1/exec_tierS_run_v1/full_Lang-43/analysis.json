@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4249bab3e5e8a0d2a7b95ba42d4fe1d15d023d9dbe13b9da0111c7b66372b622",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_no_admissible_trigger",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_dc2664b658930fdb820b257146de021c306147f536f61709e17e642390910af3",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_no_admissible_trigger",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

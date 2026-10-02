@@ -1,0 +1,14 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": false,
+  "findings": [
+    {
+      "candidate_id": "obscand_47dbc7cbd62f273dc04e47385c36d07de188f4e0cd1c9dcba6330be24b4e8ac0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

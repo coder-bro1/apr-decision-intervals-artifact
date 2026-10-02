@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8a37065ddd995aaac8dcc002dd103f8a1cde2f0a6b46cf3bd8d9a19ab6bf65a3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+      ]
+    },
+    {
+      "candidate_id": "obscand_afea8059383f7748bfaab2afc0fc6c7fce4340c4aa4e76e1ea7c3468ee22a805",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d388827712637397439c113be7cdce75506de3d2f8d715470a2c0c03c4d3caa0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

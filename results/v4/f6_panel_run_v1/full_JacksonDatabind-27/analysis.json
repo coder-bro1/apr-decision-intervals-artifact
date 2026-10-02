@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.jsontype.TestExternalId::testInverseExternalId928"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7e7831e528bc6a441a306acd8fc795a6e9f10fafe80452b2c14785717618766b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

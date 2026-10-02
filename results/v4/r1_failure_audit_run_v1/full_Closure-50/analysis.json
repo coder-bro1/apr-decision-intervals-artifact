@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd",
+    "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_823ce4308b3ec026ee1831725ad56b1397533147feda69359ce26737ae3c0359",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9192ec468136d29f32b484dcae9b55061f9dec0ccd5ee4c43097be92328d542e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd",
+        "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,47 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4",
+    "com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0ab36e94f4fc648b3e27dfa1b7835474d6ea3f222ba4c23d35c0e472155b0474",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_371fc09f2e74eaf947bc9e8a4e019a6d4fbb0e6545220501c59cad89aa4e042a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_50b21bb4186b66e0849812feb55cc235e9e4d1f6e883c59c9d0c69e220184cb0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_607731fad17db6721d439950d4f8537980d7ad33dfac206a69633739cd74661b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_94d62bd5aa4ff813cfe70ee5cfa6b107681ec05c457e5e6c9a954cba54520789",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9b2a0e604b1ddbefd6beac905304c956b61a7069fef25f87e5d9dd935a58dc62",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

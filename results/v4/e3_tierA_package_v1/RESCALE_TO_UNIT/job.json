@@ -1,0 +1,14 @@
+{
+ "bug": "RESCALE_TO_UNIT",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_a1c5ee12d00543be11ac7a0ced1dbf1060dc83acc446f413db09385a00691d42",
+   "original_sha256": "06f37e99e812a83d5f16281dbe1e5d2ff7f3be6df6e1f750e4052d9c0e98159e",
+   "normalized_original_sha256": "43bb6d997891025c463a308468d45ace907a78a4870ff46f9f38092d2a6b54ef",
+   "patched_sha256": "67bd369cd53df14e30df7918a1a069d16e7034da23f3b6f44fd88274c7112d09",
+   "start_offset_lf": 61,
+   "anchor_sha256": "4e71272df26f9a9a9a1d478f6f2a722d4c6ba622da37083516cf92b92f930924",
+   "patch_sha256": "037e41a1af28bc51de1ea879d7f95cbebe3a0dd72086485ae984edc23cd0c6ce"
+  }
+ }
+}

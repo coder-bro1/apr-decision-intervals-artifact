@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_98fefa29ac125fea8e08890f7d7b72bd78d73b62d4a1f15a80b9de0b30d62b70",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.mockitointegration.NoJUnitDependenciesTest::pure_mockito_should_not_depend_JUnit"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_294e2433c1f13cabd865e46e8b3c0c7f460e55b42f278c1e65c3f1b8c988636e",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2bfbc19cfefff076a4a9b761709f9e9657f2d5bfbe910253d44b15603662b429",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

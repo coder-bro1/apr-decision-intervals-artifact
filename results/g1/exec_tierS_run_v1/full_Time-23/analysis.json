@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZone::testForID_String_old"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7551316006f9e788aeff3da1f3e76b38339610ac1f68fe79a5c9d887351d691a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bfd236fb68868f13cc3b6d01f0707fc4999bdfb232575701739a75100ba7f73e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZone::testForID_String_old"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

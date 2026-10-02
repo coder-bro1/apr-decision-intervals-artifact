@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0585a9618d30194ba85b76206d6f811a3680f9e54bb46435c521022dbfe435c0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_18d4f177cfb7911050d0102da0675c82b4c8c4d432bb214703f8c4183a28c953",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

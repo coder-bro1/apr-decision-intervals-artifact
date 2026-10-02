@@ -1,0 +1,1421 @@
+{
+ "status": "exploratory sensitivity (designed after the final results were known)",
+ "classes": {
+  "ast": 39387,
+  "context_split": 39475
+ },
+ "scenarios": [
+  {
+   "scenario": "full (all layers)",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.269,
+      10.328
+     ],
+     "decided": true,
+     "unknowns": 43
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 6
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.428
+     ],
+     "decided": true,
+     "unknowns": 3
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.844,
+      3.279
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.413,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 93
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.264,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 32
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      11.27,
+      12.705
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.468,
+      14.705
+     ],
+     "decided": true,
+     "unknowns": 727
+    }
+   ]
+  },
+  {
+   "scenario": "no census",
+   "decided": 15,
+   "n": 16,
+   "reopened": [
+    "source_agnostic"
+   ],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      6.538,
+      10.328
+     ],
+     "decided": true,
+     "unknowns": 165
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      6.762,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 12
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      6.762,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 12
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.792,
+      13.428
+     ],
+     "decided": true,
+     "unknowns": 4
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      7.121,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 13
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      6.045,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 17
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      -0.034,
+      3.279
+     ],
+     "decided": false,
+     "unknowns": 19
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.136,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 108
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.06,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 33
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      10.246,
+      12.705
+     ],
+     "decided": true,
+     "unknowns": 12
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.147,
+      14.705
+     ],
+     "decided": true,
+     "unknowns": 849
+    }
+   ]
+  },
+  {
+   "scenario": "no F2",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.269,
+      10.328
+     ],
+     "decided": true,
+     "unknowns": 43
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.582,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 8
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.428
+     ],
+     "decided": true,
+     "unknowns": 3
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      7.848,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.434,
+      3.279
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.252,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 100
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.06,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 33
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.451,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 12
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      10.861,
+      12.705
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.195,
+      14.705
+     ],
+     "decided": true,
+     "unknowns": 836
+    }
+   ]
+  },
+  {
+   "scenario": "no F3",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.269,
+      10.328
+     ],
+     "decided": true,
+     "unknowns": 43
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 6
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.428
+     ],
+     "decided": true,
+     "unknowns": 3
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.844,
+      3.279
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.177,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 110
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.211,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 38
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      11.27,
+      12.705
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.419,
+      14.705
+     ],
+     "decided": true,
+     "unknowns": 746
+    }
+   ]
+  },
+  {
+   "scenario": "no F4",
+   "decided": 15,
+   "n": 16,
+   "reopened": [
+    "testability"
+   ],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      7.917,
+      11.224
+     ],
+     "decided": true,
+     "unknowns": 83
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      0.41,
+      2.254
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      3.893,
+      7.582
+     ],
+     "decided": true,
+     "unknowns": 18
+    },
+    {
+     "b": "borda",
+     "pp": [
+      6.967,
+      9.631
+     ],
+     "decided": true,
+     "unknowns": 13
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      6.762,
+      9.631
+     ],
+     "decided": true,
+     "unknowns": 14
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      11.563,
+      14.206
+     ],
+     "decided": true,
+     "unknowns": 19
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      7.07,
+      9.836
+     ],
+     "decided": true,
+     "unknowns": 14
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      6.387,
+      9.529
+     ],
+     "decided": true,
+     "unknowns": 16
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.0,
+      0.615
+     ],
+     "decided": false,
+     "unknowns": 3
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      1.434
+     ],
+     "decided": true,
+     "unknowns": 5
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      0.922,
+      3.449
+     ],
+     "decided": true,
+     "unknowns": 14
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      10.352,
+      13.998
+     ],
+     "decided": true,
+     "unknowns": 107
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      11.231,
+      13.81
+     ],
+     "decided": true,
+     "unknowns": 41
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      9.836,
+      13.525
+     ],
+     "decided": true,
+     "unknowns": 18
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      10.246,
+      13.525
+     ],
+     "decided": true,
+     "unknowns": 16
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      11.41,
+      15.355
+     ],
+     "decided": true,
+     "unknowns": 767
+    }
+   ]
+  },
+  {
+   "scenario": "no R",
+   "decided": 15,
+   "n": 16,
+   "reopened": [
+    "best_config_top1"
+   ],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      7.022,
+      10.617
+     ],
+     "decided": true,
+     "unknowns": 67
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      -0.41,
+      1.639
+     ],
+     "decided": false,
+     "unknowns": 10
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      3.689,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 13
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.172,
+      10.041
+     ],
+     "decided": true,
+     "unknowns": 14
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      6.967,
+      10.041
+     ],
+     "decided": true,
+     "unknowns": 15
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      10.385,
+      13.479
+     ],
+     "decided": true,
+     "unknowns": 16
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      7.275,
+      10.246
+     ],
+     "decided": true,
+     "unknowns": 15
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      6.796,
+      9.939
+     ],
+     "decided": true,
+     "unknowns": 16
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      1.434
+     ],
+     "decided": true,
+     "unknowns": 5
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.205,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.639,
+      4.167
+     ],
+     "decided": true,
+     "unknowns": 13
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      8.896,
+      13.315
+     ],
+     "decided": true,
+     "unknowns": 109
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      9.601,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 45
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      8.402,
+      13.115
+     ],
+     "decided": true,
+     "unknowns": 23
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      9.016,
+      13.115
+     ],
+     "decided": true,
+     "unknowns": 20
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      9.861,
+      14.766
+     ],
+     "decided": true,
+     "unknowns": 757
+    }
+   ]
+  },
+  {
+   "scenario": "R without C1-fix",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.269,
+      10.367
+     ],
+     "decided": true,
+     "unknowns": 45
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 6
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.479
+     ],
+     "decided": true,
+     "unknowns": 4
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.844,
+      3.484
+     ],
+     "decided": true,
+     "unknowns": 8
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.413,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 93
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.264,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 32
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      11.27,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 8
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.468,
+      14.72
+     ],
+     "decided": true,
+     "unknowns": 732
+    }
+   ]
+  },
+  {
+   "scenario": "no F3, R without C1-fix",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.269,
+      10.367
+     ],
+     "decided": true,
+     "unknowns": 45
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 6
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.479
+     ],
+     "decided": true,
+     "unknowns": 4
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.844,
+      3.484
+     ],
+     "decided": true,
+     "unknowns": 8
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.177,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 110
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.211,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 38
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      11.27,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 8
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.419,
+      14.72
+     ],
+     "decided": true,
+     "unknowns": 751
+    }
+   ]
+  },
+  {
+   "scenario": "context-split identity",
+   "decided": 16,
+   "n": 16,
+   "reopened": [],
+   "rows": [
+    {
+     "b": "mra",
+     "pp": [
+      9.202,
+      10.29
+     ],
+     "decided": true,
+     "unknowns": 44
+    },
+    {
+     "b": "best_config_top1",
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "first_global",
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "borda",
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 6
+    },
+    {
+     "b": "rrf",
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mean_norm_position",
+     "pp": [
+      12.997,
+      13.428
+     ],
+     "decided": true,
+     "unknowns": 3
+    },
+    {
+     "b": "occurrence",
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "mra_then_occurrence",
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "decided": true,
+     "unknowns": 9
+    },
+    {
+     "b": "testability",
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "decided": true,
+     "unknowns": 1
+    },
+    {
+     "b": "one_stage",
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "decided": true,
+     "unknowns": 2
+    },
+    {
+     "b": "source_agnostic",
+     "pp": [
+      1.844,
+      3.279
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "token_similarity",
+     "pp": [
+      11.392,
+      13.274
+     ],
+     "decided": true,
+     "unknowns": 94
+    },
+    {
+     "b": "codet5_similarity",
+     "pp": [
+      12.252,
+      13.207
+     ],
+     "decided": true,
+     "unknowns": 33
+    },
+    {
+     "b": "naturalness",
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "decided": true,
+     "unknowns": 10
+    },
+    {
+     "b": "entropy_delta",
+     "pp": [
+      11.27,
+      12.705
+     ],
+     "decided": true,
+     "unknowns": 7
+    },
+    {
+     "b": "uniform",
+     "pp": [
+      12.461,
+      14.704
+     ],
+     "decided": true,
+     "unknowns": 730
+    }
+   ]
+  }
+ ],
+ "audit_cross_check": {
+  "no F3, R without C1-fix": {
+   "mra": [
+    9.269,
+    10.367
+   ],
+   "one_stage": [
+    0.41,
+    0.82
+   ]
+  },
+  "context-split identity": {
+   "mra": [
+    9.202,
+    10.29
+   ],
+   "classes": 39475
+  },
+  "audit_reported": {
+   "no F3, R without C1-fix": {
+    "mra": [
+     9.269,
+     10.367
+    ],
+    "one_stage": [
+     0.41,
+     0.82
+    ]
+   },
+   "context-split identity": {
+    "mra": [
+     9.202,
+     10.29
+    ],
+    "classes": 39475
+   }
+  }
+ }
+}

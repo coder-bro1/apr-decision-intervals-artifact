@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_19f8a50b95ffee4cf1c9e1f8ea532c80e8d94b09940f56140c4b3bedc5c64a36",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,64 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesBlankLinesInPaxHeader"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2e914feeff576baa8a7a17182a2f544b169bc6f497ff066f9b8023658db762f1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_392078934548b23f811a4d3ad65593dad36a38ce9a54bcdade9c90ca8ee2bbfd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_81336fb0f0a1a90e5b886a328ce328d03b5dd58050c422c97dd0cf046ddaa6b8",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_91518562e9bbffa771ed29344190f0afc5f5281a4ade0408554d5708e3260a0f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bc87b02d75e156975ef7df0aac7933988c4efc732258faa5c31cf519eb243e44",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_eafb89effdd96d67483cf77de23dfd666410c94db682dad054ee4da54526c9b1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ed6a0331422f961f61c8711eceaab4756bc43003a350a2ed484862e448341d31",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f6b1d3b6467c8acdf5c9e4d00fb1383ab8707b4b71fa542c93e7904690ae3610",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f8057521d7d98ca49500ba508ed8fbbc50c6f13f0c510a94a160b38a5bd4a418",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b07cb141826b14323a562934fdc2c6e090e47a8170ca9a0a4491e904edf374d0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

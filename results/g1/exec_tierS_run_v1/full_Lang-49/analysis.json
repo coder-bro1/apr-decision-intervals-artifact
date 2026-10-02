@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.math.FractionTest::testReduce"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_91795e273d19166643839dabcc325b88e5054db07525778f6641695968450e56",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.FractionTest::testReduce"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9d0454258507b6d342a6aa967158bf78e7be2b95aa8cf31840f45c220b471b2d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.FractionTest::testReduce"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

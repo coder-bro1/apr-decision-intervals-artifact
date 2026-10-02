@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testMath274",
+    "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNotPositiveDefinite"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_fffa6e50d670b97acfc590e5535b59d73e9e26885a78c1fee6e0b760cb871091",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testMath274",
+        "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNotPositiveDefinite"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

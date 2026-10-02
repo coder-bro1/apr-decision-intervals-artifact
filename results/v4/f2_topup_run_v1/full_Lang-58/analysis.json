@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ca0b75994fb66a57f234ad5ef8938af351db7a4347905192401da7c11b6c45f9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

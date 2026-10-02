@@ -1,0 +1,502 @@
+{
+ "gate": {
+  "refit_matches_frozen_max_abs_error": 0.0,
+  "passed": true
+ },
+ "audits": {
+  "one_stage": [
+   {
+    "rotation": 0,
+    "stages": [
+     {
+      "stage": "correct",
+      "C": 0.1,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.1335432660785709
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.13353320334491356
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.13370016077561173
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.1337569375990377
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 1,
+    "stages": [
+     {
+      "stage": "correct",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.12794757804520498
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.12815412598723885
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.12901008803887848
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.12943299507378375
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 2,
+    "stages": [
+     {
+      "stage": "correct",
+      "C": 10.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.12065839700260585
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.12030819576106612
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.1201911030818975
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.12016144339302935
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 3,
+    "stages": [
+     {
+      "stage": "correct",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.10698260404658184
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.10704523802083556
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.10702045707482083
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.10703190477137633
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 4,
+    "stages": [
+     {
+      "stage": "correct",
+      "C": 0.1,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.1245733629631353
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.12454672361691388
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.12471854430041962
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.12475424393204827
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "source_agnostic": [
+   {
+    "rotation": 0,
+    "stages": [
+     {
+      "stage": "compile",
+      "C": 10.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6682712883809966
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6682329375557772
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.668231098143198
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6682310735547159
+       }
+      ]
+     },
+     {
+      "stage": "test_given_compile",
+      "C": 1.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.3902579499843675
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.3902619309955409
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.3901483838992059
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.39019209888626666
+       }
+      ]
+     },
+     {
+      "stage": "correct_given_test",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6811447102858375
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.683527626330791
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6836151847769986
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6830446249205996
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 1,
+    "stages": [
+     {
+      "stage": "compile",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.67668580249822
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6767458620812208
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6767564835803349
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6767576078447624
+       }
+      ]
+     },
+     {
+      "stage": "test_given_compile",
+      "C": 10.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.42501293126703055
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.42498985033857223
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.4248884761323085
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.4248807587624692
+       }
+      ]
+     },
+     {
+      "stage": "correct_given_test",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6721293697285331
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6740125882456437
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6748772001329304
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6754707791362627
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 2,
+    "stages": [
+     {
+      "stage": "compile",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6688008106790997
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6688050586530703
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6688158681593703
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.668817100129622
+       }
+      ]
+     },
+     {
+      "stage": "test_given_compile",
+      "C": 10.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.36259759405619135
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.36261479656338724
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.36225973229141506
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.36210815505359667
+       }
+      ]
+     },
+     {
+      "stage": "correct_given_test",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6741800399587995
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6747425326066178
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6744681429613512
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6759444249340512
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 3,
+    "stages": [
+     {
+      "stage": "compile",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6689406448941045
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6689611362453376
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6689690706206792
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6689699452743251
+       }
+      ]
+     },
+     {
+      "stage": "test_given_compile",
+      "C": 1.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.353865257388269
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.35381822576717226
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.35379767051908917
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.35384739096493717
+       }
+      ]
+     },
+     {
+      "stage": "correct_given_test",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6969424080915168
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.699740594244165
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.7028317998145296
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.7045243058955231
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "rotation": 4,
+    "stages": [
+     {
+      "stage": "compile",
+      "C": 10.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6750409218369545
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6748862100633699
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6748719803804091
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6748705817307712
+       }
+      ]
+     },
+     {
+      "stage": "test_given_compile",
+      "C": 0.01,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.3947220944707855
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.3947925942810863
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.3947244002740684
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.394775388388976
+       }
+      ]
+     },
+     {
+      "stage": "correct_given_test",
+      "C": 1.0,
+      "trials": [
+       {
+        "C": 0.01,
+        "tuning_log_loss": 0.6685376339147358
+       },
+       {
+        "C": 0.1,
+        "tuning_log_loss": 0.6677588938980308
+       },
+       {
+        "C": 1.0,
+        "tuning_log_loss": 0.6675091082164557
+       },
+       {
+        "C": 10.0,
+        "tuning_log_loss": 0.6682302474931945
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0e2dd5358fcd74e6decaf00effbe9cbfbacb5705502aa4ebef35a2a9545bd9e9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3d1f47601e7449912030dde8e7e6e8384967db5f544cd7641081cd230f81c777",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4996bdd56c43b191ef7e510bd6b0d9c5e0a582a6e47bc6f40afa7c8916b1fe3f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_71d692a4d546ac61fe2abbf40aca3686c094436fa5fcd4a640c7debf5ba4131d",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_dc6adb7907aa8cfb9fd110aef18c40057b8637f77a6d617b6e73bccf0cd2b84f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

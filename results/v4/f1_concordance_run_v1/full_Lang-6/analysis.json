@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairs"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_44d5bb52c765ba0e9f88cc3cedbf24e0b5e6cc4f54fc942cbac68332c87bd32d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairs"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

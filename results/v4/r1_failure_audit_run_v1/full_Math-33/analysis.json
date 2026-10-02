@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_66167a92aee64da58e12d364434b10c5c5dc441db61eb38009bfd968f9d01a07",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

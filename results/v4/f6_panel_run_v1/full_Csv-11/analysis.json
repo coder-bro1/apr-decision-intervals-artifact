@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVParserTest::testHeaderMissingWithNull"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8e9034dc2a2f85cc4a35f8fd6674d7c31ad9c5316d9b0d70752f94ef67531fb8",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_97bc0fad7d68a2164cc7aa0934c2f3c2da874a22d080a8d9a4d2ad7f1768e84e",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

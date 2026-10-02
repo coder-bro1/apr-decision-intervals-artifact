@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.complex.ComplexTest::testMath221"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_223211fba4466123c7b035500dd5b1d9c89860aed1841ffcc0cae18d03f18fa7",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_3da53524f696ac47a7f00bc0fda551acec073a243db71f38ed1c4058648b2922",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b72f6d64a98feba61f3e2f7da1a6e49375f169d5c7f2d598ef3c549d09f3de1a",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e17c346d2a2498ce9440bd7d584354673e9973c08927e25488288b08d00def31",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

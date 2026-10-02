@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4315411fc04b3cc3b6a8bd43f616afc50344253461514d73d494efb15db0f764",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_90556750cf14b6b6fbdba7cd046f64d767a4e465146c381a42d2d3cd43c6d54c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

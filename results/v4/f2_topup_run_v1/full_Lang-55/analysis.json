@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.time.StopWatchTest::testLang315"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b97c7c29a248bd0646692543f0cee5bd793a8478c4f81762152481684a412d7f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.StopWatchTest::testLang315"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,9 @@
+{
+ "model": "Salesforce/codet5p-110m-embedding",
+ "texts": 56011,
+ "candidates": 55466,
+ "max_length": 512,
+ "script_sha256": "3fcfa4d08745cbdb7cfd534ce19fc1ab6fa1f89e743a8d4507050c7ca2d2c1c3",
+ "torch": "2.11.0+cu128",
+ "device": "NVIDIA GeForce RTX 3060"
+}

@@ -1,0 +1,38 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+    "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+    "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+    "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+    "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_63895f5c907443c59c28f0c38b16acdf3cb609e2b04b985631a5f6e5392b31be",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+        "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+        "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+        "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+        "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a7b6accf348f9d28c961c664f033190b911cee3044b605ddff3b412377e04588",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+        "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+        "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+        "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+        "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

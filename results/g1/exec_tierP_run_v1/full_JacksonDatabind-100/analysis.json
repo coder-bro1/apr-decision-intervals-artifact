@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.node.TestConversions::testBase64Text"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5622a5aedd4cfa7dcddc29af03120d2b982683d00d712552c7156f6b93582768",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

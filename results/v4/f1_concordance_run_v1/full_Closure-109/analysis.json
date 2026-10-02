@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2",
+    "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e06b111c86b3c48f7746ed08c499b2829331bfd592dbdf1531dd8751bb9e857d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

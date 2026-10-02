@@ -1,0 +1,450 @@
+{
+ "selected": 80,
+ "with_result": 80,
+ "statuses": {
+  "admissible_triggers_pass_semantics_unknown": 68,
+  "compile_command_failed_twice": 1,
+  "controlled_trigger_failure": 2,
+  "unresolved_placement_or_repetition": 9
+ },
+ "failures_not_reproduced": 68,
+ "failures_reproduced": [
+  "obscand_1603b5653d44fbf414670ea35a13961cb2d0aa84791950be75f90a2522d6c8b0",
+  "obscand_bea9209263113bde0335423cd3dce51c6d5d25d27b4bce23b89417cdd24e26dd"
+ ],
+ "c1_fix_classes_set_correct": 5,
+ "comparisons": [
+  {
+   "b": "mra",
+   "before_ast": {
+    "pp": [
+     7.022,
+     10.617
+    ],
+    "unknowns": 67,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     9.269,
+     10.328
+    ],
+    "unknowns": 43,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     9.423,
+     10.512
+    ],
+    "unknowns": 44,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "best_config_top1",
+   "before_ast": {
+    "pp": [
+     -0.41,
+     1.639
+    ],
+    "unknowns": 10,
+    "result": "open"
+   },
+   "R_ast": {
+    "pp": [
+     1.23,
+     1.639
+    ],
+    "unknowns": 2,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     1.23,
+     1.639
+    ],
+    "unknowns": 2,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "first_global",
+   "before_ast": {
+    "pp": [
+     3.689,
+     6.352
+    ],
+    "unknowns": 13,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     5.943,
+     6.352
+    ],
+    "unknowns": 2,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     5.943,
+     6.352
+    ],
+    "unknowns": 2,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "borda",
+   "before_ast": {
+    "pp": [
+     7.172,
+     10.041
+    ],
+    "unknowns": 14,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     7.992,
+     9.221
+    ],
+    "unknowns": 6,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     7.582,
+     8.811
+    ],
+    "unknowns": 6,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "rrf",
+   "before_ast": {
+    "pp": [
+     6.967,
+     10.041
+    ],
+    "unknowns": 15,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     7.787,
+     9.221
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     7.787,
+     9.221
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "mean_norm_position",
+   "before_ast": {
+    "pp": [
+     10.385,
+     13.479
+    ],
+    "unknowns": 16,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     12.997,
+     13.428
+    ],
+    "unknowns": 3,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     13.19,
+     13.622
+    ],
+    "unknowns": 3,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "occurrence",
+   "before_ast": {
+    "pp": [
+     7.275,
+     10.246
+    ],
+    "unknowns": 15,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     8.094,
+     9.426
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     7.992,
+     9.324
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "mra_then_occurrence",
+   "before_ast": {
+    "pp": [
+     6.796,
+     9.939
+    ],
+    "unknowns": 16,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     7.411,
+     9.119
+    ],
+    "unknowns": 9,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     7.377,
+     9.016
+    ],
+    "unknowns": 8,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "testability",
+   "before_ast": {
+    "pp": [
+     0.41,
+     1.434
+    ],
+    "unknowns": 5,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     0.41,
+     0.615
+    ],
+    "unknowns": 1,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     0.41,
+     0.615
+    ],
+    "unknowns": 1,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "one_stage",
+   "before_ast": {
+    "pp": [
+     0.205,
+     1.639
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     0.41,
+     0.82
+    ],
+    "unknowns": 2,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     0.41,
+     1.025
+    ],
+    "unknowns": 3,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "source_agnostic",
+   "before_ast": {
+    "pp": [
+     1.639,
+     4.167
+    ],
+    "unknowns": 13,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     1.844,
+     3.279
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     2.049,
+     3.484
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "token_similarity",
+   "before_ast": {
+    "pp": [
+     8.896,
+     13.315
+    ],
+    "unknowns": 109,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     11.413,
+     13.274
+    ],
+    "unknowns": 93,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     11.415,
+     13.283
+    ],
+    "unknowns": 93,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "codet5_similarity",
+   "before_ast": {
+    "pp": [
+     9.601,
+     13.207
+    ],
+    "unknowns": 45,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     12.264,
+     13.207
+    ],
+    "unknowns": 32,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     12.263,
+     13.206
+    ],
+    "unknowns": 32,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "naturalness",
+   "before_ast": {
+    "pp": [
+     8.402,
+     13.115
+    ],
+    "unknowns": 23,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     10.861,
+     12.91
+    ],
+    "unknowns": 10,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     10.861,
+     12.91
+    ],
+    "unknowns": 10,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "entropy_delta",
+   "before_ast": {
+    "pp": [
+     9.016,
+     13.115
+    ],
+    "unknowns": 20,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     11.27,
+     12.705
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     11.27,
+     12.705
+    ],
+    "unknowns": 7,
+    "result": "identified +"
+   }
+  },
+  {
+   "b": "uniform",
+   "before_ast": {
+    "pp": [
+     9.861,
+     14.766
+    ],
+    "unknowns": 757,
+    "result": "identified +"
+   },
+   "R_ast": {
+    "pp": [
+     12.468,
+     14.705
+    ],
+    "unknowns": 727,
+    "result": "identified +"
+   },
+   "R_c1": {
+    "pp": [
+     12.531,
+     14.733
+    ],
+    "unknowns": 704,
+    "result": "identified +"
+   }
+  }
+ ]
+}

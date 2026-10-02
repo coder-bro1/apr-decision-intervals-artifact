@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testCompress197"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_90cf08fa8a914cb18e8d1cdad31aaa27101c2593c66901f01a29a67606f0428a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testCompress197"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

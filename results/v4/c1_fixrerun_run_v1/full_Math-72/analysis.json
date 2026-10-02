@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3a78800c32a8d14c6745768afd22ab8d1de61f984bccfbdd0f3cf4c78b39067b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d086be4546de950334778318630ab197d574852498fec24197492a24010e025c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_efd09519095605f9ab389dcf723ee3adbaea589004c69fba73d581b39c9e330d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

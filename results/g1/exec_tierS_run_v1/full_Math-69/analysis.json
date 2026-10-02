@@ -1,0 +1,23 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero",
+    "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a36d94e91f203304d3c0ae8cc46abc56f31ff20a4540adb72267fef57de61690",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b19dde89b6f61dc981ac3fe625d9c398c381fdd30d16964eea1a5f9afef792f3",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

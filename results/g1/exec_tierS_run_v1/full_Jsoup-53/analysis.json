@@ -1,0 +1,58 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.select.SelectorTest::attributeWithBrackets"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_035582cbc68c39696e20a9afd47d10bff10f10baa6c12dcd100eaccb38664008",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6bed462696145f8fc1978da62ab7f94a8d5921bc7807367f248a0c57a01c216e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_728426b9eb6c6de9535826b17ca091f603969811c442befb86813c58fe39326c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7971db98c0b6962333075a619dc356b5aade7299fbebc4b40c879a0fa82b2529",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a5c40e23cbbf9fecf6f61e348505a4908ffda0605f72a252351d5be57a6111f4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f51a2c69797747a48cc7a15a7d6fa40fc1edc6018e76cf054d96dcaccf70226b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

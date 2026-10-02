@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.geometry.euclidean.threed.LineTest::testRevert"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a35239aee00eefc76c088c6fe76490f201d5b4d8fd1820869a740ab881ba9321",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b031ac7a4be610a32525c277cd69d8dfc8da67a04d7ad26d7bb80bfba344ff80",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b48b65fc000a44f94779745813f75914dac9cce49f4da13f64e397a7f1075af6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.LineTest::testRevert"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d8102a761ceb1a6a69730a654529da76cc4e28a0d556aaac57c0d9210d951c27",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

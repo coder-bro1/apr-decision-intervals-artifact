@@ -1,0 +1,23 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve12",
+    "com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve1"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_f73b182146f7b1c50114805ddc82628e163f58ee5c47263d17b1a0fa890bce52",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_fb8177eb95e64e9b22784067c56fb7ace06af5aeb901196a95eabdb1201ea62e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,54 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVPrinterTest::testHeader"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3d8f2f9e653af314b2cddf5f259cc4f94f48b7b14ac3bb0ea24c07db942dbb1c",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4299ce19733b5a75b2ddf3512740d0e925889b09b97a3e34761d434b5452dd5a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_52122a2d0ad4de1bcce546f2a07ac55f54d8ece8f12477f202e75f85a1b2fa0b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_663e43cd9d872d9c5492575d13bcad5816f401d2cf672ba3beb48eb3d6e56c17",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_78e82362750fa4f02159e2a5bb58e2f886d45c4b33b6b3753e1f1b8e0d157c15",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_8e904b79c173379d380297bd8357ba44c25d7ab70f9885261bd8a208b105faea",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testHeader"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e8fca1bc776f196bf72b04384f6c5e915f48403555402483a1b57a12c3981b42",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

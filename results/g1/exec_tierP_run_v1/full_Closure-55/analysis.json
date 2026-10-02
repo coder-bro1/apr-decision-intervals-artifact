@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_cc1c214ba18c18d6b60b55a71a50aab78269fa0070d1dc202206aa3135104bb5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e3163cde6f8d4b221f49dd2c1b6c358b72e416351bdf487268a3effb1a60f004",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

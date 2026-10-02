@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.distribution.NormalDistributionTest::testMath280"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_68acc97142754197ae832a28f96fcac0e3f1304c0e3275f0ab61a0854de8c16e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.distribution.NormalDistributionTest::testMath280"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cd2c02825a249731e2a3e1b6c0370a4d009fb5d63a1808d6d1d1b13942706741",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.distribution.NormalDistributionTest::testMath280"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

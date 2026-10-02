@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::testReinsertionModeForThCelss"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6642fcf7012cb49495463b1cd22952991012a9170449bee3e2940fc057fba4f9",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c08e9923b02c098cf7680baa6db82d61526b4536206aef7356f441927ba080a6",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

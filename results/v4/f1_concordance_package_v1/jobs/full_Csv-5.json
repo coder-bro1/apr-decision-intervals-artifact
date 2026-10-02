@@ -1,0 +1,11 @@
+{
+  "bug_id": "Csv-5",
+  "cases": [
+    {
+      "candidate_id": "obscand_d56ef57deac16bb979ea907dbf2a49e2d0866197c31a00e04931b5ac48196534",
+      "compile_only": true
+    }
+  ],
+  "job_id": "full_Csv-5",
+  "phase": "full"
+}

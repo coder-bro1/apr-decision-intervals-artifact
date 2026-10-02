@@ -1,0 +1,27 @@
+\begin{tabular}{@{}lccccccrrrr@{}}
+\toprule
+ & \multicolumn{6}{c}{Decided after evidence layer} & \multicolumn{4}{c}{Final evidence} \\
+\cmidrule(lr){2-7}\cmidrule(l){8-11}
+Baseline & E0 & E1 & E2 & E3 & E4 & E5 & Interval (pp) & Flips & Human & Break-even \\
+\midrule
+Pooled order (MRA) & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+9.27,\,+10.33]$ & 51 & 0 & 9.5\% \\
+First global position & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+5.94,\,+6.35]$ & 29 & 6 & 6.1\% \\
+Borda count & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+7.99,\,+9.22]$ & 39 & 0 & 9.6\% \\
+Reciprocal-rank fusion & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+7.79,\,+9.22]$ & 38 & 0 & 9.1\% \\
+Mean normalised position & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+13.00,\,+13.43]$ & 64 & 0 & 12.0\% \\
+Occurrence count & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+8.09,\,+9.43]$ & 40 & 0 & 9.4\% \\
+MRA, then occurrence & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+7.41,\,+9.12]$ & 37 & 0 & 8.8\% \\
+Token similarity & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+11.41,\,+13.27]$ & 56 & 0 & 10.8\% \\
+CodeT5+ similarity & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+12.26,\,+13.21]$ & 60 & 0 & 11.7\% \\
+Naturalness & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+10.86,\,+12.91]$ & 53 & 0 & 10.3\% \\
+Entropy delta & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+11.27,\,+12.70]$ & 55 & 0 & 10.5\% \\
+Uniform random & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+12.47,\,+14.71]$ & 62 & 0 & 11.3\% \\
+\midrule
+Source-agnostic refit & $\circ$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+1.84,\,+3.28]$ & 9 & 9 & 3.5\% \\
+One-stage logistic & $\circ$ & $\circ$ & $\circ$ & $\bullet$ & $\bullet$ & $\bullet$ & $[+0.41,\,+0.82]$ & 2 & 4 & 2.6\% \\
+Testability product & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\bullet$ & $\bullet$ & $[+0.41,\,+0.61]$ & 2 & 6 & 2.0\% \\
+Best configuration, top-1 & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\bullet$ & $[+1.23,\,+1.64]$ & 6 & 12 & 2.2\% \\
+\midrule
+Decided & 12 & 13 & 13 & 14 & 15 & 16 & 16 of 16 & & & \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,197 @@
+{
+ "status": "analysis fixed in ADDENDUM_V4_R1_FAILURE_AUDIT.md before execution",
+ "sampled": 160,
+ "outcomes": {
+  "compile_command_failed_twice": 70,
+  "controlled_trigger_failure": 77,
+  "admissible_triggers_pass_semantics_unknown": 5,
+  "unresolved_placement_or_repetition": 2,
+  "unresolved_no_admissible_trigger": 1,
+  "unresolved_setup_or_controls": 5
+ },
+ "rates": {
+  "repairllama_ir1_or3": {
+   "reproduced": 28,
+   "not_reproduced": 2,
+   "unresolved": 2,
+   "rate": 0.0667,
+   "cp95": [
+    0.0082,
+    0.2207
+   ]
+  },
+  "all": {
+   "reproduced": 147,
+   "not_reproduced": 5,
+   "unresolved": 8,
+   "rate": 0.0329,
+   "cp95": [
+    0.0108,
+    0.0751
+   ]
+  },
+  "gpt35_gpt-zero-shot": {
+   "reproduced": 30,
+   "not_reproduced": 0,
+   "unresolved": 2,
+   "rate": 0.0,
+   "cp95": [
+    0.0,
+    0.1157
+   ]
+  },
+  "gpt4_gpt-zero-shot": {
+   "reproduced": 30,
+   "not_reproduced": 2,
+   "unresolved": 0,
+   "rate": 0.0625,
+   "cp95": [
+    0.0077,
+    0.2081
+   ]
+  },
+  "repairllama_ir1_or4": {
+   "reproduced": 30,
+   "not_reproduced": 0,
+   "unresolved": 2,
+   "rate": 0.0,
+   "cp95": [
+    0.0,
+    0.1157
+   ]
+  },
+  "repairllama_ir1_or1": {
+   "reproduced": 29,
+   "not_reproduced": 1,
+   "unresolved": 2,
+   "rate": 0.0333,
+   "cp95": [
+    0.0008,
+    0.1722
+   ]
+  }
+ },
+ "population": 15641,
+ "withdrawal_probability_by_config": {
+  "gpt4_gpt-zero-shot": 0.2081,
+  "gpt35_gpt-zero-shot": 0.1157,
+  "repairllama_ir1_or4": 0.1157,
+  "repairllama_ir1_or3": 0.2207,
+  "repairllama_ir1_or1": 0.1722
+ },
+ "comparisons": {
+  "mra": {
+   "L_pp": 9.2692,
+   "population_classes_at_risk": 1181,
+   "expected_withdrawals": 173.28,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 299
+  },
+  "best_config_top1": {
+   "L_pp": 1.2295,
+   "population_classes_at_risk": 0,
+   "expected_withdrawals": 0.0,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": null
+  },
+  "first_global": {
+   "L_pp": 5.9426,
+   "population_classes_at_risk": 3,
+   "expected_withdrawals": 0.62,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": null
+  },
+  "borda": {
+   "L_pp": 7.9918,
+   "population_classes_at_risk": 49,
+   "expected_withdrawals": 1.91,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 39
+  },
+  "rrf": {
+   "L_pp": 7.7869,
+   "population_classes_at_risk": 51,
+   "expected_withdrawals": 1.6,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 38
+  },
+  "mean_norm_position": {
+   "L_pp": 12.9972,
+   "population_classes_at_risk": 841,
+   "expected_withdrawals": 140.75,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 103
+  },
+  "occurrence": {
+   "L_pp": 8.0943,
+   "population_classes_at_risk": 86,
+   "expected_withdrawals": 6.6,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 40
+  },
+  "mra_then_occurrence": {
+   "L_pp": 7.4112,
+   "population_classes_at_risk": 53,
+   "expected_withdrawals": 2.08,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 37
+  },
+  "testability": {
+   "L_pp": 0.4098,
+   "population_classes_at_risk": 1,
+   "expected_withdrawals": 0.21,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": null
+  },
+  "one_stage": {
+   "L_pp": 0.4098,
+   "population_classes_at_risk": 2,
+   "expected_withdrawals": 0.25,
+   "p_decided": 0.9914,
+   "withdrawals_to_reopen_worst_case": 2
+  },
+  "source_agnostic": {
+   "L_pp": 1.8443,
+   "population_classes_at_risk": 66,
+   "expected_withdrawals": 10.91,
+   "p_decided": 0.9596,
+   "withdrawals_to_reopen_worst_case": 9
+  },
+  "token_similarity": {
+   "L_pp": 11.4127,
+   "population_classes_at_risk": 663,
+   "expected_withdrawals": 109.34,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 328
+  },
+  "codet5_similarity": {
+   "L_pp": 12.2645,
+   "population_classes_at_risk": 29,
+   "expected_withdrawals": 3.23,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": null
+  },
+  "naturalness": {
+   "L_pp": 10.8607,
+   "population_classes_at_risk": 158,
+   "expected_withdrawals": 21.4,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 53
+  },
+  "entropy_delta": {
+   "L_pp": 11.2705,
+   "population_classes_at_risk": 229,
+   "expected_withdrawals": 33.57,
+   "p_decided": 0.9999,
+   "withdrawals_to_reopen_worst_case": 55
+  },
+  "uniform": {
+   "L_pp": 12.4682,
+   "population_classes_at_risk": 12451,
+   "expected_withdrawals": 2030.63,
+   "p_decided": 1.0,
+   "withdrawals_to_reopen_worst_case": 3803
+  }
+ },
+ "decided_with_probability_ge_0_95": 16
+}

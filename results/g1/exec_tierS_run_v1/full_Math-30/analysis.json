@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4e683b8aa6e65e096032ff50cc90f035bca75e7f2d9ba395e13c7d9afdd3bf87",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5d8b154949a8f04a1ef427b0554e1e1c754358ad480828501004373dc6047c34",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

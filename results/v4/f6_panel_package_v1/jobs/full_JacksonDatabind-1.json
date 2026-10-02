@@ -1,0 +1,15 @@
+{
+  "bug_id": "JacksonDatabind-1",
+  "cases": [
+    {
+      "candidate_id": "obscand_16e9f97e4ae1c5f55a686cd9ad74faf74fc33d445462b8d7d91eda0d50576de1",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_1f7b3fe8b7576733fb2b116e94999658dac0928980431deb0faa87f0af9a7c30",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonDatabind-1",
+  "phase": "full"
+}

@@ -1,0 +1,9 @@
+{
+  "candidates": 99,
+  "compile_only": {
+    "false": 99
+  },
+  "image": "sha256:335001efa26b313093968f26dee062e31ae69a8b24f0e9ecb124ae97b73b9323",
+  "image_name": "v2_jdk8",
+  "jobs": 70
+}

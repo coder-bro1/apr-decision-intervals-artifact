@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5b7e2f0103083fee49891fa4b4bb650c04f2e0afe592241307a8ae03325c9dc9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f00badc124d5209684613f210d970d2e7c16b25fc2d112777ab40d72933348a2",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

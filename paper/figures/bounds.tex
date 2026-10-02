@@ -1,0 +1,19 @@
+\begin{tikzpicture}[x=.60cm,y=.6cm,font=\small]
+\draw[->] (-1,0) -- (11.5,0) node[right] {pp};
+\draw[densely dashed,gray] (0,0) -- (0,5);
+\foreach \x in {0,2,4,6,8,10} {\draw (\x,.08)--(\x,-.08) node[below] {\x};}
+\node[anchor=east] at (-1,1) {Context: census};
+\draw[gray,thin] (0.989133255569246,1) -- (10.424023423689526,1);
+\draw[very thick] (2.8375818081700435,1) -- (8.283727358121821,1);
+\fill (2.8375818081700435,1) circle (2pt); \fill (8.283727358121821,1) circle (2pt);
+\node[anchor=east] at (-1,2) {Bug: census};
+\draw[gray,thin] (0.6640001619509811,2) -- (10.709909967082094,2);
+\draw[very thick] (2.6104786606835786,2) -- (8.476344068044888,2);
+\fill (2.6104786606835786,2) circle (2pt); \fill (8.476344068044888,2) circle (2pt);
+\node[anchor=east] at (-1,3) {Context: frozen};
+\draw[very thick] (0.26137389459188765,3) -- (8.591251437272199,3);
+\fill (0.26137389459188765,3) circle (2pt); \fill (8.591251437272199,3) circle (2pt);
+\node[anchor=east] at (-1,4) {Bug: frozen};
+\draw[very thick] (-0.08720389355635258,4) -- (8.934881432319957,4);
+\fill (-0.08720389355635258,4) circle (2pt); \fill (8.934881432319957,4) circle (2pt);
+\end{tikzpicture}

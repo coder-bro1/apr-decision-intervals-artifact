@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a",
+    "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_91550d3bbaf16385756fe908f496db11a405985dff01927b126d543cd9e5e722",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a",
+        "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9",
+        "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

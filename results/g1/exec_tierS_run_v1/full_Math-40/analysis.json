@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c61512d09b178764e61fd5b06d642fd253850cdf6abfee314e47be34c9c0a146",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

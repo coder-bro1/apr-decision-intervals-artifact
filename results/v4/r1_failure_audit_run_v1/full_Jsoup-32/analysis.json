@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testClonesClassnames"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_32b880a742b8aa393e8dad87de9abda688ac4967e12c929b17b952173c5678de",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

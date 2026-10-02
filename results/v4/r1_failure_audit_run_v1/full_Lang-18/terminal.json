@@ -1,0 +1,25 @@
+{
+  "container_ok": true,
+  "controls_compile": false,
+  "files": {
+    "analysis.json": "afc747c1afc87cf84c0092a936d1ccd6daf4a52f5ad696fc163798a0c2a9c70c",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "b93cd58b88b24d41b53db819257f262488d04dd653a56e068c3a758e755f5754",
+    "evidence/benchmark_metadata/active-bugs.csv": "cb68d0b470c72142e77ee3b07398b4761218f0f00b2ef61bec0ff55fe0e0762a",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "6d66a978529c35276fba6290d886a508ad587e36aafcba7bd32ca79fca68a3a1",
+    "evidence/manifest.json": "6bf01c32ba0095c787466765261d2cd391fcd99c181e8cc7966aacbbbbb9f0f0",
+    "evidence/result.json": "b5b038b2948b841cc619d7c618340248b447214df686049eb4313096d36e8dba",
+    "launch.json": "42edda7e277e9d2636f4cb26305d168210dba0a68e3489c2ad5ab152dcc5811c"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_2263bb9751afbbe2c360d5f210b7fd6201536fe5f4b11821a92c50373dfcd888",
+      "compile_status": "unresolved_missing_repetition",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Lang-18",
+  "package_sha256": "f110cd29e3058cc6a341ada6c774781af199cc6f8fa69618c544465650cc6402",
+  "seconds": 0.5
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.time.FastDateFormatTest::testLang645"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_78939bfb1e4b184835571f514c280d3977a207a6b1331cb4e1e7c3408e0c0e25",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.time.FastDateFormatTest::testLang645"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f27d759488fbaf94451bd2690b83716ef0e5b2da265a5cc9734f1eb0fb626686",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.time.FastDateFormatTest::testLang645"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

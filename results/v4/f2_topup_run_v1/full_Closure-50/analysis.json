@@ -1,0 +1,19 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd",
+    "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_906c0ad945b6a135e9bdecbe5e066b052dc0ad5386c8c4454d7c033d227fc464",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

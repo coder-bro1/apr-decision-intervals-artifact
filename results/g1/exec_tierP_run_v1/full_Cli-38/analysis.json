@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI265Test::shouldParseConcatenatedShortOptions"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_31cd38b8a578962b0b23c2233b787d0f4d8ac7e72089ef8acca40fe51618365b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_379eee0a15995d00632a0189c2acb4abc4796136ae12356daa2dc92559299eba",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

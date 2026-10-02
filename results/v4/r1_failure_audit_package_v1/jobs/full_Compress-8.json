@@ -1,0 +1,11 @@
+{
+  "bug_id": "Compress-8",
+  "cases": [
+    {
+      "candidate_id": "obscand_58cf914e500ac09c9f3f08544928655bba5fa27aa1c8e598aa8f1595a516c299",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Compress-8",
+  "phase": "full"
+}

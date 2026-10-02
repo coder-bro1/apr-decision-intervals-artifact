@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_21c46e3e056b23208843b8991f3fc2d008cfb37b6cc15dcbc35ab866464ccb21",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_786ffe96ceadd663bd89d2d122b33bde9811fa88e2a42ed17cc49011b27f1b7b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

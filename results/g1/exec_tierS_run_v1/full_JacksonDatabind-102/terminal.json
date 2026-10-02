@@ -1,0 +1,81 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "4ddb98e94996643dce3d04a4caa01837e9ec9363d2d97b22220b8bf7cdd9ee3d",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "6a8be3f6056e6f9bf6d9ab6883309946e8af1f7718d25d36ff889a88ad75f31e",
+    "evidence/benchmark_metadata/active-bugs.csv": "237ef50887fe69377330bded24811b008f245cf82c2860b06a755830e694e002",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "a035c7183d114fb46cad1749c70bd6a8cdb9735dcca292b8b091d8236c9bdde5",
+    "evidence/benchmark_metadata/failing_tests/323cd0b309697021f1883de1e53038d2d09fc160": "0e7d1096df3dd9551d98921f3884515d89e36e597ea953e04064b5a435a5b3dd",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/buggy_r1_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/buggy_r1_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/buggy_r2_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/buggy_r2_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/checkout_b.log": "820519ab5d355625df7dfe2aa7d08bf8ca82c28900180592fc8726cdc7df5354",
+    "evidence/checkout_f.log": "ea40ab90cf46734e3c0cd89163164d5a045c610787481a4dd0f46812f590a57c",
+    "evidence/export_classes.modified.log": "731a24211cbe0b0946b60232407bb83fbafd8a2574a3c56921bdf86ee58f1cf7",
+    "evidence/export_dir.src.classes.log": "052aa4678353fa550a3662920fdb30ed75b881f0b93aa4dc354e0a7d93a1ebb6",
+    "evidence/export_tests.trigger.log": "cb28ecefeb860415ec0198c508b5254aacc79da42f6b600e819280f2b3d86e57",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "54074a6fdeaff7beefa3321b9e4effa28350139edbfb71461c61d479aed0ef35",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_original.java": "ff71bc2db313a652890f53ac4b4a1b090e84065539fa6840e162ec3692286e18",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_patched.java": "4cce170bdd95686165c8d9aba67943703968c14c0ffd819e7bb0dd9734d3941c",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r1_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_original.java": "ff71bc2db313a652890f53ac4b4a1b090e84065539fa6840e162ec3692286e18",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_patched.java": "4cce170bdd95686165c8d9aba67943703968c14c0ffd819e7bb0dd9734d3941c",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42_r2_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_original.java": "ff71bc2db313a652890f53ac4b4a1b090e84065539fa6840e162ec3692286e18",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_patched.java": "c798cbe295e7298c6947fbb69f63d2db5ff5a21ebe6f921616cd202dfb235e6c",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r1_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_original.java": "ff71bc2db313a652890f53ac4b4a1b090e84065539fa6840e162ec3692286e18",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_patched.java": "c798cbe295e7298c6947fbb69f63d2db5ff5a21ebe6f921616cd202dfb235e6c",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_test0.log": "7f757bf87ba204755a1977c9b9445e5e97398ffcb453e8db613903719f77a962",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_test0_all_tests.txt": "0674868d98dc96188dedd438fe5006d99bedb7463071d4bd377ac374ea99beed",
+    "evidence/obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4_r2_test0_failing_tests.txt": "a6a191827ba70cf08f5b5f1d9954fbd2ecb6af1a801c5b24869f1e18a5ea59c7",
+    "evidence/result.json": "8f8915ed05f4cfb9eef12aea08b23d746e331f4cc2fec11f38d21ea17faa7158",
+    "launch.json": "32aafee5f1bad73f6a8ac5165b3f97964e77fce722a153d50e659bc0a33b1369"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_0184e30943baf71175f2b8627accff5a0526930ba2e02f74fc68cf07f314fa42",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest::testSqlDateConfigOverride"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d61db7357d6ae1a6c2fee1911c9a5f775b02359ea8388d9239dbd0bd319134f4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest::testSqlDateConfigOverride"
+      ]
+    }
+  ],
+  "job_id": "full_JacksonDatabind-102",
+  "package_sha256": "a5acbbf9c244582fff4bc5083a4d206df30073f1ba0adbccc98c08c496b6bef8",
+  "seconds": 98.93799999999464
+}

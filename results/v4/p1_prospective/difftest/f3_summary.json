@@ -1,0 +1,1230 @@
+{
+ "jobs": [
+  {
+   "job": "full_Chart-1",
+   "status": "finished",
+   "suites": [
+    "Chart-1f-evosuite.1.tar.bz2",
+    "Chart-1f-evosuite.2.tar.bz2",
+    "Chart-1f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_3113a436aa56683f5f2a00e320b18ec7a2140a8d0243f508d73933f7fc77428c": {
+     "Chart-1f-evosuite.1.tar.bz2": 0,
+     "Chart-1f-evosuite.2.tar.bz2": 0,
+     "Chart-1f-randoop.1.tar.bz2": 0
+    },
+    "obscand_4d16637841472de55cf973cbe40ad68e6bf89e4539f775f19f79fab4a34150d9": {
+     "Chart-1f-evosuite.1.tar.bz2": 0,
+     "Chart-1f-evosuite.2.tar.bz2": 0,
+     "Chart-1f-randoop.1.tar.bz2": 0
+    },
+    "obscand_a0ef9e307cbcaf7a2bde16a7f93787b481c565fbc8ed3d25b957934ba1f237a0": {
+     "Chart-1f-evosuite.1.tar.bz2": 0,
+     "Chart-1f-evosuite.2.tar.bz2": 0,
+     "Chart-1f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Chart-12",
+   "status": "finished",
+   "suites": [
+    "Chart-12f-evosuite.1.tar.bz2",
+    "Chart-12f-evosuite.2.tar.bz2",
+    "Chart-12f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_d38208f301dfcc7a5a8f75331e95e47c4535c100e889a725a7f20180e0b216cd": {
+     "Chart-12f-evosuite.1.tar.bz2": 0,
+     "Chart-12f-evosuite.2.tar.bz2": 0,
+     "Chart-12f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Chart-20",
+   "status": "finished",
+   "suites": [
+    "Chart-20f-evosuite.1.tar.bz2",
+    "Chart-20f-evosuite.2.tar.bz2",
+    "Chart-20f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_6fadc2e14f61e0aefcf4911040245bee8962eace697cbe245942921e0068060d": {
+     "Chart-20f-evosuite.1.tar.bz2": 0,
+     "Chart-20f-evosuite.2.tar.bz2": 0,
+     "Chart-20f-randoop.1.tar.bz2": 0
+    },
+    "obscand_ecc6da8785bf47a78a493149e5d624a55d79fd782630558f43f0966ac8373305": {
+     "Chart-20f-evosuite.1.tar.bz2": 0,
+     "Chart-20f-evosuite.2.tar.bz2": 0,
+     "Chart-20f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Chart-24",
+   "status": "finished",
+   "suites": [
+    "Chart-24f-evosuite.1.tar.bz2",
+    "Chart-24f-evosuite.2.tar.bz2",
+    "Chart-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_05beec2a81b33cd9f79a29b4cec3726ddf553ff7b73985bea3a402316b5b6a13": {
+     "Chart-24f-evosuite.1.tar.bz2": "not_run",
+     "Chart-24f-evosuite.2.tar.bz2": "not_run",
+     "Chart-24f-randoop.1.tar.bz2": "not_run"
+    }
+   }
+  },
+  {
+   "job": "full_Cli-17",
+   "status": "finished",
+   "suites": [
+    "Cli-17f-evosuite.1.tar.bz2",
+    "Cli-17f-evosuite.2.tar.bz2",
+    "Cli-17f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_298514c4e0d8159a6016907e706cd6bccc92a22e1a71ea2645c2abf7d71a68a2": {
+     "Cli-17f-evosuite.1.tar.bz2": 1,
+     "Cli-17f-evosuite.2.tar.bz2": 0,
+     "Cli-17f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Cli-19",
+   "status": "finished",
+   "suites": [
+    "Cli-19f-evosuite.1.tar.bz2",
+    "Cli-19f-evosuite.2.tar.bz2",
+    "Cli-19f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_1c2c08fcf7d3938a0f7fb1c7d22f546e1e9f33d2bdb67f8786b93fe21edd58cb": {
+     "Cli-19f-evosuite.1.tar.bz2": 0,
+     "Cli-19f-evosuite.2.tar.bz2": 0,
+     "Cli-19f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Cli-24",
+   "status": "finished",
+   "suites": [
+    "Cli-24f-evosuite.1.tar.bz2",
+    "Cli-24f-evosuite.2.tar.bz2",
+    "Cli-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_1a32c5096bf59f39934c2a046b13c65e7b494cbca8d8897326833b8fca52c6b5": {
+     "Cli-24f-evosuite.1.tar.bz2": "not_run",
+     "Cli-24f-evosuite.2.tar.bz2": "not_run",
+     "Cli-24f-randoop.1.tar.bz2": "not_run"
+    }
+   }
+  },
+  {
+   "job": "full_Cli-25",
+   "status": "finished",
+   "suites": [
+    "Cli-25f-evosuite.1.tar.bz2",
+    "Cli-25f-evosuite.2.tar.bz2",
+    "Cli-25f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_ac19e2096055c217fd65f6211379ade152470199ff777fdb11d59e312e85bae7": {
+     "Cli-25f-evosuite.1.tar.bz2": 2,
+     "Cli-25f-evosuite.2.tar.bz2": 1,
+     "Cli-25f-randoop.1.tar.bz2": 2
+    }
+   }
+  },
+  {
+   "job": "full_Closure-101",
+   "status": "finished",
+   "suites": [
+    "Closure-101f-evosuite.1.tar.bz2",
+    "Closure-101f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_064770cae7c5deb5e65ef188894b2712c8e2567de51c0835bc45bdeabb83cacc": {
+     "Closure-101f-evosuite.1.tar.bz2": 0,
+     "Closure-101f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_9f50794b675fc39a8617aed009bd93fb0ffcc9d0983cc5d4902cbf4f7f42e8e6": {
+     "Closure-101f-evosuite.1.tar.bz2": 0,
+     "Closure-101f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-102",
+   "status": "finished",
+   "suites": [
+    "Closure-102f-evosuite.1.tar.bz2",
+    "Closure-102f-evosuite.2.tar.bz2",
+    "Closure-102f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_55b28eeb594074f5429856eb2d7942b9e56ddd7d72cc67080b686a5289deb71c": {
+     "Closure-102f-evosuite.1.tar.bz2": 0,
+     "Closure-102f-evosuite.2.tar.bz2": 0,
+     "Closure-102f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-11",
+   "status": "finished",
+   "suites": [
+    "Closure-11f-evosuite.1.tar.bz2",
+    "Closure-11f-evosuite.2.tar.bz2",
+    "Closure-11f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_7624dbc2f666f93c0aac50dc9e6246309e394211b59d20f1cda42e5ccfc8ddc6": {
+     "Closure-11f-evosuite.1.tar.bz2": 0,
+     "Closure-11f-evosuite.2.tar.bz2": 0,
+     "Closure-11f-randoop.1.tar.bz2": 0
+    },
+    "obscand_e8a6ecaecbbe0b52b281ebb8d083df39f3965275752312316df807f801fde1b0": {
+     "Closure-11f-evosuite.1.tar.bz2": 0,
+     "Closure-11f-evosuite.2.tar.bz2": 0,
+     "Closure-11f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-124",
+   "status": "finished",
+   "suites": [
+    "Closure-124f-evosuite.1.tar.bz2",
+    "Closure-124f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_63ac04ec70a898b8f893737ccc15355265f05ed519d778a1135b76355a9f7feb": {
+     "Closure-124f-evosuite.1.tar.bz2": 0,
+     "Closure-124f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-125",
+   "status": "finished",
+   "suites": [
+    "Closure-125f-evosuite.1.tar.bz2",
+    "Closure-125f-evosuite.2.tar.bz2",
+    "Closure-125f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_0675095dc03c1ae792bcf0cacc70af2f60a92a3d83f7314da6d0b9e7a12c1fd0": {
+     "Closure-125f-evosuite.1.tar.bz2": 0,
+     "Closure-125f-evosuite.2.tar.bz2": 0,
+     "Closure-125f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-126",
+   "status": "finished",
+   "suites": [
+    "Closure-126f-evosuite.1.tar.bz2",
+    "Closure-126f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_58c9458ff028657e41f111574758b386a84441933da8d89017e30ec82f5e6eba": {
+     "Closure-126f-evosuite.1.tar.bz2": 0,
+     "Closure-126f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-128",
+   "status": "finished",
+   "suites": [
+    "Closure-128f-evosuite.1.tar.bz2",
+    "Closure-128f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_1a0af843e475bbb9d80db4aed4c9dcb9faeda7f98434d220944cfb3e5cf96e65": {
+     "Closure-128f-evosuite.1.tar.bz2": 0,
+     "Closure-128f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-129",
+   "status": "finished",
+   "suites": [
+    "Closure-129f-evosuite.1.tar.bz2",
+    "Closure-129f-evosuite.2.tar.bz2",
+    "Closure-129f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_8b2deca3a2695a0ca604e3860024836c7273a0eb9aa6aa776ba04c00cf0a909c": {
+     "Closure-129f-evosuite.1.tar.bz2": 0,
+     "Closure-129f-evosuite.2.tar.bz2": 1,
+     "Closure-129f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-13",
+   "status": "finished",
+   "suites": [
+    "Closure-13f-evosuite.1.tar.bz2",
+    "Closure-13f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_0798568099242a4787917a7cc5f44ddad49ae44ad3ef4cd96741b435b62f6415": {
+     "Closure-13f-evosuite.1.tar.bz2": 0,
+     "Closure-13f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_78ce151731336a0782c868ff4eaceb6a5b1c8c3ca486375897e6c99c5e948298": {
+     "Closure-13f-evosuite.1.tar.bz2": 0,
+     "Closure-13f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-31",
+   "status": "finished",
+   "suites": [
+    "Closure-31f-evosuite.1.tar.bz2",
+    "Closure-31f-evosuite.2.tar.bz2",
+    "Closure-31f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_044dbb2e038b5eed5142cc2f0a26cf5db6f38aad5d4b4b3dd88f4a8c5ee8ced8": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_16c9ebd1c286c4feefac69b4d227a52d5305efab22bc4e2798147f6a9577f36d": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_6bcd43fdaab0f61494c245162323f29f23e665b16cf85752d56fb86254416b68": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_74a4492e8f561936404da40be4a60d196113bca00ebf9ee984670ea3cfe54d92": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_9040b4853eb93787c7a292c9e9f47f616bc3645c28da55a00350703c468e6667": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_d72c5dbb1a7b3229e0241504f1e2ac759a7fea3d8b034e398567fb6aba8d8da2": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    },
+    "obscand_e2a387754cb325f346526090852e8928c776737f8f1c3f587b4add9a8a430bd6": {
+     "Closure-31f-evosuite.1.tar.bz2": 0,
+     "Closure-31f-evosuite.2.tar.bz2": 0,
+     "Closure-31f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-57",
+   "status": "finished",
+   "suites": [
+    "Closure-57f-evosuite.1.tar.bz2",
+    "Closure-57f-evosuite.2.tar.bz2",
+    "Closure-57f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_8545ed1e1a201770020ff51b2122f65b840eec2cbb1c4a29e6b6a7d5f8d07b3d": {
+     "Closure-57f-evosuite.1.tar.bz2": 0,
+     "Closure-57f-evosuite.2.tar.bz2": 0,
+     "Closure-57f-randoop.1.tar.bz2": 0
+    },
+    "obscand_cffedb6cb441d89bb5c91f8a74dea577a79ee35a7add3fa3874ee156171fa747": {
+     "Closure-57f-evosuite.1.tar.bz2": 0,
+     "Closure-57f-evosuite.2.tar.bz2": 1,
+     "Closure-57f-randoop.1.tar.bz2": 2
+    }
+   }
+  },
+  {
+   "job": "full_Closure-70",
+   "status": "finished",
+   "suites": [
+    "Closure-70f-evosuite.1.tar.bz2",
+    "Closure-70f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_4b1069db5c2ebb98cfd83e30411d7e621a67f13889a4d0964d4d875d7517acea": {
+     "Closure-70f-evosuite.1.tar.bz2": 0,
+     "Closure-70f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-78",
+   "status": "finished",
+   "suites": [
+    "Closure-78f-evosuite.1.tar.bz2",
+    "Closure-78f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_7fbf4e4207dc87af39bbbacc15ddf74ca198be237bf2f92ac7b74193e141b3c9": {
+     "Closure-78f-evosuite.1.tar.bz2": 0,
+     "Closure-78f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_8d455194da2a66b0136ccca1c5219e66e9e32076832bb6bbdde0909c9c2bb965": {
+     "Closure-78f-evosuite.1.tar.bz2": 0,
+     "Closure-78f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Closure-92",
+   "status": "finished",
+   "suites": [
+    "Closure-92f-evosuite.1.tar.bz2",
+    "Closure-92f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_3c7a1e1053b14dd08d3f353f974ba5826cc736d94ab139ff44a13af3d4f49130": {
+     "Closure-92f-evosuite.1.tar.bz2": 0,
+     "Closure-92f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_cddc0c7040f9aa608da479083e9232f9b2091a5cee1bf82fe437df0c8c322f09": {
+     "Closure-92f-evosuite.1.tar.bz2": 0,
+     "Closure-92f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Codec-18",
+   "status": "finished",
+   "suites": [
+    "Codec-18f-evosuite.1.tar.bz2",
+    "Codec-18f-evosuite.2.tar.bz2",
+    "Codec-18f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_361fdd2016cc4562a975d5cf83ed5a022f03b97e95551b0a3a2e5eb422c3a980": {
+     "Codec-18f-evosuite.1.tar.bz2": 0,
+     "Codec-18f-evosuite.2.tar.bz2": 0,
+     "Codec-18f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Codec-7",
+   "status": "finished",
+   "suites": [
+    "Codec-7f-evosuite.1.tar.bz2",
+    "Codec-7f-evosuite.2.tar.bz2",
+    "Codec-7f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_2195d9057cc8b1c6f1045a8891bf4baaa6aa13ccfd99912bcb93f34379339fd3": {
+     "Codec-7f-evosuite.1.tar.bz2": 0,
+     "Codec-7f-evosuite.2.tar.bz2": 0,
+     "Codec-7f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Collections-26",
+   "status": "finished",
+   "suites": [
+    "Collections-26f-evosuite.1.tar.bz2",
+    "Collections-26f-evosuite.2.tar.bz2",
+    "Collections-26f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_9d6ae34782196890d6085d5346ad80747a0aa6793c9eac93aaa21e2bb9df6958": {
+     "Collections-26f-evosuite.1.tar.bz2": 0,
+     "Collections-26f-evosuite.2.tar.bz2": 0,
+     "Collections-26f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Compress-31",
+   "status": "finished",
+   "suites": [
+    "Compress-31f-evosuite.1.tar.bz2",
+    "Compress-31f-evosuite.2.tar.bz2",
+    "Compress-31f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_3dc95a70cceb9955e6f1ce40be3d38fd7efa2bb3da63b8936eded41eed38df54": {
+     "Compress-31f-evosuite.1.tar.bz2": 0,
+     "Compress-31f-evosuite.2.tar.bz2": 0,
+     "Compress-31f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Compress-46",
+   "status": "finished",
+   "suites": [
+    "Compress-46f-evosuite.1.tar.bz2",
+    "Compress-46f-evosuite.2.tar.bz2",
+    "Compress-46f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_4013aa8a15905780dd5d2646d1ae6ed07a8c0072576f040d6cab064c81e1d343": {
+     "Compress-46f-evosuite.1.tar.bz2": 0,
+     "Compress-46f-evosuite.2.tar.bz2": 0,
+     "Compress-46f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Gson-12",
+   "status": "finished",
+   "suites": [
+    "Gson-12f-evosuite.1.tar.bz2",
+    "Gson-12f-evosuite.2.tar.bz2",
+    "Gson-12f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_25b0eca4ce7b0be8fecb2e6c60a2fe106f308a4d4efab4d3e4452ebb95479be3": {
+     "Gson-12f-evosuite.1.tar.bz2": 0,
+     "Gson-12f-evosuite.2.tar.bz2": 0,
+     "Gson-12f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Gson-17",
+   "status": "finished",
+   "suites": [
+    "Gson-17f-evosuite.1.tar.bz2",
+    "Gson-17f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_56c89468b292e861d7367471349444a3abaadc228de828b74318b080e834154f": {
+     "Gson-17f-evosuite.1.tar.bz2": 0,
+     "Gson-17f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_debb61a559d2a3e40bfed1aa799268bb29d8ad6c01c4ae1ec79e79bf186ceeee": {
+     "Gson-17f-evosuite.1.tar.bz2": 0,
+     "Gson-17f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Gson-6",
+   "status": "finished",
+   "suites": [
+    "Gson-6f-evosuite.1.tar.bz2",
+    "Gson-6f-evosuite.2.tar.bz2",
+    "Gson-6f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_bd100db0e9eb806a73d76dcf95d468efa699b0fb2afb7f81c856267ba9bf760f": {
+     "Gson-6f-evosuite.1.tar.bz2": 0,
+     "Gson-6f-evosuite.2.tar.bz2": 0,
+     "Gson-6f-randoop.1.tar.bz2": 0
+    },
+    "obscand_d9423eac9d5ba99b5bee792fc1790ddf3f57334ecf8987f945eacddcdce1b749": {
+     "Gson-6f-evosuite.1.tar.bz2": 0,
+     "Gson-6f-evosuite.2.tar.bz2": 0,
+     "Gson-6f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonCore-25",
+   "status": "finished",
+   "suites": [
+    "JacksonCore-25f-evosuite.1.tar.bz2",
+    "JacksonCore-25f-evosuite.2.tar.bz2",
+    "JacksonCore-25f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_1dc2c5d44c7776387b0153e359add48ef43f05f7e56f702aff7f78d784ac2d81": {
+     "JacksonCore-25f-evosuite.1.tar.bz2": 0,
+     "JacksonCore-25f-evosuite.2.tar.bz2": 0,
+     "JacksonCore-25f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-1",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-1f-evosuite.1.tar.bz2",
+    "JacksonDatabind-1f-evosuite.2.tar.bz2",
+    "JacksonDatabind-1f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_814854cf37d8d026cde19ee5ca06db82e8d67b2cedef91190c745c2b33fe63d3": {
+     "JacksonDatabind-1f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-1f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-1f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-102",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-102f-evosuite.1.tar.bz2",
+    "JacksonDatabind-102f-evosuite.2.tar.bz2",
+    "JacksonDatabind-102f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_210c3802ba176666e3e0b6dbad7810360eab1d23902008b6a90e51d79898f58a": {
+     "JacksonDatabind-102f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-102f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-102f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-24",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-24f-evosuite.1.tar.bz2",
+    "JacksonDatabind-24f-evosuite.2.tar.bz2",
+    "JacksonDatabind-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_1104525f49343dfb148b591235f4fda4547df081d4ab9fad2c83f04553acbf29": {
+     "JacksonDatabind-24f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-24f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-24f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-34",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-34f-evosuite.1.tar.bz2",
+    "JacksonDatabind-34f-evosuite.2.tar.bz2",
+    "JacksonDatabind-34f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_b581c84e0a71babda67d3ae37914ba255b400113b7611463205b705baf558d3b": {
+     "JacksonDatabind-34f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-34f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-34f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-42",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-42f-evosuite.1.tar.bz2",
+    "JacksonDatabind-42f-evosuite.2.tar.bz2",
+    "JacksonDatabind-42f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_4c918581f71073d859d52515532d5b6b66bdac28c0a70fe6e47e357478a894b4": {
+     "JacksonDatabind-42f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-42f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-42f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-46",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-46f-evosuite.1.tar.bz2",
+    "JacksonDatabind-46f-evosuite.2.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_0c658dd703edea3e3126aef7640e887834629a52718a4404cbc3913ca4bf4f65": {
+     "JacksonDatabind-46f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-46f-evosuite.2.tar.bz2": 0
+    },
+    "obscand_a1e317b5dd202d8de4cbf9a65e4382a089170def073d5c22886536e5c441be7e": {
+     "JacksonDatabind-46f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-46f-evosuite.2.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-47",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-47f-evosuite.1.tar.bz2",
+    "JacksonDatabind-47f-evosuite.2.tar.bz2",
+    "JacksonDatabind-47f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_47d16eed5897edc96edeab008422565dff01b41df6381748fcd7d7be47d8b2a6": {
+     "JacksonDatabind-47f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-47f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-47f-randoop.1.tar.bz2": 0
+    },
+    "obscand_8a3ae2adbe02ecd81193df56cb14ea7d4d453199e5c2914add2499aeaf47a216": {
+     "JacksonDatabind-47f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-47f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-47f-randoop.1.tar.bz2": 0
+    },
+    "obscand_cc98e712fef146f1770d14d4d5ffb3f37e00ed17082c6c38535b2aed87054d77": {
+     "JacksonDatabind-47f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-47f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-47f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-54",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-54f-evosuite.1.tar.bz2",
+    "JacksonDatabind-54f-evosuite.2.tar.bz2",
+    "JacksonDatabind-54f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_5fb39efcd5e3790f3a2d78be771c1fc8e86cd709b421c26c92a72e0f44df3e12": {
+     "JacksonDatabind-54f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-54f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-54f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-57",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-57f-evosuite.1.tar.bz2",
+    "JacksonDatabind-57f-evosuite.2.tar.bz2",
+    "JacksonDatabind-57f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_138ea248aa8420dc4de4cce5fff9a97f2f7f685acac52b8a89f81d2646209ea2": {
+     "JacksonDatabind-57f-evosuite.1.tar.bz2": "not_run",
+     "JacksonDatabind-57f-evosuite.2.tar.bz2": "not_run",
+     "JacksonDatabind-57f-randoop.1.tar.bz2": "not_run"
+    },
+    "obscand_3e9b6c4641ef83eb3e170d69285a4098e78670f87afb0a383b47238e9e8b8ce6": {
+     "JacksonDatabind-57f-evosuite.1.tar.bz2": "not_run",
+     "JacksonDatabind-57f-evosuite.2.tar.bz2": "not_run",
+     "JacksonDatabind-57f-randoop.1.tar.bz2": "not_run"
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-67",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-67f-evosuite.1.tar.bz2",
+    "JacksonDatabind-67f-evosuite.2.tar.bz2",
+    "JacksonDatabind-67f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_02fa69eeebf8e83d84423ad0b6ac609dbcdf75e88a8150b383390c8a052100a4": {
+     "JacksonDatabind-67f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-67f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-67f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-82",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-82f-evosuite.1.tar.bz2",
+    "JacksonDatabind-82f-evosuite.2.tar.bz2",
+    "JacksonDatabind-82f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_fd28c92c37ec88c1b09c2286de5b131088728fc6bfd8436b24e807242cba7f36": {
+     "JacksonDatabind-82f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-82f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-82f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-83",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-83f-evosuite.1.tar.bz2",
+    "JacksonDatabind-83f-evosuite.2.tar.bz2",
+    "JacksonDatabind-83f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_a5853ed4a0e7b9182e9bdf03534a0218b2da1786c87d29c8c0d428c5962bd694": {
+     "JacksonDatabind-83f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-83f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-83f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_JacksonDatabind-91",
+   "status": "finished",
+   "suites": [
+    "JacksonDatabind-91f-evosuite.1.tar.bz2",
+    "JacksonDatabind-91f-evosuite.2.tar.bz2",
+    "JacksonDatabind-91f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_43fbb2368d946a7dc6bd6b35a1ee39144a9daf9cd93f828787e8585cf9cb8dde": {
+     "JacksonDatabind-91f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-91f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-91f-randoop.1.tar.bz2": 0
+    },
+    "obscand_6c25c72a8dec02b2e9dc04bf6352372219e98b0f2d6649b5d30bc5a5997c43b0": {
+     "JacksonDatabind-91f-evosuite.1.tar.bz2": 0,
+     "JacksonDatabind-91f-evosuite.2.tar.bz2": 0,
+     "JacksonDatabind-91f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-24",
+   "status": "finished",
+   "suites": [
+    "Jsoup-24f-evosuite.1.tar.bz2",
+    "Jsoup-24f-evosuite.2.tar.bz2",
+    "Jsoup-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_2de3db21363264ff4413f8250b42cbe5a1d34f2c1ca6a1f6055e3d3d562f3542": {
+     "Jsoup-24f-evosuite.1.tar.bz2": 0,
+     "Jsoup-24f-evosuite.2.tar.bz2": 0,
+     "Jsoup-24f-randoop.1.tar.bz2": 0
+    },
+    "obscand_8b23e8b824d46f2dee0619fd37bd63aafb6bfdc2b255fedb0e43c284fba7ba53": {
+     "Jsoup-24f-evosuite.1.tar.bz2": 0,
+     "Jsoup-24f-evosuite.2.tar.bz2": 0,
+     "Jsoup-24f-randoop.1.tar.bz2": 0
+    },
+    "obscand_d3300ae579d0aa9621d537695640ba673b2d11d459868efafa027934509cec63": {
+     "Jsoup-24f-evosuite.1.tar.bz2": 0,
+     "Jsoup-24f-evosuite.2.tar.bz2": 0,
+     "Jsoup-24f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-40",
+   "status": "finished",
+   "suites": [
+    "Jsoup-40f-evosuite.1.tar.bz2",
+    "Jsoup-40f-evosuite.2.tar.bz2",
+    "Jsoup-40f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_28c38a2fe03de8c974bb982e64a71d322c641e2be34e4d61e714f327ad65acbf": {
+     "Jsoup-40f-evosuite.1.tar.bz2": 0,
+     "Jsoup-40f-evosuite.2.tar.bz2": 0,
+     "Jsoup-40f-randoop.1.tar.bz2": 0
+    },
+    "obscand_dd3b7f0c05ff7ccff2b24167aef2bed183419ae788f4a68796cb3b8968f3379b": {
+     "Jsoup-40f-evosuite.1.tar.bz2": 0,
+     "Jsoup-40f-evosuite.2.tar.bz2": 0,
+     "Jsoup-40f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-55",
+   "status": "finished",
+   "suites": [
+    "Jsoup-55f-evosuite.1.tar.bz2",
+    "Jsoup-55f-evosuite.2.tar.bz2",
+    "Jsoup-55f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_4e63ee9304e899ea24ac6167bde106470892fcd79edb0231343d4bb12ba7d4a4": {
+     "Jsoup-55f-evosuite.1.tar.bz2": 0,
+     "Jsoup-55f-evosuite.2.tar.bz2": 0,
+     "Jsoup-55f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-57",
+   "status": "finished",
+   "suites": [
+    "Jsoup-57f-evosuite.1.tar.bz2",
+    "Jsoup-57f-evosuite.2.tar.bz2",
+    "Jsoup-57f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_38cc8cff38f964ea80c229e44a7d23d062bc5f9c23ec5e971dec01211785dc6d": {
+     "Jsoup-57f-evosuite.1.tar.bz2": 0,
+     "Jsoup-57f-evosuite.2.tar.bz2": 0,
+     "Jsoup-57f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-80",
+   "status": "finished",
+   "suites": [
+    "Jsoup-80f-evosuite.1.tar.bz2",
+    "Jsoup-80f-evosuite.2.tar.bz2",
+    "Jsoup-80f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_a0cf988bc26c78714e559d132f8f24d31b0a4363337cf6f07127c65dda32fbaa": {
+     "Jsoup-80f-evosuite.1.tar.bz2": 0,
+     "Jsoup-80f-evosuite.2.tar.bz2": 0,
+     "Jsoup-80f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Jsoup-90",
+   "status": "finished",
+   "suites": [
+    "Jsoup-90f-evosuite.1.tar.bz2",
+    "Jsoup-90f-evosuite.2.tar.bz2",
+    "Jsoup-90f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_0e9ecc3ab25bba1ff10028d3977d3f29239764875e95c5c5d9880b77314d70dd": {
+     "Jsoup-90f-evosuite.1.tar.bz2": 0,
+     "Jsoup-90f-evosuite.2.tar.bz2": 0,
+     "Jsoup-90f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-16",
+   "status": "finished",
+   "suites": [
+    "Lang-16f-evosuite.1.tar.bz2",
+    "Lang-16f-evosuite.2.tar.bz2",
+    "Lang-16f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_447c71cf8111ba3ba9b8c0a8c0c54a4a175172653c96c737d4710ec704d7d554": {
+     "Lang-16f-evosuite.1.tar.bz2": 0,
+     "Lang-16f-evosuite.2.tar.bz2": 0,
+     "Lang-16f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-21",
+   "status": "finished",
+   "suites": [
+    "Lang-21f-evosuite.1.tar.bz2",
+    "Lang-21f-evosuite.2.tar.bz2",
+    "Lang-21f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_aeacfef0b87d7b4d4fe05d2d2c038eabf3d88f5a6c180fe7805c13797fcb2255": {
+     "Lang-21f-evosuite.1.tar.bz2": 0,
+     "Lang-21f-evosuite.2.tar.bz2": 0,
+     "Lang-21f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-24",
+   "status": "finished",
+   "suites": [
+    "Lang-24f-evosuite.1.tar.bz2",
+    "Lang-24f-evosuite.2.tar.bz2",
+    "Lang-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_514d2cfff83468c882c47121c558e7438f6ea297a1d9e8316244d6a4997b2c18": {
+     "Lang-24f-evosuite.1.tar.bz2": 0,
+     "Lang-24f-evosuite.2.tar.bz2": 0,
+     "Lang-24f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-29",
+   "status": "finished",
+   "suites": [
+    "Lang-29f-evosuite.1.tar.bz2",
+    "Lang-29f-evosuite.2.tar.bz2",
+    "Lang-29f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_09427e27169e67f00559aea132a471f6f5b63aaf739219a2a94e9988e43fb434": {
+     "Lang-29f-evosuite.1.tar.bz2": 0,
+     "Lang-29f-evosuite.2.tar.bz2": 0,
+     "Lang-29f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-33",
+   "status": "finished",
+   "suites": [
+    "Lang-33f-evosuite.1.tar.bz2",
+    "Lang-33f-evosuite.2.tar.bz2",
+    "Lang-33f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_605b2447f5eb502a4401e4693cedd671b97b489aeed692090d88edd9c3b4d516": {
+     "Lang-33f-evosuite.1.tar.bz2": 0,
+     "Lang-33f-evosuite.2.tar.bz2": 0,
+     "Lang-33f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-40",
+   "status": "finished",
+   "suites": [
+    "Lang-40f-evosuite.1.tar.bz2",
+    "Lang-40f-evosuite.2.tar.bz2",
+    "Lang-40f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_165f6150a2ce81874f86f050e732ce1077f4626dfb9d3a4b78371ca7931d73c9": {
+     "Lang-40f-evosuite.1.tar.bz2": 0,
+     "Lang-40f-evosuite.2.tar.bz2": 0,
+     "Lang-40f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Lang-45",
+   "status": "finished",
+   "suites": [
+    "Lang-45f-evosuite.1.tar.bz2",
+    "Lang-45f-evosuite.2.tar.bz2",
+    "Lang-45f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_caa5b3ae37fb5d3321a3331db67a909a48196e32a362525981ca71f4ca0aed71": {
+     "Lang-45f-evosuite.1.tar.bz2": 0,
+     "Lang-45f-evosuite.2.tar.bz2": 1,
+     "Lang-45f-randoop.1.tar.bz2": 232
+    }
+   }
+  },
+  {
+   "job": "full_Math-105",
+   "status": "finished",
+   "suites": [],
+   "candidates": {}
+  },
+  {
+   "job": "full_Math-27",
+   "status": "finished",
+   "suites": [
+    "Math-27f-evosuite.1.tar.bz2",
+    "Math-27f-evosuite.2.tar.bz2",
+    "Math-27f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_2bf01ad091f4bb2cef6582b2225ddf79e177f799a567019e39a178a6632e5cfd": {
+     "Math-27f-evosuite.1.tar.bz2": 0,
+     "Math-27f-evosuite.2.tar.bz2": 0,
+     "Math-27f-randoop.1.tar.bz2": 2
+    }
+   }
+  },
+  {
+   "job": "full_Math-3",
+   "status": "finished",
+   "suites": [
+    "Math-3f-evosuite.1.tar.bz2",
+    "Math-3f-evosuite.2.tar.bz2",
+    "Math-3f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_8e77a7938a9a79bc6def5884a2f3ed167aadc22c176a84edf47d57e1b7fbc5c9": {
+     "Math-3f-evosuite.1.tar.bz2": 0,
+     "Math-3f-evosuite.2.tar.bz2": 0,
+     "Math-3f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-53",
+   "status": "finished",
+   "suites": [
+    "Math-53f-evosuite.1.tar.bz2",
+    "Math-53f-evosuite.2.tar.bz2",
+    "Math-53f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_db662de67d406ffb8a40cd7f977d7e7f5cd1934cfb9852c35fdc45db5623bffc": {
+     "Math-53f-evosuite.1.tar.bz2": 0,
+     "Math-53f-evosuite.2.tar.bz2": 0,
+     "Math-53f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-57",
+   "status": "finished",
+   "suites": [
+    "Math-57f-evosuite.1.tar.bz2",
+    "Math-57f-evosuite.2.tar.bz2",
+    "Math-57f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_696c445134cd1fe9746ff7a629b4fc00a2df451cbefd81cfe93d6951ae64dd6c": {
+     "Math-57f-evosuite.1.tar.bz2": 0,
+     "Math-57f-evosuite.2.tar.bz2": 0,
+     "Math-57f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-58",
+   "status": "finished",
+   "suites": [
+    "Math-58f-evosuite.1.tar.bz2",
+    "Math-58f-evosuite.2.tar.bz2",
+    "Math-58f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_6c922d94284a3698cc1492934febebe804e341d0f01aad6935076851714b852d": {
+     "Math-58f-evosuite.1.tar.bz2": 0,
+     "Math-58f-evosuite.2.tar.bz2": 0,
+     "Math-58f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-72",
+   "status": "finished",
+   "suites": [
+    "Math-72f-evosuite.1.tar.bz2",
+    "Math-72f-evosuite.2.tar.bz2",
+    "Math-72f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_3f3b53ea175e385524f586cab45b127720095a0fa832e30a066de357b081720f": {
+     "Math-72f-evosuite.1.tar.bz2": 0,
+     "Math-72f-evosuite.2.tar.bz2": 0,
+     "Math-72f-randoop.1.tar.bz2": 0
+    },
+    "obscand_85de815f6a47984e0e6eeb1616dcfaa8604963f9f16f1fddf93df53633b8a571": {
+     "Math-72f-evosuite.1.tar.bz2": 0,
+     "Math-72f-evosuite.2.tar.bz2": 0,
+     "Math-72f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-79",
+   "status": "finished",
+   "suites": [
+    "Math-79f-evosuite.1.tar.bz2",
+    "Math-79f-evosuite.2.tar.bz2",
+    "Math-79f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_05b92abc198f85b98c0194053ea9cca83cd83cf3cad5c982be7f4920585c938d": {
+     "Math-79f-evosuite.1.tar.bz2": 0,
+     "Math-79f-evosuite.2.tar.bz2": 0,
+     "Math-79f-randoop.1.tar.bz2": 0
+    },
+    "obscand_c154a4559ee592ea7ce5ec31137ccd7c628fc8916a1fb5c7d8b9be2c04d35c2b": {
+     "Math-79f-evosuite.1.tar.bz2": 0,
+     "Math-79f-evosuite.2.tar.bz2": 0,
+     "Math-79f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-80",
+   "status": "finished",
+   "suites": [
+    "Math-80f-evosuite.1.tar.bz2",
+    "Math-80f-evosuite.2.tar.bz2",
+    "Math-80f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_25001bbfed335c658ba673399266f1ccc4de36f2f51d8fbcecf0b8bd8844d9ae": {
+     "Math-80f-evosuite.1.tar.bz2": 0,
+     "Math-80f-evosuite.2.tar.bz2": 0,
+     "Math-80f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-82",
+   "status": "finished",
+   "suites": [
+    "Math-82f-evosuite.1.tar.bz2",
+    "Math-82f-evosuite.2.tar.bz2",
+    "Math-82f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_5583ff7438689c5fe322c2c32bc4c6484638984c35e36c59b7a0468be37f1117": {
+     "Math-82f-evosuite.1.tar.bz2": 0,
+     "Math-82f-evosuite.2.tar.bz2": 0,
+     "Math-82f-randoop.1.tar.bz2": 0
+    },
+    "obscand_f924ae186e88a5ff29bb2f0391fcc0777d20a19aa53794a9794b76f662e92382": {
+     "Math-82f-evosuite.1.tar.bz2": 1,
+     "Math-82f-evosuite.2.tar.bz2": 0,
+     "Math-82f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Math-96",
+   "status": "finished",
+   "suites": [
+    "Math-96f-evosuite.1.tar.bz2",
+    "Math-96f-evosuite.2.tar.bz2",
+    "Math-96f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_585c79d5dbbc43eafec18a98ad36a66359bd2593f416714a837ed13f58bb3193": {
+     "Math-96f-evosuite.1.tar.bz2": "not_run",
+     "Math-96f-evosuite.2.tar.bz2": "not_run",
+     "Math-96f-randoop.1.tar.bz2": "not_run"
+    }
+   }
+  },
+  {
+   "job": "full_Mockito-22",
+   "status": "finished",
+   "suites": [
+    "Mockito-22f-evosuite.1.tar.bz2",
+    "Mockito-22f-evosuite.2.tar.bz2",
+    "Mockito-22f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_3c972d9c7bd82385a6ffee2b03854a2fa316b9c94a47f6ee0017baf256f0d436": {
+     "Mockito-22f-evosuite.1.tar.bz2": 0,
+     "Mockito-22f-evosuite.2.tar.bz2": 0,
+     "Mockito-22f-randoop.1.tar.bz2": 0
+    }
+   }
+  },
+  {
+   "job": "full_Mockito-24",
+   "status": "finished",
+   "suites": [
+    "Mockito-24f-evosuite.1.tar.bz2",
+    "Mockito-24f-evosuite.2.tar.bz2",
+    "Mockito-24f-randoop.1.tar.bz2"
+   ],
+   "candidates": {
+    "obscand_2ce5acffeb50ee7f664627fb01615f089f55e08e99b169c0c7ea842e5e946acd": {
+     "Mockito-24f-evosuite.1.tar.bz2": 0,
+     "Mockito-24f-evosuite.2.tar.bz2": 0,
+     "Mockito-24f-randoop.1.tar.bz2": 0
+    }
+   }
+  }
+ ],
+ "candidate_counterexamples": 246,
+ "candidates_with_counterexample": 7
+}

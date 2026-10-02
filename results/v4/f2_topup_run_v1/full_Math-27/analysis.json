@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.fraction.FractionTest::testMath835"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ce52a18d62a938e4ea5ac33ab2e73994efb308ea1927c24dc4f5c16b110e0d0f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testMath835"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

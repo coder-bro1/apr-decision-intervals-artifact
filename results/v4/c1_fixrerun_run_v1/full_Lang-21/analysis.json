@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_Cal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3c8030491553d0927cbc37c4f6d750cdafd5a9d0393fd47d681cf0c136a2444a",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

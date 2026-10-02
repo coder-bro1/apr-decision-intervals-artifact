@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_Cal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2e1785b7d6d696777510f6e4abb37a3a5fa5a5eada77666a98c02a47868251b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_76f3d1f79938f0d9b33215c2b3feaccf04cd3e1b67c064d7a6606f8955e2cd30",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ed50212f0ca96e3de32758e866a4f1b9e23bcb5736af9547b0a1185b7639d5b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

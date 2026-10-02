@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_034a1fbd0e1619f2c7f18a61da017cc68d090485b70fa8378560f3ac67314205",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7f8f6ae943c3b79ed2e1ca33d10f60f3cd3db8d64c6a2186ebdb55bf2eca728a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

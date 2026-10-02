@@ -1,0 +1,27 @@
+{
+  "bug_id": "Codec-15",
+  "cases": [
+    {
+      "candidate_id": "obscand_0541562006bacc464d8c21a7d4f40ce8c734d2cdcc686c8be51f807fa9d8bd72",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_69e2b1d9accc0ffa440ee15259d01dc2a0dd94a5b7d69410785729b6aac01828",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_968575f5303886c4c157277817f2ebc0ef6d42533c055ba8a8051d1ee5eb99ae",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a2a8882256c613a8ac8b870ec6fc31f5ba96a339165fdbc59f061c273cd3f267",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a9be11bd45dc769180a7d7c30ac08ec77bddbafb9ac6fc16c693755cfa66180c",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Codec-15",
+  "phase": "full"
+}

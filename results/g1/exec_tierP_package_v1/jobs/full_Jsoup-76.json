@@ -1,0 +1,47 @@
+{
+  "bug_id": "Jsoup-76",
+  "cases": [
+    {
+      "candidate_id": "obscand_2f6706ae370f8475b3c4834e4e93dcd6788f16daced8cfabb7019b31de3d746a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3d4971c5f19e72c0434c05b985b6c52ea08e58a52cc590268ebf57d8168b2ee0",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_43b28ad1288aab37746a767791a8650cd388b84d16dae57e0c76474537a1655f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_4fff7b7aa88548c81b25f1e3c801795918d33af73e12a3ccaf13d0834580c6bd",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_649e6755428be0eb4fb8bdac162a90a54e6204764da9a78ebde276898022087e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_718cc8989a473e599a67533fa94e9c2497b5ae90879d93c981bd10ce31980139",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9803f0eb341ff62751098990a622bba5953e81db88c844c7d1c782544913be85",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ca4e8c30ab4a5092f9af93e3784b16003846aed5d90709c0b4a95cefb6b46796",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e405fda9cb759b1ea4afcdc5f1b58d0f41dbcc74430390ad8bbf8508b2d72093",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ffbb8daf3bf22dd82ce1c37cb44e8d98618804ecfc99dc2e217b7bb66e17cac7",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-76",
+  "phase": "full"
+}

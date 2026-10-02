@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.integration.ParseTest::testYahooArticle",
+    "org.jsoup.nodes.EntitiesTest::quoteReplacements"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0c7e35129e2f3de975b997c437c2b6890f61c3076d3c9aabaf9fc6332fd89a9b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.integration.ParseTest::testYahooArticle",
+        "org.jsoup.nodes.EntitiesTest::quoteReplacements"
+      ]
+    },
+    {
+      "candidate_id": "obscand_999e5151516715ca3e141ad9f119d315ce24fcb89216caffe7a94d98c0213655",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.integration.ParseTest::testYahooArticle",
+        "org.jsoup.nodes.EntitiesTest::quoteReplacements"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

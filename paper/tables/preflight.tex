@@ -1,0 +1,12 @@
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.5cm}YYYY@{}}
+\toprule
+Comparison & Census (16.0 h) & Top-up (5.7 h) & Generated tests (13.0 h) & Fix re-run (0.8 h) \\
+\midrule
+Best configuration, top-1 & type: $\Delta_0=0$ & type: $\Delta_0=0$ & type: $\Delta_0=0$ & decided (not refuting) \\
+Testability product & type: conflict-locked & type: conflict-locked & targets: 0 of 5 helpful & -- \\
+One-stage logistic & targets: 0 of 3 helpful & targets: 0 of 3 helpful & decided: 1 needed, 1 of 4 refuted & -- \\
+Source-agnostic refit & decided: 8 needed, 12 of 17 refuted & -- & -- & -- \\
+\midrule
+Fresh campaign, G-E1 (20.0 h) & \multicolumn{4}{>{\raggedright\arraybackslash}p{\dimexpr\linewidth-2.5cm-3\tabcolsep\relax}}{too few failed in all five: primary 157 needed, 133 refuted; secondaries each $\geq$1,176 needed, $\leq$1,109 refuted} \\
+\bottomrule
+\end{tabularx}

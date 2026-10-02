@@ -1,0 +1,19 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": false,
+  "findings": [
+    {
+      "candidate_id": "obscand_0f2175e129562c7a456afef9595d76a8d296a8148f4c097138eef35262192eb5",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9f3f04e5856b1c4a8f67c16d53b3cd2be87445a63aed3561875337a8af189bec",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false
+}

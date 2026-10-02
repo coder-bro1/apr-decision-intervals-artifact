@@ -1,0 +1,23 @@
+{
+  "bug_id": "Time-15",
+  "cases": [
+    {
+      "candidate_id": "obscand_78763df2a9a0ac71bd92ce1cb536f92c2022d0faaaeb86cb1741a8083420921e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_7c50411a1f6e95df3b200348cc784b17e583f80d134b1a7e4aa3de4923da4963",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a3cf11b56d55a0694ce278fae58a33961c4c554efd19462e003add13b2627e2d",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e31a61764537b01c211ab4ac19ae47e04b11488cb794d18ed2058b47455ed8df",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Time-15",
+  "phase": "full"
+}

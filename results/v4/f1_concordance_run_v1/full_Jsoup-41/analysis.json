@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testHashAndEquals"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a17fb60f8aa533151a937a4dcdf90f053d26abb95c0ea47dae792462323db99c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

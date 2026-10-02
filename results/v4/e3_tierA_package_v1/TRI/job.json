@@ -1,0 +1,14 @@
+{
+ "bug": "TRI",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_bf4e043f700cdea2891186cfde9062c708f8bc9ff20a458f85b6e92240292ac2",
+   "original_sha256": "675c4d73c41defc2e059fa19c6b4c8a35d21deba9970216e5c329889c8aba1ce",
+   "normalized_original_sha256": "ddd1a8e90a84dae05f811d1e5df030ba02c95f28c4c76e8b78eb1748fa9ce1c2",
+   "patched_sha256": "1d77cd54166225a5592e1ef1a06235e6441543054f8ee7b6cf1e1b792b6933ea",
+   "start_offset_lf": 705,
+   "anchor_sha256": "8c6366df79120e8e250210682e15ad81bcb36fd780ebae6717fda74c269c4e16",
+   "patch_sha256": "576528b8c98eff27b178ffa813bd4184dccbbf74c89595f45e8d6f07728049b7"
+  }
+ }
+}

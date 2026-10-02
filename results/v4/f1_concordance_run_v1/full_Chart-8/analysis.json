@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.WeekTests::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_54ab78fe273be53305aea8972a0165b02c17d3c954f77eb2443ef5e8a826d231",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_85644a525d489faefad2a4a68deaec196c7817b05f516db8e92e51402071ddbc",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_897ef17eea54d8494dd8d7da276787f770d661cab693fc9a6e6d2b4cde509e23",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

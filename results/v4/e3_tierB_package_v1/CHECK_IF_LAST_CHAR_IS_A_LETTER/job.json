@@ -1,0 +1,14 @@
+{
+ "bug": "CHECK_IF_LAST_CHAR_IS_A_LETTER",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_a2aa0629dae5d0ecf38453a5a8121f245ee9c7eb9d9804eafafdb4a37251caae",
+   "original_sha256": "39abecb8e69fca7600ba51af13e6bf6906eec4b4e8e91aa1b97f278a2d2a6625",
+   "normalized_original_sha256": "2a7222a549c252282a2d947436829b5d5176998e0bd311aa5a4e0d0346a6694c",
+   "patched_sha256": "b585b35dcc01250ddfc3eb29b20d76095f71a15c9de03d17c2da3eb15de74ef6",
+   "start_offset_lf": 546,
+   "anchor_sha256": "16fb2913e87dd63da4e76a44303844c74c9a7befd718b92350ebe2b7ec6e74c3",
+   "patch_sha256": "6c466b0a22fd282d676224d5752bc295cda2b5a4f734f1ae0965cf8c248a8d6f"
+  }
+ }
+}

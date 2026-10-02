@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.type.TestJavaType::testGenericSignature1195"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_436def8d9aec3a79879805ffdcadceab71596f2685e058b9bb48ba72f18d2c44",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_82bd0b968b4f0b53ac7cf8e7fbb2652758e6a2ff724f3911a12e4c0059963ac9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.type.TestJavaType::testGenericSignature1195"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2f176cfa605c5c2da599271eab3ed3f806f04716608c6bcaea8f2ca4b947022c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178"
+      ]
+    },
+    {
+      "candidate_id": "obscand_918019510295e68524228b2844e5f79f3528c265afabff8cad3c489ee833b997",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9bf51556c78d9deb1055947f182d546b11063688f0f6845106d6402ffceb1c2d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

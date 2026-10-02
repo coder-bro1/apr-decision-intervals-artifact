@@ -1,0 +1,14 @@
+{
+ "bug": "STRONGEST_EXTENSION",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_9fb9ef8c3ad695bbfea62c37212ddeb234f85462e20e69ac65ea8a074bd1b242",
+   "original_sha256": "a2548cdc3a6f8b867c69478227542728fe16ed9b984325d1c577fabe7d80cb79",
+   "normalized_original_sha256": "6f4a1d5aab43de70159c6257010175f2be5e1f68387c6b6f6c1813094afa7873",
+   "patched_sha256": "01f195f2a19af4d2a2f03ffb691c4aa82e40b5992eb111ac3cd652258e49f48d",
+   "start_offset_lf": 1043,
+   "anchor_sha256": "1b19200fee9851d38439ac3ed14bf13c83c9d03315b658cf0b3ca3e56d7b47a2",
+   "patch_sha256": "8c829775669d858e34c4f5abd91489bf0c73ef98262c14c2ac0284e61bbd28ae"
+  }
+ }
+}

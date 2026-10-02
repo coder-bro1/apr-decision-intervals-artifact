@@ -1,0 +1,11 @@
+{
+  "bug_id": "Gson-2",
+  "cases": [
+    {
+      "candidate_id": "obscand_90a38566f49fce3eb04c5be987b08bafb60edd9fb768a0498f3ea691b8afd0ca",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Gson-2",
+  "phase": "full"
+}

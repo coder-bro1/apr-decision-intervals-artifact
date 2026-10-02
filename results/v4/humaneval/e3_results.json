@@ -1,0 +1,1491 @@
+{
+ "tier_A_run": 337,
+ "tier_A_total": 337,
+ "tier_B_run": 1893,
+ "tier_B_total": 1893,
+ "tier_A_status_by_reason": {
+  "archived_unknown": {
+   "admissible_all_tests_pass": 88
+  },
+  "compile_conflict": {
+   "controlled_test_failure": 57,
+   "compile_command_failed_twice": 20,
+   "admissible_all_tests_pass": 1
+  },
+  "label_evidence_conflict": {
+   "admissible_all_tests_pass": 170
+  },
+  "test_conflict": {
+   "admissible_all_tests_pass": 1
+  }
+ },
+ "tier_A_trigger_failures": 56,
+ "tier_A_equivalent": 107,
+ "equivalent_but_failing": [],
+ "reviewed_correct_but_failing_tier_A": 0,
+ "reviewed_correct_and_passing_tier_A": 150,
+ "resolved_unknowns_by_rule": {
+  "A2": 793,
+  "X1": 264,
+  "X2": 213,
+  "HE-E1": 630,
+  "X3": 2230,
+  "X4-posthoc": 477
+ },
+ "comparisons": {
+  "A0": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     -3.76,
+     41.2
+    ],
+    "width_pp": 44.96,
+    "context_pp": [
+     -3.72,
+     41.21
+    ],
+    "result": "open"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     7.88,
+     49.43
+    ],
+    "width_pp": 41.55,
+    "context_pp": [
+     7.86,
+     49.41
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -38.26,
+     38.91
+    ],
+    "width_pp": 77.16,
+    "context_pp": [
+     -38.06,
+     38.67
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     -16.18,
+     29.22
+    ],
+    "width_pp": 45.4,
+    "context_pp": [
+     -16.13,
+     28.97
+    ],
+    "result": "open"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -33.48,
+     31.06
+    ],
+    "width_pp": 64.54,
+    "context_pp": [
+     -33.38,
+     30.58
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -4.94,
+     3.09
+    ],
+    "width_pp": 8.02,
+    "context_pp": [
+     -4.88,
+     3.05
+    ],
+    "result": "open"
+   }
+  },
+  "A1": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     21.22,
+     37.71
+    ],
+    "width_pp": 16.49,
+    "context_pp": [
+     20.98,
+     37.45
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     36.13,
+     45.84
+    ],
+    "width_pp": 9.7,
+    "context_pp": [
+     35.85,
+     45.53
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -5.18,
+     2.88
+    ],
+    "width_pp": 8.06,
+    "context_pp": [
+     -5.31,
+     2.81
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     9.89,
+     21.19
+    ],
+    "width_pp": 11.3,
+    "context_pp": [
+     9.62,
+     20.77
+    ],
+    "result": "identified +"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -7.21,
+     1.15
+    ],
+    "width_pp": 8.36,
+    "context_pp": [
+     -7.43,
+     0.83
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -1.85,
+     -1.23
+    ],
+    "width_pp": 0.62,
+    "context_pp": [
+     -1.83,
+     -1.22
+    ],
+    "result": "identified -"
+   }
+  },
+  "A2": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     1.92,
+     17.35
+    ],
+    "width_pp": 15.43,
+    "context_pp": [
+     1.92,
+     17.35
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     17.06,
+     25.79
+    ],
+    "width_pp": 8.73,
+    "context_pp": [
+     17.03,
+     25.75
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     18.1,
+     24.84
+    ],
+    "width_pp": 6.74,
+    "context_pp": [
+     17.69,
+     24.5
+    ],
+    "result": "identified +"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     -3.09,
+     6.63
+    ],
+    "width_pp": 9.72,
+    "context_pp": [
+     -3.17,
+     6.42
+    ],
+    "result": "open"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     11.85,
+     17.7
+    ],
+    "width_pp": 5.85,
+    "context_pp": [
+     11.4,
+     17.18
+    ],
+    "result": "identified +"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -0.62,
+     0.0
+    ],
+    "width_pp": 0.62,
+    "context_pp": [
+     -0.61,
+     0.0
+    ],
+    "result": "open"
+   }
+  },
+  "X1": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     -2.09,
+     39.98
+    ],
+    "width_pp": 42.07,
+    "context_pp": [
+     -2.06,
+     40.0
+    ],
+    "result": "open"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     12.82,
+     48.2
+    ],
+    "width_pp": 35.38,
+    "context_pp": [
+     12.77,
+     48.19
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -20.13,
+     38.29
+    ],
+    "width_pp": 58.42,
+    "context_pp": [
+     -20.13,
+     38.06
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     -11.69,
+     28.05
+    ],
+    "width_pp": 39.73,
+    "context_pp": [
+     -11.7,
+     27.81
+    ],
+    "result": "open"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -18.02,
+     29.83
+    ],
+    "width_pp": 47.85,
+    "context_pp": [
+     -18.1,
+     29.36
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -4.32,
+     2.47
+    ],
+    "width_pp": 6.79,
+    "context_pp": [
+     -4.27,
+     2.44
+    ],
+    "result": "open"
+   }
+  },
+  "X2": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     13.94,
+     39.97
+    ],
+    "width_pp": 26.03,
+    "context_pp": [
+     13.77,
+     39.99
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     25.56,
+     48.07
+    ],
+    "width_pp": 22.52,
+    "context_pp": [
+     25.33,
+     48.05
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -29.87,
+     16.94
+    ],
+    "width_pp": 46.81,
+    "context_pp": [
+     -29.78,
+     16.97
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     0.18,
+     24.55
+    ],
+    "width_pp": 24.37,
+    "context_pp": [
+     0.03,
+     24.33
+    ],
+    "result": "identified +"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -25.87,
+     13.4
+    ],
+    "width_pp": 39.27,
+    "context_pp": [
+     -25.86,
+     13.13
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -3.09,
+     -0.62
+    ],
+    "width_pp": 2.47,
+    "context_pp": [
+     -3.05,
+     -0.61
+    ],
+    "result": "identified -"
+   }
+  },
+  "HE-E1": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     21.11,
+     37.82
+    ],
+    "width_pp": 16.71,
+    "context_pp": [
+     20.86,
+     37.86
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     36.01,
+     46.1
+    ],
+    "width_pp": 10.09,
+    "context_pp": [
+     35.68,
+     46.1
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -7.12,
+     3.13
+    ],
+    "width_pp": 10.25,
+    "context_pp": [
+     -7.28,
+     3.33
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     9.72,
+     21.23
+    ],
+    "width_pp": 11.51,
+    "context_pp": [
+     9.45,
+     21.05
+    ],
+    "result": "identified +"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -7.21,
+     1.35
+    ],
+    "width_pp": 8.57,
+    "context_pp": [
+     -7.43,
+     1.23
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -1.85,
+     -1.23
+    ],
+    "width_pp": 0.62,
+    "context_pp": [
+     -1.83,
+     -1.22
+    ],
+    "result": "identified -"
+   }
+  },
+  "X3": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     27.52,
+     27.52
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     27.49,
+     27.49
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     42.49,
+     42.49
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     42.38,
+     42.38
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -0.71,
+     -0.71
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     -0.67,
+     -0.67
+    ],
+    "result": "identified -"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     15.55,
+     15.55
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     15.44,
+     15.44
+    ],
+    "result": "identified +"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -1.25,
+     -1.25
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     -1.33,
+     -1.33
+    ],
+    "result": "identified -"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -1.23,
+     -1.23
+    ],
+    "width_pp": 0.0,
+    "context_pp": [
+     -1.22,
+     -1.22
+    ],
+    "result": "identified -"
+   }
+  },
+  "X4-posthoc": {
+   "uniform_random": {
+    "equal_bug_pp": [
+     15.61,
+     38.75
+    ],
+    "width_pp": 23.14,
+    "context_pp": [
+     15.43,
+     38.79
+    ],
+    "result": "identified +"
+   },
+   "token_similarity": {
+    "equal_bug_pp": [
+     30.5,
+     46.84
+    ],
+    "width_pp": 16.34,
+    "context_pp": [
+     30.23,
+     46.83
+    ],
+    "result": "identified +"
+   },
+   "occurrence_count": {
+    "equal_bug_pp": [
+     -11.75,
+     16.32
+    ],
+    "width_pp": 28.07,
+    "context_pp": [
+     -11.85,
+     16.36
+    ],
+    "result": "open"
+   },
+   "native_position": {
+    "equal_bug_pp": [
+     4.67,
+     23.37
+    ],
+    "width_pp": 18.7,
+    "context_pp": [
+     4.47,
+     23.16
+    ],
+    "result": "identified +"
+   },
+   "native_then_occurrence": {
+    "equal_bug_pp": [
+     -10.4,
+     12.16
+    ],
+    "width_pp": 22.57,
+    "context_pp": [
+     -10.58,
+     11.91
+    ],
+    "result": "open"
+   },
+   "testability_product": {
+    "equal_bug_pp": [
+     -2.47,
+     -1.23
+    ],
+    "width_pp": 1.23,
+    "context_pp": [
+     -2.44,
+     -1.22
+    ],
+    "result": "identified -"
+   }
+  }
+ },
+ "primary_remaining_relevant_unknowns": 107,
+ "primary_remaining_by_status": {
+  "admissible_all_tests_pass": 107
+ },
+ "remaining": [
+  {
+   "candidate_id": "obscand_35ce6fbf25e4cad45971f669948ed2f26ce7e0533f3bed0c057715c3678fc66b",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6ef9f1244e27ff52d5137f04bb13b8a23ed5da8e3b010338d80ea026743430d4",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "incorrect"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4503135d9f7f3fd88d789ff61f8346a02b9a86122849258cbe41e5fa14cd271f",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6fe0e5c37bf5501faa3093abf1bc7cee25697b09eb782a5529dc0c209d34b206",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a135b8c4ce81bc56b472e302497e68dab393822646e2691a72e1d0a046e4f8a1",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_12d583094cf7d9c05da148f1b338efb3e85658f717535c0a2a60648ddec55b26",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_67c04b5cece347116331e0312f531cc84a0abab3b2e6f5ac9d162dd380bd5de2",
+   "bug_id": "DIGIT_SUM",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d211a38be64658505cc4212f27eda5ce8043242f592da26a8861fa4a2ba60f74",
+   "bug_id": "FIB",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_074da8b607b4ef95dd64088e591ca911babec5a5580877b55275e05cac6fe04a",
+   "bug_id": "UNIQUE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_5fadac2bf819a63395ecc8daf95130456ef08ee2599d612b236f864db2b144ff",
+   "bug_id": "UNIQUE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2527bf06bbec14278a260c68edd218daec65b37a94159d18037a6951e3a59a82",
+   "bug_id": "UNIQUE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_60600b5c91a896fce743a10398488456176c1cc724568949bf5eec333d3373a9",
+   "bug_id": "UNIQUE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a14778f4ef429526b161f02e4d3bd3d816d9446254ed2abfd0cfba24e3c952d6",
+   "bug_id": "FIX_SPACES",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1261c7b1e561e47fe7ad5a139915a4ca2768125629dd539ac22886ea70b872b8",
+   "bug_id": "TRIANGLE_AREA",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6f7b941d3698889418c8586e8e9109e4744bd8bba1c3b48fa09c28b7d2b2adad",
+   "bug_id": "TRIANGLE_AREA",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c5d1e92077952107ea0087bb81cad7f093fbf9c63c5ee3ca94f8b07d0fd64b4a",
+   "bug_id": "TRIANGLE_AREA",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3b3a49a289a8f2559407aba1a513f355f37e8ec7cef1793291c4ac3ec6be748d",
+   "bug_id": "TRIANGLE_AREA",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1beeeee05dfda72454888c9a911600e7952d3428f811da8254bceafb279fa329",
+   "bug_id": "WORDS_IN_SENTENCE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0e3f7622b329732bbaa6c8c68ac3d4ec01dcc557e222c12f0636a072b557ea4b",
+   "bug_id": "COMMON",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_098d3dea2e72becd0c465f9fdb3098a978ef3a7987afff5fc6c93d21fdb505e0",
+   "bug_id": "STRING_SEQUENCE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a1c5ee12d00543be11ac7a0ced1dbf1060dc83acc446f413db09385a00691d42",
+   "bug_id": "RESCALE_TO_UNIT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "incorrect"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b0ecea3fd966c8fe065ccd7f9922646b3072f62b58b6c529f93e602ea2f235d7",
+   "bug_id": "LARGEST_SMALLEST_INTEGERS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_89b08a3e739361a1fe4c84431e6106c103dce7a2df2f4cdbc60cac151a0af748",
+   "bug_id": "LARGEST_SMALLEST_INTEGERS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_9de6e7c99fc59423e27b1b302ff3e07421c814962837534acc223d672a1580b8",
+   "bug_id": "MEDIAN",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e4dad47e0fefcd8ae62f320ac26daa1daf6a324581d31ba203d7608ba91f4c6c",
+   "bug_id": "SUM_PRODUCT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_fd98731b9ece70d5d153333827d7adc6d86f80aff42e401e8c6cd9bda5d1eeed",
+   "bug_id": "SUM_PRODUCT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6d24336558c69b82e2a67662901e3d79a0a0afe8b9f3973b219a33edd150c528",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ae2ffeeb7fa1ce6d2c07d88118bdf1f240246ab51868b4a4a88ded6881fca8f8",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3edc2fa2bb6548223da83ebf1852949aac463fd268f6886fb82b33867201cf45",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_28d343fb32801c56dc610050a6daffd8a58c1e5acc3bc902e3288947ff7b3de0",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_52084317ce4cbbb922516237e2c3a93957a24a31b3029d57a879c55436377154",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_89a777052b3fa842506469efe41a9c5788c506152dddaa255e962777e6ea6abf",
+   "bug_id": "PARSE_NESTED_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_06e8e815ec0e0d868dbf6582082e0a36b56904100065c6fac0d371cf88f86e19",
+   "bug_id": "SORT_THIRD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_09b1d2910153add0ba3ccff81bdd4271cd74d540955836e2789341166e41b8f4",
+   "bug_id": "SORT_THIRD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cdb3ebbcb348f5a4c5737b529bdc9719162ba91e9d3323b6055b08c1595c215f",
+   "bug_id": "REMOVE_DUPLICATES",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_18f4b9f33fb479a6e89ea3b1173f763a13f4223d58895bfa4dcf7edf35c8b8e5",
+   "bug_id": "REMOVE_DUPLICATES",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2fc3dafc9de58114197a9d2ccde41e1a9324e56e4224c7dbeb390f5faf5442f5",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4fd90d467fa70949f6a8d03eb027793ea51f05945f638370f07a99d853623b64",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_76afebe4071416acf145db2ab93b4bbc984d7f1376a426e1d7b1aa488ab5a7b6",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8b2321f1b3028780c5d49af0e647f6fbe94bd6c7b1e073f09361951606a01a91",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d1df64625b6da11ed16e168d41b69cdbffd036d787ad0b659a975ff2ec337946",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d6a369da4841d566d90e4231704eb441c5ac4083f028119ed4ce4b0d650e95c6",
+   "bug_id": "SKJKASDKD",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4157fef63face42ce24de2dc06af0f899e01905bb9384abc747628d388944111",
+   "bug_id": "MATCH_PARENS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "incorrect"
+   ]
+  },
+  {
+   "candidate_id": "obscand_5a5b4f21fa90af8b0ca0bf7934c883a35f5a8a319f278fc29e13932fba6c9e65",
+   "bug_id": "ENCODE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_17456ca5e190cfa5a307cd04f7964d2311e2f83c437a671e9bd286144fdd36ce",
+   "bug_id": "IS_PRIME",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d793cc47c9e5bb13b633b19bc5618ecf12b09d57728d0e4ce206d806fc794864",
+   "bug_id": "TRIPLES_SUM_TO_ZERO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e7adba51a00fa5add549767c2e55c49b8f20b64262171d4b14aa7159e91765e0",
+   "bug_id": "TRIPLES_SUM_TO_ZERO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0a3fdf914d59b44d45818d410e30b09c4fa5a2d608680048b95f391072de1f59",
+   "bug_id": "MAX_FILL",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_469c84ac78d147d5b259234f4af03efffeb960a3faffc3cd041aad3d4d6e384a",
+   "bug_id": "GREATEST_COMMON_DIVISOR",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6dc33ab54d4f146fc7120635a6759d932fba0e6687ea0b2a9d7bf77b47cb72ea",
+   "bug_id": "SPECIAL_FACTORIAL",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f290c7b8a206de40cfb6476a3b7ee9de55cc0a3b66fd1c994655fadc47c99e68",
+   "bug_id": "BF",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_dc9abdc65980654849719febd387e09e9305cc31949be7d56f85acf6e9fe3326",
+   "bug_id": "DIGITS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_bb52db2baa3d7734069c0eba9828e6809e6d22fb6e3f71c317a7de4f754680a1",
+   "bug_id": "IS_PALINDROME",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d465f9b8f7777957feb845dd86c617f9ca8351191602f38886349f9068d03c9b",
+   "bug_id": "STRLEN",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d7ca50cbb3e079c107e6e0f71c59534fb9d4bfbbb7110d69aa51e7fc29c604ac",
+   "bug_id": "SORT_ARRAY",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4c1368819a9efc97e92f10406b5114594c1a328afff243d5b000c4ab95c8f8ca",
+   "bug_id": "EXCHANGE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e1dcc2826b2c9af4de4766ae1174795c90d51236b75c1aab49287d6a192ce370",
+   "bug_id": "MONOTONIC",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2ca2eee8a873f62a86000ec35d24175759a799e5fb5b146feff7d6247b8682a3",
+   "bug_id": "MONOTONIC",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_02b89421604c50ff8ba27c0418b31259cbf1248a574ba222cd08f2c375ecd9e2",
+   "bug_id": "MONOTONIC",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e1f50867dc3399563cbb2eedb77d9cbc224ef4714ae29da13d24b43575cefc98",
+   "bug_id": "MONOTONIC",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_26962aeb64eaa8f533f780fb93b85b7f198e6b58a7926e72e8da290bdf60859c",
+   "bug_id": "ODD_COUNT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c64fd0d2e588dababe2ae5102700006480592f430484e2df59c0b2ff602aa9f1",
+   "bug_id": "DECODE_CYCLIC",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "incorrect"
+   ]
+  },
+  {
+   "candidate_id": "obscand_be084b84476465e58a55a533bcb94eee91350a3f35df61185b5e79318ac772aa",
+   "bug_id": "STRING_XOR",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7ad432439c196251df5d92db1e15bbda47510b1cb3917cbdbfe7487d38342a9d",
+   "bug_id": "RIGHT_ANGLE_TRIANGLE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f6e2a322f64d29319742d105f5b12250a00c8fa0248ecde472567cb6e44c4b01",
+   "bug_id": "RIGHT_ANGLE_TRIANGLE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cfeed39d8b57e6f20162cbe5dba5f674f611366ffe927ce43df6fc2a379b9acb",
+   "bug_id": "FLIP_CASE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4b8d9fc9c543131c6265e0725a3b42249a91e255f600bdd7eed8a04f3b223c6e",
+   "bug_id": "PROD_SIGNS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2bb17231417ddc494b85f82949737e701902505154fe7ed02277dd2227002085",
+   "bug_id": "PROD_SIGNS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c52b694aae522563d3a209ff381339745d589e7e9670bbfeb7c58c95eddfa8b2",
+   "bug_id": "MODP",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_69fe8a51767c8ac2dae964668a77af89bee7081880baf1789b819b98892fd2d7",
+   "bug_id": "MODP",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e3d7604d97da7d3a8db95c8b13d7f8120f0bcf9d9296681ce26ff72935f86db9",
+   "bug_id": "TRIANGLE_AREA_2",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_585302380ec5ca9e8f99d6fe7745384de15f1d8bbec01f9806f73c5120c5d828",
+   "bug_id": "TRIANGLE_AREA_2",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3ad594767d14304d3757840bde3d5f32f7196426d2629dd97f0a9688b4c78ff2",
+   "bug_id": "TRIANGLE_AREA_2",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e66f86a3a414e3af87a7ce627055a04d8789fc38ea65ac21d6bea2e47a575b7f",
+   "bug_id": "SOLVE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_82b18714c491f4c45d0d839491e793a30ba88d9a1bdcb072e2edba9fce82b8f9",
+   "bug_id": "COUNT_NUMS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1f04c98de1b1d0cb23d128267bd19e4006f52346fcd5bb7defe2acde9b3bfca4",
+   "bug_id": "COUNT_NUMS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a2f57c5dda5375ba9873cec3808e59db68832bdc0238d7a0eb93ad7af306fb1f",
+   "bug_id": "SUM_TO_N",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a74e8c9b8e04ba0f109ce9b7cc2e9cdea1a6ce75e78738ee7e90f82386fd8b30",
+   "bug_id": "HOW_MANY_TIMES",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e765b73bbb5916840879cdf8cc74efc0f4be114e0e57abfa1412be4d0e857ada",
+   "bug_id": "MAX_ELEMENT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_55fe6cbb50615e640c7066f22cc296e64f103e7a1305529237133e84c367e51b",
+   "bug_id": "MAX_ELEMENT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6fe502f1e4ac266e5606da20a1cac9a691c5de4bc38e22f8b33e839016cef252",
+   "bug_id": "MAX_ELEMENT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e9a9c10593cf6a379a6122eb22cbfc163fc4597af990f415a63cd5d0eaac2fc7",
+   "bug_id": "MAX_ELEMENT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0788fd8834a99e190367aabc0a0ae5374ca953de738634b46cb31572f7fedab1",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4a1254489af2ae254755c118fda760040665a02d5f1fad753ea08555bf09f3ed",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_657ea7094fe8bd50de5d58f6027aa7fd692a92977c7a743b050f03a5445fa440",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_bd13b500126ed4836e0d47b3feb65144ed0e3d763195d2f7a8a0d30e2d44b09b",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_099d11f8f52a133b33d837d4ed7f81eadc7c232134919119668f54f70cfdcdf3",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_49b7303164cae42b73b9498622ed357f5364025f4870408e0bc4601b0f6453cf",
+   "bug_id": "ROLLING_MAX",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cdd0ec544e5bdf4fcdf1281b3b9ffe5a78ba02e2cc253ff167799a2ef8e39087",
+   "bug_id": "EVEN_ODD_PALINDROME",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b2f6de93cccc03b8a93c636b991ffce8363ab849661deea605774b0aa490b4e6",
+   "bug_id": "EVEN_ODD_PALINDROME",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_45d287249d38776a864fe1a2cccf657b6e07698291750a31ce00c91ed830ecea",
+   "bug_id": "SAME_CHARS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_26ba639f49ea9987e7e86373eeb27601f338adae5c21878ca8a0666d14573052",
+   "bug_id": "SAME_CHARS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_541b6eef27a1c1dd902811200c61f0bbec77f311c9fe072b9342b46e9f699fb7",
+   "bug_id": "SAME_CHARS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2e839229cc9bc779ddf0eab47c204e390f6891b3f743cba1e7b9a0e3030b8c4d",
+   "bug_id": "GET_ODD_COLLATZ",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_718ba03d01cdb174e597d2a7635ee1a9193d059815197d27b05e28067945f82b",
+   "bug_id": "GET_ODD_COLLATZ",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c0bd62f95a89af0d1dc0ec3f737a5c99a41b6f4cb4dd4ae929ac3dad8ec38de9",
+   "bug_id": "NEXT_SMALLEST",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6a518f4266e48c8ed6df6017eecc2d2be044534f20f747239f737753b239460b",
+   "bug_id": "NEXT_SMALLEST",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d4352fbaefa5404c64859420a7de9698ba5300f2748ff690e70d5b25820f4cba",
+   "bug_id": "BY_LENGTH",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1b39a55508b0dbe7fc018ea9cf8621ce652ea40b4c7a34aea3bcd0ccd76f2234",
+   "bug_id": "BY_LENGTH",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3dde815a5eb6a71fe350ea79a0301851abe5fded6435cf2243be1c659cc1f650",
+   "bug_id": "FIND_CLOSEST_ELEMENTS",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a6a1a9665dac3659c11bec95f7d0abcf57c39efe199128137f0b3950f02489be",
+   "bug_id": "COUNT_UP_TO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_45e1c7777191febadfee5292ee765450e5642c4102f857f1ebbd6d0f3cbd74dc",
+   "bug_id": "COUNT_UP_TO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2a751390711581fd24a0ed74ae29d291c3e2b9141f41570253c6ee6c4d93ee88",
+   "bug_id": "COUNT_UP_TO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a3233a5ec51c3affd2fccd91a88d0541929369ed34c349414e9c83893bfb5895",
+   "bug_id": "COUNT_UP_TO",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c1b78abf67b21f0063dd60f2b125c2f9d8f0ef735935c8839667a54242cdbf84",
+   "bug_id": "COMPARE_ONE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e2c0a9193db3a2a82b08a02d7d516124aaac7fbb63a6f910db95da3789f56c47",
+   "bug_id": "COMPARE_ONE",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8176329b304930cb3fde4c88f3b63e672235439e55599d8f4f890cea5865f4ec",
+   "bug_id": "ANY_INT",
+   "status": "admissible_all_tests_pass",
+   "legacy_labels": [
+    "unknown"
+   ]
+  }
+ ]
+}

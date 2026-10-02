@@ -1,0 +1,23 @@
+{
+ "bug": "CAR_RACE_COLLISION",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_8eea5660a877aab206cd8b2839eb639071fb44153d2acc105781327a341c51f9",
+   "original_sha256": "8792666b36cbfb9ef67e745a10ff65729a21f000547fd33c1da247a4dba363d4",
+   "normalized_original_sha256": "f3b4516029a8ac023eadc2aa9a56952035eabe9ebc9f1512e09e028a73943b96",
+   "patched_sha256": "2b85d003d820505c52adf301eee8a8b1ef17290b53056074a3f79fd31e82ad09",
+   "start_offset_lf": 636,
+   "anchor_sha256": "d242e11d0399385830044cc40a35139e7dcfdd8f92631761e80122836e506d61",
+   "patch_sha256": "19587d8c0351644c6bd00a783c127c22ebc4a7ee22cd5be85f8c51c914aab9e9"
+  },
+  "c0002": {
+   "candidate_id": "obscand_b922ac0b78daa18e6214d44c963e8569fff90d118f3bb20a4d7fc54d90ba91e7",
+   "original_sha256": "8792666b36cbfb9ef67e745a10ff65729a21f000547fd33c1da247a4dba363d4",
+   "normalized_original_sha256": "f3b4516029a8ac023eadc2aa9a56952035eabe9ebc9f1512e09e028a73943b96",
+   "patched_sha256": "4db3d50a4439dccc3d6ca057e1ea2a1c4005021573c63026b187da3f3f295dba",
+   "start_offset_lf": 636,
+   "anchor_sha256": "d242e11d0399385830044cc40a35139e7dcfdd8f92631761e80122836e506d61",
+   "patch_sha256": "7cc5776bcb975144c2f474a56b43f04674ed8d99c40dc9ac202cfd040b8b5a96"
+  }
+ }
+}

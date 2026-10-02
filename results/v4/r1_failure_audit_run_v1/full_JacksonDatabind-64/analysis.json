@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1cd482274d0030fd9610533d7f1922966a7c43fb5e39d4a55a81856380f388c0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7e94cc614c7eff2c3f0c0546f308b4b32d658b6dfe2f63e9fb3d8f66c98b690f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a96d983c10b193409b3f32c705b67faff0c1d80dd295a07f143dbd888ee0b07e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

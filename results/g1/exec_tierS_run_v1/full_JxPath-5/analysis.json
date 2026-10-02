@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_23108df5405ad4142350bc5d1b777cee7b5f7c14a303057dd369c8da3631202f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8d83c97ba33ca55ebeb00e1649b5903aeed37fa82809fb5a8557c77081ba51b1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b1621908ba5982eeb38fbb46f9e6162b7add8e191a490819f05e90950f87dfb3",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

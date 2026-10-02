@@ -1,0 +1,80 @@
+[
+ {
+  "campaign": "census (E0 -> E1)",
+  "hours": 16.0,
+  "open": 4,
+  "reachable": [
+   "source_agnostic: 8/19"
+  ],
+  "newly": [
+   "source_agnostic"
+  ],
+  "semantics": "execution (archived test-pass)"
+ },
+ {
+  "campaign": "F2 (E1 -> F2)",
+  "hours": 5.699,
+  "open": 3,
+  "reachable": [],
+  "newly": [],
+  "semantics": "execution (archived test-pass)"
+ },
+ {
+  "campaign": "F3 strict (F2 -> F3)",
+  "hours": 13.011,
+  "open": 3,
+  "reachable": [
+   "one_stage: 1/3"
+  ],
+  "newly": [
+   "one_stage"
+  ],
+  "semantics": "candidate (conflict classes locked)"
+ },
+ {
+  "campaign": "F3 permissive (F2 -> F3)",
+  "hours": 13.011,
+  "open": 3,
+  "reachable": [
+   "testability: 1/5",
+   "one_stage: 1/9"
+  ],
+  "newly": [
+   "one_stage"
+  ],
+  "semantics": "class (frozen F3 rule may overwrite conflict classes)"
+ },
+ {
+  "campaign": "R (F4 -> R)",
+  "hours": 0.797,
+  "open": 0,
+  "reachable": [],
+  "newly": [
+   "best_config_top1"
+  ],
+  "semantics": "retraction + confirmation (not refute-only)"
+ },
+ {
+  "campaign": "G1 tier P execution (G-E0 -> G-E1), P1",
+  "hours": 4.626,
+  "open": 1,
+  "reachable": [
+   "challenger_frozen vs occurrence: 157/159"
+  ],
+  "newly": null,
+  "semantics": "candidate (no test-pass information before execution)"
+ },
+ {
+  "campaign": "G1 tier S execution (G-E0 -> G-E1), secondaries",
+  "hours": 15.399,
+  "open": 4,
+  "reachable": [
+   "occurrence vs uniform: 1218/1219",
+   "challenger_frozen vs uniform: 1275/1278",
+   "codet5_similarity vs uniform: 1259/1292",
+   "naturalness vs uniform: 1176/1179"
+  ],
+  "newly": null,
+  "semantics": "candidate (no test-pass information before execution)"
+ }
+]

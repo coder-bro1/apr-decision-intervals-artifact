@@ -1,0 +1,52 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn",
+    "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins",
+    "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5f8b3c452739d083cf5b39ca59ca41ee617af8dd580cba055f8b970deccb13b4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn"
+      ]
+    },
+    {
+      "candidate_id": "obscand_77b6c81843a74338e71206dab1115467b8f23f1e6fa79934875b434b4cc9b8af",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9f5e4181c10cd449d5a372aa5c34775678273d4c44a096317fadfae690a9aaa6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a77df1e09734e99d4321c83dcf8498bb6c60b3d48b8891bacc58729029f430be",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins",
+        "org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootName"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0cb577e5e688a86ca766ac87c4f01ba791bee022148e2069fa43bacef361a494",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootName"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8c22d01ae74350f0dea4fc7705b3c76332e4fe2c57f7ae9a8b52c4be4611c91f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootName"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a49d99ef1e33d8b5a6a104fe74aa2cc7244d992955488280ee21f3200a49c9ed",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

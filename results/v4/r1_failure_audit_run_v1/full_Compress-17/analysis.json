@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testCompress197"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5df0ecd29de8f2c40ec4dd5dfaa6303847ff00d065e26f7f2b1fe8ddbe301cf5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOverrideForQuiet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2cc8b4539441c0bee2e9dffe898633cf6d8ed7f6ba3c0eb617fb9396cc5532c2",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ef17fc51c493867770a68b94b7e6f2d4c9dbe6d3529824051825275d0ce96249",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOverrideForQuiet"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

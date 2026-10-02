@@ -1,0 +1,14 @@
+{
+ "bug": "COMPARE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_58cdeb46cb28622171989bc63abcffddd6389cf548c6ce7ff8252e614c20fbdf",
+   "original_sha256": "452a5c6f6e8cf7ffa7f7919cf5c4c5c51127f73134469a67e1eba144f8dd0dc4",
+   "normalized_original_sha256": "dd04cefa7f1449f3d6f5a7c37e0cd65b4be5a8ecbdfef869a6cbfd04b6a15011",
+   "patched_sha256": "241537193bb38a84836423c0859343ee62d8f7a6b96a4850c8798d4f887d1b7b",
+   "start_offset_lf": 647,
+   "anchor_sha256": "b2639f4e0c4800cba1b7976e11ec4f8e10bc8450ca0f0d7a8ee5afb1f7a41268",
+   "patch_sha256": "845fd3dac00af7bd784231e531e38e1ba8080251312a30d50b32fb3d0fcbd195"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "bug_id": "Closure-86",
+  "cases": [
+    {
+      "candidate_id": "obscand_573431fab76acd650fd105cc5b85a62f1b959d0cd67b8a3056c262e40a7c8269",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Closure-86",
+  "phase": "full"
+}

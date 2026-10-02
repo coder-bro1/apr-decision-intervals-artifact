@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testIssue669"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6a5193c3c3d4eb88ce2aa8ef311067d6e57b41937f22be435864388707b86622",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

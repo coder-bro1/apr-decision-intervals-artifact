@@ -1,0 +1,105 @@
+﻿id,bug,verdict,confidence,reason
+A001,Math-32,incorrect,high,checks null tree not cut and flag
+A002,JacksonDatabind-58,incorrect,high,still touches cause and skips when flag off
+A003,Lang-31,correct,high,same high-surrogate test just renamed
+A004,Chart-13,incorrect,high,wrong width and misses max clamp
+A005,Math-75,correct,high,raw cast same at runtime
+A006,Closure-128,correct,high,empty and zero cases match
+A007,Compress-44,incorrect,high,NPE text does not match
+A008,Chart-12,correct,high,this qualifier changes nothing
+A009,Jsoup-45,incorrect,high,breaks td th tr handling
+A010,Math-105,correct,high,0 and 0d pick same overload
+A011,JxPath-6,incorrect,high,drops InitialContext reset
+A012,Cli-40,incorrect,high,different exception wording
+A013,Math-27,correct,high,100 and 100.0 same in double mult
+A014,Csv-11,incorrect,high,space-only header not seen as empty
+A015,Math-95,incorrect,high,ignores degrees of freedom
+A016,Lang-21,incorrect,medium,extra day month checks too strict
+A017,Jsoup-24,incorrect,high,runs anythingElse too early plus digit path
+A018,Closure-131,incorrect,high,ISOControl is not identifierIgnorable
+A019,Math-30,incorrect,high,keeps int overflow only tweaks constant
+A020,Closure-128,correct,high,reordered OR same result
+A021,Math-28,incorrect,high,comments out tie-break logic
+A022,JacksonCore-4,incorrect,high,grows by 2 not by half
+A023,Math-94,correct,high,split zero test returns same
+A024,Lang-21,incorrect,medium,extra day month checks too strict
+A025,Collections-26,correct,medium,wider visibility same body
+A026,Jsoup-45,incorrect,high,bracket change alters td with last
+A027,Math-2,correct,high,extra casts harmless
+A028,Math-3,incorrect,high,returns 0 for empty instead of failing
+A029,Compress-7,correct,high,mask and break same
+A030,Closure-62,incorrect,high,drops upper bound can run past end
+A031,Math-27,correct,high,mult order irrelevant
+A032,Mockito-24,correct,high,if ternary same
+A033,Closure-62,incorrect,high,misses zero case and upper bound
+A034,Csv-14,incorrect,high,quoting test too narrow
+A035,Math-2,incorrect,high,different float order changes rounding
+A036,Closure-129,incorrect,high,only strips one cast
+A037,Jsoup-80,incorrect,medium,elements vs all child nodes differ
+A038,Closure-11,incorrect,high,early return skips ensureTyped
+A039,Jsoup-54,incorrect,high,allows bad names and drops style
+A040,Mockito-29,correct,high,valueOf same as null check
+A041,Chart-13,incorrect,high,Range width lower totally off
+A042,Closure-31,incorrect,medium,adds empty check drops skip flag
+A043,Math-2,incorrect,high,float order differs
+A044,Math-72,incorrect,high,drops min-initial bracket path
+A045,Lang-10,correct,high,loop style only
+A046,Compress-15,incorrect,high,empty vs null not equal
+A047,Time-15,incorrect,high,MIN_VALUE times -1 not rejected
+A048,Lang-33,correct,high,explicit branch same as ternary
+A049,Math-79,correct,high,final and plusplus style same
+A050,Gson-16,correct,high,add contains same guard
+A051,Time-7,incorrect,high,NPE on null chronology
+A052,Math-11,correct,high,divide by 2 same as times half
+A053,Math-2,incorrect,high,float order differs
+A054,Closure-77,incorrect,high,extra escapes change output
+A055,JacksonDatabind-46,correct,high,two appends same as one
+A056,Lang-57,correct,medium,same locale list contents
+A057,JacksonDatabind-70,incorrect,high,uses name not hash slot
+A058,Cli-9,correct,high,comma logic same
+A059,Math-50,incorrect,high,new regula falsi branch
+A060,Closure-129,incorrect,high,single unwrap misses nested casts
+A061,Lang-59,correct,high,min is width here
+A062,Math-11,correct,high,double slash same as half mult
+A063,Closure-56,incorrect,medium,equality misses past-end offset
+A064,Chart-5,incorrect,high,loses sorted insert and duplicate path
+A065,Math-82,incorrect,medium,epsilon NaN handling differs
+A066,JacksonCore-25,incorrect,high,consumes terminator into output
+A067,Cli-40,incorrect,high,different exception wording
+A068,Codec-7,correct,high,no-arg overload is unchunked
+A069,Cli-17,incorrect,high,extra token for unknown option
+A070,JacksonCore-5,correct,high,final only same check
+A071,Closure-168,incorrect,high,block check not depth check
+A072,Mockito-38,correct,high,valueOf same as null check
+A073,Codec-17,correct,medium,null-safe direct build same
+A074,Jsoup-72,correct,high,same empty guard formatting only
+A075,Math-72,incorrect,high,leaves result unset
+A076,Gson-12,incorrect,high,misses index bump on NAME path
+A077,JacksonDatabind-16,incorrect,high,false on unequal replace
+A078,JacksonDatabind-16,incorrect,high,true on equal replace
+A079,Lang-33,correct,high,leaving nulls is same
+A080,Time-19,incorrect,high,runs prev-transition for negatives
+A081,Lang-45,incorrect,high,maps -1 lower to length
+A082,Jsoup-24,incorrect,high,anythingElse too early
+A083,Closure-31,incorrect,high,OR makes condition too wide
+A084,Closure-61,correct,high,merged Math check same
+A085,Chart-26,correct,high,unqualified fields same object
+A086,Mockito-38,correct,high,valueOf same as null check
+A087,Gson-11,incorrect,high,Double vs LazilyParsedNumber
+A088,Closure-86,incorrect,high,true for some NEW cases
+A089,JacksonDatabind-5,incorrect,high,skips mixin merge
+A090,JacksonDatabind-83,correct,medium,empty try does nothing
+A091,Gson-5,incorrect,high,pads 5-char zones wrongly
+A092,JacksonDatabind-67,incorrect,medium,string fallback for bad enums
+A093,Jsoup-26,incorrect,high,catch-print with side effect
+A094,Chart-9,correct,high,start non-negative so check same
+A095,Lang-10,correct,high,loop style only
+A096,JacksonCore-4,incorrect,high,grows by 10 not by fraction
+A097,Math-60,incorrect,high,20 sigma not 40
+A098,Math-96,incorrect,medium,getters can be overridden
+A099,Jsoup-89,incorrect,high,wrong old value and skips null
+A100,Math-101,correct,medium,single length check covers both
+A101,Math-53,incorrect,medium,method vs field can differ
+A102,Mockito-34,correct,high,reversed compare same
+A103,Lang-33,correct,high,temp var same null logic
+A104,Math-30,incorrect,high,valid but different

@@ -1,0 +1,19 @@
+{
+  "bug_id": "Closure-25",
+  "cases": [
+    {
+      "candidate_id": "obscand_103f66a43b5a42aca8dffa152196442f9b687bfa7b166e6bdd852b10fd44c3c7",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2dd6425aefb975549cb14dc9b3879d6c1a85eaf38173508572e41dc2c819d160",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a364f7caa4f0e790275c131f6e83307bfbb7177386afd56282db6bbcf54e52d6",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Closure-25",
+  "phase": "full"
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.ZipTestCase::testListAllFilesWithNestedArchive",
+    "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testThrowOnInvalidEntry"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8a1972d4926a0b80d2e0531de2839eb75a0d4b3b32044700f26a0855bff900cb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.ZipTestCase::testListAllFilesWithNestedArchive",
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testThrowOnInvalidEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b44997c0b2a5d33c12bcb90f2b30c069512fbfad9878d72c1f0da429bb629f16",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

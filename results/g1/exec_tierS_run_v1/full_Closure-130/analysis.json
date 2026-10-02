@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CollapsePropertiesTest::testIssue931"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5cec603b15d68536ac99068e23aa80e3739fabc6e43e25484e896aa891a01393",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6aa5d6c7e985272638e2a347d1252fd17cf75aa45edca4c886f49007179d9049",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

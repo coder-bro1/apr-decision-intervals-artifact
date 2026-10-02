@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::handlesQuotesInCommentsInScripts"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a03e5f60f83f910ff5a8d25ec5db26d958d826386abdfa33d9616ba6653477bd",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

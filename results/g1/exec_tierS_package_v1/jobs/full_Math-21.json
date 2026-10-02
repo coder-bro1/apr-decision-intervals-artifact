@@ -1,0 +1,31 @@
+{
+  "bug_id": "Math-21",
+  "cases": [
+    {
+      "candidate_id": "obscand_0aa01000fcf812642e67534c23f0c75603c7f42f59f4c765b02d6ff0f45e6e8a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_33fae28e0cccbce9a94f21a7e96ff30eb81c1775d8a3d2752bd7fc764d50b72a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_4335269d41b0d2c65cada6e5f35e5b073874b1a140ac44dc9ae58b42b5012ab0",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_846e266b73998f83e60ffd8f777d2695dde36c917769194a9d98701dc2adae1a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d25ca57032b8d0292dad434bb47b178b1fc5ae192acab9b16bf511338cadde70",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e8b2c8168a528fb368fbc1ec94a750699401e15cc211c2c70f117c8ab4677cae",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-21",
+  "phase": "full"
+}

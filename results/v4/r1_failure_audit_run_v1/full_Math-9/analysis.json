@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.geometry.euclidean.threed.LineTest::testRevert"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6afa1e9b9798ec7890ae8ac413837057267842492f12af39d307b03262c19d19",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.LineTest::testRevert"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

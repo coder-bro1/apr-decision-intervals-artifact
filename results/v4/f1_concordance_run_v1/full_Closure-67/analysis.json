@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_df7925bcd5a38b77a48ad4d2a268b5b13db9c24d47663b9e0f28739461deb88f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4cfed124da9bde18695a5202db46b1a55bd8af7efdf94cfdb9cced1e17d67524",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9b7eb4e54dafe0e5b4c43f268734e6551b18741492ebe6670136cabadd0a9aaf",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c6cc8ab696cd04efdad9422a4870a5defd833ea50caec339fe33c7d90c692ce2",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

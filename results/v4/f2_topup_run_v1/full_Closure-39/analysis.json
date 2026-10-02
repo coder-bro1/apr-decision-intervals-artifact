@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord",
+    "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0cc82eacf1988d357c671e6d0df14f93e0a62cdb8a5bc412a38d7ca673cce2b0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

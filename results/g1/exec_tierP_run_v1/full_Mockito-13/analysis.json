@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest::shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_24d0f8543dbe45c43db300ef689dcae72f64ed27c6b2ef233a6191fa8239bd8d",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

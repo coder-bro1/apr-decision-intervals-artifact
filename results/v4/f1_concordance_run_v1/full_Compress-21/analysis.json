@@ -1,0 +1,35 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenEmptyFiles",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightFilesSomeNotEmpty",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixEmptyFiles",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightEmptyFiles",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineEmptyFiles",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixFilesSomeNotEmpty",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineFilesSomeNotEmpty",
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenFilesSomeNotEmpty"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3a82c0b187c2c8a54da7ba22f3458e43af875a211b7f08a208076b5d453c1cd1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b7c2fcedcc8d5d9c3e4e9c404963af083d05311cc200f13270848816d3275bbe",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_test_disagreement",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e594208edbcc8ebd5080167b45a1f3ce4406bbc52d4ea85235937290dbeed7e1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

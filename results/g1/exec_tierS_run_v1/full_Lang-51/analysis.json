@@ -1,0 +1,64 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5f2aa425682f9da8d5ea2b69c6893e7cb4024fdc41cfa1c8e90b02b98485ca8e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9584504f233ceccffca54c88a216043297496b13f2828152c8d6ecda36af8444",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9aa3f511b22cb8a677c6f7dd5385fd3a8ca098a729e5a1ad6a832c939f59f542",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9bd5dfbc986d1e6c678aa762785d6ee40e065068928af09daf8b56d7c410d147",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_eada1c636d2650b3deae7322efdc8d8ef85bfc65259713f813a198c38e007e26",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    },
+    {
+      "candidate_id": "obscand_eb5b11f861c7bbeaa8cb86aab98334b6fd12e1186b7eb5e5683086407092102f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    },
+    {
+      "candidate_id": "obscand_fc9d6504415a6d66efde8709b6d6164ade13fe62ea91283f3d1e0af801c5f540",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

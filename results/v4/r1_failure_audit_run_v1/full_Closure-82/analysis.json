@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testIssue301",
+    "com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e4170733dea18d7e00c6a9a3415db5580fffed29c46f9cd0b2fbf9a68a6fd028",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

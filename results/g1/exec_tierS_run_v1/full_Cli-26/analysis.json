@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedAlways"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2cbcafdca3fc4db93e2d83545a33281c50081ec8ebb3a86c081f243b1dd1b2ca",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_94523b833f4456bfaccb5f0486d7b6a54b0de150708fa9e304c5ad6d2dfc646e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

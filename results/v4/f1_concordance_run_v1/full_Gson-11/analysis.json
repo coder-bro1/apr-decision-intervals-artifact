@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7312f2cb545367cdcdf913a1f0b3732036465532fbd6bf0d022457e764c0a889",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

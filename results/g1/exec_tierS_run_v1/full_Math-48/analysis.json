@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2f327f2ca873b8b7262b116cb145324a2eca026ae6a3b94424e66885aae9d2b0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5afb71d228a4f22b61d21efbde7021060ff54e7592a46b0e4e4d0e51e5fe0f92",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9b562046a0e7336e3629c0ae74c3e69d385df0ca281f88e9c80684b31ec55cb7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": false,
+  "findings": [
+    {
+      "candidate_id": "obscand_08317fb27fe97b398b3d86f59754e4e772a8b98f27050660ac348c45f9266dc6",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_0b5a037d75e3e17baab700d235dda972f6eedace78cee89b8666ed2428b50420",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_8d4977df8bba4724b88acf0f8a965230c0a93fe0cca1f4585ac289f1856d73f5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

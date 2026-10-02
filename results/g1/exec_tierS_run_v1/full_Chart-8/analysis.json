@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.WeekTests::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_810b908217cd668f4d7a44f29b3a40bd468a1fb1cac719a8410fb70b40b5f895",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b47a0d0abf08325d72b584d051eac94a55d7bb1870a7a2baed0171bd28624631",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

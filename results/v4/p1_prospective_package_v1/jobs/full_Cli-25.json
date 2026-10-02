@@ -1,0 +1,11 @@
+{
+  "bug_id": "Cli-25",
+  "cases": [
+    {
+      "candidate_id": "obscand_ac19e2096055c217fd65f6211379ade152470199ff777fdb11d59e312e85bae7",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Cli-25",
+  "phase": "full"
+}

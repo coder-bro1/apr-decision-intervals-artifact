@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_075a614a54fffb769a18576fae0cd798d64fef8e917be14a3eb29ae6ae359a0e",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

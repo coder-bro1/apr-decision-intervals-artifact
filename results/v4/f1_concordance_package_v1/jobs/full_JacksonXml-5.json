@@ -1,0 +1,11 @@
+{
+  "bug_id": "JacksonXml-5",
+  "cases": [
+    {
+      "candidate_id": "obscand_243085560767259401e16142704a5acd65b0af7c70899fed5ad8b63d21ec3077",
+      "compile_only": true
+    }
+  ],
+  "job_id": "full_JacksonXml-5",
+  "phase": "full"
+}

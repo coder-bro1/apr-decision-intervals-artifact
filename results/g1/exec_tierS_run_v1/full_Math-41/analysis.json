@@ -1,0 +1,30 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_28bbf26fdf371e5bb56c4bb03c207fbf89fcfd15e2250bef1f601a5138aca8a0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5d2483dbbc708c40a1f584e766fae0cef1c18d4eb34376250508a694001abcb1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted"
+      ]
+    },
+    {
+      "candidate_id": "obscand_dc85d1e2edf7bbe2f602f18178f4179f5ea9926ace0a5f2fc675a6acba4305b9",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

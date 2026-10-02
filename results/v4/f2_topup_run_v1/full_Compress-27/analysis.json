@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_072c4b7f497f6b656134edc7fcf4dacba6dbad6dda03b57da2cc690e13b3a673",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

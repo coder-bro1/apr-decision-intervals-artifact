@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI265Test::shouldParseShortOptionWithoutValue"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a8985212921ffb854fb129a31c2693e3fc0581a0c91504ff52ab31caf55ef869",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI265Test::shouldParseShortOptionWithoutValue"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c394a8d8955120e059928b5a38a05bd00a967c08cd12252413b26d5f353f1a81",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI265Test::shouldParseShortOptionWithoutValue"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

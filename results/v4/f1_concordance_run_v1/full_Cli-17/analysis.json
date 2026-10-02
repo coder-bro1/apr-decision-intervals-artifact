@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.PosixParserTest::testStopBursting"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_768e629665b6e3d5c4972aa523d25a7577a7c051aa73ec880891e2868bbd4522",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.PosixParserTest::testStopBursting"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a5c38d5e9df96266eede1e428c5c711a94b17a462513570fec0291c26d0fda1c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.PosixParserTest::testStopBursting"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

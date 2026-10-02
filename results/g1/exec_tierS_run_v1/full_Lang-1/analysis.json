@@ -1,0 +1,56 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0be5bfc8380b6ce9f347c5bd5d91e7a171138cfa3116200970d0b38fdc509f99",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+      ]
+    },
+    {
+      "candidate_id": "obscand_27fa41e614abfdb60a980aa1bee24a32aadad0ad4f6059f48931dbbbe172af5b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+      ]
+    },
+    {
+      "candidate_id": "obscand_36adb4520e5ec3c86621a8d50a6c0bd8814af99212e90c0d2080429b68844ed0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c9ec415320aa531a1c3f355c7178edf46a11de19d276085c3aea068e12bb84ea",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ebdca3a7f5d31e4a10a59b9e7419609110f46b40f72b8bbae865c6cb344b7ad8",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f6efb440e95f3887053b805e36d3defcdacbc71c7b5c5fb17fcbad380ad3eef5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::TestLang747"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

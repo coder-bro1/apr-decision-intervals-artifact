@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVPrinterTest::testHeader"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_063a5725c294ffb6384a43d05f179e2149a58a1edab6a1955783b81a891286ca",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testHeader"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9f513f47ca81c3057b699bf038c8ea42156f060e978e253d413f605c62d06ba0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testHeader"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

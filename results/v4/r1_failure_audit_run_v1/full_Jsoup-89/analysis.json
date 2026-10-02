@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.AttributeTest::settersOnOrphanAttribute"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_29bb5e245db99815c1d55d0719b287ab6f630f2802fc23fad205981cb93896e7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.AttributeTest::settersOnOrphanAttribute"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

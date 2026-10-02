@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testChainedRemoveAttributes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1fe7bcf930b7fe065e559d6ee5fc8f2b6aeff9f4b8be0a29ac24cbc036afe092",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4045b4c575633ab79fabdf2a21cc19810c15ffc4d38d64a7ad9a3df48b34c55a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

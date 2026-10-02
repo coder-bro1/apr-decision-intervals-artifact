@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2a848dc7b33cad28763a1073fce39fd9e68af70d6cfa89a33a3c47d9eb634746",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3cacf0fc0ddd4eb8950482579ce17cecabc4051c4dcfc47c372ab9b6f491046b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4096adb1b858fc3a2c2cdee6950cb8b8d7fbd04d959546b41074a39d465d8137",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4269d922e579685cee79aa6b16b1c13bb8f0d3c84a925e28fcb2c86f38b1e64c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f9744ed1a7eace5d3971d4a11e89f66fc7e0658185714edfc383f857855f6b53",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

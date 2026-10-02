@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_132100f7b63cda54c5243137ed49834502d107ca95f37a45e7263966a4b9d60b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b31ce53ac573df70a0bd1c9371b178a83c80cbe95f1b5999290c218f8cbe5fce",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

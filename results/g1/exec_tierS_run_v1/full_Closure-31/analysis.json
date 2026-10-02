@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CommandLineRunnerTest::testDependencySortingWhitespaceMode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_28262d533f8ae369353db5d4b835321cdae229c0241d0df5d1d1d78ab3a9ab97",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

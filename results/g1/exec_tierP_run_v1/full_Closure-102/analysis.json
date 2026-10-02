@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CompilerRunnerTest::testIssue115"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b04d2c505d000a910cab55611b102c209c6b8e2bba5fe3bf497fcb29d5a5a865",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

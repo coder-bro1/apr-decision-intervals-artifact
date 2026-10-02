@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1",
+    "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+    "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b58cd8fd1e3a0d351d5e1389961aac4e7577ed28a2f6ac48683fcc83844d97ec",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1",
+        "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+        "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

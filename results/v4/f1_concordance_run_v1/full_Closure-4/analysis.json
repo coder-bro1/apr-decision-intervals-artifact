@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop",
+    "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop",
+    "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b3fbca921c537dcfa1d244625d09589c7ce445587aebe0458bc2ab1862cd9e42",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop",
+        "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop",
+        "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

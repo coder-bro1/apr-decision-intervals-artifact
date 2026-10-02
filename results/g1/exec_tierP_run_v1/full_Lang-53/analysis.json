@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_d68842e9afd7ba9b9af8b28d32203a2aafb568ffc226aa6d6320cb27c02ac0d5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f0769577cdfce125c58a7d52228bacad6242d5f7ac283b94ea03587939116392",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

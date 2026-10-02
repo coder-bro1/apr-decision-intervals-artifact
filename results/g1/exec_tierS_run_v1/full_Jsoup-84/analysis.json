@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.W3CDomTest::treatsUndeclaredNamespaceAsLocalName"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5fb80ca54a61ac90b59a2c8f54a4473c59ce136aaa2ddb6f43f840e4b7f76edf",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ba6f7b28bdf644023d775bf1b5ce38c1b42407a442cf25b795f8cd0678b3bd23",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

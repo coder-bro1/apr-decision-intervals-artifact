@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+    "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9c082ab23fb0cdca73a31c624efc4a712dec0e7b42997674daa53a3c4fe911bd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

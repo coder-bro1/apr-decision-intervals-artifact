@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_652bb672c45ce8e1e79935de37ddb76546f7de00974fa0a972d2c345caca239c",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d645c37321f124a4b7ab61859f37770500a80bd0a6f1f5daf09f335daead31ea",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,14 @@
+{
+ "bug": "CHECK_DICT_CASE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_46b5b8805bf6e03ff63796e84d97b062e60ba4bb0cf7b873d38836700bc79f50",
+   "original_sha256": "1cb1bf6dc6ba36c494ea2de8cbf13b70f8ac54e33add9e23978f24355bbbf03e",
+   "normalized_original_sha256": "fe5cd47114d85c5c2fefd78a2af45c25d050970ae5461410ac356ba6afd9c357",
+   "patched_sha256": "2ef0d0267e4da57b071c5ceb58bd8d0fa309b337adcf6d6e2ba2849b0ef998a2",
+   "start_offset_lf": 696,
+   "anchor_sha256": "54c383500af311ebd54b0a30ab2897669a7834c115ecd351b7508d83e656545f",
+   "patch_sha256": "2dfc85f9d414f8deeaf0754d2201b8e915c1e891b19dec741874b8d92357fc94"
+  }
+ }
+}

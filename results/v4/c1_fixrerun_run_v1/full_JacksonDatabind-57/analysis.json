@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0cd1bb0ff85f7dc69e0e2277c17a84a92782b771eeb20e93e76e241b918a2e84",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2ca8c5ea6617ba4c1bc6b41f72055f72ae4de1de0946533eac82468880196b00",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e7108ea82dec27e6dc923aff8d0b582e1f05921690109780a174b065555674d7",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

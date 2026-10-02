@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.WordUtilsTest::testAbbreviate"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5347e671750da4a391070e444a5ce0c833fcdebf0798a2ddc255780c6cb77066",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

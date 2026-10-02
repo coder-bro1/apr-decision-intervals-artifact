@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+    "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_abae0b1b8739fbbdbb891c9ee276a5d75fabe1258de13366cee4cb87bef51f22",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e78b794d9e1b678dff2995bb1706d6c76f4ed194ff4fe08ccc3ebd26dffddf7b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+        "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

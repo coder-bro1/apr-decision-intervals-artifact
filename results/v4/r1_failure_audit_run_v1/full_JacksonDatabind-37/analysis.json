@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3effa63e87b3bc5e1984ba1f2a8d85cd9265aa742e8b46dc415dc82035b52457",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

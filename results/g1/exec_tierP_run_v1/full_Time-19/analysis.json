@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0fa6c176bd0ae254871812a30119d16424fd47b5a6bb73185ccba44b85867eb7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e83beb9fb2d450259d7430887c56f7403cf6198b375e1984e14e3bdf0e066086",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

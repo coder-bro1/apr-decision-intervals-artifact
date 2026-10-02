@@ -1,0 +1,11 @@
+{
+  "bug_id": "Jsoup-54",
+  "cases": [
+    {
+      "candidate_id": "obscand_6a3bb1cacef4c816a8bd4b3ab6beb35d8e4c104f3276803432bf85fab78cd014",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-54",
+  "phase": "full"
+}

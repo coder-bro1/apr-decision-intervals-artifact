@@ -1,0 +1,12 @@
+{
+ "returncode": 0,
+ "rows": 56011,
+ "status_counts": {
+  "ok": 44575,
+  "unparsed": 11436
+ },
+ "input_sha256": "d63bae27775467a612f35b922563b7bbb9008489e0da92048e7be8a51f640815",
+ "tool_sha256": "e662cc1b5cf081f4a64ad2ea0873d4d49abdfafa9bbb22c418e5e76d0abacaee",
+ "output_sha256": "e8bb93795e0e612159dd9c6c2252e5035eb65e0021e2997f80f07c29876e1365",
+ "java": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)"
+}

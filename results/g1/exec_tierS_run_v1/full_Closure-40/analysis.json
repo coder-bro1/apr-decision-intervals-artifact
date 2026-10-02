@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.IntegrationTest::testIssue284",
+    "com.google.javascript.jscomp.NameAnalyzerTest::testIssue284"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8511a6c0933a0d6790a085f7c3d9889480c816aceb6eb5b282a4f24215c934f7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.IntegrationTest::testIssue284",
+        "com.google.javascript.jscomp.NameAnalyzerTest::testIssue284"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ad45020b5fdc7a943f4c5a91de89e180e69e84a46659f2b846ec808608849121",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.IntegrationTest::testIssue284",
+        "com.google.javascript.jscomp.NameAnalyzerTest::testIssue284"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

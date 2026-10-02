@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.TestJsonPointer::testWonkyNumber173"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3a34db221e271f09b27a865e8561a394eaeba5796c728a2aa3387d3bf7f05583",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_73b8ce19a9e605513ad5d6ba17a292d43d67cdf281e7875e2810e3ee041eb810",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

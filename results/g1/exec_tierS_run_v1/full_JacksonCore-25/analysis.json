@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_93e42e639accdebffd66a123add611db88de1e82eb6d97c7e04a98e8186d15e6",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d6a7ecf6f3af66263fe00451ea4465191c750a3f211ff078d0852354c73163fe",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

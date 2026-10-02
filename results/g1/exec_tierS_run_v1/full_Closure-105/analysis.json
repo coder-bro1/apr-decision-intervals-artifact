@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3e1fed5343bf2c58cd571e9874cc869ddee96d590cd6dc60ec47bc62d9c9dee8",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7a5adab9b04cc3f764a694587e4f7ee892fddc94c2c189baef507cffb020f526",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a295a19a7fcc4607e6aeefc5d93f120562804f6a5ef68be82c3f69669a6c1a13",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

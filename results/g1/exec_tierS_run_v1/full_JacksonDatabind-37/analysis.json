@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c9b8a581f018329bad5550fe872c0d30c3759aaec0dd8fe55467eedd74000f33",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e7ff602912c5584d3b316d36cffe5ea0f68157dd1e707888fe461f5d5adc97fb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,46 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0f725ab7b0eceb15efa66b9692ec3d3f1544cccd6acb7dec1f0cdb6356aa81be",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+      ]
+    },
+    {
+      "candidate_id": "obscand_2e9a97cbea9b7587d86ab70f5967dcae9b47a6a47e9140f6f81c7e206d30a6a1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_337223d6f3d7b681dd8c18f04a7a265b6340a77512ad4784dff91d4da4a2c5f9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4cf6bc8d049591d9a389eec59685290e8d234a733652f2303c1c3c7895c8ac87",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_cbda35eb2924f2f7e4678f2f662b9c8f76c2bcc7009296eb319ab5a51c0fb7ae",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

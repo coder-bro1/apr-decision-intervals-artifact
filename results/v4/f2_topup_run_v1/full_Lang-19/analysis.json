@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity",
+    "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c4c1e5fe12df0f7752fe680a6c81935af29dc433ce39765c711ed0989838a9d3",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

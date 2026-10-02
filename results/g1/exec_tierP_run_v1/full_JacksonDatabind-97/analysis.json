@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.node.POJONodeTest::testPOJONodeCustomSer"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0d04cbae6e8818a5e5b1d786eaeb24101df3a8c4fa27f9577e2d9b62dec62c9a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

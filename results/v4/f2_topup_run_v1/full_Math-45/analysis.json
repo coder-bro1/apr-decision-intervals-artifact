@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6249ce592946672bb484082fbfa998f560135aaedf38d5baca7dd57ee3d56944",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9c23c030d54a05b65a405b253cdf418b27045cae59c4197756eb47a2bc5ff371",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a3f6304a25940d7ddd75e26cce366d234f6c2452a537a9bfe3eeb8b07f00c219",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

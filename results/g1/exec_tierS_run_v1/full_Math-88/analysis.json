@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_16ea01737e51a4e445796d1dd0c301e674f4189f29a27ddb6a834a279cffde5d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272"
+      ]
+    },
+    {
+      "candidate_id": "obscand_472afcf3ff56ef3e3b667cb7b9813efd2f7931f7af35fcf8705ea2adfd24a152",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c9a9875174760b8ad643da877507fbc7f48b3431931e63f7c7b46d19152d5665",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

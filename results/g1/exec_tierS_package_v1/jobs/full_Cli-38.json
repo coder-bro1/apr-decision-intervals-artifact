@@ -1,0 +1,27 @@
+{
+  "bug_id": "Cli-38",
+  "cases": [
+    {
+      "candidate_id": "obscand_09dcd53e2d549d6157844b1f5a9359156591de4359e540256f1c65a3830eb087",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_265751546d3b2e6a0b70bc63df6407d651b65bffeb6303841511a2e82d111b50",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_601ddf09b5d4f02a0cd10c3c7b7d1e3486f70ccf159562e5f05a1ea44b810eb3",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f0d7b1b0beca25d8d9067f29b88cbbbaa2fe7ce0f49f63430ef30d9495c330d7",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_fbe38df8f1a5ddee03204e7cda2e3ba948531c999ca7ebfca09bbf94b44439f1",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Cli-38",
+  "phase": "full"
+}

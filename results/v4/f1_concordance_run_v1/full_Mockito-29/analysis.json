@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.mockitousage.bugs.NPEWithCertainMatchersTest::shouldNotThrowNPEWhenNullPassedToSame"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_353d8100c051ff3b16ce11f6370025c807e0124a5c21e9e46d9e8f1890ae1ad3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockitousage.bugs.NPEWithCertainMatchersTest::shouldNotThrowNPEWhenNullPassedToSame"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7167d7594897cc71c1fb95ec588b89dfb3101b4d5cdf3ab4ecec1b5ba7fd2d8e",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9146ea1b2313ba2fac804fb4122062b94cc669ee5601cc6b1057fdb833dd432b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b3bcda16de65127e31fe9fed0e91e999fd7581cb965cbb914fb6621557b042a8",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

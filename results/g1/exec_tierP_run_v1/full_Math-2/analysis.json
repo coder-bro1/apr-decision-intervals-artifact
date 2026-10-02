@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.distribution.HypergeometricDistributionTest::testMath1021"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_25f2894f435bbc14527456312f10439827800dc69498178713ba9bd77fa08eca",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d882ab813e08696c994f47a3a52f889b8c43e229c5e6f2720c8f15a6b87a59ba",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_test_disagreement",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

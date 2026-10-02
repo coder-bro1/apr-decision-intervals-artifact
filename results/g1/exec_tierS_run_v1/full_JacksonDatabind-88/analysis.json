@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_38ab92850408af2cf2ab43164f6e72c9a050a945f6ad2e87887c5d3c10b1d7e0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735"
+      ]
+    },
+    {
+      "candidate_id": "obscand_88fc69111f62907fa4435e3362fa7a061aba5bce551ed52486df4f68669e4225",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d88f456e41b471df3e3dbf2cb64bbe6f1cf1d77cf479e4d479fd51da10522ebc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,141 @@
+{
+ "bugs_generated": 488,
+ "candidates": 2628,
+ "classes": 1904,
+ "reference_match_classes": 31,
+ "noop_classes": 340,
+ "parse_unresolved_candidates": 265,
+ "challenger_frozen": {
+  "d4j_sources": [
+   "deepseek_base",
+   "deepseek_fft",
+   "deepseek_lora",
+   "gpt35_gpt-zero-shot",
+   "gpt4_gpt-zero-shot",
+   "repairllama_ir1_or1",
+   "repairllama_ir1_or3",
+   "repairllama_ir1_or4",
+   "repairllama_ir2_or2",
+   "repairllama_ir3_or2",
+   "repairllama_ir4_or2",
+   "zero-shot-cloze_codellama",
+   "zero-shot-cloze_codellama-ir4",
+   "zero-shot-cloze_repairllama-fft"
+  ],
+  "d4j_max_index": 9,
+  "stages": [
+   {
+    "stage": "compile",
+    "C": 1.0
+   },
+   {
+    "stage": "test_given_compile",
+    "C": 10.0
+   },
+   {
+    "stage": "correct_given_test",
+    "C": 0.01
+   }
+  ]
+ },
+ "missing_policies": [],
+ "comparisons": [
+  {
+   "a": "challenger_frozen",
+   "b": "occurrence",
+   "G-E0_pp": [
+    -17.414617,
+    25.273224
+   ],
+   "identified": false,
+   "relevant_unknown_classes": 299,
+   "topk_pp": {
+    "s1": [
+     -17.414617,
+     25.273224
+    ],
+    "s3": [
+     -36.747414,
+     30.936768
+    ],
+    "s5": [
+     -21.738225,
+     9.382319
+    ],
+    "e5": [
+     -1.0108265027322405,
+     0.9247706869633099
+    ]
+   }
+  },
+  {
+   "a": "occurrence",
+   "b": "uniform",
+   "G-E0_pp": [
+    -52.275566,
+    28.777648
+   ],
+   "identified": false,
+   "relevant_unknown_classes": 1464,
+   "topk_pp": {
+    "s1": [
+     -52.275566,
+     28.777648
+    ],
+    "s3": [
+     -15.452283,
+     17.689305
+    ],
+    "s5": [
+     -2.427709,
+     5.708431
+    ],
+    "e5": [
+     -0.7933613062711423,
+     0.8643694704657819
+    ]
+   }
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "uniform",
+   "G-E0_pp": [
+    -53.432865,
+    37.793553
+   ],
+   "identified": false,
+   "relevant_unknown_classes": 1518,
+   "topk_pp": null
+  },
+  {
+   "a": "codet5_similarity",
+   "b": "uniform",
+   "G-E0_pp": [
+    -53.312923,
+    25.50148
+   ],
+   "identified": false,
+   "relevant_unknown_classes": 1477,
+   "topk_pp": null
+  },
+  {
+   "a": "naturalness",
+   "b": "uniform",
+   "G-E0_pp": [
+    -46.75888,
+    51.406453
+   ],
+   "identified": false,
+   "relevant_unknown_classes": 1518,
+   "topk_pp": null
+  }
+ ],
+ "execution_selection": {
+  "tier_P": 299,
+  "tier_P_bugs": 157,
+  "tier_S": 1219,
+  "tier_S_bugs": 388,
+  "tier_P_matches_frozen_package": true,
+  "tier_S_matches_frozen_package": true
+ }
+}

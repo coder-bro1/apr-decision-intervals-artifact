@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut",
+    "org.apache.commons.cli.HelpFormatterTest::testFindWrapPos"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_769bcb32c86b64637bceecb0403d67721cc81cf1ad498ce0b3de7b33eafb6820",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d66c74f3b4f166e7e0b170b9e362e2a0c3f64d8e3ed87377331122d6d0bf65ec",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_da9642e2bfec4adf03c4afc4ce7c0be958e177b5a9b9e6923b14854fea76b1c4",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

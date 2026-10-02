@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVParserTest::testNoHeaderMap"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a265316a9e70e4765e5e62147bb7938b5d80294769c597df2ba7b4ec638824f7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,35 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord",
+    "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_148629ff7d3d4645010b1d38209cd6c38710d6cecb20bf5334946b9fad5e5ef5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord",
+        "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString"
+      ]
+    },
+    {
+      "candidate_id": "obscand_791b219e65a41dc8ffe9ef8e0e029b6e26c88f3529c882748c1ef1286ad07742",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord",
+        "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString"
+      ]
+    },
+    {
+      "candidate_id": "obscand_90faf03c9a8d675ef849817ba97edbadfbe350220de48b73c4ba5fe4ef8dfbdb",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

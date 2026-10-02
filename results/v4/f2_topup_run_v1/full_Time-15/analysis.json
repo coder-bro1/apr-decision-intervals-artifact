@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b66caed294c1122a98181d4df9b8d6c1da020f41f327982a01869d65aee162ea",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

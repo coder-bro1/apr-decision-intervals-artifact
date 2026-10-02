@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.distribution.DiscreteRealDistributionTest::testIssue942"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_22a8e4d4ebf8f27199c41c8f6665c43eb0379d127145d30b007dbe8c5475fa09",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5f3f04e732caecf98cca04fe82e84793d16f1e9875122559e7bf6a37e6ca1abc",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7aa548d7aa709d799176fdd62732ef2a5c4424dbcb7e919df6600664c501a1aa",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_40a60368375e8af955bfa2acce48b397ce74299d5e336563dbee6af69c420ab7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript"
+      ]
+    },
+    {
+      "candidate_id": "obscand_fc6c0fb83d96c48fbc7bb56b7590b25066eaeecd817f6fe6ee66d72675de94ba",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

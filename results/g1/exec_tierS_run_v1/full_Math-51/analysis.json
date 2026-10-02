@@ -1,0 +1,48 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_021e5c11e2fd0c33bd1f0efda6c711dce015e7bcb0ecbf2725899cba807f87aa",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    },
+    {
+      "candidate_id": "obscand_197afe9a0b41c677bdc4210f67bd596dafa93357942350c3853c4f780d4475cf",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3de8c6c3eb6d817ee448e6e867b9db24700bfa42fb2fd3289d9269b0006d33fc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    },
+    {
+      "candidate_id": "obscand_91a218b4be31dd04ebdb0d2f50c038988eb8188c5d1edbd98b81eeda41c6a34e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d087bc1d8c1fc1325811537f4c61801948dd8c3e9b0e9568c68766e09fff2c6a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

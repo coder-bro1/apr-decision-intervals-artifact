@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.select.SelectorTest::attributeWithBrackets"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e49cc403b0d95e4dbadc0a7f7dd75d53c609f82ea45293a38968e39f269065d4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

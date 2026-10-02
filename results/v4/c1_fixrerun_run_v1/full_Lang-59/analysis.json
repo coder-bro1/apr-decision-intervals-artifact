@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.text.StrBuilderAppendInsertTest::testLang299"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8fc0c98fb250db83ae6b5a74c59af579660a09b2a501825305361f11a1bd3960",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

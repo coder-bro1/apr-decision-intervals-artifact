@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_811816d6bc1a4ea42595925a3b585a03e7e13835a9635e4c94447a03f2393337",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

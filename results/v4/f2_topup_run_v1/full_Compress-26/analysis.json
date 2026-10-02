@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.utils.IOUtilsTest::skipUsingRead",
+    "org.apache.commons.compress.utils.IOUtilsTest::skipUsingSkipAndRead"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6e77c64be19e382eedc00adcee205f8cc6d350f79b7fcb99d20e029f7ed7024d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.utils.IOUtilsTest::skipUsingRead",
+        "org.apache.commons.compress.utils.IOUtilsTest::skipUsingSkipAndRead"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

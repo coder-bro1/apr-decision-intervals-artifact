@@ -1,0 +1,23 @@
+{
+ "bug": "IS_EQUAL_TO_SUM_EVEN",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_2f62e842b490e75455418415a2b2b1854311dddd9d07182f5596f3e00ed92857",
+   "original_sha256": "9fc8c888536e6c57da10d5dd2b88633a18d5e2ad923622ef209cb06055e20381",
+   "normalized_original_sha256": "04a2a09aefabfbd4ace59506e8d7e8be61e69b8eab56f08b9bbfea9a91cf2396",
+   "patched_sha256": "3eaee69a4dde03e7ba48a705a7c93d64b8d48bbe93725b1bd013feb98d4a68ea",
+   "start_offset_lf": 297,
+   "anchor_sha256": "43448cbbb2e8f5ad15a954ace0340ea3156d650b429c65e83751fd9ddb585825",
+   "patch_sha256": "7691e7e25d6ca28f6d4f8b46d94b27e34407d961522fbf60c598c54437c8f95e"
+  },
+  "c0002": {
+   "candidate_id": "obscand_41081c7a54928a2cc378b1b55c7afb6273fecb2178aaa2adc45a3da20a751229",
+   "original_sha256": "9fc8c888536e6c57da10d5dd2b88633a18d5e2ad923622ef209cb06055e20381",
+   "normalized_original_sha256": "04a2a09aefabfbd4ace59506e8d7e8be61e69b8eab56f08b9bbfea9a91cf2396",
+   "patched_sha256": "bb2f313d241ebb935ec93aa05292f3606dc5dc3f24bf0fd39a72d03a1c56385e",
+   "start_offset_lf": 297,
+   "anchor_sha256": "43448cbbb2e8f5ad15a954ace0340ea3156d650b429c65e83751fd9ddb585825",
+   "patch_sha256": "fd37db026c235cd676f79d99274d4ca6c8a6e78ef830013e6aeed9a99846d7e8"
+  }
+ }
+}

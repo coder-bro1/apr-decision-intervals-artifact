@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.TestJsonPointer::testIZeroIndex"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_370dcf48457b13b3dfb9db1667cb9727424ab8822bdd137fbb415a09fd5a7e6a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.core.TestJsonPointer::testIZeroIndex"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6be9f20a73a314de1e86a70efc105d05387c0a457949ada441fbdcc2cfcd9712",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.core.TestJsonPointer::testIZeroIndex"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

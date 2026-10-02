@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ada5b17639a47945a5a0a76c30124bf3adbd98a14e013b57140d44c5a9ae4ee5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

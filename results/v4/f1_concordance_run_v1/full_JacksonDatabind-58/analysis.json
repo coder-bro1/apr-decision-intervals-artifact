@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseOfThrowableIgnoral"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_acad622195da875dbc65bd25610b2d42c7e352fa9015cc29a2a4a6071d6e44e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseOfThrowableIgnoral"
+      ]
+    },
+    {
+      "candidate_id": "obscand_fcfbe171cc32b34c3c22fe1a4f6b59faece6291ba2f37015ad36eef1156a1518",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseOfThrowableIgnoral"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

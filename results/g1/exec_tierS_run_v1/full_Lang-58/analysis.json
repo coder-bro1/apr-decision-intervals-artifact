@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2d4be5d71788ea3eaeb10e7ad8414f1dda4a68c9baddf5743638f44e3b954b54",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+      ]
+    },
+    {
+      "candidate_id": "obscand_49a26f77c05b8b4225a118d6b6b1a2d5a8c2fe3bd09484b7bdbe516519ec889a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+      ]
+    },
+    {
+      "candidate_id": "obscand_970eeaa5e432c525571ef4ca04892ec978d3231a22ca7a5213ef418f9046ba5c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.math.NumberUtilsTest::testLang300"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.safety.CleanerTest::handlesFramesets"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8a950a06c6e9cb90b44962a8885bd7fe03c3d550fa57a9977f7c99d6d7538115",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

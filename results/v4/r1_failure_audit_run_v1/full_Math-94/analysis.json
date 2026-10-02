@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.util.MathUtilsTest::testGcd"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_525d2a07c0f0303c399c356946b20c76fe0238b9f79e50ae8aa6253adf3dd383",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

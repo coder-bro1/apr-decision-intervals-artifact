@@ -1,0 +1,49 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+    "org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+    "org.apache.commons.lang.LocaleUtilsTest::testCountriesByLanguage",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+    "org.apache.commons.lang.LocaleUtilsTest::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_06ca16156397de4c8df7dabbcb37c2942cb732d6bd8ed4557bbdc4bb51d282f1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_30fbb952e0edd7169eb2ee32920158e4d85e46a9bb16086a7428842860b8f18b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5886d2a82c3df9aab8ef1ad3bc36801ab062bf85129e300b67b6e2c53d611eaa",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_8be8a6ecd19c275e374dadb61222c71c9ef6a0c0a1a655cbf4621de220da9a67",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_94b6039fea4360173763c029b26c8f74146943b1f8cb9a80a0276809aad57386",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

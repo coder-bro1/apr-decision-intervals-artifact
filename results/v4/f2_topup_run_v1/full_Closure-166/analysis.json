@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeInferenceTest::testRecordInference",
+    "com.google.javascript.jscomp.TypeInferenceTest::testIssue785"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1f065921439c8ab0c7ba97e0dbe819462431e106ccd65135c7657009af745d02",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeInferenceTest::testRecordInference",
+        "com.google.javascript.jscomp.TypeInferenceTest::testIssue785"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

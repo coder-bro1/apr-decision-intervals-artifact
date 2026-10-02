@@ -1,0 +1,56 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1066d0ed4ee155d518e445733af0f078a109c1b82efb569a6f3747b7e5967146",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_203e9174847b5a0b8fef1c0f86cdc309a6bf1b21bcc7a25a81f46ebe0e17bfd8",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2b88f3ffee6933fb66ac6a4a9a5a0086f79949462d854bcf1e82df12e75c2aac",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2c4e654b67409420dd79f1993168e2de59793fa65bf5d6f9b47313a1cccc8692",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_946517073d6a8c1d47018ea2d78edb96b8cd2963a046516c278ffd427138bdbc",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a14fb04c6faed887ad32c0032655f6ab1d32a8cb54650897420b426567780f9c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f6a146102a85288ea725d95802d5885e4188dd4aed57a6878d50ac284d679756",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

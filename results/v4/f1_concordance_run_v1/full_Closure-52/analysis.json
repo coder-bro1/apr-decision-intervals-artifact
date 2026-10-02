@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0d4e1f69240b3a6bec47590ed42dab0d7b1eb17fbc94776b20d55804861eaee9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3fec3a8c857cb0917e03003443506d7b17dfaefe026e694288cfd4ed66165fce",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

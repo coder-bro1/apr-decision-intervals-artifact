@@ -1,0 +1,20 @@
+{
+  "container_ok": false,
+  "controls_compile": false,
+  "files": {
+    "analysis.json": "62e6658978245512605ae95ebcff5dbd0ab94e631d60d642c1c8ef88d97356a5",
+    "container.log": "e9133cf10b02b0b91c8b119848513db0ac541e7c3c19681266939e4b9952f7cc",
+    "launch.json": "2d18eaf350fc5fdae0af6f6af1dea2ee7e2e8a72ebd1521c11c0088c6c72e903"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_573431fab76acd650fd105cc5b85a62f1b959d0cd67b8a3056c262e40a7c8269",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Closure-86",
+  "package_sha256": "e24a1585d902a2343a337480c96a33565a68d2d27c0fbf076a7c162adb8ad5b2",
+  "seconds": 0.031000000002677552
+}

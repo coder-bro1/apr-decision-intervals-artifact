@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.deser.TestCustomDeserializers::testCustomMapValueDeser735"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1c4547c38944bca9ae2d0bcb3cadd25c4ac2c670107877b72641c5a089f1338a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.deser.TestCustomDeserializers::testCustomMapValueDeser735"
+      ]
+    },
+    {
+      "candidate_id": "obscand_997e075f05cb150ba2f299bdb0f3275696a47240b390bf8aec706049a862e24f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

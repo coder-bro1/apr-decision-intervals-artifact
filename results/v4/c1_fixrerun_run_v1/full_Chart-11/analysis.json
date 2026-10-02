@@ -1,0 +1,40 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_11da143f7b426d0d4b5907b966ed9f2e6651ff2c60e43b6b46e1969d4c8d7257",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_316efd24020448a38a4b0f88894073e7cbff73c53cb1c7a51d38a6357ebaf5b6",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_3383680775d94f32d99cc34f621d8c42b03384574dad6ef16aebddcc86d9d2b4",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4c5f72d73cdd36a82c4373ba0292e8440dfb113b34801d427fdea51b2adf7e6d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_af946d0e77b64ca6040a50dd5de0ad514c6122c305ced92e5b50f5452f21906d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

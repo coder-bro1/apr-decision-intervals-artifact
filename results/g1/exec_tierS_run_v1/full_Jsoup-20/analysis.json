@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMark"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_18089f4ca20231b7da305e60cee77337e8f0d05c98587134caf171f087537f63",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMark"
+      ]
+    },
+    {
+      "candidate_id": "obscand_87099a81df3dfb418fecf41f6321a3f968777d9b0caf67b697ef77554e510061",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMark"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e2a60e91daeed775036b3c95a9c65538148f55fcbb4827f060d24c6cd411bde9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMark"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

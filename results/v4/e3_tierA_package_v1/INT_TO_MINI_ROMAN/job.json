@@ -1,0 +1,14 @@
+{
+ "bug": "INT_TO_MINI_ROMAN",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_3096bf16faced52e7e35e7f346a20ec877dcacabc8de39ef237317fccc61d495",
+   "original_sha256": "22af69e8d47ba09f83751b11e07d3c013647840880760d5da21864838418bd7f",
+   "normalized_original_sha256": "49865b1c011ce8c22d7d6eafa67ab03f52dca23dffa94a8071665f1ff5969315",
+   "patched_sha256": "47e3b5f9831bad22c674dce9c7ef1bdf18002edd2a58d63850a2d256c7d1ac4e",
+   "start_offset_lf": 341,
+   "anchor_sha256": "d123e5fbb9cfea09e9928c7173f88d313667ff98e60474c756180f30b38fac0f",
+   "patch_sha256": "bf6ce84e6a3f782f68fb4c5424b50d23abc93592b20ddf373fd1e88867fc39fa"
+  }
+ }
+}

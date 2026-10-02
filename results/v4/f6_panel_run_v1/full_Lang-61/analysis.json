@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294",
+    "org.apache.commons.lang.text.StrBuilderTest::testLang294"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_736fbf56265121470fceda6a5f43f8c427b1b5f22be8fd2bea7ca098e219b14b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

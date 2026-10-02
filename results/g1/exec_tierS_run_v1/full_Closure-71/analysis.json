@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6",
+    "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_968d4afb836417e721696e8308babd81ddf2765848fa3828163fd06a99ecffae",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6",
+        "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a67d342874af410b8ccc88f3c5fa56ff14be271e837e81411645ba58bd6ea776",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,14 @@
+{
+ "bug": "SOLUTION",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_4214060aa2539bfd6c7f30783f6216ef398aa07104dfbf19f8436d2ea1bf4cc0",
+   "original_sha256": "7e33b1f8675476aa7bd86a7c8e044783ad3d623857a4fe9cb7392f38df71719e",
+   "normalized_original_sha256": "4eb1af0f2ce40163a17840bb208b7ebf9b774942c43b296954566e998da404e8",
+   "patched_sha256": "b77fabc8a54118692c50c72605f59800d2d8440d9e94c9f0ea074372e6544cba",
+   "start_offset_lf": 328,
+   "anchor_sha256": "81d17c68b2d41ba215c39d0e2700f44f63600cf7a8537c58d9d9baf7f77188ce",
+   "patch_sha256": "4fd77ecea74ce2c2615fa1b3dc05fa387e1e8077ac2666d562365e2218e311f6"
+  }
+ }
+}

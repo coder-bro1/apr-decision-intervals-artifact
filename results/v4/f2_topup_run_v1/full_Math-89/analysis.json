@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_34eb9036c6bfad4bd4b4c2d4bd15a9c32260bcba969ae3343eca9c2d29ce1fd4",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

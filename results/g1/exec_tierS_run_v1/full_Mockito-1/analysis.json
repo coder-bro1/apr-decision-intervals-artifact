@@ -1,0 +1,125 @@
+{
+  "admissible_triggers": [
+    "org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_args_count_does_NOT_match",
+    "org.mockito.internal.util.reflection.FieldInitializerTest::can_instantiate_class_with_parameterized_constructor",
+    "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_report_failure_if_constructor_throws_exception",
+    "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_fail_if_an_argument_instance_type_do_not_match_wanted_type",
+    "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_with_vararg_constructor",
+    "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_if_resolver_provide_matching_types",
+    "org.mockitousage.basicapi.ResetTest::shouldRemoveAllStubbing",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithAnyObject",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs",
+    "org.mockitousage.bugs.VarargsErrorWhenCallingRealMethodTest::shouldNotThrowAnyException"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_496f540a03778d235563cf065f0676e43fa1808574e03796f7d11f482da2075e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_fail_if_an_argument_instance_type_do_not_match_wanted_type",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_with_vararg_constructor",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_if_resolver_provide_matching_types",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs"
+      ]
+    },
+    {
+      "candidate_id": "obscand_500be6e5b46a325fdcc418645a99f2680db3cf381404f7c3c4ed3b973c4d6f43",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_545d98f1d63b88e27dea9e94f998225cbf80c6439cbf608e13232338eee409c2",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs",
+        "org.mockitousage.bugs.VarargsErrorWhenCallingRealMethodTest::shouldNotThrowAnyException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_aeb94a43205c24714eb3e3e0d83f03a6123852e55561684b4dc01cf711f77660",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_args_count_does_NOT_match",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs",
+        "org.mockitousage.bugs.VarargsErrorWhenCallingRealMethodTest::shouldNotThrowAnyException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b49652bf1c588d65eaf45c26ca93cd79c01cac406923f13320649501785e8865",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_args_count_does_NOT_match",
+        "org.mockito.internal.util.reflection.FieldInitializerTest::can_instantiate_class_with_parameterized_constructor",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_report_failure_if_constructor_throws_exception",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_fail_if_an_argument_instance_type_do_not_match_wanted_type",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_with_vararg_constructor",
+        "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_if_resolver_provide_matching_types",
+        "org.mockitousage.basicapi.ResetTest::shouldRemoveAllStubbing",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithAnyObject",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs",
+        "org.mockitousage.bugs.VarargsErrorWhenCallingRealMethodTest::shouldNotThrowAnyException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f3da80c87338c39ef515a4a53c0320c725d10f1ab3e158a55ce44511dac0e025",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyStringVarargs",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyObjectVarargs"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

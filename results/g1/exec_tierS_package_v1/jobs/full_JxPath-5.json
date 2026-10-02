@@ -1,0 +1,19 @@
+{
+  "bug_id": "JxPath-5",
+  "cases": [
+    {
+      "candidate_id": "obscand_23108df5405ad4142350bc5d1b777cee7b5f7c14a303057dd369c8da3631202f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_8d83c97ba33ca55ebeb00e1649b5903aeed37fa82809fb5a8557c77081ba51b1",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b1621908ba5982eeb38fbb46f9e6162b7add8e191a490819f05e90950f87dfb3",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JxPath-5",
+  "phase": "full"
+}

@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.ZipFileTest::testExcessDataInZip64ExtraField"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1812c03a420f49c4ff5a8b17bf02fb2749d7fe2e0d2bd3edbc97a18854ffa9cb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipFileTest::testExcessDataInZip64ExtraField"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7c16afb6195989c2f1fbcf9892ea31bdf5bbad5edfcfb3e2a839ce1474c5b759",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b13bc12336aff8553d9065b86a4c7d40405ccfd1d51364599d6a634f14ed9017",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipFileTest::testExcessDataInZip64ExtraField"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

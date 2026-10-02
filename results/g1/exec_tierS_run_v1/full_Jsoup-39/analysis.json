@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2714f9200ba0133c94f066bc10eb69207feb1ee807d11ad0f8c2678de92f4fab",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+      ]
+    },
+    {
+      "candidate_id": "obscand_54a7680b9d1cac57be946b6f14b16367a8aee219178d8cf7f28f26042bed76fb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6f641a2821edcdbe6f32656d1c4a6071e0db94fd6bd233ee7bd6420eebaf8966",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+      ]
+    },
+    {
+      "candidate_id": "obscand_88b319302b4818d89a696f1a04c128b43de02c8fb65e3990d190755fd1443f21",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,27 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull1",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull4",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull5",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash1",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash4",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash5"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_19f71541f532689ec71c0bb92e55c8e4ac5466e8238476b388f37d1243b58bcd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_dfb5f49e407f388f1b4a08c7242dacaf4d98e0b93781e872e05230c5df96e5b3",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.functional.CollectionTest::testIssue1107"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e085b5b554fc4c3c424dce9237e88fd0c199cfdc96c228f0e31cfc0998539198",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

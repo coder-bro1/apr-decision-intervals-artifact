@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+    "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+    "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_86b28e2c985585321ab60ee1b52841f119348a6e2b7bdf72d63fc54477d58c1a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+      ]
+    },
+    {
+      "candidate_id": "obscand_fd832148a97e16e7b02e6a73368f441359067d90966d32891eb98ca88b98feac",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+        "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

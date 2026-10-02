@@ -1,0 +1,31 @@
+{
+  "bug_id": "Codec-6",
+  "cases": [
+    {
+      "candidate_id": "obscand_82c88fb5e28a801d2f66c0a6ff0dd8fa8f758488f97e211908b24f2168321ab6",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_8ac6cb3322efb5d1ed998edfcc21b1e57e880bcb1c355f5220bf5e3b0341f180",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_957a322e61352732f393e17996f67eeab95f2511cbec8108a1ecbd75c6825057",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c8061517faa2835526defbf3461ef9b782257f84254fbcbec2a8f36938656b4e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e93619ad1d7e1c1ebd33e252ad37d45e8203e45bcc4ef222599d36631d401ac2",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ef8579652f385264cb83f4dcf50cf9575c8dfbd6c63853dd8e48204a4ebf64bd",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Codec-6",
+  "phase": "full"
+}

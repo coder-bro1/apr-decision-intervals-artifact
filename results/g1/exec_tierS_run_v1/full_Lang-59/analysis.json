@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.text.StrBuilderAppendInsertTest::testLang299"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4ef73189428f2d111eea32901a95ddbd117eed3d55047a7c36d21f1fd9e6a188",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5a221fff36ef2fdbcfe899b6e857cec9b7618b47ebb497c8c3a4a5bf3d82b4be",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.text.StrBuilderAppendInsertTest::testLang299"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8487dcd79e302dfe0d2b52d0830d1c79f0910c54533dddfb4f80733dbc23c2d7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_896b3a882b097fc1770f91390099213285ad3714f1b42b318907ef9b0098ba1f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e5470ff1c4a32d568eceaddf6d31a6d1e8c6234df3a6435d6381beb9173517d6",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

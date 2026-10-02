@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsets"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_038ad4b29e60c39f2fb2d917ff1b3404f37fdf785fedcad71c4e0d1ccb5a5f6c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsets"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetOperations"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_accda6ce24c092235eff3c9043031b3ac7159f2b278190bbc4ea26f9139dfec4",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

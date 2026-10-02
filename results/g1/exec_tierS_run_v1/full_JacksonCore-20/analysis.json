@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.base64.Base64GenerationTest::testBinaryAsEmbeddedObject",
+    "com.fasterxml.jackson.core.main.TestGeneratorMisc::testAsEmbedded"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_29af5b611e12a8efb6ec67cb5e479264af617947ee9a584c7064c9a9d4b7b121",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_490d131ab76062c1c83c679edae217f9ea1e196de9123a28b1b9f12e7905d21e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_fe553d0995570a86427f0a6e749d56347f97661ff5fdaedd7bdbb7143e522678",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

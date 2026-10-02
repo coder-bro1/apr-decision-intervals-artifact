@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testChainedRemoveAttributes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1f9d96166f97c1ec4daccb88ed432d28cb1d3e92e20aa17806e81bf71598d139",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_867890fe0923fbf1fae73eb821393b2995e56a2652325e481ec018c5dbd24d67",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_898e5fce4dcc5e09c4c23a15660e4cc04220758ee83dd97041134d1809654e5d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

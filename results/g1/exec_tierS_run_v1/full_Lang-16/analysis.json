@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3617ad241e901a72cd1fc91f9ee619f9b78e815e7cbcdf754acc38481b1308fe",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8380bc3f403e35ead85e2fabdeebf7ca69bbb06fe5ac8cc308e382a615ce7cb0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8778f1445d698e2541fad3b52ee1a81046e4663b0a8ae7a95332cb0a54a36621",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ea65e69ceec4815e91666eabd17a723c1259c23473806d4deff93ebdf095670d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ff6677c29a9201cc48db0b4ab2c413098a9f2d569e6b4cb0a3a979d733b5dd3d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

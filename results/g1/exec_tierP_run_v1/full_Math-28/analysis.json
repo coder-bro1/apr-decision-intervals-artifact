@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_223321d383d626ae4026fb85bd6f0de60e3efd0d5e19d49cdab5e7be0d4985c1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle"
+      ]
+    },
+    {
+      "candidate_id": "obscand_956023a72b644ab9b1b6a63609d53a9368d754e24fd7d1e722cd3b810c7a732f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

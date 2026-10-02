@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::appendMustCorrectlyMoveChildrenInsideOneParentElement"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_087030a96d566ece0fa6ccb01158322a8c09c1a17e6603b185f40c626145c112",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.ElementTest::appendMustCorrectlyMoveChildrenInsideOneParentElement"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d39828e59ebfd19d2ab4156b3805c8bc719928392b29e94b80543adadf57173c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.ElementTest::appendMustCorrectlyMoveChildrenInsideOneParentElement"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

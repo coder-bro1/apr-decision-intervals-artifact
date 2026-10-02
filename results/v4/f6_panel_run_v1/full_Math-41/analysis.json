@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ab9ea76596d0515329b9ea661341a160ac9c6199dc4b8b33dbef43dec24cf92c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_cc482f39b51a533c7ef1f29fbf6bd9b8f4b757c398027335d7288ca153bb26a8",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

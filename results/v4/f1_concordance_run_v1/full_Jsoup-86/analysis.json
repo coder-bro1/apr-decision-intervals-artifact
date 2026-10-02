@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e4f8c79860da14739d5f7d41331e2b303ace685e9ec3fc78929657d75e410f01",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

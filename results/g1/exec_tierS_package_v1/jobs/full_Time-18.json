@@ -1,0 +1,11 @@
+{
+  "bug_id": "Time-18",
+  "cases": [
+    {
+      "candidate_id": "obscand_eee5ae544298fef20472a2c775437e175abfede723c82474d045813c96dbc288",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Time-18",
+  "phase": "full"
+}

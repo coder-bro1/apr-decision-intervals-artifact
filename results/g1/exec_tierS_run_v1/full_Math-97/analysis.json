@@ -1,0 +1,46 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_221c1f7de4e744c0b087e0af1c54acc518b26576fa1e9e973be3f480a1fa96d0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bbd820b835d046e3c97af49ff55a213d07f742b62975414d3254b0d169bbdbad",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c92487a3d1f7689ec77402b805b126b5626404fc8d2f7ec34b8408c5d450f158",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e22c2c016172de6d4ab9c90550f5d5fdaa793ba4788fbe9623d55c6477ab396e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f3fb27186a07fea449f93fc2853819ee2166fc685afcdcd08e59790123d531ab",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

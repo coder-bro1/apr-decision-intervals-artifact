@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::winzipBackSlashWorkaround",
+    "org.apache.commons.compress.archivers.zip.ZipFileTest::testWinzipBackSlashWorkaround"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_162e981c21225d152791a62d1969b0e383bccfe6b67dbf9fe3545e3ae6562be1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::winzipBackSlashWorkaround",
+        "org.apache.commons.compress.archivers.zip.ZipFileTest::testWinzipBackSlashWorkaround"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

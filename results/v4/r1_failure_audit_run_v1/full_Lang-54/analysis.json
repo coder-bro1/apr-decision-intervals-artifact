@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testLang328"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a338c18e2c5218a6671364cec0581f3af308cf702bd9aa35c59e4d44b9aaf46e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

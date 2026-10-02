@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3eb9a10cd60b16c8eff9546d38d3dc53888deb5e7c0cf03e9351decae6697d9d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d5959a378c2a3578ff8810f4e7cb0d3cfed9e0e4f140eba2d8007f95794421d0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

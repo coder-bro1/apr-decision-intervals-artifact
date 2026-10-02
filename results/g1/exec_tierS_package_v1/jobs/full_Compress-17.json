@@ -1,0 +1,35 @@
+{
+  "bug_id": "Compress-17",
+  "cases": [
+    {
+      "candidate_id": "obscand_196587d4a9c62e92deda5e3aa9f70e68ac6b48f2603216bbb56989edd4c65a63",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2158317edc2f86b3053fd3d9762cb570222d9e6d483efb217cedd4166c18d969",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_454e0421114e549d72cad72331e6a2b8a34d2e28744f8a36191a183526d52647",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_6d11322d421860b4775f0e89a6e3353f912d4a45b3c503eba3720b680f4a2568",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_7f009bf286abe2839a0e94ad450553de76abd418c82670ebbab253e81e842c07",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_bb848b3487addd0a0fb6fc2f34c7190617ab72baba7fa5033acca67695bc8114",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f9b2f46bc6ace6c38525d3527b4d67d820d74035824d0c0d712154685087ccb0",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Compress-17",
+  "phase": "full"
+}

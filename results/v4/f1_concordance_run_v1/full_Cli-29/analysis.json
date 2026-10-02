@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4defa8e37121bdb729e94d2ed287e599c99b3b5305cc149afa62c93813dcb17d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d7dd8c6f367ba5939d5acdc6357720ca537b557a8ee6a9eaa1bd877f7588ecf7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

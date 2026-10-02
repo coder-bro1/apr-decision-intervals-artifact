@@ -1,0 +1,13 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": false,
+  "findings": [
+    {
+      "candidate_id": "obscand_dd0def8983597aeeeb0d2ef6d74f5c27f8b1cf2cb627cd118ce2180a7ff89723",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false
+}

@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6156dd99a17f2dc95665250abb2be6cf8470df24c733c9b789368be299ee29ce",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7316d53d3d61a64aa6faad04f0208480c7f61af8b48383a4c2909b898d2d92b1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c3cce8826acdb806ca6dae1d9e2c748344418aa1f94587d3ef2fef83a71d36b9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

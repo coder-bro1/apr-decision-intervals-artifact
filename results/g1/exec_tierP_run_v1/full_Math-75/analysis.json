@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.FrequencyTest::testPcts"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_265d8dc5566e6fa620bd9fc3cca17714b86aae86b5ef6cb06a3f2b4f8d08e2f5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.FrequencyTest::testPcts"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b6c4a859a63fd929b00e24a2765680bcfbd1c8b1234bb483dd1d9bb12df29cfd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.FrequencyTest::testPcts"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

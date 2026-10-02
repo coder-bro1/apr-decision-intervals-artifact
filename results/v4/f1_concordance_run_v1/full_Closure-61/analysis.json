@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+    "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5ce28f85d7fd764790235f4590a6af103f9627cb84902f1854a59df25a683b28",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

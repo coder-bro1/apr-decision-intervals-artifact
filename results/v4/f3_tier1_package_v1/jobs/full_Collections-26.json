@@ -1,0 +1,11 @@
+{
+  "bug_id": "Collections-26",
+  "cases": [
+    {
+      "candidate_id": "obscand_e3e10cdc59c5929908416260dbab89294d89a076835c770c11b46644fbfaaaef",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Collections-26",
+  "phase": "full"
+}

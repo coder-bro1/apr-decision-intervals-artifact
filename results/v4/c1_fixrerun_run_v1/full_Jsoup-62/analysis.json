@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::caseSensitiveParseTree"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7aa1777ba3e70312ee792b27aec07ee7eb102be95eac42bc4f34054704ea5f97",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

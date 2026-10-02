@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.ser.DateSerializationTest::testDateDefaultShape"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_66ea013379e507f6560935ba9bd384e4780b1fb608246191301200c16f1630f3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testDateDefaultShape"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6876cdd40b11b4d096cc7f5179a291594559686e332b72fbb88fc87459cdab4d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testDateDefaultShape"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

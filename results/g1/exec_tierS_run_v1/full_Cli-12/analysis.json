@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.GnuParserTest::testShortWithEqual",
+    "org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash",
+    "org.apache.commons.cli.GnuParserTest::testLongWithEqual"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_184b4d8e9e8b5348ba333430f950a4033740cd0c4808abe8680dbc42ad0a0599",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b8144729cd97babf83373003e53929e88749b78388ec43a250f5767d9fa83a8b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,23 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.utils.BitInputStreamTest::littleEndianWithOverflow",
+    "org.apache.commons.compress.utils.BitInputStreamTest::bigEndianWithOverflow"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_44d1e63b7caedd42ae0d9120bb4be9823469b09651e49b9bddb5c7738eadec6a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d2c21079c2d39c55e0da7547b65769d74a08fcec651d40c9e84a54a3071aa274",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

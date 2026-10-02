@@ -1,0 +1,100 @@
+{
+ "protocol": "PROTOCOL_V4_BUG_LEVEL.md",
+ "sha256": "1a274b28923060289fae66d9899dbdb1a2859ce6e6f5cef9e6fedd16579fbd1b",
+ "frozen_at": "2026-09-29T16:31:38.9963166+06:00",
+ "note": "Frozen before any production v4 result; exploratory audit probes disclosed in the protocol.",
+ "addenda": {
+  "ADDENDUM_V4_D1_NATURALNESS.md": {
+   "sha256": "e9de19488529a4d5695d9e72e209888df6427167916dfb9515e22e3c1b7e2dfc",
+   "frozen_at": "2026-09-29T17:46:28+06:00",
+   "note": "frozen before any naturalness/entropy-delta score was computed"
+  },
+  "ADDENDUM_V4_E2_PREVARANK.md": {
+   "sha256": "85059e7d366ff0805c0dc20485c3dcc0899ceda86b7858c852e0f154095c93a1",
+   "frozen_at": "2026-09-29T18:21:50+06:00",
+   "note": "frozen before any permutation run; reference runs canonical_v4/stable_hash_v1 pre-exist"
+  },
+  "ADDENDUM_V4_F2_CENSUS_TOPUP.md": {
+   "sha256": "fa1586b6983d9a61916d86756f45fbac579cda6097aed45290328e5f67ad814e",
+   "frozen_at": "2026-09-29T18:21:50+06:00",
+   "note": "frozen before any top-up execution; selection previewed without naturalness/entropy-delta"
+  },
+  "ADDENDUM_V4_F3_DIFFTEST.md": {
+   "sha256": "6796f0d2b9541f838cf99bcf8d53b199ee6a9f83bb84192e0ecafd5f259d7d24",
+   "frozen_at": "2026-09-29T18:21:50+06:00",
+   "note": "frozen before any test generation; target counts previewed"
+  },
+  "PROTOCOL_G1_FRESH_CAMPAIGN.md": {
+   "sha256": "4f20ca2eff5968bcc147e69a1f2c81f3210c392f45a99f040eac6f659d906928",
+   "frozen_at": "2026-09-29T18:24:04+06:00",
+   "note": "frozen before any G1 candidate was generated"
+  },
+  "ADDENDUM_V4_D2_DECISION_POINT_2.md": {
+   "sha256": "a1a48a20a5c5aa144e4938dbf35f1ffcce6af5ec41eef7b8fbc71756c38dec89",
+   "frozen_at": "2026-09-29T18:27:58+06:00",
+   "note": "frozen before any D2 comparison; B6 plausible-only rows for challenger-mra/best_config/occurrence/testability/codet5 pre-exist"
+  },
+  "ADDENDUM_V4_G2_D4C_FROZEN.md": {
+   "sha256": "1759c069a6ce71d344351a51bba90e4d60fc13270841acc7761d703c58d92d7a",
+   "frozen_at": "2026-10-01T01:25:31+06:00",
+   "note": "frozen before the G2 script read any D4C outcome; D4C aggregates were inspected in Sept, so not confirmatory"
+  },
+  "ADDENDUM_V4_E3_HUMANEVAL.md": {
+   "sha256": "e75fad65e5f1a7816b867d60900edf65959307773b81d279774d49fcbe0d3344",
+   "frozen_at": "2026-10-01T02:02:21+06:00",
+   "note": "frozen before any E3 equivalence or execution outcome; HumanEval-Java archived labels were inspected earlier, so a re-analysis, not confirmation"
+  },
+  "ADDENDUM_V4_C1_EQUIVALENCE.md": {
+   "sha256": "8b66748346959530116ab4e030fba869c8bff47d9445e95c9dbb89d71b225c6c",
+   "frozen_at": "2026-10-01T03:09:05+06:00",
+   "note": "frozen before the C1 equivalence analysis ran on Defects4J; the B1/B4 grid (alpha identity, challenger vs MRA, E0/E1) had been run on 2026-09-29"
+  },
+  "ADDENDUM_V4_C1_FIXRERUN.md": {
+   "sha256": "e5bf0218dbae89fd351973abed3544fe965a84811c74198aff9268ddc065b1e4",
+   "frozen_at": "2026-10-01T03:36:34+06:00",
+   "note": "frozen before any re-execution; the C1 post-hoc override result had been seen (that is why this re-run exists)"
+  },
+  "ADDENDUM_V4_G1_F3.md": {
+   "sha256": "d2f4c17b1a0f5d1824ecb3f6675036cf85d5d075b879b4fc11c4297d460f1c8a",
+   "frozen_at": "2026-10-01T03:57:03+06:00",
+   "note": "frozen before any G1 generated test; designed after G-E1 P1 was known to be open (secondary evidence step, not confirmation)"
+  }
+ },
+ "selections": {
+  "results/v4/f2_topup/f2_candidates.json": {
+   "sha256": "63c01d43f63be06b14aaf5cd72c15216db0c6d70dd68fe0509df66fcf1d7af92",
+   "frozen_at": "2026-09-30T02:11:00+06:00",
+   "note": "final F2 selection incl. naturalness/entropy_delta; before any F2 execution"
+  },
+  "results/v4/f3_targets/tier1_candidates.json": {
+   "sha256": "ea230b8f9bb3029dc1b216998c21f22dc71db9c72f143b6c872a9c1f38b0263e",
+   "frozen_at": "2026-09-30T02:18:11+06:00",
+   "note": "final F3 selection incl. naturalness/entropy_delta; before any production F3 run (smoke run on Lang-24 excluded from counting)"
+  },
+  "results/v4/f3_targets/tier2_candidates.json": {
+   "sha256": "844c9895472434c86db1d516cd024a5765f21c67312131a630b1db52fbc704b4",
+   "frozen_at": "2026-09-30T02:18:11+06:00",
+   "note": "final F3 selection incl. naturalness/entropy_delta; before any production F3 run (smoke run on Lang-24 excluded from counting)"
+  },
+  "results/v4/humaneval/e3_targets.jsonl": {
+   "sha256": "b41120695373682f43e5192b7a2f8a24222ff028ad9cab7685c9f474be870706",
+   "frozen_at": "2026-10-01T02:02:21+06:00",
+   "note": "Tier A: 337 decision-relevant unknowns (challenger vs native), rebuilt by e3_scope.py; reconciles to 45.40 pp; before any E3 execution"
+  },
+  "results/v4/humaneval/e3_tierB.jsonl": {
+   "sha256": "6415d0042d57a68a54424a8a074e386f11805aee0d7f3de9807932138faa8fdc",
+   "frozen_at": "2026-10-01T02:02:21+06:00",
+   "note": "Tier B: 1,893 other non-filtered archived unknowns relevant to any challenger comparison; before any E3 execution"
+  },
+  "results/v4/c1_fixrerun/candidates.json": {
+   "sha256": "8041a3dd0699260118c72bba870e58deb4dae00d1042804da63631f82c9b0244",
+   "frozen_at": "2026-10-01T03:36:34+06:00",
+   "note": "80 archived failures in 40 fix-equivalent classes, 38 bugs; before any re-execution"
+  },
+  "results/g1/f3_targets/candidates.json": {
+   "sha256": "5228635db2259ca07b611b6c33eaa0ed32995d65780041bd0c386498ad83ca50",
+   "frozen_at": "2026-10-01T03:57:03+06:00",
+   "note": "25 test-passing representatives of the 43 P1-relevant unknown classes under G-E1, 17 bugs"
+  }
+ }
+}

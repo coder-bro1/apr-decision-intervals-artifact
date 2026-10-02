@@ -1,0 +1,48 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_12fc933c48f5fbe8bc4c9ae65a695e46ec637b6ec6da678b6371d3cc13e3e919",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6ccf9b33483691b3b5b9d69d590936e0d98c74120e09c0fb4b4dbe49d2bd6ff7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+      ]
+    },
+    {
+      "candidate_id": "obscand_84daf95cf5093dd355cbb90d93a32f2117feb89a9b484d2068ef00a5f21c5904",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+      ]
+    },
+    {
+      "candidate_id": "obscand_892533608332b361b523e75489cde575884b546dc5ec1d4592dfa4a0e6692e58",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f54c45d67bdcf4e6f47487186fa4cf50a1365b3ca9a89edacae7fb516c272cc4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

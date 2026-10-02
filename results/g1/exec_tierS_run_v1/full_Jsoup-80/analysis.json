@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.XmlTreeBuilderTest::handlesDodgyXmlDecl"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_24ae13af04b5554e028abba9fe38350dcfc72708ac061e7532467f84ffa3e0fc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.XmlTreeBuilderTest::handlesDodgyXmlDecl"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ffd567c394d3d967a42a3f786d63c9188cb1fe08483ce3f8914afad75ecb4038",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

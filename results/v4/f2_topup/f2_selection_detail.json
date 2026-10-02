@@ -1,0 +1,1816 @@
+{
+ "per_comparison": {
+  "mra": {
+   "relevant_unknown_classes": 111,
+   "selected": 22
+  },
+  "best_config_top1": {
+   "relevant_unknown_classes": 17,
+   "selected": 5
+  },
+  "first_global": {
+   "relevant_unknown_classes": 31,
+   "selected": 7
+  },
+  "borda": {
+   "relevant_unknown_classes": 23,
+   "selected": 6
+  },
+  "rrf": {
+   "relevant_unknown_classes": 23,
+   "selected": 6
+  },
+  "mean_norm_position": {
+   "relevant_unknown_classes": 34,
+   "selected": 6
+  },
+  "occurrence": {
+   "relevant_unknown_classes": 25,
+   "selected": 8
+  },
+  "mra_then_occurrence": {
+   "relevant_unknown_classes": 23,
+   "selected": 6
+  },
+  "testability": {
+   "relevant_unknown_classes": 7,
+   "selected": 3
+  },
+  "one_stage": {
+   "relevant_unknown_classes": 11,
+   "selected": 3
+  },
+  "source_agnostic": {
+   "relevant_unknown_classes": 22,
+   "selected": 7
+  },
+  "token_similarity": {
+   "relevant_unknown_classes": 148,
+   "selected": 26
+  },
+  "codet5_similarity": {
+   "relevant_unknown_classes": 61,
+   "selected": 7
+  },
+  "naturalness": {
+   "relevant_unknown_classes": 33,
+   "selected": 9
+  },
+  "entropy_delta": {
+   "relevant_unknown_classes": 32,
+   "selected": 10
+  },
+  "uniform": {
+   "relevant_unknown_classes": 929,
+   "selected": 179
+  }
+ },
+ "exclusion_counts": {
+  "already_in_census": 204,
+  "all_test_pass(F3/F4)": 1016
+ },
+ "selected": [
+  {
+   "candidate_id": "obscand_0082799631afd20b6696aa24b575ff4a9b9edb2f12631a158e5ed1face139627",
+   "compile_only": false,
+   "bug": "Codec-7",
+   "class_size": 5,
+   "comparisons": [
+    "mra",
+    "best_config_top1",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_020108cebad52199033e70cadc3b68cfe72a8ed5e0ae188e3c68ed77d8bbd27f",
+   "compile_only": false,
+   "bug": "Chart-4",
+   "class_size": 7,
+   "comparisons": [
+    "mra",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_02879cb87492fd99838d047243e58b830640f15ec8d8add8cdbff95e835d21df",
+   "compile_only": false,
+   "bug": "Math-85",
+   "class_size": 14,
+   "comparisons": [
+    "mra",
+    "best_config_top1",
+    "first_global",
+    "mean_norm_position",
+    "source_agnostic",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0585a9618d30194ba85b76206d6f811a3680f9e54bb46435c521022dbfe435c0",
+   "compile_only": false,
+   "bug": "Math-57",
+   "class_size": 13,
+   "comparisons": [
+    "mra",
+    "testability",
+    "one_stage",
+    "source_agnostic",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_062004df2e6c7a175fcab11a2fa18b52ee650e510d8e9a42a5dd7bd81d5d351b",
+   "compile_only": false,
+   "bug": "Csv-9",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_072c4b7f497f6b656134edc7fcf4dacba6dbad6dda03b57da2cc690e13b3a673",
+   "compile_only": false,
+   "bug": "Compress-27",
+   "class_size": 10,
+   "comparisons": [
+    "mra",
+    "testability",
+    "one_stage",
+    "source_agnostic",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_07b8225a1b97f814ef51a79a16034eb540b5f54e142ecd2e80b3237139c48fd1",
+   "compile_only": false,
+   "bug": "Lang-24",
+   "class_size": 11,
+   "comparisons": [
+    "mra",
+    "best_config_top1",
+    "first_global",
+    "mean_norm_position",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_09f816fc30fbec8a88d1858bafa95869b0070ae5c678dbf4aa96376832ca36e4",
+   "compile_only": false,
+   "bug": "Closure-33",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0cc82eacf1988d357c671e6d0df14f93e0a62cdb8a5bc412a38d7ca673cce2b0",
+   "compile_only": false,
+   "bug": "Closure-39",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0cd1bb0ff85f7dc69e0e2277c17a84a92782b771eeb20e93e76e241b918a2e84",
+   "compile_only": false,
+   "bug": "JacksonDatabind-57",
+   "class_size": 14,
+   "comparisons": [
+    "mra",
+    "borda",
+    "rrf",
+    "occurrence",
+    "mra_then_occurrence",
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0cdf9272a9e737a72ba8b6d5ebf95958ac762c269ed4eef980686aaa69c2ec9c",
+   "compile_only": false,
+   "bug": "Cli-5",
+   "class_size": 10,
+   "comparisons": [
+    "mra",
+    "best_config_top1",
+    "first_global",
+    "mean_norm_position",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0e0999c6e4fc8c31cc41c079d25f8e009a7f147970cba3c7485351d3e2695b92",
+   "compile_only": false,
+   "bug": "JacksonDatabind-54",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0e9ecc3ab25bba1ff10028d3977d3f29239764875e95c5c5d9880b77314d70dd",
+   "compile_only": false,
+   "bug": "Jsoup-90",
+   "class_size": 4,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0f1fc98f67d2e18d035b44da7745a991dad388846b52c4d88349dee3b81b4dfb",
+   "compile_only": false,
+   "bug": "Compress-14",
+   "class_size": 4,
+   "comparisons": [
+    "mra",
+    "testability",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0f2175e129562c7a456afef9595d76a8d296a8148f4c097138eef35262192eb5",
+   "compile_only": false,
+   "bug": "Closure-78",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_0ff3969b68a5eeadfff4a5fb69cd13c7fbf37a98de1b2ffeedbb3ae9d6e74b6f",
+   "compile_only": false,
+   "bug": "Compress-35",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1003e9ba0af2016da475ad664d5f5aed3b1d356a6ec0f03a10b0cfe5a8eb71df",
+   "compile_only": false,
+   "bug": "Compress-30",
+   "class_size": 5,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_105c940a29f6d432dc95d43abcea972a18a097ca613494305a0dc0a179519494",
+   "compile_only": false,
+   "bug": "Compress-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_12e183a8d4a4d2f0208f1da7ad7f7cfa0103744055eef7741508112084fb697a",
+   "compile_only": false,
+   "bug": "Lang-39",
+   "class_size": 8,
+   "comparisons": [
+    "mra",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1490c98fecf6d8f92105250675f21ccb52a5b147503d73689e7eaba8336fd799",
+   "compile_only": false,
+   "bug": "Compress-23",
+   "class_size": 4,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_157cedb85ea795d4063b5bc7e910226c3deaa6417f4a6e9099d55977b00ec9dd",
+   "compile_only": false,
+   "bug": "Math-82",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_16757ad9dc03f29cf40b0244372d50c4e789c191876e34bfea9c9e507b46ce35",
+   "compile_only": false,
+   "bug": "Jsoup-62",
+   "class_size": 6,
+   "comparisons": [
+    "mra",
+    "first_global",
+    "borda",
+    "rrf",
+    "mean_norm_position",
+    "occurrence",
+    "mra_then_occurrence",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_18d4f177cfb7911050d0102da0675c82b4c8c4d432bb214703f8c4183a28c953",
+   "compile_only": false,
+   "bug": "Math-57",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_19cc559b3e8a698ad216a53e68f77fdfd0c8620fe29a99d9db8c316aafbd644a",
+   "compile_only": false,
+   "bug": "Math-79",
+   "class_size": 5,
+   "comparisons": [
+    "mra",
+    "best_config_top1",
+    "first_global",
+    "borda",
+    "rrf",
+    "mean_norm_position",
+    "occurrence",
+    "mra_then_occurrence",
+    "source_agnostic",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_19f8a50b95ffee4cf1c9e1f8ea532c80e8d94b09940f56140c4b3bedc5c64a36",
+   "compile_only": false,
+   "bug": "Math-5",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1a32c5096bf59f39934c2a046b13c65e7b494cbca8d8897326833b8fca52c6b5",
+   "compile_only": false,
+   "bug": "Cli-24",
+   "class_size": 7,
+   "comparisons": [
+    "mra",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1c2c08fcf7d3938a0f7fb1c7d22f546e1e9f33d2bdb67f8786b93fe21edd58cb",
+   "compile_only": false,
+   "bug": "Cli-19",
+   "class_size": 4,
+   "comparisons": [
+    "mra",
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1f065921439c8ab0c7ba97e0dbe819462431e106ccd65135c7657009af745d02",
+   "compile_only": false,
+   "bug": "Closure-166",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1f1416565b0c06af4867cff3c727f8abdb8fe63eaf65d20c9b3ed3c0832a26ba",
+   "compile_only": false,
+   "bug": "Math-7",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1f252d3ea0bfa82d4b97d2b539cfc03f619203e139e8a88d42e04a5779afd1e1",
+   "compile_only": false,
+   "bug": "Lang-33",
+   "class_size": 2,
+   "comparisons": [
+    "token_similarity",
+    "naturalness",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_1f7fd6ec10bf7e07898d5aa86e7b667fe748229ea11e9e7bbe2d7fd1a9cd8ec0",
+   "compile_only": false,
+   "bug": "Compress-23",
+   "class_size": 3,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2066da0f9f86e32302a4ea91897a67fdf634984519f0ed8238f126c9e2c0c1f0",
+   "compile_only": false,
+   "bug": "Chart-12",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_21c9b3a6e46d11c7751de4f1c37e61558fd40d9e556142b5b543de34e799f432",
+   "compile_only": false,
+   "bug": "Math-44",
+   "class_size": 1,
+   "comparisons": [
+    "occurrence",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2243541897528d485efa4ef10d6b9d343a93b6d39c98a7b6b035365a61402204",
+   "compile_only": false,
+   "bug": "Closure-124",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_22bd9a6ba08867ffe0f412b2d46de22c04f7119b4f338ddf7c5305c1787f8c26",
+   "compile_only": false,
+   "bug": "Lang-61",
+   "class_size": 8,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_25d3494f947580331dff55779591408fa0030a6c69b385c317a12b9ac2d81a93",
+   "compile_only": false,
+   "bug": "JacksonDatabind-44",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2669e2daa84698b461141794b537f9f3a1fcecd14aabfae5b3a99b7871c0d994",
+   "compile_only": false,
+   "bug": "Math-94",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_26a685a57aa8808a0d865bbe3d214408831d79e62a4c2957e8ac97209fb272e8",
+   "compile_only": false,
+   "bug": "Chart-9",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2838a5f69ba52298224d0632f1a9bd2615d3a4bdca2911f37e863b22c2c53c88",
+   "compile_only": false,
+   "bug": "Lang-45",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_28ba9f3b54faa4e2b66b3e2f4feb7c53866af9a2fc0401c5bd92f0e1d5bdd81d",
+   "compile_only": false,
+   "bug": "Closure-172",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_296ce589792bc19470414876274367c38482fbf1d3356f65dab35c89c9f7b636",
+   "compile_only": false,
+   "bug": "Closure-11",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2c514ad768b30a348cef51a41c83a08f9a7e01bebd1f7de4b76c171898e9ec11",
+   "compile_only": false,
+   "bug": "Chart-6",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2d2f29e5fdecf21f184669aa974e01e3d75ae7a055f1402cc3131d8281fa00a7",
+   "compile_only": false,
+   "bug": "Time-4",
+   "class_size": 4,
+   "comparisons": [
+    "mra",
+    "source_agnostic",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2d2ff535da897e0459f652320b3c8eee54df8d994878a71c617ed919ef2fbed0",
+   "compile_only": false,
+   "bug": "Jsoup-90",
+   "class_size": 3,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_2e27c83a519db910ccba2b5a970d61531b059fe666e3acf1824d9310c3c353f4",
+   "compile_only": false,
+   "bug": "Math-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_31255ba00e687164dfaf8e74c4792df71c507fb046e21fe6e3b96c2ad07e56fc",
+   "compile_only": false,
+   "bug": "Math-63",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_312a5d0553c7e60ede539e2aa3580d6a2b1837874bcf49ef9bbffd9fc55114bb",
+   "compile_only": false,
+   "bug": "Jsoup-72",
+   "class_size": 3,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3440e7aead284eb10e0aaf471bea1a1819323f3672b7a58768c4f9540284b739",
+   "compile_only": false,
+   "bug": "Compress-46",
+   "class_size": 4,
+   "comparisons": [
+    "mra",
+    "first_global",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_34eb9036c6bfad4bd4b4c2d4bd15a9c32260bcba969ae3343eca9c2d29ce1fd4",
+   "compile_only": false,
+   "bug": "Math-89",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_35a2a443355e340822e4acc9c8eddab3f7007dba15f97a54717f67f9d4a97691",
+   "compile_only": false,
+   "bug": "Jsoup-89",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_35fd993a97054c2182f21f76afa8ced881a5bf150c3f24b03580c7e598d6ce6b",
+   "compile_only": false,
+   "bug": "Chart-24",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_381cad51c5f0fc800eccc190782477684b9899ae2f8d2cc42d7e1e4d7af9ce8d",
+   "compile_only": false,
+   "bug": "Cli-19",
+   "class_size": 4,
+   "comparisons": [
+    "mra",
+    "one_stage",
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3906a35bd36547c968de354a8e991194280e6d147b2bd739cf409ffc36a32bfb",
+   "compile_only": false,
+   "bug": "Lang-27",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3a78800c32a8d14c6745768afd22ab8d1de61f984bccfbdd0f3cf4c78b39067b",
+   "compile_only": false,
+   "bug": "Math-72",
+   "class_size": 10,
+   "comparisons": [
+    "mra",
+    "borda",
+    "rrf",
+    "occurrence",
+    "mra_then_occurrence",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3b03f7b84802a9aea2b69230bea5e5f1727fe55afc4223eb0e3337e2691fd1b6",
+   "compile_only": false,
+   "bug": "Compress-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3f0d307ac23a59f4b10d2c22537d55c040977e9b08dde46d7fec5d80ee296052",
+   "compile_only": false,
+   "bug": "Lang-38",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3f62a6303d9fa5075f5aa051bf2e4db1e2dac7299138dfe0ba6a0f7139ce3011",
+   "compile_only": false,
+   "bug": "Cli-23",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_3fbec96c87ad4be1593ff3a1a1aad46b8a001961083d82bc60ed217d593cbb44",
+   "compile_only": false,
+   "bug": "Math-34",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_40df8c3686f83cb32cd39b9115d47b40f14f46733df4be9bddcc960fabca46e3",
+   "compile_only": false,
+   "bug": "Jsoup-86",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_41fc0578cfd52fd177b0487405dfc72d7855ed2d73b7ca17a9b8b1d042696d92",
+   "compile_only": false,
+   "bug": "Closure-159",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4221f81c5f28f3d39c7c1339b0c8d7b8c4de2a9a4392f34cb03a36e93f177352",
+   "compile_only": false,
+   "bug": "Jsoup-72",
+   "class_size": 5,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_426636d9680498535cfd935e49c9e80607f6ec7b02ddb89e2d0222d1e758a35e",
+   "compile_only": false,
+   "bug": "Math-96",
+   "class_size": 5,
+   "comparisons": [
+    "mra",
+    "mra_then_occurrence",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4314d1167a2b63cbb232797c477b302a3593b60cf4fbd9a0265335aadcceff80",
+   "compile_only": false,
+   "bug": "Math-78",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_43f671a0f952ffad26c765ec3800154d948dc2e113ceac2020579da5b96af93a",
+   "compile_only": false,
+   "bug": "JxPath-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_47dbc7cbd62f273dc04e47385c36d07de188f4e0cd1c9dcba6330be24b4e8ac0",
+   "compile_only": false,
+   "bug": "Math-106",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_488b4f9b9371178929ff23db9abd4a3928ac7b4e0e1e2b949e4832c8b372901e",
+   "compile_only": false,
+   "bug": "Closure-150",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_490a637e99bcc31be7b90b1e9f524ef0a91354fd20c427f512bd0c0bd082bda0",
+   "compile_only": false,
+   "bug": "Chart-20",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4b2c48e3723db581d3fab268a65008e2140173707772966a810285cb9ea9fde2",
+   "compile_only": false,
+   "bug": "Mockito-18",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4ba1f697b04662d4568e5d6bec212417156310470fedc2f60afc79c090f68c29",
+   "compile_only": false,
+   "bug": "Closure-104",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4c3934c83c5afd78110713d887b3e753b7f97c9a095e0b034610a682f12a669a",
+   "compile_only": false,
+   "bug": "Lang-16",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4c9b22c5bf2d6973c43a51427916d53dd64ed0b79480d93e7d988753c878ad32",
+   "compile_only": false,
+   "bug": "Closure-131",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_4ebc4f4ebb6fa9247e83c50b26d020ade89ff7ddee0a024fa33abc3668cfa587",
+   "compile_only": false,
+   "bug": "Closure-131",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_5268424d0a78ff1cd0a80c55ebc7c288255d521c831327ebb1943648c5f63bf1",
+   "compile_only": false,
+   "bug": "Compress-44",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_54666674db0250470d0d7507ceb39009682ec4277afffa8b12243ab8dfaf01bc",
+   "compile_only": false,
+   "bug": "Closure-170",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_573431fab76acd650fd105cc5b85a62f1b959d0cd67b8a3056c262e40a7c8269",
+   "compile_only": false,
+   "bug": "Closure-86",
+   "class_size": 4,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_5ac90980481f2c5bbf1d6d9a366848fb4461c251821d6f4bec1d9e2d7ea93a0a",
+   "compile_only": false,
+   "bug": "Chart-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_5b60bc3b243c2baf0c8ef728ef00548d2d84381e1c2181131beb66b80256f317",
+   "compile_only": false,
+   "bug": "Math-34",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6156dd99a17f2dc95665250abb2be6cf8470df24c733c9b789368be299ee29ce",
+   "compile_only": false,
+   "bug": "Math-91",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6249ce592946672bb484082fbfa998f560135aaedf38d5baca7dd57ee3d56944",
+   "compile_only": false,
+   "bug": "Math-45",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6269fc1463a8c002bf7695b8e75e12f7a0d5ecf5545ed72b1a68093c9f5464de",
+   "compile_only": false,
+   "bug": "Lang-51",
+   "class_size": 3,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_64790dd01ca15e58bb0340232fbf77579ad21349fe68339122edc294d2efaf54",
+   "compile_only": false,
+   "bug": "Math-20",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_64a03e8ae55e3c73c969c0ff7c8d41689dee0a5887bc57c88d460d4c77efd3b3",
+   "compile_only": false,
+   "bug": "Lang-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_658912898aa4f233614edc32480712832e46b352147cbdc67800baae269a88fd",
+   "compile_only": false,
+   "bug": "Compress-13",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_665ad8e69a032c97f9dc48d154332891e0e21afc2b9d39c0f322fbbda06fac2d",
+   "compile_only": false,
+   "bug": "Cli-20",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_68c2a54927ef302947e22443944bdc8321edff811f22f778cc225abcfdf07d2e",
+   "compile_only": false,
+   "bug": "Closure-164",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_693471088d96fbbcf2be15470a47939cf79679987e3804074829010fc5975d50",
+   "compile_only": false,
+   "bug": "Time-18",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6e77c64be19e382eedc00adcee205f8cc6d350f79b7fcb99d20e029f7ed7024d",
+   "compile_only": false,
+   "bug": "Compress-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_6ebc4e8c56a74b198ab8a19d64691e7af53dfde2e72c81ddd79097e35660dbc1",
+   "compile_only": false,
+   "bug": "Lang-44",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7316d53d3d61a64aa6faad04f0208480c7f61af8b48383a4c2909b898d2d92b1",
+   "compile_only": false,
+   "bug": "Math-91",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_75ebc5536078d26a8ab07c716bbb5e2ead150ca88006acd0f9317735efbb10a5",
+   "compile_only": false,
+   "bug": "Closure-19",
+   "class_size": 1,
+   "comparisons": [
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7645ffed266ce63bf73f5be19862ae56035ecd30a5df6509d0cfe41413e5ef4d",
+   "compile_only": false,
+   "bug": "Lang-33",
+   "class_size": 1,
+   "comparisons": [
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_788f33603ca25792e42591c47b5212cc88e31e8e810d43a203c916aff4ef60ea",
+   "compile_only": false,
+   "bug": "Lang-29",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_79329a6e168bbd33f8a3fcf88adbc472a252a359213fa977a0463920bdb9cf3e",
+   "compile_only": false,
+   "bug": "Mockito-24",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_798344541f32434c97a33b2daa7a76625ef2a384f6658537b9adb9fbaab8d993",
+   "compile_only": false,
+   "bug": "Compress-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_79fe53fccc79d5cf0d520329927199b3ae326014b44e98601d46641a4b122747",
+   "compile_only": false,
+   "bug": "Chart-24",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7aff5349fe362ff2875b7b77d38fd4a8033ab97618fc096e6ae905b4a41763ec",
+   "compile_only": false,
+   "bug": "Jsoup-85",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7d67d5313f022c916d234c0e3c2627e8bb065b58c81a9e74d762f3b653bd1dd8",
+   "compile_only": false,
+   "bug": "Closure-42",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7dc6488f3ef23de9ce6013f4a12967b10f2fbbd79a280455f332cc4f34884ed1",
+   "compile_only": false,
+   "bug": "Compress-11",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7deeeaf9a9b7793dce3a0e2d63071ada10f9dad09531d47304297964a26d3234",
+   "compile_only": false,
+   "bug": "Chart-20",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7f0481595f07a60c9f49a94c33a718843543fa966c4f065fc62f61c529aeb701",
+   "compile_only": false,
+   "bug": "Math-87",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_7f26e36b155f5c367749ac2ca3b0dbe5110af35b0ff9caf8729decb2951906d2",
+   "compile_only": false,
+   "bug": "Closure-146",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_86d65d23e3c8aa38b2c56799c7ba59fa1c402179aa7df90025c57079687fbb5c",
+   "compile_only": false,
+   "bug": "Closure-36",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_89387ca153f1e27d306b39436e78083980431cd1ed685553653f6e22ac5dc8a4",
+   "compile_only": false,
+   "bug": "Mockito-22",
+   "class_size": 1,
+   "comparisons": [
+    "naturalness",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_89ecca9b5828964701393c4273b027ae22dbcbb5be859e16a73fbf6f86a759c7",
+   "compile_only": false,
+   "bug": "Math-39",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8a2bf88ee7cab71a61e866d61dee9fe7bf891f103687085b7300065f1621fcd4",
+   "compile_only": false,
+   "bug": "Closure-1",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8a950a06c6e9cb90b44962a8885bd7fe03c3d550fa57a9977f7c99d6d7538115",
+   "compile_only": false,
+   "bug": "Jsoup-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8d30619247de2a644d6624c101dd8ff02a81c8bf5ca126d7c388c30e0fae73c8",
+   "compile_only": false,
+   "bug": "Time-22",
+   "class_size": 1,
+   "comparisons": [
+    "borda",
+    "rrf",
+    "occurrence",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_8fb780df50453f1595960baac934ec658a7181f340c124d3c339281c56417e23",
+   "compile_only": false,
+   "bug": "Compress-44",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_906c0ad945b6a135e9bdecbe5e066b052dc0ad5386c8c4454d7c033d227fc464",
+   "compile_only": false,
+   "bug": "Closure-50",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_92a41cf98f215fec954051aba1964f6bf49482b40bcfa269af36cd0234450f0c",
+   "compile_only": false,
+   "bug": "Compress-24",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_9bd901aecad182d414cbbbadade4fb38207cbe3e96dbc715482beaa75557c055",
+   "compile_only": false,
+   "bug": "Lang-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_9c23c030d54a05b65a405b253cdf418b27045cae59c4197756eb47a2bc5ff371",
+   "compile_only": false,
+   "bug": "Math-45",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_9c705cc6a9555a4a05360fdf101050469784bfce988d76bf7e5c17a0b2a3a393",
+   "compile_only": false,
+   "bug": "Closure-111",
+   "class_size": 1,
+   "comparisons": [
+    "source_agnostic",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_9f3f04e5856b1c4a8f67c16d53b3cd2be87445a63aed3561875337a8af189bec",
+   "compile_only": false,
+   "bug": "Closure-78",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a35239aee00eefc76c088c6fe76490f201d5b4d8fd1820869a740ab881ba9321",
+   "compile_only": false,
+   "bug": "Math-9",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a3de1dc63b2f3f320f4637ba625ced519046e7626a9c3d1797b3f104480cf748",
+   "compile_only": false,
+   "bug": "Math-84",
+   "class_size": 1,
+   "comparisons": [
+    "source_agnostic",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a3f6304a25940d7ddd75e26cce366d234f6c2452a537a9bfe3eeb8b07f00c219",
+   "compile_only": false,
+   "bug": "Math-45",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a741034874a378f78d42f4c8e4278b6a41631dd6ef085685930246a47d222c7d",
+   "compile_only": false,
+   "bug": "JacksonDatabind-37",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_a7d39b0ac8ad092e1eb8f8a66923e47ebdfda56a154652ad3ffd6470e4096f65",
+   "compile_only": false,
+   "bug": "Closure-17",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ab9cbc5c1f1ef9c2e9b7fd9b3cb75b3bfbe788cebdd5bff333f1b5f6910dcc53",
+   "compile_only": false,
+   "bug": "Math-26",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_abfcdff647e1fde347d084c7eb00d6cd7f631290351f478a6ef875efc33efad2",
+   "compile_only": false,
+   "bug": "Chart-17",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ac24fd033aa9770d0f0f40d59e72866a7baf5273128dbe81f02487e784fb163c",
+   "compile_only": false,
+   "bug": "Closure-129",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ac6327892d435d3c592bb11050e6e1634211d9d8224ac9667b08c89638f064af",
+   "compile_only": false,
+   "bug": "Lang-51",
+   "class_size": 2,
+   "comparisons": [
+    "mra",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ad64ca22ca6c83502cb46fd4c80dd93d401939db649c09724cd0ef876ca230c0",
+   "compile_only": false,
+   "bug": "Lang-52",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ae704392f635c638b0724b417e7f62a63dcd6c9b57e174bf1ec01037eca7e1cb",
+   "compile_only": false,
+   "bug": "Math-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b031ac7a4be610a32525c277cd69d8dfc8da67a04d7ad26d7bb80bfba344ff80",
+   "compile_only": false,
+   "bug": "Math-9",
+   "class_size": 1,
+   "comparisons": [
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b2a7de0c652328facd53d165b4462fb9ce44a45162af3dd90ec0d15a43c6716c",
+   "compile_only": false,
+   "bug": "Compress-24",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b37f8ae05ee1988bf1dbc3a1d0c39f378603a97310a5d822bcd1f8a334ef2702",
+   "compile_only": false,
+   "bug": "Compress-45",
+   "class_size": 2,
+   "comparisons": [
+    "mra",
+    "first_global",
+    "borda",
+    "rrf",
+    "mean_norm_position",
+    "occurrence",
+    "mra_then_occurrence",
+    "token_similarity",
+    "codet5_similarity",
+    "naturalness",
+    "entropy_delta",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b4088ddd86aae356e36be0b688d9dae849d3243c998b3259c36f317f88aefa3b",
+   "compile_only": false,
+   "bug": "Math-34",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b47fb3c436e61c5a2044f5d7faccf02d0530c7d746dec677da36ac051a2d8bd7",
+   "compile_only": false,
+   "bug": "Closure-57",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b48b65fc000a44f94779745813f75914dac9cce49f4da13f64e397a7f1075af6",
+   "compile_only": false,
+   "bug": "Math-9",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b5d2b7ae3974b5aa32d628a5e3639d9c705f14dd5023d9db0477c3aa80f93ca6",
+   "compile_only": false,
+   "bug": "Closure-38",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b66caed294c1122a98181d4df9b8d6c1da020f41f327982a01869d65aee162ea",
+   "compile_only": false,
+   "bug": "Time-15",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b74d7fad22ec8c79b2715a0b23c318d67e7172b18c3d37c7931c14c715e76796",
+   "compile_only": false,
+   "bug": "Time-17",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b79ffecbe63b26ab40067d8a2122d43b58d61e6ca4a2bc2c4c27ad3824928f92",
+   "compile_only": false,
+   "bug": "Closure-11",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_b97c7c29a248bd0646692543f0cee5bd793a8478c4f81762152481684a412d7f",
+   "compile_only": false,
+   "bug": "Lang-55",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ba21df11d41a56f04607231897afbde6cfcbf4de79db7748672ed63457d0cdde",
+   "compile_only": false,
+   "bug": "Time-8",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_baf1a29fdfc016ffbd68cbf382868f4545cf3bb6486bbac5516c374d392bbf39",
+   "compile_only": false,
+   "bug": "Math-102",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_bb76cfb8774b0104552ca28ae79d526acf1fc7a8335319f33f51b73c618d0b46",
+   "compile_only": false,
+   "bug": "Closure-124",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_bdb5e9d9fa14292351014f325fbbff00abffa26bb25e1951832ca8c176d967f3",
+   "compile_only": false,
+   "bug": "Closure-133",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c3cce8826acdb806ca6dae1d9e2c748344418aa1f94587d3ef2fef83a71d36b9",
+   "compile_only": false,
+   "bug": "Math-91",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c3f45c09d155afb87b9b460c048ea2b4e4b77de50b0ea120fa79304828125760",
+   "compile_only": false,
+   "bug": "Closure-128",
+   "class_size": 2,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c461c1d5b273f096f31463d10047d829419b54674fa932866ca836a2cca890fd",
+   "compile_only": false,
+   "bug": "Closure-52",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c4c1e5fe12df0f7752fe680a6c81935af29dc433ce39765c711ed0989838a9d3",
+   "compile_only": false,
+   "bug": "Lang-19",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_c5de4ff3c2ba2b1d7f92dc73dd2069dc720f47be552dd1e645047a821115f955",
+   "compile_only": false,
+   "bug": "Closure-97",
+   "class_size": 2,
+   "comparisons": [
+    "mra",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ca0b75994fb66a57f234ad5ef8938af351db7a4347905192401da7c11b6c45f9",
+   "compile_only": false,
+   "bug": "Lang-58",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ca4e61a4c17d5327ca3cb62e8ad22bc6c6a8b07f7f6b517f3aa39f517dfd1e6b",
+   "compile_only": false,
+   "bug": "Lang-29",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cae4a6e9bb90d25d2b9070858fc95dd54a26e67fb2a09c27d89024042b7d5cf3",
+   "compile_only": false,
+   "bug": "Closure-7",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cdbf02d9f9b601b9d1902f6c81b6cad6eb7724327d0d93ef42969fee4a2eb42e",
+   "compile_only": false,
+   "bug": "Chart-12",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_cdd5b3a81df5d9a2ecbfb69c5580a7ff283b5ab899957aa7385ee42a90682d0a",
+   "compile_only": false,
+   "bug": "Chart-20",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_ce52a18d62a938e4ea5ac33ab2e73994efb308ea1927c24dc4f5c16b110e0d0f",
+   "compile_only": false,
+   "bug": "Math-27",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d1bbff5f2bbd8170164994906949b223a589bf3f42c1d545f6c39fdbf4b80f1c",
+   "compile_only": false,
+   "bug": "Math-40",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d4ecc2a4f2b4017ae32f1651cbbc0814b6e2fee724c1a22f873c985dc5379c53",
+   "compile_only": false,
+   "bug": "Compress-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d76ed65853c5ee34751eb6c42b0e8906de5a9028799060dcc46317fde4c3d2f9",
+   "compile_only": false,
+   "bug": "Math-51",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d7b18c4cc047879782be4e1645ced3c2132c840916e9ddbde1e27272347f7757",
+   "compile_only": false,
+   "bug": "Math-34",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_d8102a761ceb1a6a69730a654529da76cc4e28a0d556aaac57c0d9210d951c27",
+   "compile_only": false,
+   "bug": "Math-9",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_daea0ee41482a64d7f2ef354bf69e78a5471fe42ee131704ca8cb8666348f6b8",
+   "compile_only": false,
+   "bug": "Lang-53",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_dd0def8983597aeeeb0d2ef6d74f5c27f8b1cf2cb627cd118ce2180a7ff89723",
+   "compile_only": false,
+   "bug": "Closure-59",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_df17bdff2038dfbf946789223ec3e6f504f372a9171339aa58aa588c9b03ab57",
+   "compile_only": false,
+   "bug": "Math-39",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e1d85fd5f755a369b792de6cef712f4ea8c046fc4d77c0f1cf0c15c228e4f800",
+   "compile_only": false,
+   "bug": "Mockito-38",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e2925eb8fbbbe04c56dbbda85ac312fe087fbc88cb61d3a98aafc9a8e1386b56",
+   "compile_only": false,
+   "bug": "Math-11",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e37d44a6297fb93de711c15879699c042ab2f1dc958c7543d1ea8f282540e447",
+   "compile_only": false,
+   "bug": "Closure-150",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e4764688221ef2a0d2aed0efdd572639da217ff32c5ffdb70741e09ea37e3761",
+   "compile_only": false,
+   "bug": "Closure-116",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e480e5adb10ee16f9fe4cde4e28f907532fb127baeaa9fe4cfacc54cfff9007d",
+   "compile_only": false,
+   "bug": "Time-22",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e7cf5cbc2af3471f25d792290bde912bbebf27770d6337f8a2a989d73d8c5b04",
+   "compile_only": false,
+   "bug": "Chart-12",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "codet5_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e8e2aef7e72342c02943006184a44f1fb94834dc37a5e424b57bb126dae89231",
+   "compile_only": false,
+   "bug": "Lang-61",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_e9cd253caad8790394bbea51d1354bed13dad007dd5cc8ef2790b77a313d3d8e",
+   "compile_only": false,
+   "bug": "Compress-19",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f15b91fc1013c1faaf525732fe78e9ae5b1746ca2161d5d88528dfe32bd558e0",
+   "compile_only": false,
+   "bug": "Compress-12",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f41e234790b61b7636d856db3c0f74bb89bc367838d59dadd61674f0ff1dd4c3",
+   "compile_only": false,
+   "bug": "Math-79",
+   "class_size": 1,
+   "comparisons": [
+    "token_similarity",
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f67a109f5baa61a1153b49eed10be0a93d140e93164d58db18d910dfbf4a858a",
+   "compile_only": false,
+   "bug": "Mockito-7",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f806a0c9c2ff3f5f8c548fa984983205f771ad1604fd980908d0dddec56d3488",
+   "compile_only": false,
+   "bug": "Closure-2",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f8b15390d64dcee2d94330550027a2e2582992b357e287183bd6f21fbb630bae",
+   "compile_only": false,
+   "bug": "Math-21",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f8d89d1c01c75fa6cde160ed69eef6ff0e6592132018fa9e20299098910ebb8e",
+   "compile_only": false,
+   "bug": "Cli-27",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f92fd87b7f484ee7076bb5bad0bcbbd8dc46aa17abfa831806c9f314ddd6ea7e",
+   "compile_only": false,
+   "bug": "Chart-6",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f97e71ce12b93dc2f94a19f87f0d51c4e21c353e8592ba6f4c5115a8e2047de3",
+   "compile_only": false,
+   "bug": "Closure-57",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f9c54d5a3b0927f6b252a9472f77c6ebc1760e02bbab45d68bcf93070c11c7fc",
+   "compile_only": false,
+   "bug": "Mockito-29",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_f9ca8854436aab3c724799981971967ac947cfda55acb27bd5828168ff5c39c5",
+   "compile_only": false,
+   "bug": "Csv-3",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_fb8b8c44af84e5430d83fe5c1b89074b6a0d870a6c4f3fca37aab332dd13f698",
+   "compile_only": false,
+   "bug": "Chart-3",
+   "class_size": 1,
+   "comparisons": [
+    "uniform"
+   ]
+  },
+  {
+   "candidate_id": "obscand_fffa6e50d670b97acfc590e5535b59d73e9e26885a78c1fee6e0b760cb871091",
+   "compile_only": false,
+   "bug": "Math-86",
+   "class_size": 1,
+   "comparisons": [
+    "occurrence",
+    "uniform"
+   ]
+  }
+ ]
+}

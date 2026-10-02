@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_40b8572fa346b0881be067e2c6073dba433742e795a1b2fa69ceeed8889b3442",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9afb8601ecb4839b75267a21e20b4d2e759def6c4d0a63467825d3faa75f9901",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

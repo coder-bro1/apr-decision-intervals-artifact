@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.AttributeTest::validatesKeysNotEmpty"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_03db07af94ac1833937a3dc5a07a42e630ecd301305da6ee8b4e5517e041ac61",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2bdad0d14d25cf672a1063dde1580e3138c77c6d864a3eab47685996a6c6e994",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_acec81f6f557ae8e3157008eefb8256fd52d0535fd12c2eb95854761d45e6b57",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bce26e4f3558a9238ccac62962cd53119bd33a3418c125689f9619eb86f1002e",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testNotPretty"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_94dce30f781971c5a4c7e1c2a2ff6e60d7e52bad84e69ae55d9a90484c1eebdd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

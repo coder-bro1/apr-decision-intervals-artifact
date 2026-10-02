@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_26207848fc6cd683b85f10af22b261b97110489de2dcda8f03595f743c5804fc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4e3450cfa19003a9ed47730c89f107fc47f912c88825fee90da47ed1a3dc16a0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5b4b97f2444cc18afa7e842e25df7da62345aa5690cf8e50e210738652f87780",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5d7e0d2979ee653ffb325cc08afe5ab86393d977de99cc13be53ad81284d1b6d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c92f7e7c55a5b00ce7c3d500df4a41f3dc91e7e0538ff1dd212f952ae9ad0002",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

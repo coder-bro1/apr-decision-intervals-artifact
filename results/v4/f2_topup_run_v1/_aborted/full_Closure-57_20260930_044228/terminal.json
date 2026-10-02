@@ -1,0 +1,26 @@
+{
+  "container_ok": false,
+  "controls_compile": false,
+  "files": {
+    "analysis.json": "5253dd449613b19c812faea13846310bfd97d3e6b0190b2a279f538c7523b5e1",
+    "container.log": "e9133cf10b02b0b91c8b119848513db0ac541e7c3c19681266939e4b9952f7cc",
+    "launch.json": "0c3b6f22637327b60deddc0f6303423c2328a6b263f4d969d6c553b6bef05ae4"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_b47fb3c436e61c5a2044f5d7faccf02d0530c7d746dec677da36ac051a2d8bd7",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f97e71ce12b93dc2f94a19f87f0d51c4e21c353e8592ba6f4c5115a8e2047de3",
+      "compile_status": "unknown",
+      "evidence_status": "unresolved_container_failure",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Closure-57",
+  "package_sha256": "e24a1585d902a2343a337480c96a33565a68d2d27c0fbf076a7c162adb8ad5b2",
+  "seconds": 0.031000000002677552
+}

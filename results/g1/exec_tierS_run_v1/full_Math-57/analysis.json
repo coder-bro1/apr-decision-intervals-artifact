@@ -1,0 +1,48 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_256b761252df0a0d28fb5422c8bedc66dbd56d8aec1f48b07bc1da9f9187d8d7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_3b77d6aa665ca3dd210d4a1340fa35089161a9acb1f538edbd6ca34f976b5281",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5d76d43a2b5506644f386a28cb8a75da23b072b8e533b9a00948e5a82a41c687",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_627b825683bcb8601e2df903ca603b650102b09dcff4e7cbdb4a7efe910a8278",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_8431165efc7af1272db83f906174c1b2a0f3e3b4d1056356619c208495f1b4a0",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bc83ebb6711292f1bc34044d33d01bb77a51ea33cd1ccbb9d988ce367fddad24",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,23 @@
+{
+  "bug_id": "Gson-13",
+  "cases": [
+    {
+      "candidate_id": "obscand_26cc43c75ad49ac82d7437de1c851a7459e79bdecf7a4cd4cea9f6d0b2fa2fe8",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9d88debfbd826c8f3a6c9c311d2b34539aa5eb8ffdcfefca08b85b2459aa3e94",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d620e7a0efc5c2bcc38e509feaec06cb415a12ea394b1cd952ba93a007a94607",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_da9e034ccd7be176951ec80e9e315577c62e97f22395f8e4d0524fa95934cae1",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Gson-13",
+  "phase": "full"
+}

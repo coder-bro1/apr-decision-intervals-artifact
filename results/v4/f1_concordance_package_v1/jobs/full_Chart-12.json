@@ -1,0 +1,15 @@
+{
+  "bug_id": "Chart-12",
+  "cases": [
+    {
+      "candidate_id": "obscand_87033a3bf7fe6c1ab1d34fdd983f2bf950a55e7a51dc6edb8e8200530b8acccd",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9dab51138911471fa473e751da1cfc5698e06696ab2ec88f612fa8a8b648d387",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Chart-12",
+  "phase": "full"
+}

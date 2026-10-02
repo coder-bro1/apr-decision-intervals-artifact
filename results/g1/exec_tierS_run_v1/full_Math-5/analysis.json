@@ -1,0 +1,74 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1244cb8a925ccd3ced0637d97ab13b0ecdfbaece3acd1531e27e33ed6cb9f662",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_28ac0a7cb7988f15d91df2770305b36a842875c4740b85bb472560fc0299c20d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_28de9cf7ee27b0a3d13462f68c1c3f564a6bba00a8baa37d60b94c68dcf559fd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3c650c4d1213d01f0b6ffd010a2e93ad9c8c5afa04ee6e1a0099eab93501f5c7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3e60994e094f1391416159f2c164012393ef276738e2da7db7efdf18c59101ba",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_84af1f90c239a67bf4272bdf57c185743b17ab12f4f8333f7c9983ba7a6f7ad6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c7c8d2894a87265f21949082be435c53cc89dbe9d4e7d3c0b139b358c0de83e7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cc5254381d202dead103695493c796cd7bf16d1d002de21ce4a15d4be5f8618a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.complex.ComplexTest::testReciprocalZero"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,61 @@
+{
+  "admissible_triggers": [
+    "org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics",
+    "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor",
+    "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay",
+    "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList",
+    "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor",
+    "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor",
+    "org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage",
+    "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton",
+    "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass",
+    "org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_321d88beb34a4d84d758e590b3d063dd65a98efec3efd5fd7bc4d50fe9f7cf83",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses"
+      ]
+    },
+    {
+      "candidate_id": "obscand_86ae01cd0b4a9bd8f3fcdf138e348ae90eb4af1ee7cc87094680ed5993a929da",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics"
+      ]
+    },
+    {
+      "candidate_id": "obscand_86ae78bae5c694cd612827e2d8ce992bbe5d84e9ebf9452f54a672b2fc7e836a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList",
+        "org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor",
+        "org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass",
+        "org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

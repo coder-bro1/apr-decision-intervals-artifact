@@ -1,0 +1,23 @@
+{
+  "bug_id": "Lang-39",
+  "cases": [
+    {
+      "candidate_id": "obscand_1a1fafc0e7a066f7ec3b2a18b8e2b290b6312ea0cae01f641b3e47eee116c9c4",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2013a02e2df07925ccdcbd86e0c18f42d19596d9646bf3cbb7880861554a923c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9785150fa8d930c0248affd986dbfd1e3e29bf4ee6cc83cb2ff6cc0ff6184092",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_da1889f7e5c9e86945d9b453b118b45cc097e928f6843ee39caba043672b7a90",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Lang-39",
+  "phase": "full"
+}

@@ -1,0 +1,15 @@
+{
+  "bug_id": "Math-44",
+  "cases": [
+    {
+      "candidate_id": "obscand_17d2067603be6fd27faa72a8bf3a75a3701b4c8e7de1274fc6b7a21c7dcd74af",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a80d00c304427be8e8dbdefdea148a7882e70bd409f3026587d348ee2fd3a113",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-44",
+  "phase": "full"
+}

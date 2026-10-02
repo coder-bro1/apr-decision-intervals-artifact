@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_29ec0f157cdb6ffdb56dd6b90541d960bf29202ddb3fcd8d809b51950a958adf",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4dd60ed092741f5aa2b7f69e15608b317de2b46b983e02cec98d758e42d8b296",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

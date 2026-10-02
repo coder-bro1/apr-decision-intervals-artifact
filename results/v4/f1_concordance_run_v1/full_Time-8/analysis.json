@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_86a199fe2f11d8127def1718d55613a0be52b9c27e1fc0c0fe1222dfb8fd7f48",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

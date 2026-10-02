@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+    "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a368d5600119523e62e517cbda741c4982491a2f83cdfb271eebf74008ae4163",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b2d2096caccfa9fe8462c3fff6e1d759890894e0b54b9d74b5a939f0cd84a935",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

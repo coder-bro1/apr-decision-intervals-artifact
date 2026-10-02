@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.Base64Test::testByteToStringVariations",
+    "org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5592f7e857f33f5c2f19c24089de2f0cea53b6aae1b3fef86b45afeffb3fbde1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9edfbfb496ff50e9aa39e1316a910236b32f812a233d6f3001069a1cba4b4e80",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_fe4c8aea22f43cddac5d479d31cf8d3ffc461585b2b54d1d495abd4a17cec4d5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

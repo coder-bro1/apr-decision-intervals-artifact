@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.UtilTest::testStripLeadingHyphens",
+    "org.apache.commons.cli.bug.BugCLI133Test::testOrder"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0cdf9272a9e737a72ba8b6d5ebf95958ac762c269ed4eef980686aaa69c2ec9c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

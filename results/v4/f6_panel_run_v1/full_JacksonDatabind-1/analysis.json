@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.struct.TestPOJOAsArray::testNullColumn"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_16e9f97e4ae1c5f55a686cd9ad74faf74fc33d445462b8d7d91eda0d50576de1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_1f7b3fe8b7576733fb2b116e94999658dac0928980431deb0faa87f0af9a7c30",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption2"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_39726596925dcc9df9dd935b687579d59a17c1d61afb16b4d7f58f4df0bd61c1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_81c2db0877218d61219c405e69f2b913ddc7047b7e55a7169b997976354e539a",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

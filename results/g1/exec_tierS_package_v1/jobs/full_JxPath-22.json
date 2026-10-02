@@ -1,0 +1,15 @@
+{
+  "bug_id": "JxPath-22",
+  "cases": [
+    {
+      "candidate_id": "obscand_21ce08733f5f70955a67f712693e7156aafa8a3281ba06a74f5f3db29354f0ed",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d5823f557e83c497161ef5b307d3c4e0e27da7814f5d2a037a3d430ab16dc55d",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JxPath-22",
+  "phase": "full"
+}

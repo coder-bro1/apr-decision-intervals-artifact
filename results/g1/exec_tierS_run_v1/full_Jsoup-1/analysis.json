@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_454af0011371764aa55fbf09100e14e4a6eb4a1ed7d4d23abd9529329041d24a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9299368b1f7228d88fae94703f33c5f8e96c13258667abb2f3bdef8a7587b861",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

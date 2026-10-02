@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4db849781e8c88136640ff75006d977202aab91eefef438b82b02574e4e24668",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_no_admissible_trigger",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_59b790db5d35521abe513a7fac4ead1c0999eb4a1a4d8c80305624c9a4fda209",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_no_admissible_trigger",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7766306c237570a396873710ddc710eab5a9fb4a82d686241ad098aec271886d",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_no_admissible_trigger",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

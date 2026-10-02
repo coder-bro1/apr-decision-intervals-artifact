@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_436eb08ba0d6f6f0f251e4d2a5d142e7e22b0bfa946baba3893245d15cba5ef4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+      ]
+    },
+    {
+      "candidate_id": "obscand_853344bd75eb4ac6c4895f7d042db7d0f1bf47524fb0147571ba5ca8ae39759c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cf7c9358bc044bccfc06c39910d53302898c3e7720268a1a9fe7d453d02eec43",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

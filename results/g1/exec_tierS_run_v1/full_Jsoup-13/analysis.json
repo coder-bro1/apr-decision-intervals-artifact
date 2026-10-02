@@ -1,0 +1,25 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr",
+    "org.jsoup.nodes.NodeTest::handlesAbsPrefix",
+    "org.jsoup.select.ElementsTest::absAttr",
+    "org.jsoup.select.ElementsTest::hasAbsAttr"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_130096b18b375cddb87b2029ce78944897bfd9c3b8bc981889c319ad455ba05b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_59ddf5e1775b6c7791364879737baf7782003e7357c1e21863d19b38a83130fe",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

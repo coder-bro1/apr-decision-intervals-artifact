@@ -1,0 +1,40 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0863712fc269a1196acd8de86f5642ef30e54e3f5902e186ab32ad80c46ca6f4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+      ]
+    },
+    {
+      "candidate_id": "obscand_52ea58f9ba9d6fa196f8614c1fcbbc356d1152be4bb101c058e7338c68032739",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6b7b02a66ae777d718c32c776786f117c967440c8dbc368caeae8a9fa361bf0b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::supportsBOMinFiles"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b666c87eb719f97d09990eafec4bd3351df08092ab2c826d232bc46afb64a1e2",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

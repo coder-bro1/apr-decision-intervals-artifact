@@ -1,0 +1,14 @@
+{
+ "bug": "MAXIMUM_K",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_00a79b97e8a7a3cfb6c0ddb7011bfa9a47506190f7dbe8e3cfe94a0114ebcefe",
+   "original_sha256": "e11ce44a72fac0134779460c9119bfc80d417bc8e5587d5080cccc4bfef6456e",
+   "normalized_original_sha256": "e57e5c0d6db7eff442f46a957ac2f3d6568c7884ab12bb8da629c6efd5ebf692",
+   "patched_sha256": "f74fb1a8b6dca13151b0e3ec792de0b4371a9b5770196d38f4ae7a51bb4b3ba9",
+   "start_offset_lf": 696,
+   "anchor_sha256": "dbe1070a3c2bcb60d0e8869956bb40dd89662fe83b5b574bc11de67e0876a31e",
+   "patch_sha256": "5e6c93a8ae09acfbbcb94dea9916797576310c23b11e85ff6024df0819456706"
+  }
+ }
+}

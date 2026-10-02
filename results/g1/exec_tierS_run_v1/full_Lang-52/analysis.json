@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_07f542831a4539355ebb27d649286b005c39a3a9b8020bb0249c4798fa62d8b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+      ]
+    },
+    {
+      "candidate_id": "obscand_860bf9cc74a005a857b9d45f8b20421e1a0bcf1c2b2c5ead882ec731a259b4ab",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a21ebd379bfccd812de208240540fe5684c3b03c3920d155f02486bcac6696ed",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ab64458166f6e6b747081a942922753ae2061a9c8c72c36df118337297ee1813",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e66feda4b48aa9ed984a080956959b43a3efb1fec57ae16015be1a9bf9ce75a2",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

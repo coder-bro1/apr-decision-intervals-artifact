@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.CharacterReaderTest::nextIndexOfUnmatched",
+    "org.jsoup.parser.HtmlParserTest::handlesUnclosedCdataAtEOF"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0efc0302b2ffc011e3002216aed8b2743bc8cab44c1d794c8087347eba7894c3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

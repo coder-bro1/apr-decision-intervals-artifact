@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.FormElementTest::createsFormData"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_bf562f60b438f5893ebd38c627c8e1be2b98bc82fe56a4e28c37d841aa9d84fb",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

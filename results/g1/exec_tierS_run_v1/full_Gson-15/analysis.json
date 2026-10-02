@@ -1,0 +1,46 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenLenient"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4e4aaac2fc4e96beb72f66dba578bc4375b0aa4491ebc8123eecc1ff41d7339e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_aaf21922fbcf32fd4578333498a2bf7cb2ec186d600466653f063beae32b1ab3",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_acafae31c5c45314d95630180be91823373a0e8b65ab98bb3588d0d858960136",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d3790bb5374590c9d10dbebd1f0770d26e6e0078ec61a8f8306896d73b109eb7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e0022a75e4de2b25509a7c51f42a447903151b8d5f19663f8a32a628deb85641",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f22f0f2429a9839d462fc2d806e85f235e3474e43070dffe0c9e04816f94833f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_25cabd5463f10d31b3144fa180990d504b945617373e9689a1fb6cbe57890956",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+      ]
+    },
+    {
+      "candidate_id": "obscand_95f9d210fc3812e1b813ce440008d42b79d743b367514ef42eb2ad77cccea6b7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

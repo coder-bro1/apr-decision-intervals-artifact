@@ -1,0 +1,12 @@
+{
+ "model": "Qwen/Qwen2.5-Coder-1.5B",
+ "revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+ "max_tokens": 2048,
+ "texts": 56011,
+ "truncated_texts": 163,
+ "candidates": 55466,
+ "addendum_sha256": "e9de19488529a4d5695d9e72e209888df6427167916dfb9515e22e3c1b7e2dfc",
+ "script_sha256": "1482a59b747c7229da8336c0ab296b65ef37754c50e1a0a4cb49d4e026d5236e",
+ "torch": "2.11.0+cu128",
+ "device": "NVIDIA GeForce RTX 3060"
+}

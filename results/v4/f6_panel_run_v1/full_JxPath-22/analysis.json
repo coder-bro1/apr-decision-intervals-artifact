@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1d9df72fa6cfac52194cdce232dd189a0347486422edbafee756e66a9a69e1ad",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

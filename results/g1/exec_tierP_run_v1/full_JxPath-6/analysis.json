@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_abc4bcb80af11eebff7239183cddb8976e428e5439a550f01898987dbacd3791",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

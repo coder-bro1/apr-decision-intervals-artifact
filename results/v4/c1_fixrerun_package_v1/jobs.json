@@ -1,0 +1,588 @@
+[
+  {
+    "bug_id": "Chart-1",
+    "cases": [
+      {
+        "candidate_id": "obscand_401da21b1e2763925f006be5825cab17798d9c21217bf9d12d630260ce6d3b5f",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_e47baff1ea4a3364515f428b04a223c36fdf6ae35cf62e07ec6f9070b2b3334d",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Chart-1",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Chart-11",
+    "cases": [
+      {
+        "candidate_id": "obscand_11da143f7b426d0d4b5907b966ed9f2e6651ff2c60e43b6b46e1969d4c8d7257",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_316efd24020448a38a4b0f88894073e7cbff73c53cb1c7a51d38a6357ebaf5b6",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_3383680775d94f32d99cc34f621d8c42b03384574dad6ef16aebddcc86d9d2b4",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_4c5f72d73cdd36a82c4373ba0292e8440dfb113b34801d427fdea51b2adf7e6d",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_af946d0e77b64ca6040a50dd5de0ad514c6122c305ced92e5b50f5452f21906d",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Chart-11",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Chart-24",
+    "cases": [
+      {
+        "candidate_id": "obscand_2ff645b34f870189de5035c68116bc755ba918f99bfbbb4d26b72c9dda0588e1",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_502cc9fafd88af2bd2c5c8298b0f37eb429cd4ce63447e7f59e118a1d9cea187",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_7c08f8fd3761a9f526295b50bf1a1c2af3d4a51d6209aeed1772e6fb829b18f4",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_ea25ef208e409079d9f124047cf451ae398c11ca882e6604e4f0c1544e113773",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Chart-24",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Chart-4",
+    "cases": [
+      {
+        "candidate_id": "obscand_685fb90e9f92fa3362f6276ff6b3e757931ad96af8447bc71c4d5a8ddfab48be",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Chart-4",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Cli-19",
+    "cases": [
+      {
+        "candidate_id": "obscand_39726596925dcc9df9dd935b687579d59a17c1d61afb16b4d7f58f4df0bd61c1",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_81c2db0877218d61219c405e69f2b913ddc7047b7e55a7169b997976354e539a",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Cli-19",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Cli-24",
+    "cases": [
+      {
+        "candidate_id": "obscand_6a8d88722eef72670e7d095cf1b18b1c9107218dab08168c67fd33b554f46fb7",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_f3a07afccaa4edb01fca2df06027d7d41aa75cca3f46cbdec63f4ceb61e178c6",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Cli-24",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Cli-5",
+    "cases": [
+      {
+        "candidate_id": "obscand_9957b369a9dbf233f7f05ac8792084c1fad4cba15dbff2535ace0b2c52d37bde",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Cli-5",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Closure-38",
+    "cases": [
+      {
+        "candidate_id": "obscand_e566ee935d7499f8b94f2c36756a522212f6a38386118eb466c98f3eb3a7a8a2",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Closure-38",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Closure-57",
+    "cases": [
+      {
+        "candidate_id": "obscand_2dcaeff8e2099967e23bbd729adb09cc489b61f32765ce21c0e217ecfcde2fff",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_9dd55f2505f81a272462fe14640cb25550d7e97e3568b18ca6873299ee679f21",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Closure-57",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Collections-26",
+    "cases": [
+      {
+        "candidate_id": "obscand_7df7c405954d4f76a859dd3b7f33347d187df854cb73676fcac1ed0a36128b4b",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Collections-26",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Compress-14",
+    "cases": [
+      {
+        "candidate_id": "obscand_1c4b0513d30e4bf403ef362f2458183a6bca9ed8f75cf37ff7369f730ca1e13e",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_b25a420f514966dde32e85dfc57f729595bf1d02788d4976e1acf8ae2d2cdd4c",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_bc207a85d6bcade6560b6268bda3291ee0d79ba9f128636a45869c0d0cae10dc",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Compress-14",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Compress-23",
+    "cases": [
+      {
+        "candidate_id": "obscand_565d23d4b0ab6dc0c8b0a09048ffb9d2e9e5ab2bfd8cd9b4651b2705a520b6d0",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Compress-23",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Compress-27",
+    "cases": [
+      {
+        "candidate_id": "obscand_181439138264c2246d1f2fe813c32953db4e2e89cd455097d73014d954bfdc56",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_5264dd4971b988860768aa85862d7b901622f5cb5489ac9fb045448e13650c31",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_58d30a5e1fd4b17d3d2ecde943e2839706515c75386f0b7cbc6e7e0aaea84012",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_a503359b8c84ac2ea349ba46af98235673edb880f210ac46a4e7e48eaec105e7",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_f473e7a0b349a4db95b7b15b1711fb0ff630f436aca652671578fb5cd5efc853",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_f695b63d2a832b6884d1cecffc2b9b2f54edf98e9f9fe2579fc713b431f20a2c",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Compress-27",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Compress-31",
+    "cases": [
+      {
+        "candidate_id": "obscand_35dce5dc8679cfb4522636b5904f5b5e3e8decc3b1fc6ec2d2b001c0bcb87096",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_3d5cccfc11672c1c0c88355220a6dc5c4fa24077355a15c22fc4a978ed1913b1",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_61265e43760ea81d831bac8c04e951551ea560cf5efbff3500dbeb65d00033fa",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_61d55c84b4e46c694429cf460a032fcfc5716ac5efd3bd59fc517d320f6ae056",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_7f0a0d428e78be517f6d3976c56c0aacd0bcd492d7c50c24d1317c3b1c205b56",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_eb8e585162cfc850411f45e7c0acc49229ecc1b8bb2cae1e839be075d932e60d",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Compress-31",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Compress-45",
+    "cases": [
+      {
+        "candidate_id": "obscand_59748ec09ea828c33e4620dfc6a2c540b1aa73ba6ae5d731a1275cc0d262e5e5",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_9623b5f86145e89f42f8c76b7a987d33167df994b790f9213f264cf720973035",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_ecd6a6688a6225b3c767cecd77bc2a6c8f9ff9f49c9309f42afd280c19fb2a92",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Compress-45",
+    "phase": "full"
+  },
+  {
+    "bug_id": "JacksonDatabind-57",
+    "cases": [
+      {
+        "candidate_id": "obscand_0cd1bb0ff85f7dc69e0e2277c17a84a92782b771eeb20e93e76e241b918a2e84",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_2ca8c5ea6617ba4c1bc6b41f72055f72ae4de1de0946533eac82468880196b00",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_e7108ea82dec27e6dc923aff8d0b582e1f05921690109780a174b065555674d7",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_JacksonDatabind-57",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Jsoup-62",
+    "cases": [
+      {
+        "candidate_id": "obscand_7aa1777ba3e70312ee792b27aec07ee7eb102be95eac42bc4f34054704ea5f97",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Jsoup-62",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Jsoup-68",
+    "cases": [
+      {
+        "candidate_id": "obscand_3bafffe03b4610994b6ffe941de93c07cf9474462426def11e0c277eef724301",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_5476ccc059a0c12f00ebb7adf08ac5b2181ab33451a41650ac06d257776093b8",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_dd8795ebcc2967c9e1742a8cbed120bbf222bf6e4768c6bcf2ad5fe572026af9",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_f1e18897273dc9595aadd7ab79c34bc582ab2a8f23ff362d6dc90cd3c63c8689",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Jsoup-68",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Jsoup-72",
+    "cases": [
+      {
+        "candidate_id": "obscand_522a09989dfe5e422d610e0003a49effda6cf523d183ebdeadae6ed42de228ae",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_9b004839eb657b596c1e918adbe711d0182618e28c119d101e7a4d1c12b0f379",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Jsoup-72",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Jsoup-90",
+    "cases": [
+      {
+        "candidate_id": "obscand_7d44fc72053aed6631e934a2d662cf8bede32eaedbae1140e8ad05d6b12463ff",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Jsoup-90",
+    "phase": "full"
+  },
+  {
+    "bug_id": "JxPath-14",
+    "cases": [
+      {
+        "candidate_id": "obscand_1603b5653d44fbf414670ea35a13961cb2d0aa84791950be75f90a2522d6c8b0",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_bea9209263113bde0335423cd3dce51c6d5d25d27b4bce23b89417cdd24e26dd",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_JxPath-14",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-21",
+    "cases": [
+      {
+        "candidate_id": "obscand_3c8030491553d0927cbc37c4f6d750cdafd5a9d0393fd47d681cf0c136a2444a",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-21",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-24",
+    "cases": [
+      {
+        "candidate_id": "obscand_07b8225a1b97f814ef51a79a16034eb540b5f54e142ecd2e80b3237139c48fd1",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_11f0618e2070998a646eeed70a14dc31788b03b6b84528c39366c5d224bc9e8e",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_8cd6d3faf75435af8e1a03ce38e5a64ccc7d12d517414bb901f7c2940de97760",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-24",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-29",
+    "cases": [
+      {
+        "candidate_id": "obscand_4b23067548b491e2bcbd4eeeabc12b7f6f4fddd033fdb234150f2c112bc69a9b",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_57ac4b9bcfcd83a3c15b510c1dec0904088c2ef7c544c7a32efa3eb8f613374e",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-29",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-39",
+    "cases": [
+      {
+        "candidate_id": "obscand_12e183a8d4a4d2f0208f1da7ad7f7cfa0103744055eef7741508112084fb697a",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_bd3f20e0cb9ab1fb2381963175a699a891393f7e7c772d2ca99af763cb5d37ec",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-39",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-51",
+    "cases": [
+      {
+        "candidate_id": "obscand_6269fc1463a8c002bf7695b8e75e12f7a0d5ecf5545ed72b1a68093c9f5464de",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-51",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-58",
+    "cases": [
+      {
+        "candidate_id": "obscand_cc10b1ad03cde9145d45aa93bef514cfcea0bbade9ead77d08b53847c5cbbdda",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-58",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-59",
+    "cases": [
+      {
+        "candidate_id": "obscand_8fc0c98fb250db83ae6b5a74c59af579660a09b2a501825305361f11a1bd3960",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-59",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Lang-61",
+    "cases": [
+      {
+        "candidate_id": "obscand_f277b7cf3eb78979087ed9ea407af91d9831f49cc12427e49e0dea4627240a76",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Lang-61",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-41",
+    "cases": [
+      {
+        "candidate_id": "obscand_bf8dbd9bee68e468639848416688ed447052a5a4ea629c2ca9f7b64f3270fa2d",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-41",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-5",
+    "cases": [
+      {
+        "candidate_id": "obscand_19f8a50b95ffee4cf1c9e1f8ea532c80e8d94b09940f56140c4b3bedc5c64a36",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-5",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-57",
+    "cases": [
+      {
+        "candidate_id": "obscand_4c979ef11181478ea6bb24845ce70b74952cd6ee92b553f210ac699aae55c5a7",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_85763df0a960353e8ce52e34f4e520c8859f8bb0422bc5361c22f34dd815c032",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_e92c693f4175ce129c118345ce9a99e00f05e8b49162934ae49ced7529283c23",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-57",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-72",
+    "cases": [
+      {
+        "candidate_id": "obscand_3a78800c32a8d14c6745768afd22ab8d1de61f984bccfbdd0f3cf4c78b39067b",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_d086be4546de950334778318630ab197d574852498fec24197492a24010e025c",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_efd09519095605f9ab389dcf723ee3adbaea589004c69fba73d581b39c9e330d",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-72",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-79",
+    "cases": [
+      {
+        "candidate_id": "obscand_5857ca38260b14724e723755bb4149178b4d1788843bf6cbefddc9935774666f",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-79",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-85",
+    "cases": [
+      {
+        "candidate_id": "obscand_340c94be4a0137d0a2676b1ce2944ddbc505c690a9d58b447bd830c31e841520",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_fb4a20514ec2322e726822897b125276d17703b8ffb4499668aa90cec680b127",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-85",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Math-89",
+    "cases": [
+      {
+        "candidate_id": "obscand_a44b200d8fca61989f37694dbf5f2ecbb414ec4340bc3d2bc010df256506e0d7",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Math-89",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Time-15",
+    "cases": [
+      {
+        "candidate_id": "obscand_1c45d5a55440ae2abdd4ad02c12e52f68ec3b0a7f3a6c7bb26396d4139f51eda",
+        "compile_only": false
+      },
+      {
+        "candidate_id": "obscand_9a126cc683654e4f3ceef18f0085961fa96005be20ab66bce5c9298bd14397cd",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Time-15",
+    "phase": "full"
+  },
+  {
+    "bug_id": "Time-4",
+    "cases": [
+      {
+        "candidate_id": "obscand_3b03a1aabf0b22c3a784ec7d6abdeec36407c77dabcb5f4f65fe38f3e0e27009",
+        "compile_only": false
+      }
+    ],
+    "job_id": "full_Time-4",
+    "phase": "full"
+  }
+]

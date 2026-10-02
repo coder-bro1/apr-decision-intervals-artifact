@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [],
+  "controls_compile": false,
+  "findings": [
+    {
+      "candidate_id": "obscand_202d907782a9adff510e8e1c06616d738e62e2a38f1a56f4f4cde9642b0cad2f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2a67b22c2a182caa3660338586da341417b8eac3013ef64513135d3a0eb27c42",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7232ca82b1fc70a910c42e0a8c6bd2e6cd571bee8cda6cc28fd07457aff9205d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_89026472e42dfe026571bc888ca687c3e44c59001043623b65b92395a3d1b69b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c3e578df5cf0f8bb6b2440e6d1469f227cba8f35ab7f8da4bb3f69a095942e5e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d7cd43ea49d17ded52a51736089b40a5f758ebdfd8219136b6d461f83091e9aa",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

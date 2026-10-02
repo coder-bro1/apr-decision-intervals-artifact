@@ -1,0 +1,15 @@
+{
+  "bug_id": "JxPath-8",
+  "cases": [
+    {
+      "candidate_id": "obscand_a9f81c8e0b1309f4900228eda424de1300d6e7088b1bb012638f94e6d7d807b9",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e8c9673ed4d2c8d25322aca8cae6f7da069e9cfed794019b9884eaf4eed30aa1",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JxPath-8",
+  "phase": "full"
+}

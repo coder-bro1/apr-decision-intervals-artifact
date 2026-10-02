@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVLexerTest::testEscapedMySqlNullValue",
+    "org.apache.commons.csv.CSVLexerTest::testEscapedCharacter",
+    "org.apache.commons.csv.CSVParserTest::testBackslashEscaping"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_f9ca8854436aab3c724799981971967ac947cfda55acb27bd5828168ff5c39c5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVLexerTest::testEscapedMySqlNullValue",
+        "org.apache.commons.csv.CSVLexerTest::testEscapedCharacter",
+        "org.apache.commons.csv.CSVParserTest::testBackslashEscaping"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

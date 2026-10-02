@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.base64.Base64GenerationTest::testBinaryAsEmbeddedObject",
+    "com.fasterxml.jackson.core.main.TestGeneratorMisc::testAsEmbedded"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9450ed0b33047a34085c11b2ba00c687b7c0127b08381c0386f97e49f181bf7c",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDuration_Basics::testToPeriod_fixedZone",
+    "org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_06892a021198a66e0b2ed43f61ca0e6af8f8a2b64de42352194d5e5b6264ef90",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDuration_Basics::testToPeriod_fixedZone",
+        "org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone"
+      ]
+    },
+    {
+      "candidate_id": "obscand_16f1ba4ba097569e81c2cc02a25d218b88e0158532a5b3c41877648524b76c41",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDuration_Basics::testToPeriod_fixedZone",
+        "org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

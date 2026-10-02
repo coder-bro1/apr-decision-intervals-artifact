@@ -1,0 +1,25 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int",
+    "org.apache.commons.lang3.math.FractionTest::testReduce"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_727c3d10116ac0550d1ce3bfe4af22c2b1faae1854217efffc601b9c8435055e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d31a4aa3e3ee7956c71ddb7d912d3810e21c497e6669a5a8073fb31516b39cd4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

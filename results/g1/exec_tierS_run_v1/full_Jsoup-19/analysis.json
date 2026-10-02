@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.safety.CleanerTest::handlesCustomProtocols"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_039dd8fe5d5900036feb28bca6525f38a4befd73000d876af7092c885eee0324",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.safety.CleanerTest::handlesCustomProtocols"
+      ]
+    },
+    {
+      "candidate_id": "obscand_71cf9a13237c5331cb7f482e0864498e679f81be8b2c191df4c1237d448363fa",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.safety.CleanerTest::handlesCustomProtocols"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cdf45b8ee0d932da51f79fc822deda9d826e5c79133c5a6719090bad682489a2",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.safety.CleanerTest::handlesCustomProtocols"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality",
+    "org.apache.commons.jxpath.ri.model.MixedModelTest::testNull"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6a3eb9f3adf17ee76de092184db23169708f41f1f0714d3d98cb06d10c44a38d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality",
+        "org.apache.commons.jxpath.ri.model.MixedModelTest::testNull"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

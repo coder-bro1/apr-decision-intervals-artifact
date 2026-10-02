@@ -1,0 +1,83 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+    "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_00f31f9ee024fbb4cb464d85463bdf113f9f1507821fc5aa2b69fa9a15abd40e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_0bcf097a7eab524f7d017e3497cfac55f471a7c3a5763916db24dd9e405b8e6e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_1f87aea11d7b552d21ab0146964f1d3016130f0ee57576ae4fb206fab01247c9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_2aacf9f98367ad6be90739a3d1e5a5b9f034aa4320bf89d818bcae5019f05542",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_538c02c661e8f667af66007db2d0e6f0f00b0ccce1608e70424ab8b30bf39417",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a4da8d8a54472e370a927537b4875aea033a935bdf4b19327a6664b2ecb52555",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b8c00e57e80513d8f18463e22de6def5a8f11fb8e249c6efcaab81eb6f9bfab1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c8cfae1cbac21777a208c82e62418e117fce6226a0b593ff3726a31765d155a4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

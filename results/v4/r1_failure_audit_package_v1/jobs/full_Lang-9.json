@@ -1,0 +1,11 @@
+{
+  "bug_id": "Lang-9",
+  "cases": [
+    {
+      "candidate_id": "obscand_8717c4ab3d42b6ad535dc48fe6a243d153df44c743844ae01db0f778d0e36ef9",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Lang-9",
+  "phase": "full"
+}

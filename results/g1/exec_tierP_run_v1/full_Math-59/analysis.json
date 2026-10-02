@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.util.FastMathTest::testMinMaxFloat"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_81ab715e95f9a6b48ff5f6f9f590920a34856a110f6472fee6f302253b864b20",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f04f5f5e9f97fae222142bba717c4cacfcd65cfe7a988956b6e3901eb06f8fbb",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

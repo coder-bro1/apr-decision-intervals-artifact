@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.struct.TestUnwrapped::testUnwrappedAsPropertyIndicator"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4941b972723393ddedb70d556b97d9210ae02357cd834bfa762c80cdfdf70822",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4ddc82c987a799132ee6aada693f72546b8cbc4b24436f89822059f4694f8904",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a60b63343588bd9f23e2ac7044e1782f1a2ba6b7e8ddf56bddd312bb6ce5577f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

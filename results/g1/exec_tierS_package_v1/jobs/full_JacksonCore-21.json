@@ -1,0 +1,31 @@
+{
+  "bug_id": "JacksonCore-21",
+  "cases": [
+    {
+      "candidate_id": "obscand_01e3e6066a84a4a0aed294902a573623d4bd744a63b920296294318590a71685",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_0dc1b5a710f10096001f379a4017a12b793c42a92d2eef170bb92f99de0e7a12",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_748de97c76dc4f72031ef907d1dfe4b278434c3742f4e5a4d9f4b91d1e1b6705",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_8221bbcc3ced9237720ef46649ab2bd0cdfb4fd5fba03a356d8752f62ac4f929",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c41918967fb80a1179ba7e07b22e73ada12752a7775c6b9cb66665cee4ef3cb3",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f3bc3f853c73c4cba95fd87af8e444f96fb8dfbd69036cddc755d47e93321c83",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonCore-21",
+  "phase": "full"
+}

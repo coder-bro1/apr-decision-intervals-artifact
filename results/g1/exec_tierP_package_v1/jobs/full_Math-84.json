@@ -1,0 +1,47 @@
+{
+  "bug_id": "Math-84",
+  "cases": [
+    {
+      "candidate_id": "obscand_0a14bb6629afba2d8129f2aeea9c8e86505cf236e10e11cb58f6f488ca6f5307",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2fe6fa6753fc770871cc1542ac62f7002d1d7e50de8613552dcda0b3662b16c0",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_4c1f27b6f52ba70107cee985fe898f9dcd6ac0faa7a5571a96ca12c2704fe23e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_5dab8e327a471e26a3d80ff4975c39f974b2f8dd8bb764fb4311fc53489f1c74",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_896047ae684ddc40d950c4c2143b764d076b24257f8fc4e5343636c27539c925",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_99acd7c53aa056106943bc9fc560c02b01ada67e8910e3172f207944a5dd7103",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a0d513e2d240dc101e874a031afb5f067a50a0b138956e74c9b0048ad7453dc2",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b478669d51a87fc086e4d0561e12766e981fd9ed78fcfe007c88d410b9f31c7b",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b5e0ace4cc70d6da1e77076cadb5702028ecd433e65996cdfdd81926e76cedd9",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ff0d9b9ea6d0b34315501de2549e80422164b8a08dc639e5d9329f58fc00623e",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-84",
+  "phase": "full"
+}

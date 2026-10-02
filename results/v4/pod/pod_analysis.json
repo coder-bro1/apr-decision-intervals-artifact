@@ -1,0 +1,201 @@
+{
+ "patches": 169,
+ "reviewed": 90,
+ "reviewed_correct": 63,
+ "reviewed_incorrect": 27,
+ "unknown": 79,
+ "detectors": {
+  "yang_entropy_delta": {
+   "BA_released_labels": 0.5100329439952082,
+   "BA_reviewed_only": 0.43386243386243384,
+   "BA_reviewed_ci95": [
+    0.3412698412698413,
+    0.5277777777777778
+   ],
+   "recall_correct": 0.7936507936507936,
+   "recall_overfitting": 0.07407407407407407,
+   "BA_inverted_predictions_reviewed": 0.5661375661375662,
+   "BA_exact_bounds_all_169": [
+    0.30602240896358546,
+    0.6907312925170068
+   ],
+   "predicted_correct_share": 0.7810650887573964
+  },
+  "invalidator": {
+   "BA_released_labels": 0.5057651991614256,
+   "BA_reviewed_only": 0.48148148148148145,
+   "BA_reviewed_ci95": [
+    0.4098360655737705,
+    0.5570175438596491
+   ],
+   "recall_correct": 0.8888888888888888,
+   "recall_overfitting": 0.07407407407407407,
+   "BA_inverted_predictions_reviewed": 0.5185185185185185,
+   "BA_exact_bounds_all_169": [
+    0.38890469416785206,
+    0.644335074327039
+   ],
+   "predicted_correct_share": 0.8816568047337278
+  },
+  "fixcheck": {
+   "BA_released_labels": 0.5143006888289907,
+   "BA_reviewed_only": 0.5343915343915344,
+   "BA_reviewed_ci95": [
+    0.36834733893557425,
+    0.7270531400966184
+   ],
+   "recall_correct": 0.6984126984126984,
+   "recall_overfitting": 0.37037037037037035,
+   "BA_inverted_predictions_reviewed": 0.4656084656084656,
+   "BA_exact_bounds_all_169": [
+    0.3117283950617284,
+    0.7553418803418803
+   ],
+   "predicted_correct_share": 0.6804733727810651
+  },
+  "llm4patchcorrect": {
+   "BA_released_labels": 0.5693321353698713,
+   "BA_reviewed_only": 0.626984126984127,
+   "BA_reviewed_ci95": [
+    0.49615384615384617,
+    0.7377049180327869
+   ],
+   "recall_correct": 0.36507936507936506,
+   "recall_overfitting": 0.8888888888888888,
+   "BA_inverted_predictions_reviewed": 0.373015873015873,
+   "BA_exact_bounds_all_169": [
+    0.3450413223140496,
+    0.7442577030812325
+   ],
+   "predicted_correct_share": 0.2781065088757396
+  },
+  "tian_dl4patchcorrectness": {
+   "BA_released_labels": 0.46705600479185383,
+   "BA_reviewed_only": 0.35978835978835977,
+   "BA_reviewed_ci95": [
+    0.21521739130434783,
+    0.5384615384615384
+   ],
+   "recall_correct": 0.3492063492063492,
+   "recall_overfitting": 0.37037037037037035,
+   "BA_inverted_predictions_reviewed": 0.6402116402116402,
+   "BA_exact_bounds_all_169": [
+    0.18824476650563607,
+    0.6646272855133615
+   ],
+   "predicted_correct_share": 0.3905325443786982
+  }
+ },
+ "pairs": [
+  {
+   "a": "yang_entropy_delta",
+   "b": "invalidator",
+   "released_diff_pp": 0.42677448337825696,
+   "reviewed_diff_pp": -4.761904761904762,
+   "exact_bounds_pp": [
+    -25.160707111289675,
+    24.532312925170068
+   ],
+   "identified": false
+  },
+  {
+   "a": "yang_entropy_delta",
+   "b": "fixcheck",
+   "released_diff_pp": -0.42677448337825696,
+   "reviewed_diff_pp": -10.052910052910052,
+   "exact_bounds_pp": [
+    -29.74315710536183,
+    15.659340659340659
+   ],
+   "identified": false
+  },
+  {
+   "a": "yang_entropy_delta",
+   "b": "llm4patchcorrect",
+   "released_diff_pp": -5.929919137466308,
+   "reviewed_diff_pp": -19.312169312169313,
+   "exact_bounds_pp": [
+    -36.78499568841621,
+    21.88724751281278
+   ],
+   "identified": false
+  },
+  {
+   "a": "yang_entropy_delta",
+   "b": "tian_dl4patchcorrectness",
+   "released_diff_pp": 4.29769392033543,
+   "reviewed_diff_pp": 7.407407407407407,
+   "exact_bounds_pp": [
+    -27.613570180547466,
+    35.48076923076923
+   ],
+   "identified": false
+  },
+  {
+   "a": "invalidator",
+   "b": "fixcheck",
+   "released_diff_pp": -0.8535489667565139,
+   "reviewed_diff_pp": -5.291005291005291,
+   "exact_bounds_pp": [
+    -24.80909090909091,
+    15.316011235955056
+   ],
+   "identified": false
+  },
+  {
+   "a": "invalidator",
+   "b": "llm4patchcorrect",
+   "released_diff_pp": -6.356693620844564,
+   "reviewed_diff_pp": -14.55026455026455,
+   "exact_bounds_pp": [
+    -29.253200568990042,
+    17.719568567026194
+   ],
+   "identified": false
+  },
+  {
+   "a": "invalidator",
+   "b": "tian_dl4patchcorrectness",
+   "released_diff_pp": 3.870919436957173,
+   "reviewed_diff_pp": 12.16931216931217,
+   "exact_bounds_pp": [
+    -22.425320056899004,
+    35.12326656394453
+   ],
+   "identified": false
+  },
+  {
+   "a": "fixcheck",
+   "b": "llm4patchcorrect",
+   "released_diff_pp": -5.50314465408805,
+   "reviewed_diff_pp": -9.25925925925926,
+   "exact_bounds_pp": [
+    -35.15873015873016,
+    27.014076070679845
+   ],
+   "identified": false
+  },
+  {
+   "a": "fixcheck",
+   "b": "tian_dl4patchcorrectness",
+   "released_diff_pp": 4.724468403713686,
+   "reviewed_diff_pp": 17.46031746031746,
+   "exact_bounds_pp": [
+    -26.934782608695652,
+    43.05399325084365
+   ],
+   "identified": false
+  },
+  {
+   "a": "llm4patchcorrect",
+   "b": "tian_dl4patchcorrectness",
+   "released_diff_pp": 10.227613057801737,
+   "reviewed_diff_pp": 26.719576719576718,
+   "exact_bounds_pp": [
+    -11.44578313253012,
+    42.317753749564005
+   ],
+   "identified": false
+  }
+ ]
+}

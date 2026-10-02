@@ -1,0 +1,32 @@
+{
+ "bug": "CHECK_DICT_CASE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_364ccb68821d2bb101b7a4868164d87a2184b917d5c3fb0842dafe83c419e938",
+   "original_sha256": "1cb1bf6dc6ba36c494ea2de8cbf13b70f8ac54e33add9e23978f24355bbbf03e",
+   "normalized_original_sha256": "fe5cd47114d85c5c2fefd78a2af45c25d050970ae5461410ac356ba6afd9c357",
+   "patched_sha256": "fd3de3dc4c71f026223b08806489875ca1ea64f09b04327d752b49aec42e8bbf",
+   "start_offset_lf": 696,
+   "anchor_sha256": "54c383500af311ebd54b0a30ab2897669a7834c115ecd351b7508d83e656545f",
+   "patch_sha256": "84a923442649df202529e77223a674ff213c87ecb7cc13a887cff53682510e2e"
+  },
+  "c0002": {
+   "candidate_id": "obscand_70e382c00b91c9c0b9cd6a22d42e62dc3a4ff2a60fe78054b12fb7c9218f0041",
+   "original_sha256": "1cb1bf6dc6ba36c494ea2de8cbf13b70f8ac54e33add9e23978f24355bbbf03e",
+   "normalized_original_sha256": "fe5cd47114d85c5c2fefd78a2af45c25d050970ae5461410ac356ba6afd9c357",
+   "patched_sha256": "fd15c28bc6828aff3ceee64779ced8f8349bc7ea7e007cdd8523f2949a49bf61",
+   "start_offset_lf": 696,
+   "anchor_sha256": "54c383500af311ebd54b0a30ab2897669a7834c115ecd351b7508d83e656545f",
+   "patch_sha256": "df1fd0bb9a21e1b17a2e886cb0dc4c25b747cb4c5f0233fc700e8af186ded884"
+  },
+  "c0003": {
+   "candidate_id": "obscand_787968a393e15f956ae2dac9ccfc9628e2450d091dea4e4dfde9a213d5a12f10",
+   "original_sha256": "1cb1bf6dc6ba36c494ea2de8cbf13b70f8ac54e33add9e23978f24355bbbf03e",
+   "normalized_original_sha256": "fe5cd47114d85c5c2fefd78a2af45c25d050970ae5461410ac356ba6afd9c357",
+   "patched_sha256": "5964dc894a7c704da1060abc6d7e71e404dfef728d67894cf5a44ee3a06c457a",
+   "start_offset_lf": 696,
+   "anchor_sha256": "54c383500af311ebd54b0a30ab2897669a7834c115ecd351b7508d83e656545f",
+   "patch_sha256": "9ed699928c3de7b6154bffe71fa058d82659530a6569045425195f4d2c120c66"
+  }
+ }
+}

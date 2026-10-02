@@ -1,0 +1,11 @@
+{
+ "sample": 1000,
+ "device": "NVIDIA GeForce RTX 3060",
+ "challenger_ms_per_candidate": 0.025005500006955117,
+ "codet5_load_s": 11.59978439999395,
+ "codet5_ms_per_candidate": 61.603394400008256,
+ "naturalness_load_s": 189.27290680000442,
+ "naturalness_ms_per_candidate": 182.5236633333649,
+ "appt_load_s": 44.01012349998928,
+ "appt_ms_per_candidate": 47.558316099995864
+}

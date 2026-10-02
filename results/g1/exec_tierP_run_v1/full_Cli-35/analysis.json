@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI252Test::testExactOptionNameMatch"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a37642c6f9c8b0880098ae8c9d7e1cd08b0bb38c82921e3e51bab0d223113b89",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.mockitousage.bugs.ListenersLostOnResetMockTest::listener"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3812fc3c7d00b57b35eac05b0f98d52ed9610c125526793d1f5a5800bc8384d1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bcf9b62ee045c0a1715e57b9e1fe3d95705ce1bcd9c12baad1e36b15dc1b8147",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

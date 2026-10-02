@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testElementSiblingIndexSameContent",
+    "org.jsoup.nodes.ElementTest::testGetSiblingsWithDuplicateContent"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_402fba27c56197797ccce0f3120dfdc911cfa710854804cc5e6b4e278c616180",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

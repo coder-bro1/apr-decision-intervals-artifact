@@ -1,0 +1,47 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_197e92cc3a1f6fcf03ecc13ee55b64179ab0f40bc7fa8081f0e4f2ef072cf8f7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+        "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+      ]
+    },
+    {
+      "candidate_id": "obscand_254c0eab21b33e7df2124a8a8fb090f67b846d8f39c613b20f60059bf564c151",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+        "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+      ]
+    },
+    {
+      "candidate_id": "obscand_2b52efdce6e1d0bb16d3b7caa027cf33d2b0fcfe7d6e269d70a3c651c214dd10",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+        "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8312e8a909416bf1b35b022fee81484487d30902ce85063cf2ca461d7b7e629e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+        "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\begin{axis}[xbar=0pt,bar width=3.3pt,width=0.62\linewidth,height=5.5cm,
+  xmin=0,xmax=80,xlabel={Fix copies archived as failing (\%)},xlabel style={font=\footnotesize},
+  ytick={0,...,13},yticklabels={{DeepSeek LoRA (161/227)},{LoRA IR3$\times$OR2 (122/178)},{DeepSeek full FT (180/265)},{RepairLLaMA IR4$\times$OR2 (175/173)},{LoRA IR2$\times$OR2 (163/175)},{DeepSeek base (148/225)},{CodeLlama zero-shot IR4 (153/169)},{CodeLlama full FT (164/217)},{CodeLlama zero-shot IR3 (96/159)},{LoRA IR1$\times$OR1 (47/133)},{GPT-4 (273/486)},{GPT-3.5 (156/386)},{LoRA IR1$\times$OR3 (29/48)},{LoRA IR1$\times$OR4 (4/8)}},
+  y tick label style={font=\scriptsize},x tick label style={font=\scriptsize},
+  enlarge y limits=0.04,area legend,legend style={font=\scriptsize,at={(0.98,0.03)},anchor=south east,draw=none},
+  axis x line*=bottom,axis y line*=left]
+\addplot[fill=decblue,draw=none] coordinates {(1.2,0) (1.6,1) (1.7,2) (2.3,3) (2.5,4) (3.4,5) (3.9,6) (4.9,7) (6.2,8) (14.9,9) (32.2,10) (33.3,11) (41.4,12) (50.0,13)};
+\addplot[fill=opengray,draw=none] coordinates {(0.0,0) (25.3,1) (0.0,2) (24.3,3) (27.4,4) (0.0,5) (0.0,6) (0.0,7) (0.0,8) (22.6,9) (20.6,10) (39.1,11) (37.5,12) (75.0,13)};
+\legend{Defects4J,HumanEval-Java}
+\end{axis}
+\end{tikzpicture}

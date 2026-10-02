@@ -1,0 +1,27 @@
+{
+  "bug_id": "JacksonXml-1",
+  "cases": [
+    {
+      "candidate_id": "obscand_5badcd21ac9e7cf073aff694cca88e5c5c00d09f2915a41a13a05206114830aa",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_67c631a0db2377b46ba50f53808d205521be4a4bf8ff7ed641695b9e5b9a6998",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a243c17125d42f6890d9973d917c5559b3281548bf902244b78bca3428093887",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c25b8639bc4b0bfd894765daa92c92de900eb299f6c8a63f77782bf11a3013d9",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c3aba802420b76d8b0e885339200c021092ab345d53eb44935a03a00c4058efb",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonXml-1",
+  "phase": "full"
+}

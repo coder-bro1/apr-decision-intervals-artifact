@@ -1,0 +1,65 @@
+{
+ "seed": 20261002,
+ "per_config": 32,
+ "reopened_comparisons": [
+  "entropy_delta",
+  "mean_norm_position",
+  "mra",
+  "naturalness",
+  "source_agnostic",
+  "token_similarity",
+  "uniform"
+ ],
+ "high_rate_configs": [
+  "gpt35_gpt-zero-shot",
+  "gpt4_gpt-zero-shot",
+  "repairllama_ir1_or1",
+  "repairllama_ir1_or3",
+  "repairllama_ir1_or4"
+ ],
+ "population": 15641,
+ "sampled": 160,
+ "bugs": 132,
+ "strata": {
+  "gpt35_gpt-zero-shot/compile": {
+   "population": 1697,
+   "sampled": 19
+  },
+  "gpt35_gpt-zero-shot/test": {
+   "population": 1102,
+   "sampled": 13
+  },
+  "gpt4_gpt-zero-shot/compile": {
+   "population": 1740,
+   "sampled": 18
+  },
+  "gpt4_gpt-zero-shot/test": {
+   "population": 1348,
+   "sampled": 14
+  },
+  "repairllama_ir1_or1/compile": {
+   "population": 2091,
+   "sampled": 20
+  },
+  "repairllama_ir1_or1/test": {
+   "population": 1230,
+   "sampled": 12
+  },
+  "repairllama_ir1_or3/compile": {
+   "population": 1759,
+   "sampled": 17
+  },
+  "repairllama_ir1_or3/test": {
+   "population": 1553,
+   "sampled": 15
+  },
+  "repairllama_ir1_or4/compile": {
+   "population": 2227,
+   "sampled": 23
+  },
+  "repairllama_ir1_or4/test": {
+   "population": 894,
+   "sampled": 9
+  }
+ }
+}

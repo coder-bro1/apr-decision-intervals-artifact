@@ -1,0 +1,68 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1532b2a7482957b3c4abc2c30dee6815d9a042215c2d7a6f2bacb84d7c63f62f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_1e5f9ec11e9714711f6d9072a8c5d3a004d37df124b35c5e279f0296a9e39f81",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_56915b4378eaa5e6269884a1f8f148230bdb0357bca751d3ec33c3c8aed835d7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a84176c3ad15218eb9d39807289c4e5fd9c832982b8ced3b6824102ffb28ca63",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ae513e269f8a75ee2e375aeae9150c09f9cbaf6e76b1033b7ebe5de98c5c2b72",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b699b11ec329c6ecf41fcfa90286bf5812f4c69e89841f97c5a4f6ca62ca20fc",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d107db2c7766ead4959b85d8514ddec4e6b2ee3b909db50cd35baddef4d9b4ac",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d21d88ab9c2c6e3e7ec1222096be2490de895c5150b9d378c59d83328d199af1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

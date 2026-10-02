@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2243541897528d485efa4ef10d6b9d343a93b6d39c98a7b6b035365a61402204",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bb76cfb8774b0104552ca28ae79d526acf1fc7a8335319f33f51b73c618d0b46",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,14 @@
+{
+ "bug": "MAKE_PALINDROME",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_66d2984b29bdba8a4bca0464cbd4c4a1db4a3bba98e09403e8e1c0057fed1fa8",
+   "original_sha256": "5e0cc4715796e29ccc57e835f447a21fb8da07c784d2acfb604f96511ed1834f",
+   "normalized_original_sha256": "da87f3b2cfd701901814ea459f174c5203309d591d80dc32038eae166fb31595",
+   "patched_sha256": "c9f68cf6f763bc9a18e342d06beb8bf446fa324f5365e7a753fcce73255faa51",
+   "start_offset_lf": 300,
+   "anchor_sha256": "232e7452d6a2d96200018b5e0409c09b9a13e27e75b3e62a8028bc1ba7238dd5",
+   "patch_sha256": "46df55c50537b7bdef3266b85b5f052b1dd4550f8b72c82916c5f07150055581"
+  }
+ }
+}

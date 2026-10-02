@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::testHandlesDeepSpans"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_bd500840a4dec72ebf29ac6624be21afdb5f05e593b7c54091212e615b37919a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.HtmlParserTest::testHandlesDeepSpans"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cb95f7050ac781bfce29048c74e1d01732c6346bf7317b9544cd22f911b47161",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

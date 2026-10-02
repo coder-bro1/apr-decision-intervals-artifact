@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestPartial_Basics::testWith3"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a040141d54fa634e9c20789befa7dafdede4347e59abf33b541a2a2cec0244c9",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,48 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0e050b31ca9d42baebff18aa9bda87e8a688943a43252421b03a3146bd73335d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern"
+      ]
+    },
+    {
+      "candidate_id": "obscand_16a503ff6f218bc3d4eb59096068c6044b7eb29853d6c57a22c599a5eed4ffdd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern"
+      ]
+    },
+    {
+      "candidate_id": "obscand_79d7df0e37e2345721ab25546c67458afd7daec1b1e20fe7b66a627a8bdd66e6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a81459c76b2f663ea16f35d3230af73813779f370454bba30ce44c46217dd892",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ff067381f1076fa2d977e554d64abc8e40053be01cf151345d888b816e23b775",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

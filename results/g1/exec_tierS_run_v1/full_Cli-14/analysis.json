@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0c727c1905bf464af6d2c66be9a0e817e43904469e003ff34b9fdeb1f86b976b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator"
+      ]
+    },
+    {
+      "candidate_id": "obscand_13e84bb050392738c0240043c0628f74e090a6f666dcd8d83500d38d16f378b2",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator"
+      ]
+    },
+    {
+      "candidate_id": "obscand_fb23557772280b4947175abb7a8a2505532c84a40114e794a3500d9bc609a57e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

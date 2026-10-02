@@ -1,0 +1,203 @@
+{
+ "status": "post hoc, read-only; V8 review finding V8-02",
+ "f4_incorrect_candidates": 47,
+ "f4_incorrect_classes": 21,
+ "f4_correct_candidates": 56,
+ "reverted_in_final_view": 47,
+ "decided_final": 16,
+ "decided_with_f4_incorrect_unknown": 16,
+ "comparisons": {
+  "mra": {
+   "final": [
+    9.2692,
+    10.3278
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    8.834,
+    10.8737
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "best_config_top1": {
+   "final": [
+    1.2295,
+    1.6393
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    0.8197,
+    1.6393
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "first_global": {
+   "final": [
+    5.9426,
+    6.3525
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    4.918,
+    6.7623
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "borda": {
+   "final": [
+    7.9918,
+    9.2213
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    7.9918,
+    9.6311
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "rrf": {
+   "final": [
+    7.7869,
+    9.2213
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    7.7869,
+    9.6311
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "mean_norm_position": {
+   "final": [
+    12.9972,
+    13.4276
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    12.502,
+    14.0013
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "occurrence": {
+   "final": [
+    8.0943,
+    9.4262
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    8.0943,
+    9.8361
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "mra_then_occurrence": {
+   "final": [
+    7.4112,
+    9.1189
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    7.4112,
+    9.5287
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "testability": {
+   "final": [
+    0.4098,
+    0.6148
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    0.4098,
+    0.6148
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "one_stage": {
+   "final": [
+    0.4098,
+    0.8197
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    0.4098,
+    0.8197
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "source_agnostic": {
+   "final": [
+    1.8443,
+    3.2787
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    1.5369,
+    3.2787
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "token_similarity": {
+   "final": [
+    11.4127,
+    13.2737
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    11.3765,
+    13.8885
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "codet5_similarity": {
+   "final": [
+    12.2645,
+    13.207
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    12.2556,
+    13.8103
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "naturalness": {
+   "final": [
+    10.8607,
+    12.9098
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    10.8607,
+    13.5246
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "entropy_delta": {
+   "final": [
+    11.2705,
+    12.7049
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    11.2705,
+    13.3197
+   ],
+   "f4_incorrect_unknown_decided": true
+  },
+  "uniform": {
+   "final": [
+    12.4682,
+    14.7053
+   ],
+   "final_decided": true,
+   "f4_incorrect_unknown": [
+    12.4207,
+    15.312
+   ],
+   "f4_incorrect_unknown_decided": true
+  }
+ }
+}

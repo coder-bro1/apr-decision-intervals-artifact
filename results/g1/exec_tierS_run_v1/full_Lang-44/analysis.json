@@ -1,0 +1,54 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.NumberUtilsTest::testLang457"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6c5df65534f6d215c410c84dc5aefe604c72c4b2fd17532eb1f4daff6a15553b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_83b90b1226fb2a9a35b81491cbba83ca9aea0c12316a92df3158f895af229cf5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.NumberUtilsTest::testLang457"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a1720231cc98c4b6e3f92021ca8d345df2330736f53087209c3878ed7366b0b4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.NumberUtilsTest::testLang457"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bb08dbf74a00962dbd12d5caed9cab738779d49cdeaa6a0ff6a497b35647ec42",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c5029061ffa544db853072b99f2d2f5647fc4e3c0e036531210528ff3ccbbd24",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.NumberUtilsTest::testLang457"
+      ]
+    },
+    {
+      "candidate_id": "obscand_de57e8d58274f07cab7925959e95bef0390b3e0b62390e997d80bc0f9fe96fe0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.NumberUtilsTest::testLang457"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

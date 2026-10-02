@@ -1,0 +1,14 @@
+{
+ "bug": "CAR_RACE_COLLISION",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_8ca0e68767d68f397887f9741560971e0b7e480bccb89c97b993738e6a2189d1",
+   "original_sha256": "8792666b36cbfb9ef67e745a10ff65729a21f000547fd33c1da247a4dba363d4",
+   "normalized_original_sha256": "f3b4516029a8ac023eadc2aa9a56952035eabe9ebc9f1512e09e028a73943b96",
+   "patched_sha256": "315b9d9e9383a5a1fb81e2ef80fe55e683c04665251370c74a99a9cbbfa6afb8",
+   "start_offset_lf": 636,
+   "anchor_sha256": "d242e11d0399385830044cc40a35139e7dcfdd8f92631761e80122836e506d61",
+   "patch_sha256": "09ff972f5151e91e2fba1755d84cb4624f8ccb6c0b7f8f20386d61640713671a"
+  }
+ }
+}

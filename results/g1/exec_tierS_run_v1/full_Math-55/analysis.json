@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_859ae9cbad37c15bc2a2fd2bf9452cfac6c620fd3a3d5379afe547208ed94083",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c01ce1193fd18f4ac262697e2a532bae2e9dbfafa1a072e975948cee9d297ea0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e0231010e1019ed4244926aee8b9559eec3e36f5459d145df987219f22f989fa",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

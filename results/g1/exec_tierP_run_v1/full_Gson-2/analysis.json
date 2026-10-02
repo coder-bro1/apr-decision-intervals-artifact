@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_90a38566f49fce3eb04c5be987b08bafb60edd9fb768a0498f3ea691b8afd0ca",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

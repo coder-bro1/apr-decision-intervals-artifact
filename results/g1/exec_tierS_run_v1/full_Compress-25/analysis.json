@@ -1,0 +1,64 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3ed753952a5379afdc720d31af115eeb951290de2a378b25588024b0a4c917ff",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_428bd1d5ae545987014f0a363ff556790884c242edfead91a95fe3144f8e0b7f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_43c8b38430034ead0d9078771761fd5be9428bed09e48af3ad638ab804cde14b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_59e5e509493f9bb08b9de354f4d2a9f9fa877cd86fbd891fdd45d042a69c5b2f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5b697641457dde3253083c959d0176f5472012ecc9d24add34aa67b87eee10ee",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_eb0326701f59d01b0d7eceab938c87d144ba46d484e2e837ce047bfbed6aa905",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f359ef2fe9ca101d31ccd15efe57d89493796e5a32dbb0e8efa63bdbca987cf6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testReadingOfFirstStoredEntry"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

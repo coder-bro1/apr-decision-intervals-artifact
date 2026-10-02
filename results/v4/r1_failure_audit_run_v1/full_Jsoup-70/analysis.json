@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testKeepsPreTextAtDepth"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_d80ea121b41fb353de5eeb0b66325c96dfbffb295ebe547830c7fe965536b150",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.ElementTest::testKeepsPreTextAtDepth"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

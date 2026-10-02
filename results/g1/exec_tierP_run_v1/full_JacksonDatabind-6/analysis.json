@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSeconds",
+    "com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601PartialMilliseconds"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_f321e862e82168f11a5c8b5b2a0889a89f9aa08a4e9399c166aab47060fbc609",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSeconds",
+        "com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601PartialMilliseconds"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

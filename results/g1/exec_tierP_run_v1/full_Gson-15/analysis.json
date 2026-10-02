@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenLenient"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3b668dd7af355945eb72d2f62a666568d930f645e7f79ee61b56bbb9bd9fc08a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenLenient"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

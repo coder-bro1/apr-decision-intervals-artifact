@@ -1,0 +1,35 @@
+{
+ "protocol_sha256": "1a274b28923060289fae66d9899dbdb1a2859ce6e6f5cef9e6fedd16579fbd1b",
+ "occurrence_level": {
+  "incorrect|exec": 50449,
+  "incorrect|human": 1302,
+  "correct|human": 239,
+  "correct|ref": 1305,
+  "unknown|None": 2171
+ },
+ "occurrence_detail": {
+  "0|exec|": 50449,
+  "0|human|agreement": 1202,
+  "0|human|tiebreak": 100,
+  "1|human|agreement": 196,
+  "1|human|tiebreak": 43,
+  "1|ref|correct_ast": 282,
+  "1|ref|correct_ast+correct_exact": 22,
+  "1|ref|correct_exact": 1001
+ },
+ "bug_level_classes_primary_identity": {
+  "conflict|-": 55,
+  "unknown|-": 1001,
+  "0|exec": 36985,
+  "0|exec+human": 48,
+  "0|human": 808,
+  "1|human": 145,
+  "1|ref": 345
+ },
+ "census_controls_by_stratum_and_basis": {
+  "correct_test_pass|human": 5,
+  "correct_test_pass|ref": 25,
+  "incorrect_test_fail|exec": 15,
+  "incorrect_test_pass|human": 15
+ }
+}

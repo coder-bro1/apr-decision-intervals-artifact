@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.mockitointegration.NoJUnitDependenciesTest::pure_mockito_should_not_depend_JUnit"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0492eb4dd090dcedd43098b154dec66496d207d429b00332703aabd089b035a7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

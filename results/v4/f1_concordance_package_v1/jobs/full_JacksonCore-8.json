@@ -1,0 +1,11 @@
+{
+  "bug_id": "JacksonCore-8",
+  "cases": [
+    {
+      "candidate_id": "obscand_d6fff81d3aa19ca92bff88f724f413c186d9c4fca8de37a1482db4c17b6a04ef",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonCore-8",
+  "phase": "full"
+}

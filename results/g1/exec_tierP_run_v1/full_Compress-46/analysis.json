@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ac71abf2f999c93870f0d4be105db514e60d3863feee89cea967e3a8694c3a6d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_aed979d7f30f44bc743b3539cb872df5222e4861b0dcabb655161398a047496a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

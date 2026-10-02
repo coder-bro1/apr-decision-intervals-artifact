@@ -1,0 +1,40 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.node.TestConversions::testBase64Text"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2ceac5f1b63ec1d208e3b0fde7c2622a4adb84ec5e9f6b7719d629e01d610f46",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.node.TestConversions::testBase64Text"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6ff47c07b7228efd37f1983359a1973cb7babbf4b7a6d1d19e809782641c41a5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_92bc08b6906f699210681cbfa4ae7a4f010eeda3ee84bbab3ea77948145aca5c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.node.TestConversions::testBase64Text"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b528a60848d32ebf3f0b662994ef17dc0e402c5d3a7d845604c98328f9541d94",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.node.TestConversions::testBase64Text"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

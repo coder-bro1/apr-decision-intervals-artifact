@@ -1,0 +1,27 @@
+{
+  "bug_id": "JacksonCore-25",
+  "cases": [
+    {
+      "candidate_id": "obscand_358b5f80d5858ac6fc37379ba4f8cf32fcdf51ae8b6c83c2ed69e3b648c4d256",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3a06d68d29ed6db8edf72089467dabbaa6912bca856e0b5864da1b23c7f19df9",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_5a9d47741af6831edfad205937192146a299dc32d712a0cbe7c442f965d7dd36",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_70776b39efa09db972c325b5dbc4dd855d804e0cf30e984eb4ae0fe3169d89cf",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c60732d3a05008a7e638856ab10224ff3f1f872982c52f8c055ff8fb5b74f139",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonCore-25",
+  "phase": "full"
+}

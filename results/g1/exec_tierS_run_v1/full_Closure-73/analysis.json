@@ -1,0 +1,40 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_bf2d30f5db0d6963d54a0e5d5dcafbfd5cd656d4e546c591ea793734141760dc",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c335ef1e9f22c124daed2f7d267faf412f721d8a5cb4db0057c89b8e578da038",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ca94349291c960c21509290571d769bcf8947271f36f9cb588e152f7bd5ec032",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f4ff092b793a97d6772e1de61fb7c1c366d63bfb871557f178f0470ba2cf54f4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

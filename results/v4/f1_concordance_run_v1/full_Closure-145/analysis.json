@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity",
+    "com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9c836122dc644ad86e239c1fb80799c660eab21be059a9d24a2f7aabcedae0e5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity",
+        "com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

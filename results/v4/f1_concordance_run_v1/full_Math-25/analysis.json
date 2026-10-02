@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest::testMath844"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_10468a18b43cd78c793ddebc16e788ed6ec379491a0aefd5cc565a258f7429e4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest::testMath844"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b418b850ff4520be98615ce78410157cc52cc94fad4c040f1eaebd8da4c5eb0c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest::testMath844"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

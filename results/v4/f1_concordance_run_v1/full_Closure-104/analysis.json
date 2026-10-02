@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_886cac74d7bcf78b189ebd49d691f03d87a3969ac721169000386151085723ed",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

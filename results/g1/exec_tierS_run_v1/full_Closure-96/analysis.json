@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5257a98717962813e5cd24754a4a299923c81e08efa9c05878203116d2d86196",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6023de5dfe1ee5bc458fb039dd8facff63b62e69619cfaca9d58f5e8a86b6135",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ebf439e034e5205e6748946c89d77a8dde713a1e263c84ae83eacfe797bbed56",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

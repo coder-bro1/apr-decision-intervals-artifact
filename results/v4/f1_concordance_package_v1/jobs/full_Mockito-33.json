@@ -1,0 +1,11 @@
+{
+  "bug_id": "Mockito-33",
+  "cases": [
+    {
+      "candidate_id": "obscand_eda32cf1bf870ec3054e14cac61c1cf3efc9e7eabf83acb309167b00ccb164a7",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Mockito-33",
+  "phase": "full"
+}

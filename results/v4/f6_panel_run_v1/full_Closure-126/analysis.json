@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally",
+    "com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c977f0ab16d973aa7fd529bc4a4d9bef8f5f936a526844a368e919cecc72f3ce",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

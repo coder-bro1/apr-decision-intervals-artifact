@@ -1,0 +1,14 @@
+{
+ "bug": "PARSE_MUSIC",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_663d7aba886a4cee596bd2764bd2293d17d10ef9d40114d342cd06791534cd86",
+   "original_sha256": "5862618b5f8a0e0f1bdce0d0debddb129863a6dc2c16c8ce571138db4de60c49",
+   "normalized_original_sha256": "23c8748d4dec0a5cd3108d08aed242ebc41af910e75f844733d6ba32dd6bbbd8",
+   "patched_sha256": "16b32b9425dbbe90a167bfe5d2dbf2a20aca7c17baab099898ba16a357a33041",
+   "start_offset_lf": 135,
+   "anchor_sha256": "9d3d97eaa2e4f622f360cc606dcada1882ec1411913aa54ae4dbbc8be2cdc417",
+   "patch_sha256": "7af7ff1c6984f06ab9036abf9f4a201a5751430c90b533f742876b7ee9f1828f"
+  }
+ }
+}

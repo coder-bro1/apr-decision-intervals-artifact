@@ -1,0 +1,26 @@
+{
+  "container_ok": true,
+  "files": {
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/buggy_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/buggy_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/checkout_b.log": "7bac870cc26e4fca8b3b6c556ded5bbb8185641e51afd4c85685bf5c23bc6bb7",
+    "evidence/checkout_f.log": "288eb06715377f02ac6bdca3e183060978d134a12ba95148f5c0303463115cae",
+    "evidence/export_classes.modified.log": "02fc0297a59f8491994b525d7a3dc9574dad329e98d1849aff981d2edeb0de02",
+    "evidence/export_dir.src.classes.log": "8bdf1b31ccfbb9bf4f4fedb48de79b26b3b714595824cb72ed42f1ad1af96870",
+    "evidence/fix_test_suite.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/fixed_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/gen_evosuite_1.log": "3bb8c1f1bf5c3780c214ab61af3fe5f1199a00ef3280d9475d2e3357fdaabebc",
+    "evidence/gen_evosuite_2.log": "1831c84a92cdd96816e8c2706115fc2bc57d2ea4802b3a379b5812d628454d8d",
+    "evidence/gen_randoop_1.log": "ab14ff0fbe55b7e0daa8e41427e2a1ba46ea3ae87d535f89642fef501d098ce8",
+    "evidence/manifest.json": "a9b0c3eb775aada7a2d53902eb722199898d58d732dc5b5ad0d0eab254357722",
+    "evidence/obscand_eeac30a0d207b493_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/obscand_eeac30a0d207b493_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/result.json": "66efed2da0c4870477aed9c9fa33156c78552dae4d197255839b3ddafae966c4",
+    "launch.json": "57e9957481cba5284e94a92f5e42990a9a0c64ee5c81b105ca52d9fb712741b1"
+  },
+  "job_id": "full_Math-105",
+  "package_sha256": "29a0c5f8b72d28ac758daa7bf287834cf0f2af51d978a004f8f961fe8bf0123e",
+  "seconds": 22.343999999997322
+}

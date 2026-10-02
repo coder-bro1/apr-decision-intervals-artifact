@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a71bb93767ed1ce2b9aee3e2f98419a3f4258e12a3e789c93a73ba75733cf869",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

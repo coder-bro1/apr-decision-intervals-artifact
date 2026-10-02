@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ddc05481a6dc3d78b7c531e5cfb2bce92e19f6be8c6fc7a2e9b15d30b3735107",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

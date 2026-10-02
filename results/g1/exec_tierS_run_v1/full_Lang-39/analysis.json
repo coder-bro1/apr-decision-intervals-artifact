@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1a1fafc0e7a066f7ec3b2a18b8e2b290b6312ea0cae01f641b3e47eee116c9c4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray"
+      ]
+    },
+    {
+      "candidate_id": "obscand_2013a02e2df07925ccdcbd86e0c18f42d19596d9646bf3cbb7880861554a923c",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9785150fa8d930c0248affd986dbfd1e3e29bf4ee6cc83cb2ff6cc0ff6184092",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_da1889f7e5c9e86945d9b453b118b45cc097e928f6843ee39caba043672b7a90",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

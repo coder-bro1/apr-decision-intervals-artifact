@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testCoreFunctions"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1603b5653d44fbf414670ea35a13961cb2d0aa84791950be75f90a2522d6c8b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testCoreFunctions"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bea9209263113bde0335423cd3dce51c6d5d25d27b4bce23b89417cdd24e26dd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testCoreFunctions"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

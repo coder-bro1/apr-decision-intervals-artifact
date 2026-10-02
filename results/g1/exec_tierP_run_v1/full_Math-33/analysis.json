@@ -1,0 +1,30 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_31c7a3115b1e2da8ff7b11b54f53cf5506d69622275aeb35376fee127880f573",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_40c1c8260de5fde85f9e03b186a778c294c911103c624d60ea1f8efea51c9570",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_978fd5e4bb6dc738a252c4a871b051a9c3d688dab78d403bd0a8e25ac112dc55",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

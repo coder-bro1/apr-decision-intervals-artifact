@@ -1,0 +1,11 @@
+{
+  "bug_id": "Math-7",
+  "cases": [
+    {
+      "candidate_id": "obscand_1f1416565b0c06af4867cff3c727f8abdb8fe63eaf65d20c9b3ed3c0832a26ba",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-7",
+  "phase": "full"
+}

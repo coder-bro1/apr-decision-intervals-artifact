@@ -1,0 +1,8 @@
+{
+ "checkpoint": "external_artifacts\\sota\\APPT_model\\output\\bert_small_cat_headTail_0\\checkpoint",
+ "gate": {
+  "fold0_test_patches": 237,
+  "auc_correct_vs_1_minus_p_overfit": 0.9304097771387492
+ },
+ "candidates": 55466
+}

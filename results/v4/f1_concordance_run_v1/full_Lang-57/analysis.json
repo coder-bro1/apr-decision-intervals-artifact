@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+    "org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+    "org.apache.commons.lang.LocaleUtilsTest::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3d114f32b8abdf3d34a8ab756cf45ade3bad1b4480c9539484f8099ef9df8028",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6ddc3e8bc0ebcc65fccad74256ab0ff3851338c9fbe54c2af33c6ae2e6dff23a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+        "org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale",
+        "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+        "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+        "org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry",
+        "org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+        "org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+        "org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+        "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+        "org.apache.commons.lang.LocaleUtilsTest::testConstructor"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

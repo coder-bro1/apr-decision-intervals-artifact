@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.BasicParserTest::testOptionGroupLong",
+    "org.apache.commons.cli.GnuParserTest::testOptionGroupLong",
+    "org.apache.commons.cli.PosixParserTest::testOptionGroupLong"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_f8d89d1c01c75fa6cde160ed69eef6ff0e6592132018fa9e20299098910ebb8e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.BasicParserTest::testOptionGroupLong",
+        "org.apache.commons.cli.GnuParserTest::testOptionGroupLong",
+        "org.apache.commons.cli.PosixParserTest::testOptionGroupLong"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

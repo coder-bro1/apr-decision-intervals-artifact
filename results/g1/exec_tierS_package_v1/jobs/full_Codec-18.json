@@ -1,0 +1,15 @@
+{
+  "bug_id": "Codec-18",
+  "cases": [
+    {
+      "candidate_id": "obscand_a9653582c427d67f5566539b5c757ea564ab16b104bfc0d60ccce05e96eb9438",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e8a849b579e2cb56810c40d1733d87974a7e534fef2c3b935192e01a77413323",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Codec-18",
+  "phase": "full"
+}

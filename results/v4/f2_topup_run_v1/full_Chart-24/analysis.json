@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_35fd993a97054c2182f21f76afa8ced881a5bf150c3f24b03580c7e598d6ce6b",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_79fe53fccc79d5cf0d520329927199b3ae326014b44e98601d46641a4b122747",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

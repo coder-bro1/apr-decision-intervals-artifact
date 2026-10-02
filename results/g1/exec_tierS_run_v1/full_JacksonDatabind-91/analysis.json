@@ -1,0 +1,40 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest::testCachedSerialize"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_01bd8f531d42526847338d966f6a42ca2156250d3c9a1266c7a7cd302da58c65",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9c0a8f7ee856f75741c2158fb5b131448ce3ec941e5b7773e58fb6beb0b783de",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest::testCachedSerialize"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a488026814480786063aa6e3a72aa2578efaf41fe27b7d64e5ab04206a26ce7b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest::testCachedSerialize"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b4974b132397336a7a8f08eb2d31dbba7c7c72405cbb4b851bf65040bf3666c5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest::testCachedSerialize"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

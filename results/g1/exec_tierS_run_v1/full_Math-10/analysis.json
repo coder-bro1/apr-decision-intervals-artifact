@@ -1,0 +1,70 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_46d4e5dfc5b001b174cb1d947842b8878dbaa39e1d765e199fbd84bb355aee89",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_65b806fcb0a5b6ee6b456eae20434506b05767bd1d901b5415139933014e858f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    },
+    {
+      "candidate_id": "obscand_69e26a905147cfbad1f0f476738ce2f1a8d1633e43864e988ffe26aa88ab3b38",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9704cc514fc6bb736b2ed1ccc874044c59b04e5303d54a41040f7a43dd599d16",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9ff098d1255b1527448c0a57740d630eec9056aef12c4233fcc452cab0837a19",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a755df90a246fa05081108b114fd52e1ba78c0ec8a74b45ecda0e8c204801186",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b1c46cf2c2444de0e98d5583479b3263f8e9d8f52d734795d0b5af8ba9cf39b1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c1a6d4acf7fcfe93fbe5f9bf44393f570211bb1f9dee4a9e2e149187c540b0b8",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

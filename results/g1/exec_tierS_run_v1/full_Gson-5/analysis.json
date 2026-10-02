@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b4f9c3ab40d1b8393f9a57efbe0bc9379235b7f2144483733998040a7869032a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

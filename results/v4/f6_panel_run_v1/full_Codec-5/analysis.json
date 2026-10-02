@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2ad0d726086f8ef21d40b68836248802069b3aeb154755a7a173d3fe5700afc3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

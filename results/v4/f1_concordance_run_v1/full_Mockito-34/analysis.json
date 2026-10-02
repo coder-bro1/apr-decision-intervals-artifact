@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.mockito.internal.invocation.InvocationMatcherTest::shouldMatchCaptureArgumentsWhenArgsCountDoesNOTMatch",
+    "org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c824e5b1301e001100774781f83f7b72ea312b60bdf79a532d9ce9892cfdbf33",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.invocation.InvocationMatcherTest::shouldMatchCaptureArgumentsWhenArgsCountDoesNOTMatch",
+        "org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

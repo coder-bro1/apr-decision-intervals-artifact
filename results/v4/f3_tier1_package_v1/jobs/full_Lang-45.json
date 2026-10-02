@@ -1,0 +1,35 @@
+{
+  "bug_id": "Lang-45",
+  "cases": [
+    {
+      "candidate_id": "obscand_0726cb13644b1965f848e148c8b9c881f4e98b7046a823321d960430acd53638",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3852f671c78ddd346c728297f3c8d2a5cac1a91426f65c82fda73eaebf43f854",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3c4bf5cc6c9bb429d0f0c07506bfdc86bbd8058469562fb22ffcff09e9389e6b",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_441e0eb3bf7fb344a3b08af45657b15da56906d9b6fd22b994606ebdec6c498d",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9aacd8b5b6268d6dff2447854e3c39e5c54a0f13e5f04b2fb58af5960469889c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b729935fcfef4e9448548b164bce29d00a1fd0442284c7f2a639157b2969ceed",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_cf65d75b45dbb49aa487d64e5b57a2ea6b54ebed68007bc06d71835f17870647",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Lang-45",
+  "phase": "full"
+}

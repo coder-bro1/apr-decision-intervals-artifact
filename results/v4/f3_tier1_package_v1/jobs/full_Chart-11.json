@@ -1,0 +1,23 @@
+{
+  "bug_id": "Chart-11",
+  "cases": [
+    {
+      "candidate_id": "obscand_0a40e1f4a8d675fc32652fcd6f3525e0e86f87c9bf2637eb7a79ad360253f848",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b8da966aa629b62db6dbdc99f2068c0b1e8bfaa43d3727c93194490e04d6c17f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c03115433a3ca5139d58aafe7e5f90de929faa9f5ca6db67f991cdb9284a998e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_cf2201000a17d2862c457f95c5475031c97d45371b55e3f0021cf3d1d258cf37",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Chart-11",
+  "phase": "full"
+}

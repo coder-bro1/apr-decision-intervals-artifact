@@ -1,0 +1,47 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity",
+    "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4b373856c8ad697c66c2ca1e4f85a772f08aa208acda7f4bf5c03cdf2f47823c",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_742a00d936760c9708665ab54f4fc1234dd61887252a0722ef09127c9eae1066",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7607a5462ba9680788aac9d1be9765ef735dee5776ce70189f535fa0e47a4a74",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_909e9d9e8b7a037d3dca2b5fe63c5f86ec85a3740cf85b6ff69a4711b46e8d13",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ad4ec592f18525e8822fd8f4ed5fd7260c393ca02883bd50e498c163fecaf801",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c825fedc4bbf38bf5a5bda3415e9210c88c438a3a8cd6ef47d3f751f7e7b31d8",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

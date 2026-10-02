@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest::testGettersSetters"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3440e7aead284eb10e0aaf471bea1a1819323f3672b7a58768c4f9540284b739",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

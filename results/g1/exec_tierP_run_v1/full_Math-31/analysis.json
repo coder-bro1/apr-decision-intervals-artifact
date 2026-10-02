@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718",
+    "org.apache.commons.math3.distribution.FDistributionTest::testMath785"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2ab34d832b34101a11d25129c18facd92078fea8836997cbb3ff74643aa9bc49",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718",
+        "org.apache.commons.math3.distribution.FDistributionTest::testMath785"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

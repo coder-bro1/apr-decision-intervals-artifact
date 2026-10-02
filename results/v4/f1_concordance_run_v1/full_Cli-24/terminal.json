@@ -1,0 +1,55 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "10f41454e0c38547a92c4dbc3a8bb6ed409d063bfcf37b0bc82b6e0dbefaade9",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "824497fe5d27c0cb075307bcb3b43526c2e37c8a355af454ca4a5ea4787ef397",
+    "evidence/benchmark_metadata/active-bugs.csv": "0f3d51162349d43e048f129007136df042bb52f4ee6897d62915e71b76fd3a54",
+    "evidence/benchmark_metadata/dependent_tests": "89acc87ff2a4597dc98002b5bb8f89badb218dde8a8ea6b30c9f0399bd765cb5",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "1aa628bf0eff7420483732e5890f0c6bf4d2f7c098e4a81affdd4a4fdb032ba2",
+    "evidence/benchmark_metadata/failing_tests/02dd7c20646bf67dcfb6f7da6beeb7cdffc6ac22": "033bfaac73594d0d6bc6687b51452957ac68459a91dbf241d19108b1e6163010",
+    "evidence/benchmark_metadata/failing_tests/ac6e754ecfc86822aa1ab74d657b0b3f0222b2e6": "b942e015ed2a00fb01bfa9e0074e5bcdb64b2ab185ad8985fdb7936cdb3a2fe2",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "de268e706606c9cdf720051c9ea34ebad66745d11b71ba9b939d61b18f803cb8",
+    "evidence/buggy_r1_test0_all_tests.txt": "a3d5cc7dd6df7af159f0f9ab0a318a4b860632741355d16cf6764f9011eefac6",
+    "evidence/buggy_r1_test0_failing_tests.txt": "d97653832504386bdecc5ca074d432b0d3bd210806fb7e01b6f13cca09869ec8",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "de268e706606c9cdf720051c9ea34ebad66745d11b71ba9b939d61b18f803cb8",
+    "evidence/buggy_r2_test0_all_tests.txt": "a3d5cc7dd6df7af159f0f9ab0a318a4b860632741355d16cf6764f9011eefac6",
+    "evidence/buggy_r2_test0_failing_tests.txt": "d97653832504386bdecc5ca074d432b0d3bd210806fb7e01b6f13cca09869ec8",
+    "evidence/checkout_b.log": "e9eaeee947cb2d698d2395bf6df55643ce4ff77e50d822c147aa34d806875eb4",
+    "evidence/checkout_f.log": "85281fd7e4cf1086e18099fc7d13d89b2cd1101126cbed3d52601112d16303c4",
+    "evidence/export_classes.modified.log": "02fc0297a59f8491994b525d7a3dc9574dad329e98d1849aff981d2edeb0de02",
+    "evidence/export_dir.src.classes.log": "8bdf1b31ccfbb9bf4f4fedb48de79b26b3b714595824cb72ed42f1ad1af96870",
+    "evidence/export_tests.trigger.log": "1d4e8190a24a5191e7d3954eadb6c630ce3ac70c89eb7d233e66015bf425bbe6",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "a3d5cc7dd6df7af159f0f9ab0a318a4b860632741355d16cf6764f9011eefac6",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "a3d5cc7dd6df7af159f0f9ab0a318a4b860632741355d16cf6764f9011eefac6",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "232d809f56f4726974c90a25ab26c31eca0a4e4fde78cdd3e98e168a36c73194",
+    "evidence/result.json": "ea42cd304b8dc712f5855a8079b9800f81822ebe7367f62aa02a59d014f86733",
+    "launch.json": "c67a7e365e5d52ef577bac22fb8155a45a4bc9574217a059eef6688bef5e7e0c"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_515775b2cdc4287482403bdf591adc2ef0206d9c1afef1375d63a7d0d7c5228a",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c514993d4d72eebdf7ea051edf31fc8f56980a3c126cccb3401fe96fa987cf70",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Cli-24",
+  "package_sha256": "951ee27d63ddeff738f19da12e106fcb5d0b518595547af3b0a44d07a72b1bae",
+  "seconds": 19.75
+}

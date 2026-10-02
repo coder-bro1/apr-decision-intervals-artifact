@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_512f76abf55f9110666224deabedcf6720f396c13aac9498a7c7144b3cb28313",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c89960510d019ad8424099b255464c23b39aa87a4c29b00549c03f80bdc8cd8c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

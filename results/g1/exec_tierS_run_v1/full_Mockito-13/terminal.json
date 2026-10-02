@@ -1,0 +1,73 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "eebad5daf58c363930261f455e50a1d9e0368144200ec73dae6fb8816f927205",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "37996f296bc99a0aff481f4b9a38476b9390b69c2e25607dd6ed487ffbf50ee9",
+    "evidence/benchmark_metadata/active-bugs.csv": "849a147d4bf27805edef278ced365f3051557f535dfadeb0a71bd22173572fca",
+    "evidence/benchmark_metadata/dependent_tests": "c1868c1e4e9823edd43d1bdf977fe801cc21b8d00d7a07b8003ee0cee1644388",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "0fbe3abca78da0fdce2789615accf5f67940407b7031b156263b9d2245d0bd55",
+    "evidence/benchmark_metadata/failing_tests/2037361bea014c9ac87393eb96a95374dff46182": "b47776308b8dbbbfe37f472fc1fd094667772fe81f6df1e05bf122d474358ff3",
+    "evidence/benchmark_metadata/random_tests": "e0f2e0089963a12123347344bbccd950648cbc35cd93ce85b1dcef0c464729a7",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "730614ac28aec2d304db755f97e0733ecb02276335c1a9f62ad475b093eaf531",
+    "evidence/buggy_r1_test0_all_tests.txt": "1fd116b00fb187e53bb1cac5bec010040846e80c72be76f8f0b6e1060a852fff",
+    "evidence/buggy_r1_test0_failing_tests.txt": "bdd24c0c92d73164a39c9d915bcf71aaa7f0210f8e05de3a451c073e8ca8bdee",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "730614ac28aec2d304db755f97e0733ecb02276335c1a9f62ad475b093eaf531",
+    "evidence/buggy_r2_test0_all_tests.txt": "1fd116b00fb187e53bb1cac5bec010040846e80c72be76f8f0b6e1060a852fff",
+    "evidence/buggy_r2_test0_failing_tests.txt": "bdd24c0c92d73164a39c9d915bcf71aaa7f0210f8e05de3a451c073e8ca8bdee",
+    "evidence/checkout_b.log": "ce4b95ebbc6e4a561362f39eb5f5fb824929c4918ce8d5571d95d5e6469d7eac",
+    "evidence/checkout_f.log": "84730b14eb608bf3598ffcd8cf8853c4ccc230851872bf54c60dd6e7e1d3f56f",
+    "evidence/export_classes.modified.log": "731a24211cbe0b0946b60232407bb83fbafd8a2574a3c56921bdf86ee58f1cf7",
+    "evidence/export_dir.src.classes.log": "052aa4678353fa550a3662920fdb30ed75b881f0b93aa4dc354e0a7d93a1ebb6",
+    "evidence/export_tests.trigger.log": "cb28ecefeb860415ec0198c508b5254aacc79da42f6b600e819280f2b3d86e57",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "1fd116b00fb187e53bb1cac5bec010040846e80c72be76f8f0b6e1060a852fff",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "1fd116b00fb187e53bb1cac5bec010040846e80c72be76f8f0b6e1060a852fff",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "fbc21bbc5f42cd217e2794d0b965bb5536fcabede9cef6c3cf2f5dee995fc236",
+    "evidence/result.json": "ef456ff7501d1cc9b76c1792035c7534c9e4c2a9740868591fd201cc9942daed",
+    "launch.json": "cb6697058e19ca2e55255362d4768a9d4f5dc19c987a3ea798fb985324cf20e7"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_05a3a4657309d24c44f6a21eac44783ceaca240fcf98278393ad99503bf07ff2",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_069d178b6555c57477a516e2a459a18273d63b965ddaaa9cadee3244a1888bc1",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_06eb032f94120a25ca9402d2108e4eb7dedb6e53899eda5f58da5704122885df",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_08b2587c53cf6becb6c7ff39a2cea334898a37fe130b8d328cbdc0678fa8c073",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_54dfd31aab550fd010cb813f75f97bd0772501d43fb5ba8d89725fe8218beb92",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Mockito-13",
+  "package_sha256": "a5acbbf9c244582fff4bc5083a4d206df30073f1ba0adbccc98c08c496b6bef8",
+  "seconds": 65.43700000000536
+}

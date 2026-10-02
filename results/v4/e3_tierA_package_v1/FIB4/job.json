@@ -1,0 +1,23 @@
+{
+ "bug": "FIB4",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_7809615ae06a6e206cdb97a1056adfd9b8d85f9e9c9c6fcc62594e7f503e339b",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "6ba80b1eb7b9ffb48fefa5d26b0277a3743a950268c1b64cda4e5d1344760d10",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "ff7c39d4c02abbb910f52c6b3ac2cbf664045186ac4e7c1e1ee4c39c52b41794"
+  },
+  "c0002": {
+   "candidate_id": "obscand_94e30f79c109de2d39f27eae910873c105e8030bd187ac43b8d8ecd6e2239301",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "6a360dacc7454a051316846d82f550b4fc08030958e43ee1ec262590bd7293b2",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "e6d622f1bc9ab3e4a815871c10847a60f59df6946c86c692f2807dc29a35b81f"
+  }
+ }
+}

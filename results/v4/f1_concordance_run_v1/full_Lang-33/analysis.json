@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1001df42a1eb7efb7dba8cec202f46a1c625a90c8182996b82cd689bfc674302",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a065315ac47a0637775d747cca2d097726544b6bbd6e95d904c42b0ab962b1e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e479697cbff6a02eeab74f2b564185bda8f912d2d56a97689351600368bd4bce",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ea90c2384fb688bf1723be724fd701d6c14844fc344da390be077cc5c654548c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

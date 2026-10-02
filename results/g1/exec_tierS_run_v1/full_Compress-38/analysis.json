@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0923bba8c96932e02e85603cc8e164ea1732b706fb820297bbb9f641d2cc89fe",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+      ]
+    },
+    {
+      "candidate_id": "obscand_162430cff6e9de4724b9d4d72b289891f35947daa17b941d28a20766e0b73451",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5997ddd4dc315344e0983f83d388d077828b3b5336e0c9cb17476764f419fae5",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cc4cdb93d6bea92db46ab8d2697a708b754cec5770526840d08371a1e70000f1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+      ]
+    },
+    {
+      "candidate_id": "obscand_da13c50b747363ff0a788be59fed299c03b4bcd1a5fbee5c97da9ec44dbb251c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

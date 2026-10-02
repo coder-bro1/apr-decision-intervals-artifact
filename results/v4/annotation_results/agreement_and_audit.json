@@ -1,0 +1,39 @@
+{
+ "items": 104,
+ "answered_by_both": 104,
+ "raw_agreement": 1.0,
+ "kappa_3way": 1.0,
+ "kappa_firm_only": 1.0,
+ "ai_use_share": {
+  "annotator_1": 0.0,
+  "annotator_2": 0.0
+ },
+ "disagreements": [],
+ "F4": {
+  "items": 44,
+  "resolved": {
+   "correct": 19,
+   "incorrect": 25
+  }
+ },
+ "F5": {
+  "accepted_correct": {
+   "sampled": 30,
+   "resolved": 30,
+   "disagree_with_accepted": 13,
+   "rate_ci95": [
+    0.254607549903263,
+    0.6257265493907793
+   ]
+  },
+  "accepted_incorrect": {
+   "sampled": 30,
+   "resolved": 30,
+   "disagree_with_accepted": 3,
+   "rate_ci95": [
+    0.02111713702972257,
+    0.2652884504742081
+   ]
+  }
+ }
+}

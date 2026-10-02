@@ -1,0 +1,28 @@
+{
+  "container_ok": true,
+  "files": {
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/buggy_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/buggy_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/checkout_b.log": "7bac870cc26e4fca8b3b6c556ded5bbb8185641e51afd4c85685bf5c23bc6bb7",
+    "evidence/checkout_f.log": "288eb06715377f02ac6bdca3e183060978d134a12ba95148f5c0303463115cae",
+    "evidence/export_classes.modified.log": "02fc0297a59f8491994b525d7a3dc9574dad329e98d1849aff981d2edeb0de02",
+    "evidence/export_dir.src.classes.log": "8bdf1b31ccfbb9bf4f4fedb48de79b26b3b714595824cb72ed42f1ad1af96870",
+    "evidence/fix_test_suite.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/fixed_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/gen_evosuite_1.log": "33c4870c499e8849ad943f29e37f71899b3d56d2498926cd04dbe3e3fc9cae69",
+    "evidence/gen_evosuite_2.log": "ca6a716eab0dca937838b92bc8b6b4355e4eb3e6390f971a200a753b3fd7fb69",
+    "evidence/gen_randoop_1.log": "05b4e1fe63936a7c8e65dcd9297bf6eafa3bdc374d2bace0458ec8e8dab623c6",
+    "evidence/manifest.json": "2fb2a01ecc9e6d19d6c445eb218ae128a1b294f5c324a4f882d3bcff029fe90c",
+    "evidence/obscand_7b2edbce1718d100_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/obscand_7b2edbce1718d100_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/obscand_f0e59a19884275bb_r1_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/obscand_f0e59a19884275bb_r2_compile.log": "0a8ea08bb9222f8ac23dff5c7de230cf17498e355af5b10cdc7db69705237252",
+    "evidence/result.json": "3ad6bf0c3225d2817699fee740ce85b89e9f62fe9740b048f32232037603f8bc",
+    "launch.json": "58bdf070408376f0f82808a028345bb8136607743bfd1b7fbfcb282d494f1c1e"
+  },
+  "job_id": "full_Math-105",
+  "package_sha256": "4d0cfec6d9f587be9e9d3f0f7903124b66312d66f38f56d94ba1d102d0f3ab85",
+  "seconds": 22.375
+}

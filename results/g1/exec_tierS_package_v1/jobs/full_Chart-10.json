@@ -1,0 +1,31 @@
+{
+  "bug_id": "Chart-10",
+  "cases": [
+    {
+      "candidate_id": "obscand_33f4a5bf2268fb350942710de4a6e92f5f9af1f4fdc579b0f5bd25d130d547ef",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_48970618788d0229c096a92a87725dd45deecfd5b3b91bc977bdfa19cd8f9957",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_6253032363d4b267d7281dfaff757174f6078e80e6d1c9d011c079adba71cc22",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_7266b1a43ec670dc44e6436756433b0d376c740ab9293f1ffafcc8f2c1b466ef",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b384df72f454c1b03dd7e172bbb83bd9f0fc7fccc6931ec4c36e1a029e244978",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_cc530be8cae52740b784f573fcb431eda99f95b09a586794de3ba4fc90e03e6f",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Chart-10",
+  "phase": "full"
+}

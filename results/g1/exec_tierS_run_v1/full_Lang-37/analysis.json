@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7af18fce588e0aa8fdec71e849bfb3a75811adda33d01a05bcce0a7e54d0d596",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e196acd783deb40269ad6d265d26dd82adefe9f0f236ca467d789d0983549971",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

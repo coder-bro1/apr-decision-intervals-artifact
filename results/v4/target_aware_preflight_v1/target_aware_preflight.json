@@ -1,0 +1,559 @@
+{
+ "status": "post hoc, read-only; V8 review finding V8-01",
+ "defects4j": {
+  "n_bugs": 488,
+  "campaigns": {
+   "Census": {
+    "start": "E0",
+    "end": "E1",
+    "update_rule": "candidate",
+    "ceilings": [
+     "candidate",
+     "execution"
+    ],
+    "targeted_candidates": 280,
+    "targeted_classes": 274,
+    "hours": 16.0,
+    "comparisons": {
+     "best_config_top1": {
+      "A0": 0.0,
+      "interval_start": [
+       -1.2295,
+       2.2541
+      ],
+      "interval_end": [
+       -1.2295,
+       2.2541
+      ],
+      "A0_end": 0.0,
+      "ceilings": {
+       "candidate": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       },
+       "execution": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (anchor = 0)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 0,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type cannot decide"
+     },
+     "testability": {
+      "A0": 1.0246,
+      "interval_start": [
+       0.0,
+       1.4344
+      ],
+      "interval_end": [
+       0.0,
+       1.4344
+      ],
+      "A0_end": 1.0246,
+      "ceilings": {
+       "candidate": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       },
+       "execution": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (targets leave 0 inside)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 0,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type cannot decide"
+     },
+     "one_stage": {
+      "A0": 1.8443,
+      "interval_start": [
+       0.0,
+       2.2541
+      ],
+      "interval_end": [
+       0.0,
+       2.2541
+      ],
+      "A0_end": 1.8443,
+      "ceilings": {
+       "candidate": {
+        "status": "reachable +",
+        "k_min": 1,
+        "helpful_classes": 3
+       },
+       "execution": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (targets leave 0 inside)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 3,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type could, targets not"
+     },
+     "source_agnostic": {
+      "A0": 3.1079,
+      "interval_start": [
+       -1.571,
+       4.3374
+      ],
+      "interval_end": [
+       0.3074,
+       4.3374
+      ],
+      "A0_end": 3.1079,
+      "ceilings": {
+       "candidate": {
+        "status": "reachable +",
+        "k_min": 8,
+        "helpful_classes": 22
+       },
+       "execution": {
+        "status": "reachable +",
+        "k_min": 8,
+        "helpful_classes": 19
+       }
+      },
+      "targeted": {
+       "status": "reachable +",
+       "k_min": 8,
+       "helpful_classes_targeted": 17,
+       "helpful_classes_under_rule": 22,
+       "helpful_targeted_refuted": 12
+      },
+      "decided_at_end": true,
+      "outcome": "decided"
+     }
+    }
+   },
+   "Top-up": {
+    "start": "E1",
+    "end": "F2",
+    "update_rule": "candidate",
+    "ceilings": [
+     "candidate",
+     "execution"
+    ],
+    "targeted_candidates": 179,
+    "targeted_classes": 179,
+    "hours": 5.699,
+    "comparisons": {
+     "best_config_top1": {
+      "A0": 0.0,
+      "interval_start": [
+       -1.2295,
+       2.2541
+      ],
+      "interval_end": [
+       -1.2295,
+       2.2541
+      ],
+      "A0_end": 0.0,
+      "ceilings": {
+       "candidate": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       },
+       "execution": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (anchor = 0)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 0,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type cannot decide"
+     },
+     "testability": {
+      "A0": 1.0246,
+      "interval_start": [
+       0.0,
+       1.4344
+      ],
+      "interval_end": [
+       0.0,
+       1.4344
+      ],
+      "A0_end": 1.0246,
+      "ceilings": {
+       "candidate": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       },
+       "execution": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (targets leave 0 inside)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 0,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type cannot decide"
+     },
+     "one_stage": {
+      "A0": 1.8443,
+      "interval_start": [
+       0.0,
+       2.2541
+      ],
+      "interval_end": [
+       0.0,
+       2.2541
+      ],
+      "A0_end": 1.8443,
+      "ceilings": {
+       "candidate": {
+        "status": "reachable +",
+        "k_min": 1,
+        "helpful_classes": 3
+       },
+       "execution": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (targets leave 0 inside)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 3,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type could, targets not"
+     }
+    }
+   },
+   "Generated tests": {
+    "start": "F2",
+    "end": "F3",
+    "update_rule": "class",
+    "ceilings": [
+     "class",
+     "candidate"
+    ],
+    "targeted_candidates": 165,
+    "targeted_classes": 165,
+    "hours": 13.011,
+    "comparisons": {
+     "best_config_top1": {
+      "A0": 0.0,
+      "interval_start": [
+       -1.2295,
+       2.2541
+      ],
+      "interval_end": [
+       -1.2295,
+       2.2541
+      ],
+      "A0_end": 0.0,
+      "ceilings": {
+       "class": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       },
+       "candidate": {
+        "status": "not reachable (anchor = 0)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (anchor = 0)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 0,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type cannot decide"
+     },
+     "testability": {
+      "A0": 1.0246,
+      "interval_start": [
+       0.0,
+       1.4344
+      ],
+      "interval_end": [
+       0.0,
+       1.4344
+      ],
+      "A0_end": 1.0246,
+      "ceilings": {
+       "class": {
+        "status": "reachable +",
+        "k_min": 1,
+        "helpful_classes": 5
+       },
+       "candidate": {
+        "status": "not reachable (locked or non-refutable mass keeps 0 inside)",
+        "k_min": null,
+        "helpful_classes": 0
+       }
+      },
+      "targeted": {
+       "status": "not reachable (targets leave 0 inside)",
+       "k_min": null,
+       "helpful_classes_targeted": 0,
+       "helpful_classes_under_rule": 5,
+       "helpful_targeted_refuted": 0
+      },
+      "decided_at_end": false,
+      "outcome": "type could, targets not"
+     },
+     "one_stage": {
+      "A0": 1.8443,
+      "interval_start": [
+       0.0,
+       2.2541
+      ],
+      "interval_end": [
+       0.2049,
+       2.2541
+      ],
+      "A0_end": 1.8443,
+      "ceilings": {
+       "class": {
+        "status": "reachable +",
+        "k_min": 1,
+        "helpful_classes": 9
+       },
+       "candidate": {
+        "status": "reachable +",
+        "k_min": 1,
+        "helpful_classes": 3
+       }
+      },
+      "targeted": {
+       "status": "reachable +",
+       "k_min": 1,
+       "helpful_classes_targeted": 4,
+       "helpful_classes_under_rule": 9,
+       "helpful_targeted_refuted": 1
+      },
+      "decided_at_end": true,
+      "outcome": "decided"
+     }
+    },
+    "strict_variant_candidate_rule": {
+     "best_config_top1": {
+      "status": "not reachable (anchor = 0)",
+      "k_min": null,
+      "helpful_classes_targeted": 0,
+      "helpful_classes_under_rule": 0,
+      "helpful_targeted_refuted": 0
+     },
+     "testability": {
+      "status": "not reachable (targets leave 0 inside)",
+      "k_min": null,
+      "helpful_classes_targeted": 0,
+      "helpful_classes_under_rule": 0,
+      "helpful_targeted_refuted": 0
+     },
+     "one_stage": {
+      "status": "reachable +",
+      "k_min": 1,
+      "helpful_classes_targeted": 3,
+      "helpful_classes_under_rule": 3,
+      "helpful_targeted_refuted": 1
+     }
+    }
+   }
+  }
+ },
+ "g1": {
+  "n_bugs": 488,
+  "primary": "challenger_frozen vs occurrence",
+  "tier_P": {
+   "targeted_candidates": 299,
+   "targeted_classes": 299,
+   "hours": 4.626
+  },
+  "tier_S": {
+   "targeted_candidates": 1219,
+   "targeted_classes": 1219,
+   "hours": 15.399
+  },
+  "comparisons": {
+   "challenger_frozen vs occurrence": {
+    "A0": 0.0512,
+    "interval_start": [
+     -17.4146,
+     25.2732
+    ],
+    "interval_end": [
+     -3.5348,
+     3.2275
+    ],
+    "A0_end": 0.0512,
+    "ceilings": {
+     "candidate": {
+      "status": "reachable +",
+      "k_min": 157,
+      "helpful_classes": 159
+     }
+    },
+    "targeted": {
+     "status": "reachable +",
+     "k_min": 157,
+     "helpful_classes_targeted": 159,
+     "helpful_classes_under_rule": 159,
+     "helpful_targeted_refuted": 133
+    },
+    "decided_at_end": false,
+    "outcome": "targets could, too few failed"
+   },
+   "occurrence vs uniform": {
+    "A0": 0.0297,
+    "interval_start": [
+     -52.2756,
+     28.7776
+    ],
+    "interval_end": [
+     -6.7036,
+     4.6882
+    ],
+    "A0_end": 0.0297,
+    "ceilings": {
+     "candidate": {
+      "status": "reachable +",
+      "k_min": 1218,
+      "helpful_classes": 1219
+     }
+    },
+    "targeted": {
+     "status": "reachable +",
+     "k_min": 1218,
+     "helpful_classes_targeted": 1219,
+     "helpful_classes_under_rule": 1219,
+     "helpful_targeted_refuted": 1052
+    },
+    "decided_at_end": false,
+    "outcome": "targets could, too few failed"
+   },
+   "challenger_frozen vs uniform": {
+    "A0": 0.0809,
+    "interval_start": [
+     -53.4329,
+     37.7936
+    ],
+    "interval_end": [
+     -7.1855,
+     4.8627
+    ],
+    "A0_end": 0.0809,
+    "ceilings": {
+     "candidate": {
+      "status": "reachable +",
+      "k_min": 1275,
+      "helpful_classes": 1278
+     }
+    },
+    "targeted": {
+     "status": "reachable +",
+     "k_min": 1275,
+     "helpful_classes_targeted": 1278,
+     "helpful_classes_under_rule": 1278,
+     "helpful_targeted_refuted": 1099
+    },
+    "decided_at_end": false,
+    "outcome": "targets could, too few failed"
+   },
+   "codet5_similarity vs uniform": {
+    "A0": 0.6957,
+    "interval_start": [
+     -53.3129,
+     25.5015
+    ],
+    "interval_end": [
+     -6.6893,
+     3.803
+    ],
+    "A0_end": 0.6957,
+    "ceilings": {
+     "candidate": {
+      "status": "reachable +",
+      "k_min": 1259,
+      "helpful_classes": 1292
+     }
+    },
+    "targeted": {
+     "status": "reachable +",
+     "k_min": 1259,
+     "helpful_classes_targeted": 1292,
+     "helpful_classes_under_rule": 1292,
+     "helpful_targeted_refuted": 1109
+    },
+    "decided_at_end": false,
+    "outcome": "targets could, too few failed"
+   },
+   "naturalness vs uniform": {
+    "A0": 0.0809,
+    "interval_start": [
+     -46.7589,
+     51.4065
+    ],
+    "interval_end": [
+     -5.9033,
+     7.8839
+    ],
+    "A0_end": 0.0809,
+    "ceilings": {
+     "candidate": {
+      "status": "reachable +",
+      "k_min": 1176,
+      "helpful_classes": 1179
+     }
+    },
+    "targeted": {
+     "status": "reachable +",
+     "k_min": 1176,
+     "helpful_classes_targeted": 1179,
+     "helpful_classes_under_rule": 1179,
+     "helpful_targeted_refuted": 1021
+    },
+    "decided_at_end": false,
+    "outcome": "targets could, too few failed"
+   }
+  }
+ }
+}

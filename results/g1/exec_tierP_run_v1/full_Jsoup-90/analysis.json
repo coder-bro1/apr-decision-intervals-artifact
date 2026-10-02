@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.HttpConnectionTest::handlesHeaderEncodingOnRequest"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2bd7e73fa73b3b8f8aee134dd6b9809291b5779b61dc98d945044bce1ef2736a",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f9e85a5ea68635e895ce31ba7dd2728775df30a62d853355e15f02bdfca75a13",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.HttpConnectionTest::handlesHeaderEncodingOnRequest"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

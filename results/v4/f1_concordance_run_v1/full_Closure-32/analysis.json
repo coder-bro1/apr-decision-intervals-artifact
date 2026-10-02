@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+    "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+    "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+    "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_316e291d12f2fc5998904db3d283cff42546226998d013f8c88b6140ee717c59",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

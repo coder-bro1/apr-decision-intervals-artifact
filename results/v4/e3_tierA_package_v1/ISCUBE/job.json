@@ -1,0 +1,14 @@
+{
+ "bug": "ISCUBE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_4c8492d3bcaa9fece51a97d674db9b4e857f140f5575f60b6deb29743457e5be",
+   "original_sha256": "d003cced983e374bb73337d592110f3da6a77610886545c4f697e87aa152809e",
+   "normalized_original_sha256": "95ce08f31b19c15afa636a16e0e195471daa5145ca8a9a5d82723d63f165007f",
+   "patched_sha256": "1c7d1293611c1138e253ad27bbc70a7ddaab29c2d253441883ce55064b2c1d48",
+   "start_offset_lf": 431,
+   "anchor_sha256": "5df740d0fd679aefde20ed58033a93968ed9909e56a6af34b85395bd3a3472a9",
+   "patch_sha256": "911646aa1201a6d6de6c8e319e28d72bb807ef216e2a808eaa5be593ccf54df1"
+  }
+ }
+}

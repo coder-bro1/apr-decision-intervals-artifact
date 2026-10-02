@@ -1,0 +1,14 @@
+{
+ "bug": "WORDS_IN_SENTENCE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_1beeeee05dfda72454888c9a911600e7952d3428f811da8254bceafb279fa329",
+   "original_sha256": "5e6ceb1202365c396dbbaaf190ff01d93030a9d6699d57f52a566805fb8bc0e8",
+   "normalized_original_sha256": "a4660e7b4543a696d79fc0f242168f31ed80475f9992abb4fe71d88234ffe609",
+   "patched_sha256": "0262c96a3779032e7034031a57fea5c6c99873dd54fac1915658a5621efa471e",
+   "start_offset_lf": 600,
+   "anchor_sha256": "3f20aeb4ee2119855ae4213311c3f13eab4590b4759b03e7d4bff3143e65afb3",
+   "patch_sha256": "590a7235de486fdac5d8d3b0186d68a2973738a8ed37e241a1a4f728a09fe69a"
+  }
+ }
+}

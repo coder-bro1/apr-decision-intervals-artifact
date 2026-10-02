@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS1",
+    "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS2"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a9653582c427d67f5566539b5c757ea564ab16b104bfc0d60ccce05e96eb9438",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e8a849b579e2cb56810c40d1733d87974a7e534fef2c3b935192e01a77413323",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS1",
+        "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS2"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.Base64Codec13Test::testEncoder",
+    "org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0b7549de34407852bf24a1185c036ea54e2c349c26429906e5839bbec2cd6f15",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64Codec13Test::testEncoder",
+        "org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a2f75d27bd83a015e159c92c605072014f0a8035dd7a6e4bc93bd7962ed621ac",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.Base64Codec13Test::testEncoder",
+        "org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

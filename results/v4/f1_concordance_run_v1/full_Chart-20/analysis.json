@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5dbf223ee97dd13abd33328707209a9d1b194a59b7ab50d1a7a82b0536d89cbe",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

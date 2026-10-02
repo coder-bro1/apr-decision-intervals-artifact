@@ -1,0 +1,58 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::handlesUnclosedAnchors"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_203f35b2ea6ee479363fca1e9e3e0e940ffe7e7bd8d6cf52d9f79f2b14819625",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_4c22a997d9200ed3fd84a72c384981ccbe5d91b6e2e2b40b65c629d63f739d51",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6a1510938b850d91533e5e1171dfb24b5350fe7184a9e50c4bf4d892b8923031",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_6c7aad7e42196cd159339418d92280bc3e46c67865f1d88aaf49ef6edc19ebf8",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_72a109e4c4e659f3cd28d080fe94de2d2856cdf8cd82e9fabfb0d6612117a3f1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7d2be6083a1959ad89deca396b7207c53e0f8515c61aaaab79dd6249c0f6f62a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a8bdce0db103164cc5af7a02e37429a2f0166f33722694f2139ff204529679d3",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e67f0f92bf984567258618ccd6d0c7352fabb17d7ebc5e926192e694c1775f6f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

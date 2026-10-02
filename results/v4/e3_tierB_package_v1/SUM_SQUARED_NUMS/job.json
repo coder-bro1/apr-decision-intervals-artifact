@@ -1,0 +1,23 @@
+{
+ "bug": "SUM_SQUARED_NUMS",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_266dafbba7922033f8c7c2abc36a0010fe159b0aa4f967c8ae5f0ae422557afe",
+   "original_sha256": "4c8b217e4adb3a33b61da7b0b28dfc5d8edf638b94370373d2bfeaf243f6c9b6",
+   "normalized_original_sha256": "5da48e1a5df1dfad744fb3ea0291de621c1c0e6b1ff65c2bdb0e4deb2d5a94c8",
+   "patched_sha256": "08a090e34c190639eb815bf5b93aecb9e05b8f755950021d522ae73fd3e0a2ea",
+   "start_offset_lf": 495,
+   "anchor_sha256": "e48425e7b3e8d80f5d7c0e7c851f1d019e235bc13c1d6ffc1a6131c789576d28",
+   "patch_sha256": "54e7553ccc41c011672bc5d9e95d993fafe7a0b0a7817f9c3de7dab2868394b1"
+  },
+  "c0002": {
+   "candidate_id": "obscand_fe8f2255acc07da52c28531be6883b84049c0cc8abae4ab24f5660fd946ada75",
+   "original_sha256": "4c8b217e4adb3a33b61da7b0b28dfc5d8edf638b94370373d2bfeaf243f6c9b6",
+   "normalized_original_sha256": "5da48e1a5df1dfad744fb3ea0291de621c1c0e6b1ff65c2bdb0e4deb2d5a94c8",
+   "patched_sha256": "ffbb90d1b9cb860f464882173bb43c86e86e4a6875efd5ec9b5ca8edda358aba",
+   "start_offset_lf": 495,
+   "anchor_sha256": "e48425e7b3e8d80f5d7c0e7c851f1d019e235bc13c1d6ffc1a6131c789576d28",
+   "patch_sha256": "e5cde1af75f1c4c0f930d5698b752ecc4d964234ba14516a24f6028a22ce05a8"
+  }
+ }
+}

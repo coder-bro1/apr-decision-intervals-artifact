@@ -1,0 +1,35 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject",
+    "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_70fdcd20a00fcba601cbec495805a1edac00a5bd1a2b6832ea897eb4b3b73f44",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b94e34e22787604cd6bdff24a962595bde1d64c04de20b0018f1af1755a17895",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject",
+        "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject"
+      ]
+    },
+    {
+      "candidate_id": "obscand_de0e0afbd4bcfb213061141402c3c445bb154364a9d37dde14797e42614927ea",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject",
+        "com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

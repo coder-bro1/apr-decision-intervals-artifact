@@ -1,0 +1,23 @@
+{
+  "bug_id": "Closure-150",
+  "cases": [
+    {
+      "candidate_id": "obscand_208a1e0d36e67ba1f206f420aa24b0fe75dfd5759a75acbf386fe1be232d4607",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_685c7d82627e7e38615990c2b20071d09508f9bd85d669454fc6e646e536561e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_7725b7f98e38fe4be985f3f372fdfeb27118f4e32b269da6432b1c3310f69190",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9589f9360dd6bb2db70d05da6e25d867f98309bf17a7690ebfb5d6feb0ae0bb4",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Closure-150",
+  "phase": "full"
+}

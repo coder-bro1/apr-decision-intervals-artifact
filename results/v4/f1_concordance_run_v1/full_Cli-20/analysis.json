@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.PosixParserTest::testStop3"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9a881fd5d45f12812364c51c6300867879e44cb69ae71a6d4e84895a340c40a4",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,14 @@
+{
+ "bug": "DECODE_CYCLIC",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_c64fd0d2e588dababe2ae5102700006480592f430484e2df59c0b2ff602aa9f1",
+   "original_sha256": "8b2c7e9f9b55de078211bc817f77f4e953fdc27bb4f2ed0e36985dc6e2c68931",
+   "normalized_original_sha256": "f079dfd3fbcf6e725d9d416bbc509c2407d1d7e1ed12611cb71776db245bd292",
+   "patched_sha256": "2c91daff3fb5cabece3b4701290d50c760acfac75f493e72a7b8ac03bac4f203",
+   "start_offset_lf": 172,
+   "anchor_sha256": "3d245d97b567d1547f4189d116f92dbaa60656fc535d9c5ac559cfe88130d51d",
+   "patch_sha256": "30ed5abb5d830d78f71c098aacf8a47f2a34286c77eab5e5790a6b01542cec89"
+  }
+ }
+}

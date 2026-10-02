@@ -1,0 +1,225 @@
+{
+ "witnessed_candidates": 7,
+ "targeted": 99,
+ "realised_yield": 0.0707,
+ "known_correct_members_overwritten": 0,
+ "scored": 8,
+ "brier": 0.0013,
+ "predictions_correct": 8,
+ "decided_at_end": 14,
+ "comparisons": [
+  {
+   "comparison": "challenger vs correctness_stage",
+   "start": "open",
+   "end_interval_pp": [
+    -1.6393,
+    1.0246
+   ],
+   "decided_at_end": false,
+   "prediction": "cannot be decided by refutation (A0 = 0)",
+   "p_decide": 0.0,
+   "correct": true
+  },
+  {
+   "comparison": "challenger vs mra",
+   "start": "decided",
+   "end_interval_pp": [
+    0.0273,
+    2.8689
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "challenger vs occurrence",
+   "start": "decided",
+   "end_interval_pp": [
+    0.5772,
+    3.9139
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "challenger vs codet5_similarity",
+   "start": "open",
+   "end_interval_pp": [
+    -1.4847,
+    6.0973
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0037,
+   "correct": true
+  },
+  {
+   "comparison": "challenger vs naturalness",
+   "start": "decided",
+   "end_interval_pp": [
+    0.6148,
+    10.6557
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "challenger vs entropy_delta",
+   "start": "decided",
+   "end_interval_pp": [
+    1.4344,
+    12.5
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "challenger vs prevarank",
+   "start": "open",
+   "end_interval_pp": [
+    0.4098,
+    7.582
+   ],
+   "decided_at_end": true,
+   "prediction": "decided",
+   "p_decide": 0.9986,
+   "correct": true
+  },
+  {
+   "comparison": "challenger vs appt",
+   "start": "decided",
+   "end_interval_pp": [
+    0.7803,
+    9.3435
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "challenger vs uniform",
+   "start": "decided",
+   "end_interval_pp": [
+    0.2117,
+    15.0181
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs mra",
+   "start": "decided",
+   "end_interval_pp": [
+    0.7104,
+    2.8005
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs occurrence",
+   "start": "decided",
+   "end_interval_pp": [
+    0.8163,
+    4.2896
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs codet5_similarity",
+   "start": "open",
+   "end_interval_pp": [
+    -1.5871,
+    6.8145
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0027,
+   "correct": true
+  },
+  {
+   "comparison": "correctness_stage vs naturalness",
+   "start": "decided",
+   "end_interval_pp": [
+    1.6393,
+    10.2459
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs entropy_delta",
+   "start": "decided",
+   "end_interval_pp": [
+    1.8443,
+    12.7049
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs prevarank",
+   "start": "decided",
+   "end_interval_pp": [
+    0.5123,
+    8.0943
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs appt",
+   "start": "decided",
+   "end_interval_pp": [
+    0.7803,
+    9.9582
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "correctness_stage vs uniform",
+   "start": "decided",
+   "end_interval_pp": [
+    0.3346,
+    15.5099
+   ],
+   "decided_at_end": true
+  },
+  {
+   "comparison": "prevarank vs mra",
+   "start": "open",
+   "end_interval_pp": [
+    -5.6079,
+    0.5123
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0979,
+   "correct": true
+  },
+  {
+   "comparison": "prevarank vs occurrence",
+   "start": "open",
+   "end_interval_pp": [
+    -5.6557,
+    2.1551
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0,
+   "correct": true
+  },
+  {
+   "comparison": "appt vs mra",
+   "start": "open",
+   "end_interval_pp": [
+    -8.3257,
+    1.0982
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0253,
+   "correct": true
+  },
+  {
+   "comparison": "appt vs occurrence",
+   "start": "open",
+   "end_interval_pp": [
+    -8.0333,
+    2.4007
+   ],
+   "decided_at_end": false,
+   "prediction": "open",
+   "p_decide": 0.0,
+   "correct": true
+  }
+ ]
+}

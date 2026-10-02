@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_89387ca153f1e27d306b39436e78083980431cd1ed685553653f6e22ac5dc8a4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,23 @@
+{
+  "bug_id": "Csv-14",
+  "cases": [
+    {
+      "candidate_id": "obscand_39d543d0a7f8219ac32e6d732efe35eae30a2e89dd1d1233a30a74859ec9043f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_68acee63a7fb10be3330abf6f32bbb7146d2aab343061bcfac91b7867f305a56",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ccec7611a014d9b55105e6b0eceeda7cac73e6c4548d4c26e23a1d61e80572ea",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e21123b804ba5228c753aab5b87d3ae29de222f87e57eb77cd13cd39e47407f6",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Csv-14",
+  "phase": "full"
+}

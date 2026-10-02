@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+    "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_4c2a77becef385d4aa19f1bc3e9dd8b435fc43c2757f170820e9de458572b0df",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ccd0070aa8eae710b1bab1b1899bb1dbafcf1fca28d8238206a955ceb824f4c6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+        "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

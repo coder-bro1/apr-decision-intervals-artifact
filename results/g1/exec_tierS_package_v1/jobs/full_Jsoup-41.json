@@ -1,0 +1,23 @@
+{
+  "bug_id": "Jsoup-41",
+  "cases": [
+    {
+      "candidate_id": "obscand_19245c7994eaefbb964fbbd7c099725499150234bfa12a61e3ba0df33bb68a9c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_1a15fdb8474db94559e72bfc921c1348eb483f1eabe110a5c8937bf8994d3961",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2b038c6276a3b14e0b5e268e7fc068745e3c77cedf6e80c227e8ac17ab8f00d6",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d4c5c3f8869f6ecf6fa89372d52a073126c110b072dd04625df2e2945f671490",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-41",
+  "phase": "full"
+}

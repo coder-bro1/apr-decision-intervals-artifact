@@ -1,0 +1,23 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd",
+    "org.jsoup.parser.HtmlParserTest::commentAtEnd"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_522a09989dfe5e422d610e0003a49effda6cf523d183ebdeadae6ed42de228ae",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9b004839eb657b596c1e918adbe711d0182618e28c119d101e7a4d1c12b0f379",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

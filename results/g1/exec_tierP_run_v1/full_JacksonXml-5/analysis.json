@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_44858fc912839e60948e9784c998d08877397afcf87eb9e783d370291cb960a7",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bd9954f8687d6cc5ec2d87788c318f1149cc10feabaa98e660039986fd8eb860",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

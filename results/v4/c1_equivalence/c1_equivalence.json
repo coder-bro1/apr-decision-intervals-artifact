@@ -1,0 +1,4688 @@
+{
+ "texts_normalised": 43880,
+ "texts_total": 55289,
+ "fixes": 859,
+ "fixes_normalised": 827,
+ "fixes_fingerprinted": 827,
+ "classes_ast": 39387,
+ "classes_c1": 38820,
+ "fix_equivalent_candidates": 1296,
+ "evidence_log": {
+  "f2_witnesses_applied": 109,
+  "overwrites": [
+   {
+    "source": "F4",
+    "representative": "obscand_18bc3e3716717977378aac91683b21d736e12c74bd137ff5049100f0aa817c37",
+    "value": 0,
+    "archived_member_labels": [
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "source": "F4",
+    "representative": "obscand_19357b43f47ffc7f259c8d074ccc50fd2650e8599438f610deb30f5f7e356a5a",
+    "value": 1,
+    "archived_member_labels": [
+     1,
+     0,
+     1,
+     null,
+     null
+    ]
+   }
+  ],
+  "f3_witness_candidates": 23,
+  "f4_classes": 44
+ },
+ "views": {
+  "E1": {
+   "class_label_conflicts": {
+    "ast": 55,
+    "c1": 56
+   },
+   "c1_fix_classes_set_correct": 0,
+   "c1_fix_contradictions": [
+    {
+     "bug": "Chart-1",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Chart-11",
+     "members": 38,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 38
+    },
+    {
+     "bug": "Chart-24",
+     "members": 17,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 17
+    },
+    {
+     "bug": "Chart-4",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-19",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Cli-24",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-5",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Closure-38",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Closure-57",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Collections-26",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-23",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Compress-27",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Compress-31",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Compress-45",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-45",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "JacksonDatabind-57",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Jsoup-62",
+     "members": 6,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 6
+    },
+    {
+     "bug": "Jsoup-68",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Jsoup-72",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Jsoup-90",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "JxPath-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Lang-21",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Lang-24",
+     "members": 11,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 11
+    },
+    {
+     "bug": "Lang-29",
+     "members": 3,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-39",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Lang-51",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-58",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Lang-59",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Lang-61",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Math-41",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Math-5",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Math-57",
+     "members": 13,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 13
+    },
+    {
+     "bug": "Math-72",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Math-79",
+     "members": 5,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 5
+    },
+    {
+     "bug": "Math-85",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Math-89",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Time-15",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Time-4",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    }
+   ],
+   "posthoc_override_classes_set_correct": 40,
+   "comparisons": [
+    {
+     "b": "mra",
+     "ast": {
+      "pp": [
+       5.571,
+       11.513
+      ],
+      "unknowns": 111,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.741,
+       11.495
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.741,
+       11.495
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.988,
+       11.108
+      ],
+      "unknowns": 81,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "best_config_top1",
+     "ast": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       2.254
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "first_global",
+     "ast": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       3.484,
+       7.582
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "borda",
+     "ast": {
+      "pp": [
+       5.738,
+       10.451
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.328,
+       9.836
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.328,
+       9.836
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.148,
+       8.607
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "rrf",
+     "ast": {
+      "pp": [
+       5.738,
+       10.451
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.738,
+       10.246
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.738,
+       10.246
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.557,
+       9.016
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mean_norm_position",
+     "ast": {
+      "pp": [
+       8.858,
+       14.257
+      ],
+      "unknowns": 34,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.084,
+       14.288
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.084,
+       14.288
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.697,
+       14.237
+      ],
+      "unknowns": 19,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "occurrence",
+     "ast": {
+      "pp": [
+       6.004,
+       10.656
+      ],
+      "unknowns": 25,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.904,
+       10.348
+      ],
+      "unknowns": 24,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.904,
+       10.348
+      ],
+      "unknowns": 24,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.724,
+       9.119
+      ],
+      "unknowns": 14,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mra_then_occurrence",
+     "ast": {
+      "pp": [
+       5.772,
+       10.348
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.352,
+       8.811
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "testability",
+     "ast": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.0,
+       0.41
+      ],
+      "unknowns": 2,
+      "result": "open"
+     }
+    },
+    {
+     "b": "one_stage",
+     "ast": {
+      "pp": [
+       0.0,
+       2.254
+      ],
+      "unknowns": 11,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       0.205,
+       2.254
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.205,
+       2.254
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       1.23
+      ],
+      "unknowns": 4,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "source_agnostic",
+     "ast": {
+      "pp": [
+       0.307,
+       4.337
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.512,
+       4.542
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.512,
+       4.542
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.717,
+       3.245
+      ],
+      "unknowns": 14,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "token_similarity",
+     "ast": {
+      "pp": [
+       7.405,
+       14.039
+      ],
+      "unknowns": 148,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.408,
+       13.843
+      ],
+      "unknowns": 147,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.408,
+       13.843
+      ],
+      "unknowns": 147,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.925,
+       13.765
+      ],
+      "unknowns": 129,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "codet5_similarity",
+     "ast": {
+      "pp": [
+       8.309,
+       13.81
+      ],
+      "unknowns": 61,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.307,
+       13.605
+      ],
+      "unknowns": 60,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.307,
+       13.605
+      ],
+      "unknowns": 60,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.971,
+       13.605
+      ],
+      "unknowns": 47,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "naturalness",
+     "ast": {
+      "pp": [
+       6.967,
+       13.73
+      ],
+      "unknowns": 33,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.172,
+       13.525
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.172,
+       13.525
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.631,
+       13.32
+      ],
+      "unknowns": 18,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "entropy_delta",
+     "ast": {
+      "pp": [
+       7.377,
+       13.934
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.582,
+       13.73
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.582,
+       13.73
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.836,
+       13.32
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "uniform",
+     "ast": {
+      "pp": [
+       8.469,
+       15.416
+      ],
+      "unknowns": 929,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.546,
+       15.241
+      ],
+      "unknowns": 898,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.546,
+       15.241
+      ],
+      "unknowns": 898,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.148,
+       15.164
+      ],
+      "unknowns": 864,
+      "result": "identified +"
+     }
+    }
+   ]
+  },
+  "E1+F2": {
+   "class_label_conflicts": {
+    "ast": 55,
+    "c1": 56
+   },
+   "c1_fix_classes_set_correct": 0,
+   "c1_fix_contradictions": [
+    {
+     "bug": "Chart-1",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Chart-11",
+     "members": 38,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 38
+    },
+    {
+     "bug": "Chart-24",
+     "members": 17,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 17
+    },
+    {
+     "bug": "Chart-4",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-19",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Cli-24",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-5",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Closure-38",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Closure-57",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Collections-26",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-23",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Compress-27",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Compress-31",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Compress-45",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-45",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "JacksonDatabind-57",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Jsoup-62",
+     "members": 6,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 6
+    },
+    {
+     "bug": "Jsoup-68",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Jsoup-72",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Jsoup-90",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "JxPath-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Lang-21",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Lang-24",
+     "members": 11,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 11
+    },
+    {
+     "bug": "Lang-29",
+     "members": 3,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-39",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Lang-51",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-58",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Lang-59",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Lang-61",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Math-41",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Math-5",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Math-57",
+     "members": 13,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 13
+    },
+    {
+     "bug": "Math-72",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Math-79",
+     "members": 5,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 5
+    },
+    {
+     "bug": "Math-85",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Math-89",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Time-15",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Time-4",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    }
+   ],
+   "posthoc_override_classes_set_correct": 40,
+   "comparisons": [
+    {
+     "b": "mra",
+     "ast": {
+      "pp": [
+       5.571,
+       11.513
+      ],
+      "unknowns": 111,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.741,
+       11.495
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.741,
+       11.495
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.988,
+       11.108
+      ],
+      "unknowns": 81,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "best_config_top1",
+     "ast": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       2.254
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "first_global",
+     "ast": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       1.23,
+       7.582
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       3.484,
+       7.582
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "borda",
+     "ast": {
+      "pp": [
+       5.943,
+       10.451
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.533,
+       9.836
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.533,
+       9.836
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.352,
+       8.607
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "rrf",
+     "ast": {
+      "pp": [
+       5.943,
+       10.451
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.943,
+       10.246
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.943,
+       10.246
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.762,
+       9.016
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mean_norm_position",
+     "ast": {
+      "pp": [
+       8.858,
+       14.257
+      ],
+      "unknowns": 34,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.084,
+       14.288
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.084,
+       14.288
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.697,
+       14.237
+      ],
+      "unknowns": 19,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "occurrence",
+     "ast": {
+      "pp": [
+       6.25,
+       10.656
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.148,
+       10.348
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.148,
+       10.348
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.967,
+       9.119
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mra_then_occurrence",
+     "ast": {
+      "pp": [
+       5.772,
+       10.348
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.352,
+       8.811
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "testability",
+     "ast": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.0,
+       0.41
+      ],
+      "unknowns": 2,
+      "result": "open"
+     }
+    },
+    {
+     "b": "one_stage",
+     "ast": {
+      "pp": [
+       0.0,
+       2.254
+      ],
+      "unknowns": 11,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       0.205,
+       2.254
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.205,
+       2.254
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       1.23
+      ],
+      "unknowns": 4,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "source_agnostic",
+     "ast": {
+      "pp": [
+       0.717,
+       4.337
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.922,
+       4.542
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.922,
+       4.542
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       1.127,
+       3.245
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "token_similarity",
+     "ast": {
+      "pp": [
+       7.566,
+       14.039
+      ],
+      "unknowns": 141,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.569,
+       13.843
+      ],
+      "unknowns": 140,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.569,
+       13.843
+      ],
+      "unknowns": 140,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.085,
+       13.765
+      ],
+      "unknowns": 122,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "codet5_similarity",
+     "ast": {
+      "pp": [
+       8.514,
+       13.81
+      ],
+      "unknowns": 60,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.512,
+       13.605
+      ],
+      "unknowns": 59,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.512,
+       13.605
+      ],
+      "unknowns": 59,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.176,
+       13.605
+      ],
+      "unknowns": 46,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "naturalness",
+     "ast": {
+      "pp": [
+       7.377,
+       13.73
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.377,
+       13.525
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.377,
+       13.525
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.836,
+       13.32
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "entropy_delta",
+     "ast": {
+      "pp": [
+       7.787,
+       13.934
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.787,
+       13.73
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.787,
+       13.73
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.041,
+       13.32
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "uniform",
+     "ast": {
+      "pp": [
+       8.743,
+       15.416
+      ],
+      "unknowns": 820,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.809,
+       15.241
+      ],
+      "unknowns": 794,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.809,
+       15.241
+      ],
+      "unknowns": 794,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.411,
+       15.164
+      ],
+      "unknowns": 760,
+      "result": "identified +"
+     }
+    }
+   ]
+  },
+  "E1+F2+F3": {
+   "class_label_conflicts": {
+    "ast": 55,
+    "c1": 56
+   },
+   "c1_fix_classes_set_correct": 0,
+   "c1_fix_contradictions": [
+    {
+     "bug": "Chart-1",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Chart-11",
+     "members": 38,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 38
+    },
+    {
+     "bug": "Chart-24",
+     "members": 17,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 17
+    },
+    {
+     "bug": "Chart-4",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-19",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Cli-24",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-5",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Closure-38",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Closure-57",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Collections-26",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-23",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Compress-27",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Compress-31",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Compress-45",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-45",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "JacksonDatabind-57",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Jsoup-62",
+     "members": 6,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 6
+    },
+    {
+     "bug": "Jsoup-68",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Jsoup-72",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Jsoup-90",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "JxPath-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Lang-21",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Lang-24",
+     "members": 11,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 11
+    },
+    {
+     "bug": "Lang-29",
+     "members": 3,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-39",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Lang-51",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-58",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Lang-59",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Lang-61",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Math-41",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Math-5",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Math-57",
+     "members": 13,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 13
+    },
+    {
+     "bug": "Math-72",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Math-79",
+     "members": 5,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 5
+    },
+    {
+     "bug": "Math-85",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Math-89",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Time-15",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Time-4",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    }
+   ],
+   "posthoc_override_classes_set_correct": 40,
+   "comparisons": [
+    {
+     "b": "mra",
+     "ast": {
+      "pp": [
+       5.67,
+       11.513
+      ],
+      "unknowns": 107,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.841,
+       11.495
+      ],
+      "unknowns": 105,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.841,
+       11.495
+      ],
+      "unknowns": 105,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       8.088,
+       11.108
+      ],
+      "unknowns": 77,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "best_config_top1",
+     "ast": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       -1.23,
+       2.254
+      ],
+      "unknowns": 17,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       2.254
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "first_global",
+     "ast": {
+      "pp": [
+       1.639,
+       7.582
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       1.639,
+       7.582
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       1.639,
+       7.582
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       3.893,
+       7.582
+      ],
+      "unknowns": 18,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "borda",
+     "ast": {
+      "pp": [
+       6.148,
+       10.451
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.738,
+       9.836
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.738,
+       9.836
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.557,
+       8.607
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "rrf",
+     "ast": {
+      "pp": [
+       5.943,
+       10.451
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.943,
+       10.246
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.943,
+       10.246
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.762,
+       9.016
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mean_norm_position",
+     "ast": {
+      "pp": [
+       8.95,
+       14.257
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.177,
+       14.288
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.177,
+       14.288
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.789,
+       14.237
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "occurrence",
+     "ast": {
+      "pp": [
+       6.25,
+       10.656
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.148,
+       10.348
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.148,
+       10.348
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.967,
+       9.119
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mra_then_occurrence",
+     "ast": {
+      "pp": [
+       5.772,
+       10.348
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       5.738,
+       10.041
+      ],
+      "unknowns": 21,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       6.352,
+       8.811
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "testability",
+     "ast": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       0.0,
+       1.434
+      ],
+      "unknowns": 7,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.0,
+       0.41
+      ],
+      "unknowns": 2,
+      "result": "open"
+     }
+    },
+    {
+     "b": "one_stage",
+     "ast": {
+      "pp": [
+       0.205,
+       2.254
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.41,
+       2.254
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.41,
+       2.254
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.615,
+       1.23
+      ],
+      "unknowns": 3,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "source_agnostic",
+     "ast": {
+      "pp": [
+       0.717,
+       4.337
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.922,
+       4.542
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.922,
+       4.542
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       1.127,
+       3.245
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "token_similarity",
+     "ast": {
+      "pp": [
+       7.835,
+       14.039
+      ],
+      "unknowns": 123,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.838,
+       13.843
+      ],
+      "unknowns": 122,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.838,
+       13.843
+      ],
+      "unknowns": 122,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.355,
+       13.765
+      ],
+      "unknowns": 104,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "codet5_similarity",
+     "ast": {
+      "pp": [
+       8.567,
+       13.81
+      ],
+      "unknowns": 54,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.565,
+       13.605
+      ],
+      "unknowns": 53,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.565,
+       13.605
+      ],
+      "unknowns": 53,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.229,
+       13.605
+      ],
+      "unknowns": 40,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "naturalness",
+     "ast": {
+      "pp": [
+       7.377,
+       13.73
+      ],
+      "unknowns": 31,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.377,
+       13.525
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.377,
+       13.525
+      ],
+      "unknowns": 30,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.836,
+       13.32
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "entropy_delta",
+     "ast": {
+      "pp": [
+       7.992,
+       13.934
+      ],
+      "unknowns": 29,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.992,
+       13.73
+      ],
+      "unknowns": 28,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.992,
+       13.73
+      ],
+      "unknowns": 28,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.246,
+       13.32
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "uniform",
+     "ast": {
+      "pp": [
+       8.803,
+       15.416
+      ],
+      "unknowns": 797,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.869,
+       15.241
+      ],
+      "unknowns": 771,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.869,
+       15.241
+      ],
+      "unknowns": 771,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.472,
+       15.164
+      ],
+      "unknowns": 737,
+      "result": "identified +"
+     }
+    }
+   ]
+  },
+  "E1+F2+F3+F4": {
+   "class_label_conflicts": {
+    "ast": 53,
+    "c1": 55
+   },
+   "c1_fix_classes_set_correct": 0,
+   "c1_fix_contradictions": [
+    {
+     "bug": "Chart-1",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Chart-11",
+     "members": 38,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 38
+    },
+    {
+     "bug": "Chart-24",
+     "members": 17,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 17
+    },
+    {
+     "bug": "Chart-4",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-19",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Cli-24",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-5",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Closure-38",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Closure-57",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Collections-26",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-23",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Compress-27",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Compress-31",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Compress-45",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-45",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "JacksonDatabind-57",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Jsoup-62",
+     "members": 6,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 6
+    },
+    {
+     "bug": "Jsoup-68",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Jsoup-72",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Jsoup-90",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "JxPath-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Lang-21",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Lang-24",
+     "members": 11,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 11
+    },
+    {
+     "bug": "Lang-29",
+     "members": 3,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-39",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Lang-51",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-58",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Lang-59",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Lang-61",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Math-41",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Math-5",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Math-57",
+     "members": 13,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 13
+    },
+    {
+     "bug": "Math-72",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Math-79",
+     "members": 5,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 5
+    },
+    {
+     "bug": "Math-85",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Math-89",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Time-15",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Time-4",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    }
+   ],
+   "posthoc_override_classes_set_correct": 40,
+   "comparisons": [
+    {
+     "b": "mra",
+     "ast": {
+      "pp": [
+       7.022,
+       10.617
+      ],
+      "unknowns": 67,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.176,
+       10.802
+      ],
+      "unknowns": 68,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.176,
+       10.802
+      ],
+      "unknowns": 68,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       9.423,
+       10.415
+      ],
+      "unknowns": 40,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "best_config_top1",
+     "ast": {
+      "pp": [
+       -0.41,
+       1.639
+      ],
+      "unknowns": 10,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       -0.41,
+       1.639
+      ],
+      "unknowns": 10,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       -0.41,
+       1.639
+      ],
+      "unknowns": 10,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       1.23,
+       1.639
+      ],
+      "unknowns": 2,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "first_global",
+     "ast": {
+      "pp": [
+       3.689,
+       6.352
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       3.689,
+       6.352
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       3.689,
+       6.352
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       5.943,
+       6.352
+      ],
+      "unknowns": 2,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "borda",
+     "ast": {
+      "pp": [
+       7.172,
+       10.041
+      ],
+      "unknowns": 14,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.762,
+       9.631
+      ],
+      "unknowns": 14,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.762,
+       9.631
+      ],
+      "unknowns": 14,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.582,
+       8.402
+      ],
+      "unknowns": 4,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "rrf",
+     "ast": {
+      "pp": [
+       6.967,
+       10.041
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.967,
+       10.041
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.967,
+       10.041
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.787,
+       8.811
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mean_norm_position",
+     "ast": {
+      "pp": [
+       10.385,
+       13.479
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       10.577,
+       13.673
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       10.577,
+       13.673
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       13.19,
+       13.622
+      ],
+      "unknowns": 3,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "occurrence",
+     "ast": {
+      "pp": [
+       7.275,
+       10.246
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.172,
+       10.143
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.172,
+       10.143
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.992,
+       8.914
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mra_then_occurrence",
+     "ast": {
+      "pp": [
+       6.796,
+       9.939
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.762,
+       9.836
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.762,
+       9.836
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.377,
+       8.607
+      ],
+      "unknowns": 6,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "testability",
+     "ast": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       0.41
+      ],
+      "unknowns": 0,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "one_stage",
+     "ast": {
+      "pp": [
+       0.205,
+       1.639
+      ],
+      "unknowns": 7,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.205,
+       1.844
+      ],
+      "unknowns": 8,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.205,
+       1.844
+      ],
+      "unknowns": 8,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       0.82
+      ],
+      "unknowns": 2,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "source_agnostic",
+     "ast": {
+      "pp": [
+       1.639,
+       4.167
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       1.844,
+       4.372
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       1.844,
+       4.372
+      ],
+      "unknowns": 13,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       2.049,
+       3.074
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "token_similarity",
+     "ast": {
+      "pp": [
+       8.896,
+       13.315
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.899,
+       13.324
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.899,
+       13.324
+      ],
+      "unknowns": 109,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.415,
+       13.246
+      ],
+      "unknowns": 91,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "codet5_similarity",
+     "ast": {
+      "pp": [
+       9.601,
+       13.207
+      ],
+      "unknowns": 45,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.599,
+       13.206
+      ],
+      "unknowns": 45,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.599,
+       13.206
+      ],
+      "unknowns": 45,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       12.263,
+       13.206
+      ],
+      "unknowns": 32,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "naturalness",
+     "ast": {
+      "pp": [
+       8.402,
+       13.115
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.402,
+       13.115
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.402,
+       13.115
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.861,
+       12.91
+      ],
+      "unknowns": 10,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "entropy_delta",
+     "ast": {
+      "pp": [
+       9.016,
+       13.115
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.016,
+       13.115
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.016,
+       13.115
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.27,
+       12.705
+      ],
+      "unknowns": 7,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "uniform",
+     "ast": {
+      "pp": [
+       9.861,
+       14.766
+      ],
+      "unknowns": 757,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.924,
+       14.794
+      ],
+      "unknowns": 734,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.924,
+       14.794
+      ],
+      "unknowns": 734,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       12.526,
+       14.717
+      ],
+      "unknowns": 700,
+      "result": "identified +"
+     }
+    }
+   ]
+  },
+  "E1+F2+F3+F4c": {
+   "class_label_conflicts": {
+    "ast": 54,
+    "c1": 56
+   },
+   "c1_fix_classes_set_correct": 0,
+   "c1_fix_contradictions": [
+    {
+     "bug": "Chart-1",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Chart-11",
+     "members": 38,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 38
+    },
+    {
+     "bug": "Chart-24",
+     "members": 17,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 17
+    },
+    {
+     "bug": "Chart-4",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-19",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Cli-24",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Cli-5",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Closure-38",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Closure-57",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Collections-26",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    },
+    {
+     "bug": "Compress-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-23",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Compress-27",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Compress-31",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Compress-45",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Compress-45",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "JacksonDatabind-57",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Jsoup-62",
+     "members": 6,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 6
+    },
+    {
+     "bug": "Jsoup-68",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Jsoup-72",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Jsoup-90",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "JxPath-14",
+     "members": 2,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Lang-21",
+     "members": 7,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 7
+    },
+    {
+     "bug": "Lang-24",
+     "members": 11,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 11
+    },
+    {
+     "bug": "Lang-29",
+     "members": 3,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-39",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Lang-51",
+     "members": 3,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 3
+    },
+    {
+     "bug": "Lang-58",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Lang-59",
+     "members": 9,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 9
+    },
+    {
+     "bug": "Lang-61",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Math-41",
+     "members": 16,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 16
+    },
+    {
+     "bug": "Math-5",
+     "members": 2,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 2
+    },
+    {
+     "bug": "Math-57",
+     "members": 13,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 13
+    },
+    {
+     "bug": "Math-72",
+     "members": 10,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 10
+    },
+    {
+     "bug": "Math-79",
+     "members": 5,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 5
+    },
+    {
+     "bug": "Math-85",
+     "members": 14,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 14
+    },
+    {
+     "bug": "Math-89",
+     "members": 1,
+     "known": [
+      0
+     ],
+     "fix_equivalent_members": 1
+    },
+    {
+     "bug": "Time-15",
+     "members": 8,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 8
+    },
+    {
+     "bug": "Time-4",
+     "members": 4,
+     "known": [
+      0,
+      1
+     ],
+     "fix_equivalent_members": 4
+    }
+   ],
+   "posthoc_override_classes_set_correct": 40,
+   "comparisons": [
+    {
+     "b": "mra",
+     "ast": {
+      "pp": [
+       6.587,
+       11.163
+      ],
+      "unknowns": 88,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.737,
+       11.166
+      ],
+      "unknowns": 88,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.737,
+       11.166
+      ],
+      "unknowns": 88,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       8.984,
+       10.779
+      ],
+      "unknowns": 60,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "best_config_top1",
+     "ast": {
+      "pp": [
+       -0.82,
+       1.639
+      ],
+      "unknowns": 12,
+      "result": "open"
+     },
+     "c1": {
+      "pp": [
+       -0.82,
+       1.639
+      ],
+      "unknowns": 12,
+      "result": "open"
+     },
+     "c1+fix": {
+      "pp": [
+       -0.82,
+       1.639
+      ],
+      "unknowns": 12,
+      "result": "open"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.82,
+       1.639
+      ],
+      "unknowns": 4,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "first_global",
+     "ast": {
+      "pp": [
+       2.664,
+       6.762
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       2.664,
+       6.762
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       2.664,
+       6.762
+      ],
+      "unknowns": 20,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       4.918,
+       6.762
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "borda",
+     "ast": {
+      "pp": [
+       7.172,
+       10.451
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.762,
+       9.836
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.762,
+       9.836
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.582,
+       8.607
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "rrf",
+     "ast": {
+      "pp": [
+       6.967,
+       10.451
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.967,
+       10.246
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.967,
+       10.246
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.787,
+       9.016
+      ],
+      "unknowns": 6,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mean_norm_position",
+     "ast": {
+      "pp": [
+       9.889,
+       14.053
+      ],
+      "unknowns": 26,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       10.116,
+       14.083
+      ],
+      "unknowns": 24,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       10.116,
+       14.083
+      ],
+      "unknowns": 24,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       12.729,
+       14.032
+      ],
+      "unknowns": 11,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "occurrence",
+     "ast": {
+      "pp": [
+       7.275,
+       10.656
+      ],
+      "unknowns": 17,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       7.172,
+       10.348
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       7.172,
+       10.348
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.992,
+       9.119
+      ],
+      "unknowns": 6,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "mra_then_occurrence",
+     "ast": {
+      "pp": [
+       6.796,
+       10.348
+      ],
+      "unknowns": 18,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       6.762,
+       10.041
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       6.762,
+       10.041
+      ],
+      "unknowns": 16,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       7.377,
+       8.811
+      ],
+      "unknowns": 7,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "testability",
+     "ast": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.41,
+       1.434
+      ],
+      "unknowns": 5,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       0.41
+      ],
+      "unknowns": 0,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "one_stage",
+     "ast": {
+      "pp": [
+       0.205,
+       1.639
+      ],
+      "unknowns": 7,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       0.205,
+       1.844
+      ],
+      "unknowns": 8,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       0.205,
+       1.844
+      ],
+      "unknowns": 8,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       0.41,
+       0.82
+      ],
+      "unknowns": 2,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "source_agnostic",
+     "ast": {
+      "pp": [
+       1.332,
+       4.167
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       1.537,
+       4.372
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       1.537,
+       4.372
+      ],
+      "unknowns": 15,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       1.742,
+       3.074
+      ],
+      "unknowns": 7,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "token_similarity",
+     "ast": {
+      "pp": [
+       8.86,
+       13.93
+      ],
+      "unknowns": 114,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.863,
+       13.734
+      ],
+      "unknowns": 113,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.863,
+       13.734
+      ],
+      "unknowns": 113,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.379,
+       13.656
+      ],
+      "unknowns": 95,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "codet5_similarity",
+     "ast": {
+      "pp": [
+       9.592,
+       13.81
+      ],
+      "unknowns": 49,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.59,
+       13.605
+      ],
+      "unknowns": 48,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.59,
+       13.605
+      ],
+      "unknowns": 48,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       12.254,
+       13.605
+      ],
+      "unknowns": 35,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "naturalness",
+     "ast": {
+      "pp": [
+       8.402,
+       13.73
+      ],
+      "unknowns": 26,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       8.402,
+       13.525
+      ],
+      "unknowns": 25,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       8.402,
+       13.525
+      ],
+      "unknowns": 25,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       10.861,
+       13.32
+      ],
+      "unknowns": 12,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "entropy_delta",
+     "ast": {
+      "pp": [
+       9.016,
+       13.73
+      ],
+      "unknowns": 23,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.016,
+       13.525
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.016,
+       13.525
+      ],
+      "unknowns": 22,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       11.27,
+       13.115
+      ],
+      "unknowns": 9,
+      "result": "identified +"
+     }
+    },
+    {
+     "b": "uniform",
+     "ast": {
+      "pp": [
+       9.814,
+       15.373
+      ],
+      "unknowns": 778,
+      "result": "identified +"
+     },
+     "c1": {
+      "pp": [
+       9.876,
+       15.199
+      ],
+      "unknowns": 754,
+      "result": "identified +"
+     },
+     "c1+fix": {
+      "pp": [
+       9.876,
+       15.199
+      ],
+      "unknowns": 754,
+      "result": "identified +"
+     },
+     "c1+fix+override(posthoc)": {
+      "pp": [
+       12.479,
+       15.122
+      ],
+      "unknowns": 720,
+      "result": "identified +"
+     }
+    }
+   ]
+  }
+ },
+ "humaneval_consistency": {
+  "records": 2230,
+  "both_equivalent": 213,
+  "neither": 2016,
+  "e3_only": 0,
+  "c1_only": 1,
+  "differences": [
+   {
+    "candidate_id": "obscand_a51f412b4079b2d00bc837c717a00035172b5b582a81077c11fe875d99138f41",
+    "bug": "SORT_NUMBERS",
+    "e3_rule": false,
+    "c1_rule": true,
+    "normaliser_parsed_patch": true,
+    "normaliser_parsed_fix": true
+   }
+  ]
+ }
+}

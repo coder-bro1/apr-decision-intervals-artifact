@@ -1,0 +1,40 @@
+{
+  "container_ok": true,
+  "controls_compile": false,
+  "files": {
+    "analysis.json": "b441374b5d801d93dd82c464a22c2a06237b7b0b47f0774bfb01b1c58fb96a05",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "be0268b326c73b33702d7b20aba427f7c5a9aa04377d627da82fb3e4859c96f3",
+    "evidence/benchmark_metadata/active-bugs.csv": "6710b4b26bce8f53bb5494b8deda1ef6638fbc2b17bd6f68b3656e3651cea1a8",
+    "evidence/benchmark_metadata/dependent_tests": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "0fbe3abca78da0fdce2789615accf5f67940407b7031b156263b9d2245d0bd55",
+    "evidence/benchmark_metadata/failing_tests/103": "b82b5a4eb0e373429aa19d4a2d0f902a35fd4beaf4877fb67bca87504430d9f0",
+    "evidence/checkout_b.log": "e0c455331917e241306a04071bd91be6845a8bf90ee4f7ce33e3291d563ba8de",
+    "evidence/manifest.json": "9f47388f341fcfb14ff2c00bb0b1862110e0a792284d3f3774843b6b296fbde7",
+    "evidence/result.json": "adb4fff850326988a38a4da37cd666989510aff39c42d521507f7826da28db53",
+    "launch.json": "3546232aaa55ecdd56886cf1aafd9e095e822acd4f8560c158621dabfe8613f9"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_2a2bbcdf55356ff3251643247bd00f519a37d1372038bbea873824b952d73121",
+      "compile_status": "unresolved_missing_repetition",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bc023b4984fbc92042deeaae4489a26ee33ff711512832f90ca4df361bb0d84f",
+      "compile_status": "unresolved_missing_repetition",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d55c1f11c197618aa6f10cbc2b4492746aa76979dc13d44e4b9c2bba1b09df91",
+      "compile_status": "unresolved_missing_repetition",
+      "evidence_status": "unresolved_setup_or_controls",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Chart-26",
+  "package_sha256": "a5acbbf9c244582fff4bc5083a4d206df30073f1ba0adbccc98c08c496b6bef8",
+  "seconds": 5.312000000005355
+}

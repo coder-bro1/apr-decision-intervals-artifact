@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.select.SelectorTest::attributeWithBrackets"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3fd9fc10cb3221f10b3d90c03b925c92b28f4a623e1c016cf3ff77741e288f9b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8dd7f6b7745b0ec586bb1bdf65b16c16318b1e5b5241e68424d9bbc1427a9a38",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.select.SelectorTest::attributeWithBrackets"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

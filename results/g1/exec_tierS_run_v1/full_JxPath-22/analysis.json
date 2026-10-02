@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_21ce08733f5f70955a67f712693e7156aafa8a3281ba06a74f5f3db29354f0ed",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d5823f557e83c497161ef5b307d3c4e0e27da7814f5d2a037a3d430ab16dc55d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

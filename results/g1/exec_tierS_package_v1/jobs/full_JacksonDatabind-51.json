@@ -1,0 +1,27 @@
+{
+  "bug_id": "JacksonDatabind-51",
+  "cases": [
+    {
+      "candidate_id": "obscand_29731dae5e9bd1ba7f18894d511804abec23f07eae8373a5cbbc05089154a108",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3206afafb3c0f790e0252e26dbc4080c5445a8ea029a41368a493477f5dd9979",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a6e21909c67ed7d1e5a851571c882d189e2369931f977a21155f90b2e7278c71",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_cf451b87e85315c5b72b008574294ba76bc6bbafe34f0cfd2f6816cbb31e08c3",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e3f044bdf318d154dae82e066a5225f35dee2c7544041f421866677c3112896a",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonDatabind-51",
+  "phase": "full"
+}

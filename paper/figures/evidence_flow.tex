@@ -1,0 +1,17 @@
+\begin{tikzpicture}[
+  box/.style={draw,rounded corners=2pt,align=center,text width=3.15cm,
+    minimum height=1.15cm,inner sep=5pt,font=\small},
+  arrow/.style={-{Latex[length=2mm]},thick},node distance=8mm and 6mm]
+  \node[box] (archive) {Archived campaign\\code and source positions};
+  \node[box,right=of archive] (pool) {Observable pool\\identity and equal filtering};
+  \node[box,right=of pool] (policies) {Frozen policies\\uniform tie probabilities};
+  \node[box,below=of archive] (evidence) {Separate evidence ledger\\correct / incorrect / unknown};
+  \node[box,below=of pool] (execution) {Controlled revalidation\\failures with valid witnesses};
+  \node[box,below=of policies] (bounds) {Paired comparison\\shared-label bounds};
+  \draw[arrow] (archive) -- (pool);
+  \draw[arrow] (pool) -- (policies);
+  \draw[arrow] (archive) -- (evidence);
+  \draw[arrow] (evidence) -- (execution);
+  \draw[arrow] (execution) -- (bounds);
+  \draw[arrow] (policies) -- (bounds);
+\end{tikzpicture}

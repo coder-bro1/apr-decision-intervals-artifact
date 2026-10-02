@@ -1,0 +1,1869 @@
+{
+ "defects4j": {
+  "comparisons": [
+   {
+    "b": "mra",
+    "E0 archived": {
+     "pp": [
+      2.839,
+      11.513
+     ],
+     "result": "identified +",
+     "unknowns": 233
+    },
+    "E1 +census": {
+     "pp": [
+      5.571,
+      11.513
+     ],
+     "result": "identified +",
+     "unknowns": 111
+    },
+    "+F2 census top-up": {
+     "pp": [
+      5.571,
+      11.513
+     ],
+     "result": "identified +",
+     "unknowns": 111
+    },
+    "+F3 generated tests": {
+     "pp": [
+      5.67,
+      11.513
+     ],
+     "result": "identified +",
+     "unknowns": 107
+    },
+    "+F4 human review": {
+     "pp": [
+      7.022,
+      10.617
+     ],
+     "result": "identified +",
+     "unknowns": 67
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      9.269,
+      10.328
+     ],
+     "result": "identified +",
+     "unknowns": 43
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      9.423,
+      10.512
+     ],
+     "result": "identified +",
+     "unknowns": 44
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 51,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "best_config_top1",
+    "E0 archived": {
+     "pp": [
+      -1.23,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 17
+    },
+    "E1 +census": {
+     "pp": [
+      -1.23,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 17
+    },
+    "+F2 census top-up": {
+     "pp": [
+      -1.23,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 17
+    },
+    "+F3 generated tests": {
+     "pp": [
+      -1.23,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 17
+    },
+    "+F4 human review": {
+     "pp": [
+      -0.41,
+      1.639
+     ],
+     "result": "open",
+     "unknowns": 10
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "result": "identified +",
+     "unknowns": 2
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      1.23,
+      1.639
+     ],
+     "result": "identified +",
+     "unknowns": 2
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 6,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": 6
+     }
+    }
+   },
+   {
+    "b": "first_global",
+    "E0 archived": {
+     "pp": [
+      1.23,
+      7.582
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "E1 +census": {
+     "pp": [
+      1.23,
+      7.582
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "+F2 census top-up": {
+     "pp": [
+      1.23,
+      7.582
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "+F3 generated tests": {
+     "pp": [
+      1.639,
+      7.582
+     ],
+     "result": "identified +",
+     "unknowns": 29
+    },
+    "+F4 human review": {
+     "pp": [
+      3.689,
+      6.352
+     ],
+     "result": "identified +",
+     "unknowns": 13
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "result": "identified +",
+     "unknowns": 2
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      5.943,
+      6.352
+     ],
+     "result": "identified +",
+     "unknowns": 2
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 29,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "borda",
+    "E0 archived": {
+     "pp": [
+      4.508,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 29
+    },
+    "E1 +census": {
+     "pp": [
+      5.738,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "+F2 census top-up": {
+     "pp": [
+      5.943,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F3 generated tests": {
+     "pp": [
+      6.148,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 21
+    },
+    "+F4 human review": {
+     "pp": [
+      7.172,
+      10.041
+     ],
+     "result": "identified +",
+     "unknowns": 14
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      7.992,
+      9.221
+     ],
+     "result": "identified +",
+     "unknowns": 6
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      7.582,
+      8.811
+     ],
+     "result": "identified +",
+     "unknowns": 6
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 39,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "rrf",
+    "E0 archived": {
+     "pp": [
+      4.713,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 28
+    },
+    "E1 +census": {
+     "pp": [
+      5.738,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "+F2 census top-up": {
+     "pp": [
+      5.943,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F3 generated tests": {
+     "pp": [
+      5.943,
+      10.451
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F4 human review": {
+     "pp": [
+      6.967,
+      10.041
+     ],
+     "result": "identified +",
+     "unknowns": 15
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      7.787,
+      9.221
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 38,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "mean_norm_position",
+    "E0 archived": {
+     "pp": [
+      8.653,
+      14.257
+     ],
+     "result": "identified +",
+     "unknowns": 35
+    },
+    "E1 +census": {
+     "pp": [
+      8.858,
+      14.257
+     ],
+     "result": "identified +",
+     "unknowns": 34
+    },
+    "+F2 census top-up": {
+     "pp": [
+      8.858,
+      14.257
+     ],
+     "result": "identified +",
+     "unknowns": 34
+    },
+    "+F3 generated tests": {
+     "pp": [
+      8.95,
+      14.257
+     ],
+     "result": "identified +",
+     "unknowns": 32
+    },
+    "+F4 human review": {
+     "pp": [
+      10.385,
+      13.479
+     ],
+     "result": "identified +",
+     "unknowns": 16
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      12.997,
+      13.428
+     ],
+     "result": "identified +",
+     "unknowns": 3
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      13.19,
+      13.622
+     ],
+     "result": "identified +",
+     "unknowns": 3
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 64,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "occurrence",
+    "E0 archived": {
+     "pp": [
+      5.03,
+      10.656
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "E1 +census": {
+     "pp": [
+      6.004,
+      10.656
+     ],
+     "result": "identified +",
+     "unknowns": 25
+    },
+    "+F2 census top-up": {
+     "pp": [
+      6.25,
+      10.656
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F3 generated tests": {
+     "pp": [
+      6.25,
+      10.656
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F4 human review": {
+     "pp": [
+      7.275,
+      10.246
+     ],
+     "result": "identified +",
+     "unknowns": 15
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      8.094,
+      9.426
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      7.992,
+      9.324
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 40,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "mra_then_occurrence",
+    "E0 archived": {
+     "pp": [
+      4.406,
+      10.348
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "E1 +census": {
+     "pp": [
+      5.772,
+      10.348
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "+F2 census top-up": {
+     "pp": [
+      5.772,
+      10.348
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "+F3 generated tests": {
+     "pp": [
+      5.772,
+      10.348
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "+F4 human review": {
+     "pp": [
+      6.796,
+      9.939
+     ],
+     "result": "identified +",
+     "unknowns": 16
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      7.411,
+      9.119
+     ],
+     "result": "identified +",
+     "unknowns": 9
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      7.377,
+      9.016
+     ],
+     "result": "identified +",
+     "unknowns": 8
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 37,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "testability",
+    "E0 archived": {
+     "pp": [
+      0.0,
+      1.434
+     ],
+     "result": "open",
+     "unknowns": 7
+    },
+    "E1 +census": {
+     "pp": [
+      0.0,
+      1.434
+     ],
+     "result": "open",
+     "unknowns": 7
+    },
+    "+F2 census top-up": {
+     "pp": [
+      0.0,
+      1.434
+     ],
+     "result": "open",
+     "unknowns": 7
+    },
+    "+F3 generated tests": {
+     "pp": [
+      0.0,
+      1.434
+     ],
+     "result": "open",
+     "unknowns": 7
+    },
+    "+F4 human review": {
+     "pp": [
+      0.41,
+      1.434
+     ],
+     "result": "identified +",
+     "unknowns": 5
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "result": "identified +",
+     "unknowns": 1
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      0.41,
+      0.615
+     ],
+     "result": "identified +",
+     "unknowns": 1
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 2,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": 2,
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "one_stage",
+    "E0 archived": {
+     "pp": [
+      0.0,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 11
+    },
+    "E1 +census": {
+     "pp": [
+      0.0,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 11
+    },
+    "+F2 census top-up": {
+     "pp": [
+      0.0,
+      2.254
+     ],
+     "result": "open",
+     "unknowns": 11
+    },
+    "+F3 generated tests": {
+     "pp": [
+      0.205,
+      2.254
+     ],
+     "result": "identified +",
+     "unknowns": 10
+    },
+    "+F4 human review": {
+     "pp": [
+      0.205,
+      1.639
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      0.41,
+      0.82
+     ],
+     "result": "identified +",
+     "unknowns": 2
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      0.41,
+      1.025
+     ],
+     "result": "identified +",
+     "unknowns": 3
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 2,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "source_agnostic",
+    "E0 archived": {
+     "pp": [
+      -1.571,
+      4.337
+     ],
+     "result": "open",
+     "unknowns": 34
+    },
+    "E1 +census": {
+     "pp": [
+      0.307,
+      4.337
+     ],
+     "result": "identified +",
+     "unknowns": 22
+    },
+    "+F2 census top-up": {
+     "pp": [
+      0.717,
+      4.337
+     ],
+     "result": "identified +",
+     "unknowns": 20
+    },
+    "+F3 generated tests": {
+     "pp": [
+      0.717,
+      4.337
+     ],
+     "result": "identified +",
+     "unknowns": 20
+    },
+    "+F4 human review": {
+     "pp": [
+      1.639,
+      4.167
+     ],
+     "result": "identified +",
+     "unknowns": 13
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      1.844,
+      3.279
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      2.049,
+      3.484
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 9,
+     "only_labels_set_by_layer": {
+      "E1 +census": 12,
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "token_similarity",
+    "E0 archived": {
+     "pp": [
+      7.129,
+      14.039
+     ],
+     "result": "identified +",
+     "unknowns": 163
+    },
+    "E1 +census": {
+     "pp": [
+      7.405,
+      14.039
+     ],
+     "result": "identified +",
+     "unknowns": 148
+    },
+    "+F2 census top-up": {
+     "pp": [
+      7.566,
+      14.039
+     ],
+     "result": "identified +",
+     "unknowns": 141
+    },
+    "+F3 generated tests": {
+     "pp": [
+      7.835,
+      14.039
+     ],
+     "result": "identified +",
+     "unknowns": 123
+    },
+    "+F4 human review": {
+     "pp": [
+      8.896,
+      13.315
+     ],
+     "result": "identified +",
+     "unknowns": 109
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      11.413,
+      13.274
+     ],
+     "result": "identified +",
+     "unknowns": 93
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      11.415,
+      13.283
+     ],
+     "result": "identified +",
+     "unknowns": 93
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 56,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "codet5_similarity",
+    "E0 archived": {
+     "pp": [
+      8.104,
+      13.81
+     ],
+     "result": "identified +",
+     "unknowns": 62
+    },
+    "E1 +census": {
+     "pp": [
+      8.309,
+      13.81
+     ],
+     "result": "identified +",
+     "unknowns": 61
+    },
+    "+F2 census top-up": {
+     "pp": [
+      8.514,
+      13.81
+     ],
+     "result": "identified +",
+     "unknowns": 60
+    },
+    "+F3 generated tests": {
+     "pp": [
+      8.567,
+      13.81
+     ],
+     "result": "identified +",
+     "unknowns": 54
+    },
+    "+F4 human review": {
+     "pp": [
+      9.601,
+      13.207
+     ],
+     "result": "identified +",
+     "unknowns": 45
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      12.264,
+      13.207
+     ],
+     "result": "identified +",
+     "unknowns": 32
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      12.263,
+      13.206
+     ],
+     "result": "identified +",
+     "unknowns": 32
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 60,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "naturalness",
+    "E0 archived": {
+     "pp": [
+      6.967,
+      13.73
+     ],
+     "result": "identified +",
+     "unknowns": 33
+    },
+    "E1 +census": {
+     "pp": [
+      6.967,
+      13.73
+     ],
+     "result": "identified +",
+     "unknowns": 33
+    },
+    "+F2 census top-up": {
+     "pp": [
+      7.377,
+      13.73
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "+F3 generated tests": {
+     "pp": [
+      7.377,
+      13.73
+     ],
+     "result": "identified +",
+     "unknowns": 31
+    },
+    "+F4 human review": {
+     "pp": [
+      8.402,
+      13.115
+     ],
+     "result": "identified +",
+     "unknowns": 23
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "result": "identified +",
+     "unknowns": 10
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      10.861,
+      12.91
+     ],
+     "result": "identified +",
+     "unknowns": 10
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 53,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "entropy_delta",
+    "E0 archived": {
+     "pp": [
+      6.352,
+      13.934
+     ],
+     "result": "identified +",
+     "unknowns": 37
+    },
+    "E1 +census": {
+     "pp": [
+      7.377,
+      13.934
+     ],
+     "result": "identified +",
+     "unknowns": 32
+    },
+    "+F2 census top-up": {
+     "pp": [
+      7.787,
+      13.934
+     ],
+     "result": "identified +",
+     "unknowns": 30
+    },
+    "+F3 generated tests": {
+     "pp": [
+      7.992,
+      13.934
+     ],
+     "result": "identified +",
+     "unknowns": 29
+    },
+    "+F4 human review": {
+     "pp": [
+      9.016,
+      13.115
+     ],
+     "result": "identified +",
+     "unknowns": 20
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      11.27,
+      12.705
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      11.27,
+      12.705
+     ],
+     "result": "identified +",
+     "unknowns": 7
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 55,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   },
+   {
+    "b": "uniform",
+    "E0 archived": {
+     "pp": [
+      8.148,
+      15.416
+     ],
+     "result": "identified +",
+     "unknowns": 1051
+    },
+    "E1 +census": {
+     "pp": [
+      8.469,
+      15.416
+     ],
+     "result": "identified +",
+     "unknowns": 929
+    },
+    "+F2 census top-up": {
+     "pp": [
+      8.743,
+      15.416
+     ],
+     "result": "identified +",
+     "unknowns": 820
+    },
+    "+F3 generated tests": {
+     "pp": [
+      8.803,
+      15.416
+     ],
+     "result": "identified +",
+     "unknowns": 797
+    },
+    "+F4 human review": {
+     "pp": [
+      9.861,
+      14.766
+     ],
+     "result": "identified +",
+     "unknowns": 757
+    },
+    "Final (+R fix re-run)": {
+     "pp": [
+      12.468,
+      14.705
+     ],
+     "result": "identified +",
+     "unknowns": 727
+    },
+    "Final, rename-aware identity": {
+     "pp": [
+      12.531,
+      14.733
+     ],
+     "result": "identified +",
+     "unknowns": 704
+    },
+    "robustness": {
+     "label_flips_to_reopen_any": 62,
+     "only_labels_set_by_layer": {
+      "E1 +census": "not possible",
+      "+F2 census top-up": "not possible",
+      "+F3 generated tests": "not possible",
+      "+F4 human review": "not possible",
+      "Final (+R fix re-run)": "not possible"
+     }
+    }
+   }
+  ],
+  "decided_by_step": {
+   "E0 archived": 12,
+   "E1 +census": 13,
+   "+F2 census top-up": 13,
+   "+F3 generated tests": 14,
+   "+F4 human review": 15,
+   "Final (+R fix re-run)": 16
+  },
+  "n": 16,
+  "evidence_log": {
+   "f2_witnesses_applied": 109,
+   "overwrites": [
+    {
+     "source": "F4",
+     "representative": "obscand_18bc3e3716717977378aac91683b21d736e12c74bd137ff5049100f0aa817c37",
+     "value": 0,
+     "archived_member_labels": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "source": "F4",
+     "representative": "obscand_19357b43f47ffc7f259c8d074ccc50fd2650e8599438f610deb30f5f7e356a5a",
+     "value": 1,
+     "archived_member_labels": [
+      1,
+      0,
+      1,
+      null,
+      null
+     ]
+    }
+   ],
+   "f3_witness_candidates": 23,
+   "f4_classes": 44
+  },
+  "fix_rerun": {
+   "selected": 80,
+   "with_result": 80,
+   "statuses": {
+    "admissible_triggers_pass_semantics_unknown": 68,
+    "compile_command_failed_twice": 1,
+    "controlled_trigger_failure": 2,
+    "unresolved_placement_or_repetition": 9
+   },
+   "failures_not_reproduced": 68,
+   "failures_reproduced": [
+    "obscand_1603b5653d44fbf414670ea35a13961cb2d0aa84791950be75f90a2522d6c8b0",
+    "obscand_bea9209263113bde0335423cd3dce51c6d5d25d27b4bce23b89417cdd24e26dd"
+   ],
+   "c1_fix_classes_set_correct": 5
+  }
+ },
+ "humaneval": {
+  "comparisons": [
+   {
+    "b": "uniform_random",
+    "A0": {
+     "equal_bug_pp": [
+      -3.76,
+      41.2
+     ],
+     "width_pp": 44.96,
+     "context_pp": [
+      -3.72,
+      41.21
+     ],
+     "result": "open"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      21.11,
+      37.82
+     ],
+     "width_pp": 16.71,
+     "context_pp": [
+      20.86,
+      37.86
+     ],
+     "result": "identified +"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      15.61,
+      38.75
+     ],
+     "width_pp": 23.14,
+     "context_pp": [
+      15.43,
+      38.79
+     ],
+     "result": "identified +"
+    }
+   },
+   {
+    "b": "token_similarity",
+    "A0": {
+     "equal_bug_pp": [
+      7.88,
+      49.43
+     ],
+     "width_pp": 41.55,
+     "context_pp": [
+      7.86,
+      49.41
+     ],
+     "result": "identified +"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      36.01,
+      46.1
+     ],
+     "width_pp": 10.09,
+     "context_pp": [
+      35.68,
+      46.1
+     ],
+     "result": "identified +"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      30.5,
+      46.84
+     ],
+     "width_pp": 16.34,
+     "context_pp": [
+      30.23,
+      46.83
+     ],
+     "result": "identified +"
+    }
+   },
+   {
+    "b": "occurrence_count",
+    "A0": {
+     "equal_bug_pp": [
+      -38.26,
+      38.91
+     ],
+     "width_pp": 77.16,
+     "context_pp": [
+      -38.06,
+      38.67
+     ],
+     "result": "open"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      -7.12,
+      3.13
+     ],
+     "width_pp": 10.25,
+     "context_pp": [
+      -7.28,
+      3.33
+     ],
+     "result": "open"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      -11.75,
+      16.32
+     ],
+     "width_pp": 28.07,
+     "context_pp": [
+      -11.85,
+      16.36
+     ],
+     "result": "open"
+    }
+   },
+   {
+    "b": "native_position",
+    "A0": {
+     "equal_bug_pp": [
+      -16.18,
+      29.22
+     ],
+     "width_pp": 45.4,
+     "context_pp": [
+      -16.13,
+      28.97
+     ],
+     "result": "open"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      9.72,
+      21.23
+     ],
+     "width_pp": 11.51,
+     "context_pp": [
+      9.45,
+      21.05
+     ],
+     "result": "identified +"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      4.67,
+      23.37
+     ],
+     "width_pp": 18.7,
+     "context_pp": [
+      4.47,
+      23.16
+     ],
+     "result": "identified +"
+    }
+   },
+   {
+    "b": "native_then_occurrence",
+    "A0": {
+     "equal_bug_pp": [
+      -33.48,
+      31.06
+     ],
+     "width_pp": 64.54,
+     "context_pp": [
+      -33.38,
+      30.58
+     ],
+     "result": "open"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      -7.21,
+      1.35
+     ],
+     "width_pp": 8.57,
+     "context_pp": [
+      -7.43,
+      1.23
+     ],
+     "result": "open"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      -10.4,
+      12.16
+     ],
+     "width_pp": 22.57,
+     "context_pp": [
+      -10.58,
+      11.91
+     ],
+     "result": "open"
+    }
+   },
+   {
+    "b": "testability_product",
+    "A0": {
+     "equal_bug_pp": [
+      -4.94,
+      3.09
+     ],
+     "width_pp": 8.02,
+     "context_pp": [
+      -4.88,
+      3.05
+     ],
+     "result": "open"
+    },
+    "HE-E1": {
+     "equal_bug_pp": [
+      -1.85,
+      -1.23
+     ],
+     "width_pp": 0.62,
+     "context_pp": [
+      -1.83,
+      -1.22
+     ],
+     "result": "identified -"
+    },
+    "X4-posthoc": {
+     "equal_bug_pp": [
+      -2.47,
+      -1.23
+     ],
+     "width_pp": 1.23,
+     "context_pp": [
+      -2.44,
+      -1.22
+     ],
+     "result": "identified -"
+    }
+   }
+  ],
+  "decided_A0": 1,
+  "decided_HE-E1": 4
+ },
+ "g1": {
+  "comparisons": [
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence",
+    "G-E0": {
+     "pp": [
+      -17.414617,
+      25.273224
+     ],
+     "result": "open"
+    },
+    "G-E1": {
+     "pp": [
+      -3.534836,
+      3.227459
+     ],
+     "result": "open",
+     "unknowns": 43
+    }
+   },
+   {
+    "a": "occurrence",
+    "b": "uniform",
+    "G-E0": {
+     "pp": [
+      -52.275566,
+      28.777648
+     ],
+     "result": "open"
+    },
+    "G-E1": {
+     "pp": [
+      -6.703584,
+      4.688232
+     ],
+     "result": "open",
+     "unknowns": 208
+    }
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "uniform",
+    "G-E0": {
+     "pp": [
+      -53.432865,
+      37.793553
+     ],
+     "result": "open"
+    },
+    "G-E1": {
+     "pp": [
+      -7.185467,
+      4.862737
+     ],
+     "result": "open",
+     "unknowns": 209
+    }
+   },
+   {
+    "a": "codet5_similarity",
+    "b": "uniform",
+    "G-E0": {
+     "pp": [
+      -53.312923,
+      25.50148
+     ],
+     "result": "open"
+    },
+    "G-E1": {
+     "pp": [
+      -6.689273,
+      3.803018
+     ],
+     "result": "open",
+     "unknowns": 205
+    }
+   },
+   {
+    "a": "naturalness",
+    "b": "uniform",
+    "G-E0": {
+     "pp": [
+      -46.75888,
+      51.406453
+     ],
+     "result": "open"
+    },
+    "G-E1": {
+     "pp": [
+      -5.903347,
+      7.883896
+     ],
+     "result": "open",
+     "unknowns": 209
+    }
+   }
+  ],
+  "executed": {
+   "tier_P_representatives": 299,
+   "tier_P_jobs": 157,
+   "tier_P_container_hours": 4.6,
+   "tier_S_representatives_so_far": 1219,
+   "tier_S_jobs_so_far": 388,
+   "tier_S_container_hours_so_far": 15.4
+  },
+  "g1_f3": {
+   "status": "final (all counterexamples reviewed)",
+   "counterexamples": 73,
+   "candidates_with_counterexample": 7,
+   "witness_classes": 7
+  }
+ },
+ "others": {
+  "repairbench": [
+   {
+    "a": "mra",
+    "b": "uniform",
+    "pp": [
+     -10.460394,
+     10.900724
+    ],
+    "identified": false,
+    "unknowns": 1859
+   },
+   {
+    "a": "occurrence",
+    "b": "mra",
+    "pp": [
+     -3.808505,
+     17.323524
+    ],
+    "identified": false,
+    "unknowns": 263
+   },
+   {
+    "a": "occurrence",
+    "b": "uniform",
+    "pp": [
+     -4.282685,
+     18.238034
+    ],
+    "identified": false,
+    "unknowns": 1859
+   },
+   {
+    "a": "codet5_similarity",
+    "b": "mra",
+    "pp": [
+     -12.075273,
+     6.666306
+    ],
+    "identified": false,
+    "unknowns": 394
+   },
+   {
+    "a": "codet5_similarity",
+    "b": "uniform",
+    "pp": [
+     -12.147699,
+     7.179062
+    ],
+    "identified": false,
+    "unknowns": 1859
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "mra",
+    "pp": [
+     -9.149745,
+     11.990607
+    ],
+    "identified": false,
+    "unknowns": 262
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "uniform",
+    "pp": [
+     -9.753676,
+     13.034868
+    ],
+    "identified": false,
+    "unknowns": 1859
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence",
+    "pp": [
+     -8.426966,
+     -2.247191
+    ],
+    "identified": true,
+    "unknowns": 6
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "codet5_similarity",
+    "pp": [
+     -5.021868,
+     13.271697
+    ],
+    "identified": false,
+    "unknowns": 176
+   }
+  ],
+  "d4c_trigger_passage": [
+   {
+    "a": "challenger_frozen",
+    "b": "mra",
+    "pp": [
+     -7.608696,
+     4.347826
+    ],
+    "result": "open"
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence",
+    "pp": [
+     -8.804348,
+     -0.543478
+    ],
+    "result": "identified -"
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "uniform",
+    "pp": [
+     -5.260812,
+     6.435329
+    ],
+    "result": "open"
+   },
+   {
+    "a": "source_agnostic_frozen",
+    "b": "mra",
+    "pp": [
+     -0.362319,
+     0.362319
+    ],
+    "result": "open"
+   }
+  ],
+  "d2_plausible_pools": [
+   {
+    "a": "challenger",
+    "b": "correctness_stage",
+    "evidence": "E1",
+    "pp": [
+     -3.893443,
+     2.868852
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "mra",
+    "evidence": "E1",
+    "pp": [
+     -3.685109,
+     5.539617
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "occurrence",
+    "evidence": "E1",
+    "pp": [
+     -1.881831,
+     6.577869
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "codet5_similarity",
+    "evidence": "E1",
+    "pp": [
+     -6.038251,
+     8.125976
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "naturalness",
+    "evidence": "E1",
+    "pp": [
+     -3.688525,
+     13.52459
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "entropy_delta",
+    "evidence": "E1",
+    "pp": [
+     -2.868852,
+     15.57377
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "prevarank",
+    "evidence": "E1",
+    "pp": [
+     -4.405738,
+     9.836066
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "appt",
+    "evidence": "E1",
+    "pp": [
+     -4.102301,
+     12.007409
+    ],
+    "identified": false
+   },
+   {
+    "a": "challenger",
+    "b": "uniform",
+    "evidence": "E1",
+    "pp": [
+     -4.805793,
+     17.322803
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "mra",
+    "evidence": "E1",
+    "pp": [
+     -2.155055,
+     5.034153
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "occurrence",
+    "evidence": "E1",
+    "pp": [
+     -0.823087,
+     6.543716
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "codet5_similarity",
+    "evidence": "E1",
+    "pp": [
+     -5.505464,
+     8.617779
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "naturalness",
+    "evidence": "E1",
+    "pp": [
+     -2.04918,
+     12.909836
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "entropy_delta",
+    "evidence": "E1",
+    "pp": [
+     -1.02459,
+     14.754098
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "prevarank",
+    "evidence": "E1",
+    "pp": [
+     -3.586066,
+     10.040984
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "appt",
+    "evidence": "E1",
+    "pp": [
+     -2.821564,
+     11.751261
+    ],
+    "identified": false
+   },
+   {
+    "a": "correctness_stage",
+    "b": "uniform",
+    "evidence": "E1",
+    "pp": [
+     -3.89848,
+     17.44008
+    ],
+    "identified": false
+   },
+   {
+    "a": "prevarank",
+    "b": "mra",
+    "evidence": "E1",
+    "pp": [
+     -7.407787,
+     3.831967
+    ],
+    "identified": false
+   },
+   {
+    "a": "prevarank",
+    "b": "occurrence",
+    "evidence": "E1",
+    "pp": [
+     -7.704918,
+     6.970628
+    ],
+    "identified": false
+   },
+   {
+    "a": "appt",
+    "b": "mra",
+    "evidence": "E1",
+    "pp": [
+     -11.400799,
+     5.3502
+    ],
+    "identified": false
+   },
+   {
+    "a": "appt",
+    "b": "occurrence",
+    "evidence": "E1",
+    "pp": [
+     -8.904214,
+     5.695145
+    ],
+    "identified": false
+   }
+  ],
+  "prevarank_input_order": {
+   "permutations_vs_canonical": 51,
+   "decided": 0
+  },
+  "pod_pairs": {
+   "pairs": 10,
+   "identified": 0
+  }
+ }
+}

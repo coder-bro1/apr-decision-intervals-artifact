@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_87033a3bf7fe6c1ab1d34fdd983f2bf950a55e7a51dc6edb8e8200530b8acccd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9dab51138911471fa473e751da1cfc5698e06696ab2ec88f612fa8a8b648d387",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

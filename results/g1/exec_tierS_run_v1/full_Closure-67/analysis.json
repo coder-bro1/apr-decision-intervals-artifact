@@ -1,0 +1,52 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_19dc95ab2ad1b970a09e094d2ffd016f2dc4522bee3e56f244ddbd6dd7c0c86d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3b79255c498718f846aff736e533dc589c0aad6c52ae833dfe2e7c0b6f7c17f1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_3fac4028c4ca3296ad209756de4fd3a472a7855f8804abf3a179b1a9ae8cb1e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_50b147b84cd3b26f466688173aaad65945fbda1ae96f4b331c1d630b5d41a7a3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_63cf6b279b9a1405b290598775b7cf9fee255dac7f1f2880e46143277f952798",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a97773e8221448bb15b57e4ac888397d35a3a3c245d4791e2fa785c013270fde",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

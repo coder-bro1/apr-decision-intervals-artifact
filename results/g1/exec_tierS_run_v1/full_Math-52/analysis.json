@@ -1,0 +1,56 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1adf237741a3fa62a274588326c7ce36d3b5c2e7a8c73bab992c2abfeab1eb2d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_212985a8aa8c70d4788ce67b03f829c542e1b0e124c12dc58b76edae7c4855a5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_3fba4c2ea28f7234c0014df93bf14dab53a5385bb83e7bcde3b16341150cd4df",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_71eca014f56d73df72ecfb18c4dac9df484bc184da0ebbc0699f8de51fb4c0e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8cdbb7c64e68b2c291e67f4400356629ab1396ceb23b41b5bbefd833afd4537b",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_9ccfaa61d47d31de67c6c194f999e93505e948332a36cf02b858f3bebd1b4f5d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a45b2069bf4a27af2ff65081e3093c39457b25d3452c5c8ff76c763d048319ef",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

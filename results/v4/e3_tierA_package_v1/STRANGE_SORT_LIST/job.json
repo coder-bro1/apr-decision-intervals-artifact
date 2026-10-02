@@ -1,0 +1,14 @@
+{
+ "bug": "STRANGE_SORT_LIST",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_fd73f374c2b484bedcf1c13ddf29f4a37a01f546598a62a1cb865db463c2c74f",
+   "original_sha256": "fe0833ad061f7cc5f92b3256432b804a02311b1dec5632e5a2605d0cec4def2c",
+   "normalized_original_sha256": "77ad74b20eb7eef775d8eca0328009f046958bc19ff6eef339ba64914bfe5911",
+   "patched_sha256": "2110d92317a6dfc8c4be9c2f19aa8db998da81b0cbfe594bd7b56e18afacc18b",
+   "start_offset_lf": 464,
+   "anchor_sha256": "a893e97375b87fdbfed2e80bff0fc55dc3f858db8bb1ab5c50e5dd87c5542b44",
+   "patch_sha256": "d0681997b00904dc6fe0c918c7975161ef018092e8e778791eb35285b2b3d502"
+  }
+ }
+}

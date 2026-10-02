@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5f2f1b72bfe35eaad477676e4634e6032d1e0068c1317212703c53e3353297c1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8cab88afd7366d1e6c8cc78d0bfbb8df782ae8143e70a9e4ed8b8456bd2fc731",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d68a221a7a99d7b92700ca1b5e4b4ec5e33bfb24325ad6cf55e8bd5044b4ad9a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e1bfd9fd0d2f29dc9b0fdaa4a2de1625c701dec46ea9731d4034b694fdc2a4ca",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

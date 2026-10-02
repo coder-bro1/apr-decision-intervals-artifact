@@ -1,0 +1,14 @@
+{
+ "bug": "VOWELS_COUNT",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_eebc051dcbde93883fb80f66e990dfa288cb6aafc7a5e69212dd5ea38cf3c2b7",
+   "original_sha256": "be9c4f623a0e3fd7957fa7efb32d88a29d3ecd6d41b97978c7ab25321412a55b",
+   "normalized_original_sha256": "9519b768bdd01b6cdd56143b4d58d8948db72d8623555033294228a4749b80f7",
+   "patched_sha256": "38d2bd5d4897e0fc706a7e5353593c26cd6e98f231cf91fc10e53833cc298901",
+   "start_offset_lf": 385,
+   "anchor_sha256": "4cc917f78de5d590e6466b63d913959e5a3bdded0799b79fd00ca3de0776baed",
+   "patch_sha256": "07bdccc93e79b37c778ffe36130ba983b8a25db2f7bb587d703155037ab6f3e5"
+  }
+ }
+}

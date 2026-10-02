@@ -1,0 +1,67 @@
+{
+  "bug_id": "Math-85",
+  "cases": [
+    {
+      "candidate_id": "obscand_00f5ab79a4ac76e1fc5253ff90858dbd7007723d18853f3f3f00b08cd25c85b8",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_01abe36831322417f62f731c056425337d30bc16122ffea86154c84ec7886cb2",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_0d7a2d396531d4a955a0bdc1f45197669b33ed3ca1fd8fc05b67cc48a05c5199",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_17907970077420484bc1dcdb45c15dc9d8f5c66290729d97008e797ef618d009",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2055bcec586c4ea6eac88f9296595cd3cff7255ad3d8d4a7e409c1d2319cbd8a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_3d86254834d8c608af38c434faea8aa9e59ef3d51538e0b792d40fb2e47c9ef1",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_42938296eec274dda89047df8b384f9c85a606e96c8dcf79f44a0cb4d080cc91",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_4b249f9e7d2f68a60d78cfb23dbdbc137c7641593d74804e8ed0773ca6545a9e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_4d3f305755a2adf742c7a78785a72d0d606a21ab2e58c532930d3a8bd780bf9a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_55c76f5e2a604cecf9d4e85980f884343b931e4b8249db861ea1d8b7149c0bfa",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_5f545fc88ed901e35ccb2f63c0db9a965eb548b8163b558650d82701f59cb197",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9f20e01b176333d5a85bfe9850079e69733a0724ccda534f8ae507ec144d5e8f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_b9c30c4455252a8a55a6a0d926803a9717b2e09a3e5541dd0c25a874b0ed364d",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c6de0100b86428ac9a272cf6cf9f65feb1111ac87990fbcae80abb1a07b64dee",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_fa7ee7fc1b54e1432c2b8b2be0ac9af42975dada4ce82f9d350549f23e2a8b69",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-85",
+  "phase": "full"
+}

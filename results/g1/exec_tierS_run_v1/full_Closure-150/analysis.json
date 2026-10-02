@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+    "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_208a1e0d36e67ba1f206f420aa24b0fe75dfd5759a75acbf386fe1be232d4607",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_685c7d82627e7e38615990c2b20071d09508f9bd85d669454fc6e646e536561e",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7725b7f98e38fe4be985f3f372fdfeb27118f4e32b269da6432b1c3310f69190",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9589f9360dd6bb2db70d05da6e25d867f98309bf17a7690ebfb5d6feb0ae0bb4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal",
+        "com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

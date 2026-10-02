@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0246ed8314bc5dd406d4fb60adde4f19f31e5cef3d4f8b15f682d158eb1ac368",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4dc9901940384839ca6503743b348bb7fbcdde7cfeae7a8ae4165bc3d7360175",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

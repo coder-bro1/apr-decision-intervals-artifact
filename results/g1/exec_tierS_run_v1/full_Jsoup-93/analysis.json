@@ -1,0 +1,46 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.FormElementTest::createsFormData"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_00473d3a5e357fd26e74512e4c98474525bf0e4cb647f6dc3f3aab416af9dba8",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_402de208001423e8320961668bebc9e7469e76d9510f8a739d626116426354a4",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_47885e609c0149c3dfff92982ccd56fb6f1a568fc6d7a28dfa47727dcf8164dd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_5d6dc9b6b65d075d382c907a38beebea59237f19680f8277af01e3d38943f499",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7b0110f698a7fa74ac000e6fd8b58e98a777bfbea07fd44c779ac948881d6b3a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_87d974037fc9ea975a0f2c4f1bb39dbe5a6e54d84fadb447ce9725b678744bf9",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

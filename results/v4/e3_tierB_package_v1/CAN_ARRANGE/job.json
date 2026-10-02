@@ -1,0 +1,41 @@
+{
+ "bug": "CAN_ARRANGE",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_1df448d905f85bd6eda0c62646b9bc3d06ab49a284c63eeab0505a2d6c7cb544",
+   "original_sha256": "0776963d4ecdc3ad8dcfd6c1ae097ace4b6308b502b86846d32ade87ced4da85",
+   "normalized_original_sha256": "97058ebf88743561dd29a0cf16c533e5f6b472ddbddaeb7fc9f291e4b014d413",
+   "patched_sha256": "c19fd26f877eeea34d6fa4c47cd083fbfbaef9f6e28f8d9ab2b3d8c0a01fcc0f",
+   "start_offset_lf": 392,
+   "anchor_sha256": "6a09bdddc04d85115a032bf72abc3d216b1a274db83b4fce0a860a8851635ded",
+   "patch_sha256": "7e79bf8e45e67086ef6ca93f95318a7483cfc99bc57090812990ff5dc2599303"
+  },
+  "c0002": {
+   "candidate_id": "obscand_c9830aa3eb3dea5e0ee836f2f038db8cb3ebd22299dab2f97e2c19324ebde46c",
+   "original_sha256": "0776963d4ecdc3ad8dcfd6c1ae097ace4b6308b502b86846d32ade87ced4da85",
+   "normalized_original_sha256": "97058ebf88743561dd29a0cf16c533e5f6b472ddbddaeb7fc9f291e4b014d413",
+   "patched_sha256": "62daeefb9cfe67e2afb22d6d01d8f977b0ea3bdb5457d7447d006492c74a9b9e",
+   "start_offset_lf": 392,
+   "anchor_sha256": "6a09bdddc04d85115a032bf72abc3d216b1a274db83b4fce0a860a8851635ded",
+   "patch_sha256": "9d348d8262b12635dd98bf27c6c4e42946c4feed383cee6b16c679d9cab4dfb4"
+  },
+  "c0003": {
+   "candidate_id": "obscand_d320c5d3590487dd0e4c5c2df7fccd786f7827a8f54594b95bacd6e540f38dbf",
+   "original_sha256": "0776963d4ecdc3ad8dcfd6c1ae097ace4b6308b502b86846d32ade87ced4da85",
+   "normalized_original_sha256": "97058ebf88743561dd29a0cf16c533e5f6b472ddbddaeb7fc9f291e4b014d413",
+   "patched_sha256": "a6496ba83aa2657322f8efc5ace6fac4da1a924852b86e663bf26886df39506f",
+   "start_offset_lf": 392,
+   "anchor_sha256": "6a09bdddc04d85115a032bf72abc3d216b1a274db83b4fce0a860a8851635ded",
+   "patch_sha256": "082eed6b6b535026b6624d527f0d80a4e5c5108a7c7e02a20ecea2085f1f79ec"
+  },
+  "c0004": {
+   "candidate_id": "obscand_e0987a603dcf4425532a656205a198da827cc302dc611f617c9b6b35f7cda984",
+   "original_sha256": "0776963d4ecdc3ad8dcfd6c1ae097ace4b6308b502b86846d32ade87ced4da85",
+   "normalized_original_sha256": "97058ebf88743561dd29a0cf16c533e5f6b472ddbddaeb7fc9f291e4b014d413",
+   "patched_sha256": "7fa019132fb2756b3fc0712b04261068d822fc6b93556d4824992cb93d553936",
+   "start_offset_lf": 392,
+   "anchor_sha256": "6a09bdddc04d85115a032bf72abc3d216b1a274db83b4fce0a860a8851635ded",
+   "patch_sha256": "71bfbbfe50cb7751951d5c811bb5de2d7bca9d5b89e7b0c2ae5e9298807ef899"
+  }
+ }
+}

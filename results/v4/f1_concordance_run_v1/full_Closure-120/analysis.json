@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7ee2c3d06402930220801fd8078f1614941578282f1a66210ccafed9eea479a1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+      ]
+    },
+    {
+      "candidate_id": "obscand_beb9134e367a683fa3b02517f9eb2aecc6fbc20aaf037638c369d52721c5194e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

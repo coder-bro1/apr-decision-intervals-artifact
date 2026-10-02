@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_09b8f0dfd116ab0e16f64a88f1b442ac4199574416d26ef46aeec57d93fc3e8e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+      ]
+    },
+    {
+      "candidate_id": "obscand_94e6d6406ce7db6edc6bf51a45b6cdc788806f1de7a6b44861c8a894e9282258",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b4b995729b74bde8735e947012bdf3d12c1f2376c828ef4af39a07d93a560421",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

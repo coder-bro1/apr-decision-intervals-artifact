@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1f252d3ea0bfa82d4b97d2b539cfc03f619203e139e8a88d42e04a5779afd1e1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7645ffed266ce63bf73f5be19862ae56035ecd30a5df6509d0cfe41413e5ef4d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.StringUtilsTest::testNewStringNullInput_CODEC229"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_bb8cb94182284b34f8f0fbe8aada2647a3e32ae8b96bab20a51ff98a505db155",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.binary.StringUtilsTest::testNewStringNullInput_CODEC229"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

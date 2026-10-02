@@ -1,0 +1,4923 @@
+{
+ "bugs": 488,
+ "status_counts": {
+  "single_method_consistent": 483,
+  "no_context": 4,
+  "changes_outside_method": 1
+ },
+ "flagged": [
+  {
+   "bug": "JxPath-14",
+   "status": "changes_outside_method",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 3,
+   "unexplained_lines": 6,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "if(Double.isNaN(v)||Double.isInfinite(v)){",
+    "returnnewDouble(v);",
+    "}"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "bug": "Chart-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 45,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-23",
+   "status": "no_context",
+   "files": 1,
+   "patch_changed_lines": 19,
+   "method_changed_lines": 0,
+   "unexplained_lines": 19,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "}",
+    "returnfalse;",
+    "publicbooleanequals(Objectobj){"
+   ]
+  },
+  {
+   "bug": "Chart-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 15,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-7",
+   "status": "single_method_consistent",
+   "files": 0,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 27,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Chart-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 15,
+   "method_changed_lines": 15,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 9,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-29",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-32",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-35",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-37",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 22,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 24,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 15,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Cli-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-101",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-102",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-104",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-105",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-107",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-109",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 25,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-111",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-112",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-113",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-114",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-115",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-116",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-117",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-118",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-119",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-120",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-121",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-122",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-123",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-124",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-125",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-126",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-128",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-129",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-130",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-131",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-132",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-133",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-145",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-146",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-150",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 16,
+   "method_changed_lines": 16,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-152",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-159",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-160",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-161",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-164",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-166",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-168",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-170",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-172",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-176",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 21,
+   "method_changed_lines": 21,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-22",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 26,
+   "method_changed_lines": 26,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-29",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-31",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-32",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 14,
+   "method_changed_lines": 14,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-35",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-36",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-39",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-42",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-44",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-48",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-50",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-52",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-53",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-55",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-56",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-57",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-58",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-59",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-61",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-62",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-65",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-66",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-67",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-69",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-70",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-71",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-73",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-77",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-78",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-81",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-82",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-83",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-86",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-87",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 14,
+   "method_changed_lines": 14,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-88",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-91",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-92",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-94",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 19,
+   "method_changed_lines": 19,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-95",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-96",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-97",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Closure-99",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Codec-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Collections-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Collections-27",
+   "status": "no_context",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 0,
+   "unexplained_lines": 6,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "}",
+    "privatevoidreadObject(ObjectInputStreamis)throwsIOException,ClassNotFoundException{",
+    "is.defaultReadObject();"
+   ]
+  },
+  {
+   "bug": "Compress-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-16",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 16,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-30",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 24,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-31",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-32",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-35",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-36",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-37",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 29,
+   "method_changed_lines": 29,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-41",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-44",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-45",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-46",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Compress-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 35,
+   "method_changed_lines": 35,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 22,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Csv-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 9,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-16",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 14,
+   "method_changed_lines": 14,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Gson-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 10,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 20,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonCore-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 23,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-100",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-101",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-102",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-107",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-112",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-16",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 15,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-34",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-35",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-37",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-39",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-42",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-44",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 26,
+   "method_changed_lines": 26,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-45",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-46",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-47",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-49",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-51",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-54",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-57",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 18,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-58",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 31,
+   "method_changed_lines": 31,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-62",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-64",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-67",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-70",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-71",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-74",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-76",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 22,
+   "method_changed_lines": 22,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-82",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-83",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-85",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 45,
+   "method_changed_lines": 45,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-88",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-91",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-93",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-96",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-97",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-98",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonDatabind-99",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 25,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonXml-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonXml-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonXml-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JacksonXml-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-15",
+   "status": "no_context",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 0,
+   "unexplained_lines": 2,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "}elseif(StringUtil.in(name,\"base\",\"basefont\",\"bgsound\",\"command\",\"link\",\"meta\",\"noframes\",\"script\",\"style\",\"title\")){",
+    "}elseif(StringUtil.in(name,\"base\",\"basefont\",\"bgsound\",\"command\",\"link\",\"meta\",\"noframes\",\"style\",\"title\")){"
+   ]
+  },
+  {
+   "bug": "Jsoup-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 16,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 18,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-32",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-34",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-35",
+   "status": "no_context",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 0,
+   "unexplained_lines": 1,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "adopter.attributes().addAll(formatEl.attributes());"
+   ]
+  },
+  {
+   "bug": "Jsoup-37",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-39",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-41",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-42",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-43",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-45",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-46",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-47",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-48",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-49",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-50",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-51",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-53",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-54",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-55",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 10,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-57",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 26,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-59",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-61",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-62",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-64",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-68",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-70",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-72",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-75",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-76",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-77",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-80",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-82",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-84",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-85",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-86",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-88",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-89",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-90",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Jsoup-93",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-14",
+   "status": "changes_outside_method",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 3,
+   "unexplained_lines": 6,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": [
+    "if(Double.isNaN(v)||Double.isInfinite(v)){",
+    "returnnewDouble(v);",
+    "}"
+   ]
+  },
+  {
+   "bug": "JxPath-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-22",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "JxPath-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-16",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-22",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-29",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-31",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-37",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-39",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 10,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-42",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-43",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-44",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-45",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-48",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-49",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 21,
+   "method_changed_lines": 21,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-51",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-52",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-53",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 0,
+   "method_changed_lines": 0,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-54",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-55",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-57",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-58",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-59",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-6",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-61",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-65",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 30,
+   "method_changed_lines": 30,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Lang-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-10",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-101",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-102",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-103",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-105",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-106",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-11",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-2",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 10,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-21",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 23,
+   "method_changed_lines": 23,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-26",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-3",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-30",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-31",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 44,
+   "method_changed_lines": 44,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-32",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-34",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-39",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-40",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-41",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 21,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-42",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-43",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-44",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-45",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-48",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-50",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-51",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-52",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-53",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-55",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 19,
+   "method_changed_lines": 19,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-56",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 8,
+   "method_changed_lines": 8,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 10,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-57",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-58",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 6,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-59",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-60",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-63",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-64",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 22,
+   "method_changed_lines": 22,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-69",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-70",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-72",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 11,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-73",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-74",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-75",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-78",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 11,
+   "method_changed_lines": 11,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-79",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 18,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-80",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 9,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-82",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 8,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-84",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-85",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 14,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-86",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-87",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 6,
+   "method_changed_lines": 6,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-88",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-89",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-9",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-91",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-94",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 13,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-95",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-96",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 9,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Math-97",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 16,
+   "method_changed_lines": 16,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-1",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-12",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-13",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-22",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 4,
+   "method_changed_lines": 4,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-28",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-29",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 4,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-33",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 13,
+   "method_changed_lines": 13,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-34",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 7,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-38",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 1,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 3,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 1,
+   "method_changed_lines": 1,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Mockito-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 2,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-14",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-15",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 3,
+   "method_changed_lines": 3,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 12,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-16",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-17",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 23,
+   "method_changed_lines": 23,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-18",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 12,
+   "method_changed_lines": 12,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-19",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-20",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 10,
+   "method_changed_lines": 10,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-22",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-23",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 17,
+   "method_changed_lines": 17,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-24",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 5,
+   "method_changed_lines": 5,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-25",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 9,
+   "method_changed_lines": 9,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-27",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-4",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 5,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-5",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 18,
+   "method_changed_lines": 18,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-7",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 2,
+   "method_changed_lines": 2,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  },
+  {
+   "bug": "Time-8",
+   "status": "single_method_consistent",
+   "files": 1,
+   "patch_changed_lines": 7,
+   "method_changed_lines": 7,
+   "unexplained_lines": 0,
+   "archived_correct_candidates": 0,
+   "unexplained_examples": []
+  }
+ ]
+}

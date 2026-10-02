@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testElementDOM"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3a102d700f8086730f49b3aa5b14a81333856591b9b438dd5b7707ebb33630e6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testElementDOM"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

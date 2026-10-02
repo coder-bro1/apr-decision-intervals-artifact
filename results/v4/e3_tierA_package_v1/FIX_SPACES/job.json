@@ -1,0 +1,23 @@
+{
+ "bug": "FIX_SPACES",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_a14778f4ef429526b161f02e4d3bd3d816d9446254ed2abfd0cfba24e3c952d6",
+   "original_sha256": "2b7d1117d3602b6b9a1e4529759015b9dd73f87b115535b56e6b911adf40f2ef",
+   "normalized_original_sha256": "706e2ece34ce02fae7b90fc084791e20359232544097cff6a63162184d23f5c5",
+   "patched_sha256": "f77fc4619f2d1a04ab98bf866d832652e5688802d5340b8e11fdb59efb01fd4a",
+   "start_offset_lf": 384,
+   "anchor_sha256": "eb584fd5c7c735a2bab55a1fc51f0a3a9ecc6f1e4454136d1b125d54861fb84e",
+   "patch_sha256": "ce15b29f5a31ccda8aedf479871a653e399e500ad725c5aeeee07d4bf5a04af2"
+  },
+  "c0002": {
+   "candidate_id": "obscand_bb41325d8ca8809c30e298844b03796d22e82fcebabdece2d9ecdaec1befa41b",
+   "original_sha256": "2b7d1117d3602b6b9a1e4529759015b9dd73f87b115535b56e6b911adf40f2ef",
+   "normalized_original_sha256": "706e2ece34ce02fae7b90fc084791e20359232544097cff6a63162184d23f5c5",
+   "patched_sha256": "dbb820b368dbb9e6a71a8cc75786932bbda57388b4c75433b072651076227c03",
+   "start_offset_lf": 384,
+   "anchor_sha256": "eb584fd5c7c735a2bab55a1fc51f0a3a9ecc6f1e4454136d1b125d54861fb84e",
+   "patch_sha256": "ff322a19ba6aa40b9157b3a02aedcfa3d4e01e856535a3b7cba65acea7b16a0f"
+  }
+ }
+}

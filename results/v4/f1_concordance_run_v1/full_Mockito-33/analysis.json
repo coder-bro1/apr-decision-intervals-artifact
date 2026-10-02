@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork",
+    "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_eda32cf1bf870ec3054e14cac61c1cf3efc9e7eabf83acb309167b00ccb164a7",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

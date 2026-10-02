@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVRecordTest::testToMapWithNoHeader"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ca57270097e483c68a5e6dea681ac5f8f37755ab6faba281f0acfe5db01d48e9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testToMapWithNoHeader"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d7c5b213fe5bba5ad2732ec64a296659caa99a64365e2c2421699f105a054f53",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

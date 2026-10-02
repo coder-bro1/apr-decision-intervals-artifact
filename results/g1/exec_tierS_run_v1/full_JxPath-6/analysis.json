@@ -1,0 +1,28 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3efe9bb563ff9fee9112ff1290d3681192154f29353bc59cc86b20bb36d17131",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_92f8bbb40e798f8ac460101f105c3eb0cbfffa858b32c22db7696806a68a71c2",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a73d21722472a5148b09d2babda7b7a19a2a89d8adce2369219674a89912f401",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

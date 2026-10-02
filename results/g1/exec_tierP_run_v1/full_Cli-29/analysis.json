@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_08aa960a189a56bc1ee263949c728f233b73a192ec53a851fa3f292c2ed4160f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7b570829b8e17716ec5112c665c08b58164255d15442201dc56f90a4b85ff32c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d8fbed96f4f6d72261d73c4bb498348d086b475540cd05069e727f5013405206",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

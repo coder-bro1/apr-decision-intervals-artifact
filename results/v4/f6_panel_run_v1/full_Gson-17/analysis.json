@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedToken",
+    "com.google.gson.DefaultDateTypeAdapterTest::testNullValue"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_974a962df16963390497463a93a57195703fcca28e340f9edb12ca651732925c",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

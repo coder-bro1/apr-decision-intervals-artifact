@@ -1,0 +1,15 @@
+{
+ "frame_size": 1514,
+ "sample": 100,
+ "seed": 20260929,
+ "sample_basis": {
+  "ref": 88,
+  "human": 12
+ },
+ "frame_basis": {
+  "ref": 1280,
+  "human": 234
+ },
+ "sample_bugs": 70,
+ "protocol_sha256": "1a274b28923060289fae66d9899dbdb1a2859ce6e6f5cef9e6fedd16579fbd1b"
+}

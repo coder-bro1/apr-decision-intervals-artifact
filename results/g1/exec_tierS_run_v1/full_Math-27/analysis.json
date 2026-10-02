@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.fraction.FractionTest::testMath835"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0cbe3ea8eecd303038cf8ea97d676a04ac39f65cff35524ea14bcb729660c626",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_0d69e4bd4ad5ae51545fb15ae3ce1ede3459c64fe369a7b1e993a5a4c27c9bfd",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_47aca7ac236f3e56ef28c3619df47be1b75f514a679ca397ffc3172782f1f8da",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testMath835"
+      ]
+    },
+    {
+      "candidate_id": "obscand_65ac8c5bca842f6c4dd5593731f9108cf846694391b4d2d92288a6b2c0509c93",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

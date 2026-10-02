@@ -1,0 +1,30 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012",
+    "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_cf73f6a57f8d4288b00f04af61557ed3472c5f4108c88906dac918930761de77",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012",
+        "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

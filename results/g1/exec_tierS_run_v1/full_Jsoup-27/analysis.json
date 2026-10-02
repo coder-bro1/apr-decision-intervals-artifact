@@ -1,0 +1,53 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.helper.DataUtilTest::testCharset",
+    "org.jsoup.helper.DataUtilTest::testQuotedCharset"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_16fe11456b134aa2e0dd36a4ee0a62594077c5dfae69da1178932026ee4ff860",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_2f297be29608633201b82e4b112407eea7874df030df4a227a3f476cc1f0d347",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_60eeed55fcc390f79eefd1278988400c1c6c751a4f22ecd968f28975725b24c1",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_88112764ca3a87f23f87844268f47d2f2444b6d5761edb6f396166be91f7a53f",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a5af1cb80c480360f1e9ba64d13db14426adb653c33461f5ef0d962fdfa3a091",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::testCharset",
+        "org.jsoup.helper.DataUtilTest::testQuotedCharset"
+      ]
+    },
+    {
+      "candidate_id": "obscand_aea01afd242e0ad47e17a93f6c2eef33589babc45f67e6a96def9b827c245961",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.helper.DataUtilTest::testCharset",
+        "org.jsoup.helper.DataUtilTest::testQuotedCharset"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

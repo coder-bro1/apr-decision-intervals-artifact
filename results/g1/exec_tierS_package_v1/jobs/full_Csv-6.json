@@ -1,0 +1,35 @@
+{
+  "bug_id": "Csv-6",
+  "cases": [
+    {
+      "candidate_id": "obscand_1676e670010b4dc81e9d884aa9a3402ec02de13c01681361f3262b292b0c9742",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_1eb71e9d68f90a4c8981f02ef93606ad9b2952ffb178455bcd2c0113e096816f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_64521ffd3f1367424a86d27d572fca312ea412f094a24f223be378005c461db8",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a28e455bca3b8a7887b4154a745b36ab1fff67a872b5c1b22de0e1e6b6826b4a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_dc282bb606882ba0b5914eff29fb355f68570b1d27a5277e43c0224b9faecdbc",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ebe6df50eb9502a8cd4399155101d591d22d4d26edb28ce2d42505f0b3670972",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_fe73cb785fd84cc826dc2fa2cd04edfc4cf5c15b93781498a49b04b312395295",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Csv-6",
+  "phase": "full"
+}

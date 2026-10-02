@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6a8d88722eef72670e7d095cf1b18b1c9107218dab08168c67fd33b554f46fb7",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f3a07afccaa4edb01fca2df06027d7d41aa75cca3f46cbdec63f4ceb61e178c6",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

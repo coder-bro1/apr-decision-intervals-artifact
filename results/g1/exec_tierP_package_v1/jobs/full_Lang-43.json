@@ -1,0 +1,15 @@
+{
+  "bug_id": "Lang-43",
+  "cases": [
+    {
+      "candidate_id": "obscand_4078b8e07556a0620abab43ab5ad11e885a62f3b62ca98c3994ea195170ca3c5",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9bd0ba5502838b718cfeb76472c6118cd5850c200c6c4ba918c754ba1e18dffd",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Lang-43",
+  "phase": "full"
+}

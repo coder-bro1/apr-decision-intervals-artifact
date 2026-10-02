@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_058051bb82715715ec9daa9d480490c148b4bc253e4a6decc068620c0a8c9e22",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

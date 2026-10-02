@@ -1,0 +1,14 @@
+{
+ "bug": "DECIMAL_TO_BINARY",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_fa05a2b8411892b3389dd2422bcb0d0248a0561782dd00758a91eb85b28a0b33",
+   "original_sha256": "3e36cdc12b5a272dd02ddd00e69d2ab133237eb299f729fe1e56b2a0e526e8b4",
+   "normalized_original_sha256": "133d00fb034fbe9c7754e1e55d3df8b4fbea6c78f7fc137c0c92d43edb89a518",
+   "patched_sha256": "1f93d97d66eaba4c626a372d24843d23949ee9331cbc1d4ac3dd80a2698383aa",
+   "start_offset_lf": 572,
+   "anchor_sha256": "af7c2d4d2330632c265bb3b3367a11a629d05e4618d104e1c65693500011f043",
+   "patch_sha256": "81d263838394088268110b48b76971313a88e05ecad12c30a94fd953a9810f0a"
+  }
+ }
+}

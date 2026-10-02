@@ -1,0 +1,19 @@
+{
+  "bug_id": "Codec-7",
+  "cases": [
+    {
+      "candidate_id": "obscand_5592f7e857f33f5c2f19c24089de2f0cea53b6aae1b3fef86b45afeffb3fbde1",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_9edfbfb496ff50e9aa39e1316a910236b32f812a233d6f3001069a1cba4b4e80",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_fe4c8aea22f43cddac5d479d31cf8d3ffc461585b2b54d1d495abd4a17cec4d5",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Codec-7",
+  "phase": "full"
+}

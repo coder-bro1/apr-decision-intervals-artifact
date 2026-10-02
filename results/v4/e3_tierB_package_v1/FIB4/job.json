@@ -1,0 +1,68 @@
+{
+ "bug": "FIB4",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_0e574155ca18ff70267c96de609b63297ed1c3804c3da3a4840e688fc8b6bdf8",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "cf0ce89e4786b9631139fdcf4dcf62fd2e668c3a31657e0c03baa64f5aca1b61",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "481839a88aaafb2c2758125925c58d7b15c290b7f3355a19dd9e0a9ddf9f76e0"
+  },
+  "c0002": {
+   "candidate_id": "obscand_276177022810a3dd4dd6fb47ee0eba69828c54e6fd0c69117c02ebb61a9f88ad",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "ce8c685f8eb98b2add31d0b056395b5eb88afaca034d983dc8373cc8f3deb6f3",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "2348869ba2597658c0fccee0f38e33ef9417726276c088049ece272a42a3d30b"
+  },
+  "c0003": {
+   "candidate_id": "obscand_2c0ddb18b2e8b8f5f4a5495d5c9237b4974ae4aeab0f4f37b81029a4df55e187",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "e81937ac8a120389e7ab12c3d14428360769c15b20493c7d0b073872473dbd58",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "41c113ffa54ac34a58022480000c517cb0c396e7ba30fdf130f5848b10f6374d"
+  },
+  "c0004": {
+   "candidate_id": "obscand_6421b321b74a14e05167511a1bc5a759a2a3903b19567d950af6ccccc98f71e9",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "f5b81157f674e692cbde91f7c5c797eaf8a9d0320511483e1871959480837f45",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "124ec6761c8cafe169cdb40bf3bb7a957a575e3348eb53e7a9cc507ad75ed9af"
+  },
+  "c0005": {
+   "candidate_id": "obscand_64a14ec1aea2631e094df30aa54c2a2d0b13bbd2ec65fb2db4335ed582ae5c7d",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "f2221d4b666051e0a1c0a3ac970e3cb40378f1799474fd3655cd49a0614f0f94",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "0d44ec8af2ea5447161c088111b1b62121530d960c98d731ff90714fa57636b2"
+  },
+  "c0006": {
+   "candidate_id": "obscand_d3e99cd7b18a1f723544f707220f7635d1e7f21fc15c9015ae95c6e3b9aed94d",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "fd3a7845744f0dc0926c9df6b8ed400c2baaba486ed166ddf96d502595804c91",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "3c39f5a82e2575b97727b15a6e219c4f31213758aa8229ccb4642e7e286eea9a"
+  },
+  "c0007": {
+   "candidate_id": "obscand_fbf0fb3c5e6249859a671a3958469bb48280f2d59cb3af8d53e1523c8537c82e",
+   "original_sha256": "bc01599f2ef8ee9ea03fc22ca6775f95cb264ae0001d041de77a1dfb58bbcfc2",
+   "normalized_original_sha256": "e07376985940d168b69d1aefa9bf400e66b0662af736b61a1fba9ac73fe89a70",
+   "patched_sha256": "a7fc5f248b7683b7403a226c659578f4b6b9c5879ad166d538e018f75e99e638",
+   "start_offset_lf": 456,
+   "anchor_sha256": "bd337c1c2c2ae8ce6dba70c0a85cae205506f1d1bdbd55fbc3acc0a9fa18d4fd",
+   "patch_sha256": "d14cb8f9ea4e7683951a2676b1a879519bcbbee680d5df5fa09a74da42370c43"
+  }
+ }
+}

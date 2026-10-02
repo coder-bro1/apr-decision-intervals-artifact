@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.ElementTest::testElementSiblingIndexSameContent",
+    "org.jsoup.nodes.ElementTest::testGetSiblingsWithDuplicateContent"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_04f071e1de995039d8d2c0023b91ff4509a3344b8eb30cafbe87213f3911c225",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.ElementTest::testElementSiblingIndexSameContent",
+        "org.jsoup.nodes.ElementTest::testGetSiblingsWithDuplicateContent"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a33940a3b69cbe1f69e4d97ef92500e919791fb28e43114d35068c214df097cf",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

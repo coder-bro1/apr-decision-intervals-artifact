@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.complex.ComplexTest::testAddNaN"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_00e17a6d2217c4f16530002437ba1e33d20fa7bc28a1b755f8fe085a4500e90c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.complex.ComplexTest::testAddNaN"
+      ]
+    },
+    {
+      "candidate_id": "obscand_0a1f5fc772e989f405506b0f639311fa9aab098aa95836b893555e4fb5a390f1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.complex.ComplexTest::testAddNaN"
+      ]
+    },
+    {
+      "candidate_id": "obscand_1edd3eb082d2d1e93fb58ef1920df838faa5dcc6d3b5ac9b863fd8e72332c956",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.complex.ComplexTest::testAddNaN"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

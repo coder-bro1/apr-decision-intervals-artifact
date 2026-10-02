@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.ValueTest::testPropertyOptionFlags"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b2cd8c2967c1cbd71ba58408ac623473dadd6cee6ecc35c7d6ecb03d5bb2eeb5",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c01b104141bb6a83954b829d2ff74cfc2b108abe94c3927034ffe750b27b5ae8",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.ValueTest::testPropertyOptionFlags"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

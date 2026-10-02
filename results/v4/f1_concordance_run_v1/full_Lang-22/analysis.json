@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int",
+    "org.apache.commons.lang3.math.FractionTest::testReduce"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_32350264bd3ea676106b11c46173426461d5c0486d218f8168e09b77b6c433c0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

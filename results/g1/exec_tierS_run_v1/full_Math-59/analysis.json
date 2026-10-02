@@ -1,0 +1,30 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.util.FastMathTest::testMinMaxFloat"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9c45462a8520bd76793df0750edf304ae3cd01472b978319822f2d4e9b712dca",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d453d1a44ba4e8c577da60570a11c65048e0fc1b17539b241a0a28b5634a71b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_da253e3841363a7106238dd38c25273dbf43451f78338a7afba032920acef322",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.util.FastMathTest::testMinMaxFloat"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

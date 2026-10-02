@@ -1,0 +1,44 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832",
+    "org.apache.commons.lang3.time.FastDateParserTest::testLANG_832"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_05e98f73cb6e3885744f18627b76ebac92edd1ea27f03de4a93da728360b213a",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_b506a8a313bdeb0f4b44c002d85e1ec06bba4a7fa39ba7847dc07117a5db565d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_c4ec84be3bc6c6993c21e737686c963e3d816fc244ecc2896bec5f2b77d45911",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832",
+        "org.apache.commons.lang3.time.FastDateParserTest::testLANG_832"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d6eeef1dcb3deb65e6ffc140bd9c1ebece0cd10e33f0117ca362dc4895766073",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e0ec4e59cf51abbbb4280a4f750af5176a9016d753887b5cfa3ca4b7e19965dc",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

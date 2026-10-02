@@ -1,0 +1,58 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2b339e62e6c90fc85b2762557020a18951be4e9ed01c37dcdea15600e3174ccd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    },
+    {
+      "candidate_id": "obscand_4e67a684b68ec23564cab455061ffb5d5b56a87f06e19620695654f64df70145",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    },
+    {
+      "candidate_id": "obscand_838fcbb2c8148ed36945862c987edb55df3c72a46d8d776ac7a08c1c6b1ff7a1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    },
+    {
+      "candidate_id": "obscand_892ffc1ee69c5f632e1e6a71bedfb63c8cbff7aad8c68fc3a94ecca1833f4660",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b1e2907695cb0f326b923c8b03d8003a476f1f23fe68898f9cdadee149dd2b10",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e4a94f63678fd4a05d51f15f96e61f960e226d79b9fbb9d5e783ad48ff57f5db",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

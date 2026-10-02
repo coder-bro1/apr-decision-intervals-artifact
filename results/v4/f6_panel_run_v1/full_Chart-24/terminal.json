@@ -1,0 +1,54 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "2b1031d5ef62442d462b53be61cc53996b6ec66b61974d0ad8a7406917c4fdde",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "f4edff60c10df9c381b9311f17edbb6b1199785d038bd11e287b073e370907bd",
+    "evidence/benchmark_metadata/active-bugs.csv": "6710b4b26bce8f53bb5494b8deda1ef6638fbc2b17bd6f68b3656e3651cea1a8",
+    "evidence/benchmark_metadata/dependent_tests": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "0fbe3abca78da0fdce2789615accf5f67940407b7031b156263b9d2245d0bd55",
+    "evidence/benchmark_metadata/failing_tests/190": "45fcec588f44b0e35e23019b8ed270b81511b194c5f93ed66bf0ede7d5c58ee6",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "a8bde7136b97e89f7f4e6bfb67e26cf2d1843cc23dc1df2aba509aeb1b0ec77c",
+    "evidence/buggy_r1_test0_all_tests.txt": "3dec1ffe91900df0edb759686068f6d9ddbad9938016f8ca4c7bb2bf25809391",
+    "evidence/buggy_r1_test0_failing_tests.txt": "ca7d7105dbbf9dfb73a623ec80b806cb48dd370d4dee9cb7871af1aeef6fb851",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "a8bde7136b97e89f7f4e6bfb67e26cf2d1843cc23dc1df2aba509aeb1b0ec77c",
+    "evidence/buggy_r2_test0_all_tests.txt": "3dec1ffe91900df0edb759686068f6d9ddbad9938016f8ca4c7bb2bf25809391",
+    "evidence/buggy_r2_test0_failing_tests.txt": "ca7d7105dbbf9dfb73a623ec80b806cb48dd370d4dee9cb7871af1aeef6fb851",
+    "evidence/checkout_b.log": "586a4b6d27c447e17276f93ba9343e0c74323e1193a2d1dfb059a67aad14213d",
+    "evidence/checkout_f.log": "c4bedf940051a4a7960269567347d7848434d80cfa5b1ffb6e3031708e08126b",
+    "evidence/export_classes.modified.log": "731a24211cbe0b0946b60232407bb83fbafd8a2574a3c56921bdf86ee58f1cf7",
+    "evidence/export_dir.src.classes.log": "052aa4678353fa550a3662920fdb30ed75b881f0b93aa4dc354e0a7d93a1ebb6",
+    "evidence/export_tests.trigger.log": "cb28ecefeb860415ec0198c508b5254aacc79da42f6b600e819280f2b3d86e57",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "3dec1ffe91900df0edb759686068f6d9ddbad9938016f8ca4c7bb2bf25809391",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "3dec1ffe91900df0edb759686068f6d9ddbad9938016f8ca4c7bb2bf25809391",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "da8f309aeee783ab769aa27801471fc9b557437ed64598abbb7e2ed1a91e8397",
+    "evidence/result.json": "dcb8ad1b2fa5a0ddff9347e043078ffd0470503147868eea70851bc9ebc42896",
+    "launch.json": "eac773213f1f720eb76d1e2f7919113408316b0fe6bde6789fd0bcd2994064ba"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_415f4a28ac210bea81183a5547972ac2d476fad26b19aaa0301de79c645a7199",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_a7b5045b007ef10c46f679869f9b091127976a033f53ac4d4b4ae10abfe6fdaa",
+      "compile_status": "unresolved_placement",
+      "evidence_status": "unresolved_placement_or_repetition",
+      "rejection_witnesses": []
+    }
+  ],
+  "job_id": "full_Chart-24",
+  "package_sha256": "fc605e52bad3f2a1dd6fc44874bb2713384c02dd62cf3886bdc7651efc8d45d6",
+  "seconds": 75.84400000000005
+}

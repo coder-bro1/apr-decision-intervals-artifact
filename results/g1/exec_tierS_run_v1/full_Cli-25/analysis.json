@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_36132dbded8cca64f47d9181f39c46675aa41cb8df9ed887ff614e51e53e2e04",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored"
+      ]
+    },
+    {
+      "candidate_id": "obscand_49319700a7e93d6a9f387e1e007fca7ae912465f04e5ce21e84f6b8cfb7616be",
+      "compile_status": "compile_pass",
+      "evidence_status": "unresolved_missing_test_evidence",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

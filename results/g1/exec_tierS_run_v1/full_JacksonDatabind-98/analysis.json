@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2f4525691c0eae38d4f4e6d0ac65db36a63f1faf9a8b106bb8c586856db0dd34",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6d04dab084f398d399b9eaa32feeef63b50d10984c8439e8a4f671ffb4335ba0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8c036db55f3b5a289b88098bc005f09a71219ded6bfd4e95659165e98fbe1a7f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

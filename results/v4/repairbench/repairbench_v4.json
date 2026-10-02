@@ -1,0 +1,341 @@
+{
+ "status": "previously inspected; transfer only; archived evidence only (no execution)",
+ "candidates": 21144,
+ "contexts": 89,
+ "bugs": 89,
+ "classes": 16180,
+ "labels": {
+  "correct": 701,
+  "incorrect": 17733,
+  "unknown": 2710
+ },
+ "structures": {
+  "exact_noop": 0,
+  "normalized_noop": 416,
+  "different_parse": 19390,
+  "parse_unresolved": 1338
+ },
+ "challenger_frozen": {
+  "d4j_sources": [
+   "deepseek_base",
+   "deepseek_fft",
+   "deepseek_lora",
+   "gpt35_gpt-zero-shot",
+   "gpt4_gpt-zero-shot",
+   "repairllama_ir1_or1",
+   "repairllama_ir1_or3",
+   "repairllama_ir1_or4",
+   "repairllama_ir2_or2",
+   "repairllama_ir3_or2",
+   "repairllama_ir4_or2",
+   "zero-shot-cloze_codellama",
+   "zero-shot-cloze_codellama-ir4",
+   "zero-shot-cloze_repairllama-fft"
+  ],
+  "d4j_max_index": 9,
+  "stages": [
+   {
+    "stage": "compile",
+    "C": 1.0
+   },
+   {
+    "stage": "test_given_compile",
+    "C": 10.0
+   },
+   {
+    "stage": "correct_given_test",
+    "C": 0.01
+   }
+  ]
+ },
+ "pairs": [
+  {
+   "a": "mra",
+   "b": "uniform",
+   "budget_one_pp": [
+    -10.460394,
+    10.900724
+   ],
+   "all_unknown_incorrect_pp": 0.356914,
+   "all_unknown_correct_pp": 0.083416,
+   "identified": false,
+   "relevant_unknown_classes": 1859,
+   "topk_pp": {
+    "s1": [
+     -10.460394,
+     10.900724
+    ],
+    "s3": [
+     -22.284934,
+     21.776973
+    ],
+    "s5": [
+     -28.872956,
+     27.425212
+    ],
+    "e5": [
+     -0.7458042633778308,
+     0.7601571026458189
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "occurrence",
+   "b": "mra",
+   "budget_one_pp": [
+    -3.808505,
+    17.323524
+   ],
+   "all_unknown_incorrect_pp": 8.463378,
+   "all_unknown_correct_pp": 5.051641,
+   "identified": false,
+   "relevant_unknown_classes": 263,
+   "topk_pp": {
+    "s1": [
+     -3.808505,
+     17.323524
+    ],
+    "s3": [
+     -16.704777,
+     23.014217
+    ],
+    "s5": [
+     -23.520288,
+     26.388194
+    ],
+    "e5": [
+     -0.8299254599471392,
+     0.49476349521611657
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "occurrence",
+   "b": "uniform",
+   "budget_one_pp": [
+    -4.282685,
+    18.238034
+   ],
+   "all_unknown_incorrect_pp": 8.820292,
+   "all_unknown_correct_pp": 5.135058,
+   "identified": false,
+   "relevant_unknown_classes": 1859,
+   "topk_pp": {
+    "s1": [
+     -4.282685,
+     18.238034
+    ],
+    "s3": [
+     -17.164363,
+     26.526487
+    ],
+    "s5": [
+     -25.124276,
+     30.61762
+    ],
+    "e5": [
+     -0.9564890024681312,
+     0.5291755997668383
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "codet5_similarity",
+   "b": "mra",
+   "budget_one_pp": [
+    -12.075273,
+    6.666306
+   ],
+   "all_unknown_incorrect_pp": -0.313937,
+   "all_unknown_correct_pp": -5.09503,
+   "identified": false,
+   "relevant_unknown_classes": 394,
+   "topk_pp": {
+    "s1": [
+     -12.075273,
+     6.666306
+    ],
+    "s3": [
+     -20.666843,
+     19.563884
+    ],
+    "s5": [
+     -25.606164,
+     24.888202
+    ],
+    "e5": [
+     -0.6064182834220571,
+     0.7118530929131374
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "codet5_similarity",
+   "b": "uniform",
+   "budget_one_pp": [
+    -12.147699,
+    7.179062
+   ],
+   "all_unknown_incorrect_pp": 0.042977,
+   "all_unknown_correct_pp": -5.011614,
+   "identified": false,
+   "relevant_unknown_classes": 1859,
+   "topk_pp": {
+    "s1": [
+     -12.147699,
+     7.179062
+    ],
+    "s3": [
+     -20.530854,
+     21.046919
+    ],
+    "s5": [
+     -26.139856,
+     26.662047
+    ],
+    "e5": [
+     -0.6630116279955361,
+     0.7185497097248837
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "mra",
+   "budget_one_pp": [
+    -9.149745,
+    11.990607
+   ],
+   "all_unknown_incorrect_pp": 2.8454,
+   "all_unknown_correct_pp": -0.004538,
+   "identified": false,
+   "relevant_unknown_classes": 262,
+   "topk_pp": {
+    "s1": [
+     -9.149745,
+     11.990607
+    ],
+    "s3": [
+     -17.944156,
+     20.145829
+    ],
+    "s5": [
+     -24.578751,
+     24.984228
+    ],
+    "e5": [
+     -0.70165003098391,
+     0.603626931992623
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "uniform",
+   "budget_one_pp": [
+    -9.753676,
+    13.034868
+   ],
+   "all_unknown_incorrect_pp": 3.202315,
+   "all_unknown_correct_pp": 0.078878,
+   "identified": false,
+   "relevant_unknown_classes": 1859,
+   "topk_pp": {
+    "s1": [
+     -9.753676,
+     13.034868
+    ],
+    "s3": [
+     -18.295038,
+     23.455558
+    ],
+    "s5": [
+     -24.621892,
+     29.937842
+    ],
+    "e5": [
+     -0.8310093891084921,
+     0.6384092886724685
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "occurrence",
+   "budget_one_pp": [
+    -8.426966,
+    -2.247191
+   ],
+   "all_unknown_incorrect_pp": -5.617978,
+   "all_unknown_correct_pp": -5.05618,
+   "identified": true,
+   "relevant_unknown_classes": 6,
+   "topk_pp": {
+    "s1": [
+     -8.426966,
+     -2.247191
+    ],
+    "s3": [
+     -12.640449,
+     8.426966
+    ],
+    "s5": [
+     -17.201712,
+     14.44635
+    ],
+    "e5": [
+     -0.22558340535868626,
+     0.4447565543071161
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  },
+  {
+   "a": "challenger_frozen",
+   "b": "codet5_similarity",
+   "budget_one_pp": [
+    -5.021868,
+    13.271697
+   ],
+   "all_unknown_incorrect_pp": 3.159337,
+   "all_unknown_correct_pp": 5.090492,
+   "identified": false,
+   "relevant_unknown_classes": 176,
+   "topk_pp": {
+    "s1": [
+     -5.021868,
+     13.271697
+    ],
+    "s3": [
+     -13.414438,
+     18.418621
+    ],
+    "s5": [
+     -19.167986,
+     23.705583
+    ],
+    "e5": [
+     -0.6803614239763645,
+     0.43820968829763784
+    ]
+   },
+   "class_label_conflicts": 9,
+   "noop_correct_contradictions": 0
+  }
+ ]
+}

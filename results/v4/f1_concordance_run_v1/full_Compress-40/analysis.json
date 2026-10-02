@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.compress.utils.BitInputStreamTest::littleEndianWithOverflow",
+    "org.apache.commons.compress.utils.BitInputStreamTest::bigEndianWithOverflow"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_3a48641c5a6af49bb208d9f1aa4a99819d4564de72bbc7a391940dc7c0ce5888",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.compress.utils.BitInputStreamTest::littleEndianWithOverflow",
+        "org.apache.commons.compress.utils.BitInputStreamTest::bigEndianWithOverflow"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

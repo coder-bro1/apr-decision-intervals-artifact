@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.NodeTest::absHandlesRelativeQuery"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0b00bbb1a89cf7c022c3dff80c7db3d57371c12f0d48183be962ed4b24456d6d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.NodeTest::absHandlesRelativeQuery"
+      ]
+    },
+    {
+      "candidate_id": "obscand_88c3d239c5539195cb4926e3672679da1bb10c15bf988b708f73016ba199d0fd",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.nodes.NodeTest::absHandlesRelativeQuery"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a1c9c8e9ff042f02138f44fdd6d601cf0f4e99f75944779dab1b35c3168c7311",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

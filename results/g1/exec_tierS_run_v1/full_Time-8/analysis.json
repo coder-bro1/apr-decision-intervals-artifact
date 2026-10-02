@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2cd2e2cbbafb51f828e4c1ab00b8501e82567a8a00ad190a38fbad8f89f8970c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+      ]
+    },
+    {
+      "candidate_id": "obscand_78782ec1f6354b6c1389ea542767323215c3a6233fd42bb1c5ede0a95a73d574",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b707ba52baa7a5f8fe1e53a54a98d1f8cc59368d419b85b86e3807ce0c2c37c0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

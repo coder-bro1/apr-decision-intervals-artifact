@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_398eb824ecd097676bd4b1f48ab57dc8d00485f74db90bd61b5332b5e35f80e7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02"
+      ]
+    },
+    {
+      "candidate_id": "obscand_819e571857795159cac12a12eda6beffc76351b7a0798c3d13046e15ff09e28e",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.TypeCheckTest::testGetprop4",
+    "com.google.javascript.jscomp.TypeCheckTest::testIssue810"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1cb2e6ebf1720b5baac0638e2f729ddbeb4d095097d632a8bc7662917dc79992",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.TypeCheckTest::testGetprop4",
+        "com.google.javascript.jscomp.TypeCheckTest::testIssue810"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_5811532eb85a8c6d262b25eb18b135773631ca17a8377d4155a823a9f079a824",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

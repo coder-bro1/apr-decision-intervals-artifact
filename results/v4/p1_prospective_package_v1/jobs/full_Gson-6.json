@@ -1,0 +1,15 @@
+{
+  "bug_id": "Gson-6",
+  "cases": [
+    {
+      "candidate_id": "obscand_bd100db0e9eb806a73d76dcf95d468efa699b0fb2afb7f81c856267ba9bf760f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d9423eac9d5ba99b5bee792fc1790ddf3f57334ecf8987f945eacddcdce1b749",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Gson-6",
+  "phase": "full"
+}

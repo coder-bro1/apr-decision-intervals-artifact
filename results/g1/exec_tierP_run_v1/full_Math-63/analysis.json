@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.util.MathUtilsTest::testArrayEquals"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_21bd8eaa27783b2bab950b37b7f41546f64c9792391088a25b5c18b461c4d83f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.util.MathUtilsTest::testArrayEquals"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6a9fc228544d51b2d57c86e472bcbec6dd1feb6fc4099d57f502f3b317ef1d84",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.util.MathUtilsTest::testArrayEquals"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8d04436cef2bf4d432721ebadfc3dac2da1e57b77309d0033051e09951b6cf45",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.util.MathUtilsTest::testArrayEquals"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

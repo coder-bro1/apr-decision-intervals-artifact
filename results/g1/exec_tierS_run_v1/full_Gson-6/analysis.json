@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize",
+    "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_04c87c2406403fd2048d4141fe9449a0c3c0d64019f23040f45f257e7bb159f3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize",
+        "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f8f2418646bd165c2954df83351489d526fbe31b2dbb1aadb54e626efdd0a584",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize",
+        "com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

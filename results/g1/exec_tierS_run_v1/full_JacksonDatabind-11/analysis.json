@@ -1,0 +1,38 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.type.TestJavaType::testLocalType728",
+    "com.fasterxml.jackson.databind.type.TestLocalType609::testLocalPartialType609"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_31160c3e6c560c7dffae95a5484a5f97bbfe7debd7b35d94fe09baae686bef9d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.type.TestJavaType::testLocalType728",
+        "com.fasterxml.jackson.databind.type.TestLocalType609::testLocalPartialType609"
+      ]
+    },
+    {
+      "candidate_id": "obscand_b4910d626a532990182dea5c5769d48aaba509cd09295b2da3e0da945b5651a0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.type.TestJavaType::testLocalType728",
+        "com.fasterxml.jackson.databind.type.TestLocalType609::testLocalPartialType609"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c7afb56dd9c0d602d63b5e9b7c3f582709db88803cee061ad9c3d00ebf165977",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.type.TestJavaType::testLocalType728",
+        "com.fasterxml.jackson.databind.type.TestLocalType609::testLocalPartialType609"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

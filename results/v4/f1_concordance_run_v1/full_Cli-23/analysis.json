@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI162Test::testInfiniteLoop",
+    "org.apache.commons.cli.bug.BugCLI162Test::testPrintHelpLongLines"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_fffcf626bb98788bc8b763d6df9aa30c317f530af833983969c537d2359b6039",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI162Test::testInfiniteLoop",
+        "org.apache.commons.cli.bug.BugCLI162Test::testPrintHelpLongLines"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

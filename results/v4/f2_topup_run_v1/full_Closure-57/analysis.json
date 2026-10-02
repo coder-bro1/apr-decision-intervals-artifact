@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b47fb3c436e61c5a2044f5d7faccf02d0530c7d746dec677da36ac051a2d8bd7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f97e71ce12b93dc2f94a19f87f0d51c4e21c353e8592ba6f4c5115a8e2047de3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

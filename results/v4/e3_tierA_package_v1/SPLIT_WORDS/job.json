@@ -1,0 +1,14 @@
+{
+ "bug": "SPLIT_WORDS",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_1e1eac9b90792369fd787bebf1cc174486991555cdee65f99dfdb167984138c1",
+   "original_sha256": "857148202114e047dc4742b39e42020906194804de775eb2bd311eb1f9e54a2c",
+   "normalized_original_sha256": "c63d88fe04aeef9a94e8d66888e673e40be78e4fdf80da17d6d0afeb152de323",
+   "patched_sha256": "4efeb763b51211240730ff0b676b6e9954d16b91191593a680a142d67a22da8f",
+   "start_offset_lf": 515,
+   "anchor_sha256": "ae78ed95801bbdc68fc8b1e7e88947acec081f20fdae1679f62332fd73ea78c4",
+   "patch_sha256": "600953c2c53389cca2466d6fe370ace3fdee045ee4aff0d22abc36715c89ba74"
+  }
+ }
+}

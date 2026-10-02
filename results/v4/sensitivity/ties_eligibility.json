@@ -1,0 +1,569 @@
+{
+ "protocol_sha256": "1a274b28923060289fae66d9899dbdb1a2859ce6e6f5cef9e6fedd16579fbd1b",
+ "rows": [
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 2.83896,
+   "hi_pp": 11.513048
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 1.02459,
+   "hi_pp": 6.967213
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 5.327869,
+   "hi_pp": 13.114754
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 2.033811,
+   "hi_pp": 8.314387,
+   "relevant_unknown_classes": 82
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": -3.685109,
+   "hi_pp": 5.539617,
+   "relevant_unknown_classes": 83
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.844262,
+   "hi_pp": 2.04918,
+   "relevant_unknown_classes": 19
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": 7.377049,
+   "hi_pp": 14.344262,
+   "relevant_unknown_classes": 34
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 5.030324,
+   "hi_pp": 10.655738
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 4.713115,
+   "hi_pp": 10.655738
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 4.918033,
+   "hi_pp": 10.860656
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 6.215847,
+   "hi_pp": 10.621585,
+   "relevant_unknown_classes": 22
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": -1.881831,
+   "hi_pp": 6.577869,
+   "relevant_unknown_classes": 52
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": -0.204918,
+   "hi_pp": 1.229508,
+   "relevant_unknown_classes": 7
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": -1.02459,
+   "hi_pp": 0.819672,
+   "relevant_unknown_classes": 9
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.103981,
+   "hi_pp": 13.810324
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.401639,
+   "hi_pp": 13.934426
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.606557,
+   "hi_pp": 13.934426
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 7.637405,
+   "hi_pp": 13.515582,
+   "relevant_unknown_classes": 63
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": -6.038251,
+   "hi_pp": 8.125976,
+   "relevant_unknown_classes": 99
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E0",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -10.630755,
+   "hi_pp": -2.696663
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E0",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -5.942623,
+   "hi_pp": -1.02459
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E0",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -12.5,
+   "hi_pp": -4.918033
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E0",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -7.963098,
+   "hi_pp": -2.180181,
+   "relevant_unknown_classes": 83
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E0",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": 5.133197,
+   "hi_pp": 14.733607,
+   "relevant_unknown_classes": 86
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 5.5705,
+   "hi_pp": 11.513048
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 1.639344,
+   "hi_pp": 6.967213
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 7.581967,
+   "hi_pp": 13.114754
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": 2.033811,
+   "hi_pp": 8.314387,
+   "relevant_unknown_classes": 82
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "mra",
+   "lo_pp": -3.685109,
+   "hi_pp": 5.539617,
+   "relevant_unknown_classes": 83
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.229508,
+   "hi_pp": 2.254098
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": -1.844262,
+   "hi_pp": 2.04918,
+   "relevant_unknown_classes": 19
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "best_config_top1",
+   "lo_pp": 7.377049,
+   "hi_pp": 14.344262,
+   "relevant_unknown_classes": 34
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 6.003684,
+   "hi_pp": 10.655738
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 5.737705,
+   "hi_pp": 10.655738
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 6.147541,
+   "hi_pp": 10.860656
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": 6.215847,
+   "hi_pp": 10.621585,
+   "relevant_unknown_classes": 22
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "occurrence",
+   "lo_pp": -1.881831,
+   "hi_pp": 6.577869,
+   "relevant_unknown_classes": 52
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": 0.0,
+   "hi_pp": 1.434426
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": -0.204918,
+   "hi_pp": 1.229508,
+   "relevant_unknown_classes": 7
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "testability",
+   "lo_pp": -1.02459,
+   "hi_pp": 0.819672,
+   "relevant_unknown_classes": 9
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.308899,
+   "hi_pp": 13.810324
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.606557,
+   "hi_pp": 13.934426
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 8.811475,
+   "hi_pp": 13.934426
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": 7.637405,
+   "hi_pp": 13.515582,
+   "relevant_unknown_classes": 63
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "challenger",
+   "b": "codet5_similarity",
+   "lo_pp": -6.038251,
+   "hi_pp": 8.125976,
+   "relevant_unknown_classes": 99
+  },
+  {
+   "kind": "ties",
+   "setting": "uniform",
+   "evidence": "E1",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -10.630755,
+   "hi_pp": -5.428203
+  },
+  {
+   "kind": "ties",
+   "setting": "file_order",
+   "evidence": "E1",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -5.942623,
+   "hi_pp": -1.639344
+  },
+  {
+   "kind": "ties",
+   "setting": "hash",
+   "evidence": "E1",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -12.5,
+   "hi_pp": -7.172131
+  },
+  {
+   "kind": "eligibility",
+   "setting": "compilable",
+   "evidence": "E1",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": -7.963098,
+   "hi_pp": -2.180181,
+   "relevant_unknown_classes": 83
+  },
+  {
+   "kind": "eligibility",
+   "setting": "plausible",
+   "evidence": "E1",
+   "a": "mra",
+   "b": "best_config_top1",
+   "lo_pp": 5.133197,
+   "hi_pp": 14.733607,
+   "relevant_unknown_classes": 86
+  }
+ ]
+}

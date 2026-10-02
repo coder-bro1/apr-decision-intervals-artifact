@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_05488a4081c51917aae1ec2b16fb2c60a900a98339fc244bb305d280970968f0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e454c6a4a45755a5e591b5dc87db22e2e80f8074cdc2d39e0a0eb77220c43d8b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

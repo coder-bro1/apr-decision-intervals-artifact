@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.EntitiesTest::escapesGtInXmlAttributesButNotInHtml"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7d65886e2ec99d576cc6fc82f49abcd4e838df7c2e14e53371d5e329f73e3f55",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

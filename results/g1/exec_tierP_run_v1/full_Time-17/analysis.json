@@ -1,0 +1,32 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9b9bfef30da9fee43063ba61cde28fbfaef76454cb2a65e74ee86ac301c4998d",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bb2d17456ceeaec38a27211d7175b9421d5bc81b9e2fe35fd90d9c3458d95013",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f8459e4698055f9682b89e48c5907eebabfcf1441392c1b2e626e5b3ec6bf587",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,14 @@
+{
+ "bug": "CORRECT_BRACKETING",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_6e62c658a7143461637635b699491c429845a201ee24b9ac0d44ba21cbdad1e0",
+   "original_sha256": "aec9e2c851d3f34f93a9e19a623dd0d903384ded1084f0523eda57facb7dc829",
+   "normalized_original_sha256": "b01fc32ab662f699b809aa07b74b66f3cf2dfa3d88bfb4f7e05bf00e15a432c0",
+   "patched_sha256": "42d47ea91d62479fb4354dc4feef4d810f6614ee35a64f1a45bfb678269301b4",
+   "start_offset_lf": 326,
+   "anchor_sha256": "d10e48057952213e7778b122d118900b423152e23efa4167596a13c0f34ca0bd",
+   "patch_sha256": "056d328d6d07ee3e8e569e36c5d8dba02963d9bdb2d6a8fcfe1b9ca0c914de5c"
+  }
+ }
+}

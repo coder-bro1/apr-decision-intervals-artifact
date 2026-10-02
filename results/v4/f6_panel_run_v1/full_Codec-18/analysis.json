@@ -1,0 +1,23 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS1",
+    "org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS2"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b749464ba549808fcccf996e46aa831003c87433b1cdf08cfa176e4c2325fedf",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_bb8cf8282721e7d99cf58422e8304089b2634218023a0ac65e3d43238f33a041",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

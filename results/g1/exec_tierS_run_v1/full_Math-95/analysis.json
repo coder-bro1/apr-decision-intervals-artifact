@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_8338db4e9fd8cfcafa4411e62deb17b1ab680d43063e890f5ed57c1dd91e46d6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ae2ab7f9e645108b35e26e971933069f8910136e2d2363a866fec0a9063425ed",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

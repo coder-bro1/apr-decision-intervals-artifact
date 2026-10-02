@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_08b79f556e09c0dd54201e907d1592cacfac1bfdfa4845f82559b076afe19ed7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3968dc5c6561dcd65fc3154fd79a394e28737001239cb4aaf420e3ce1b8820af",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar"
+      ]
+    },
+    {
+      "candidate_id": "obscand_494b248dc63ddf2aa9e0328f61bf7fe7550eec94d46488eec5306233df2513e3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,17 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.nodes.FormElementTest::createsFormData",
+    "org.jsoup.nodes.FormElementTest::usesOnForCheckboxValueIfNoValueSet"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_b2f1a5f56364202759e02b05faacab0450610be2d62da563c86e091072da0ba6",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

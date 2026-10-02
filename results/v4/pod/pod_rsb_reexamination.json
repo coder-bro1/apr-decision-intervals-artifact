@@ -1,0 +1,216 @@
+{
+ "source": "Practical POD RepairLLaMA common split (169 patches, 50 bugs)",
+ "max_unknowns_in_one_bug": 9,
+ "rows": [
+  {
+   "confidence": 85,
+   "detector": "yang_entropy_delta",
+   "released": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9523809523809523,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 85,
+   "detector": "invalidator",
+   "released": {
+    "rsb_wins": 38,
+    "positive_bugs": 42,
+    "share": 0.9047619047619048
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.8809523809523809,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 85,
+   "detector": "fixcheck",
+   "released": {
+    "rsb_wins": 41,
+    "positive_bugs": 42,
+    "share": 0.9761904761904762
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9285714285714286,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 85,
+   "detector": "llm4patchcorrect",
+   "released": {
+    "rsb_wins": 39,
+    "positive_bugs": 42,
+    "share": 0.9285714285714286
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9047619047619048,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 85,
+   "detector": "tian_dl4patchcorrectness",
+   "released": {
+    "rsb_wins": 39,
+    "positive_bugs": 42,
+    "share": 0.9285714285714286
+   },
+   "verified_only": {
+    "rsb_wins": 41,
+    "positive_bugs": 42,
+    "share": 0.9761904761904762
+   },
+   "all_completions": {
+    "share_min": 0.8571428571428571,
+    "share_max": 0.9761904761904762,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 95,
+   "detector": "yang_entropy_delta",
+   "released": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9523809523809523,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 95,
+   "detector": "invalidator",
+   "released": {
+    "rsb_wins": 38,
+    "positive_bugs": 42,
+    "share": 0.9047619047619048
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.8809523809523809,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 95,
+   "detector": "fixcheck",
+   "released": {
+    "rsb_wins": 40,
+    "positive_bugs": 42,
+    "share": 0.9523809523809523
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9285714285714286,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 95,
+   "detector": "llm4patchcorrect",
+   "released": {
+    "rsb_wins": 39,
+    "positive_bugs": 42,
+    "share": 0.9285714285714286
+   },
+   "verified_only": {
+    "rsb_wins": 42,
+    "positive_bugs": 42,
+    "share": 1.0
+   },
+   "all_completions": {
+    "share_min": 0.9047619047619048,
+    "share_max": 1.0,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  },
+  {
+   "confidence": 95,
+   "detector": "tian_dl4patchcorrectness",
+   "released": {
+    "rsb_wins": 39,
+    "positive_bugs": 42,
+    "share": 0.9285714285714286
+   },
+   "verified_only": {
+    "rsb_wins": 41,
+    "positive_bugs": 42,
+    "share": 0.9761904761904762
+   },
+   "all_completions": {
+    "share_min": 0.8571428571428571,
+    "share_max": 0.9761904761904762,
+    "positive_bug_counts_possible": [
+     42
+    ]
+   }
+  }
+ ]
+}

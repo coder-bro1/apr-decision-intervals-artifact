@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+    "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_89f3033a479091fad16319b56ac774a128c1dd956f15c53de61d03a55d1e16c6",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+        "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e3a1218362745e3945479e23d04755771933a5f8e5827812791d603743e0583f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+        "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

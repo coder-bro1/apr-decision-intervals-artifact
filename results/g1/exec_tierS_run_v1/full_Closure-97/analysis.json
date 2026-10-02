@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6c99c31b8e031fb919a1ffdf2a61407af6fc90fb0ae7342d756f2419463a45aa",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9a0c423e6a33f4697a5c19d68b829fbe2c8c8aaeed1531007df50ae7dffc93a9",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e7bbb82583f0b704e34f1a6d1412ea884a7cc2a050008d9e5908548e0fe76a39",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

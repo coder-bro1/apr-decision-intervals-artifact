@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1d9e82b1f45d1f5cc115cf8f5697a471405a4172905ac1e24078cb41ee13d3d7",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_5d4918d271faba3ed1017d49c8791853152c54d898a3c8816bd0399b88a8ff86",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_8c692e7b3077517d4e048d521fe7bdab18a134d2a366598a5e4b7729be91350e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_94c042064416e2240c01a96b8b2ec6c58e25d4f547a1d02e5e2d8e9f74968c9d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bd33df6e561e4936dbe3db579e311cb17b2c05b168f3f7d784e772374435ac2f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

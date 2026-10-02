@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294",
+    "org.apache.commons.lang.text.StrBuilderTest::testLang294"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_22bd9a6ba08867ffe0f412b2d46de22c04f7119b4f338ddf7c5305c1787f8c26",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e8e2aef7e72342c02943006184a44f1fb94834dc37a5e424b57bb126dae89231",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294",
+        "org.apache.commons.lang.text.StrBuilderTest::testLang294"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

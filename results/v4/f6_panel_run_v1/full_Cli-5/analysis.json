@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.UtilTest::testStripLeadingHyphens",
+    "org.apache.commons.cli.bug.BugCLI133Test::testOrder"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_c56dbeebb4693b0fc95ddaddf129fad8e3cea1b4cf3ecddcad1159564403f384",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_d36320ccb3c9bbb9a8970350ee852973e9bbb0443a69e1ef6466852ff5916cfd",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f6066e6949a706e0c76c2f717b6bfbe3ee3d98e682e953863d3ed737d9cbd91b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

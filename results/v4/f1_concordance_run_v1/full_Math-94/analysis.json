@@ -1,0 +1,30 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.util.MathUtilsTest::testGcd"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7a692a6263092463a5966d85d21cbe988257c710e1bcc4dbbcfc604f681b6311",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.util.MathUtilsTest::testGcd"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a67aa19e39057c67a203effd7b2729c9895b589dd5808a10f58851b4644e667f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f2bff0e1bcff0ebe99dc2e9c99fc61d429009747bdc46a32856b4c3afc17c8ad",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine",
+    "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1",
+    "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1b9af71d0c065f6a8a62dc08b9e1b2d548c981bdd0d23c191b55e96af16c78a2",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_ab4c6d83d8745712f3267fbb7433dfcc4b6f3a4e181782d1413ceba9d0c5a347",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

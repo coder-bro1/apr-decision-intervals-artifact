@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest::testMixinWithBundles"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_7594b9b89ac4e75e3e8fff2dd97eb913fe814a7f643ddf79794c7f30ec6b3ab3",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest::testMixinWithBundles"
+      ]
+    },
+    {
+      "candidate_id": "obscand_99d5198ba4b0d20e4a0f97307623bc262060164d2f76a2aa514a030c25802067",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest::testMixinWithBundles"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

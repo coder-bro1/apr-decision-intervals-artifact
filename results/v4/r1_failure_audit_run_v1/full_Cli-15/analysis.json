@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument",
+    "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_f3d91ab3d1722a7bdf573421a4b9322adbd3569e5b5ab823b212646a63ecd2e8",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument",
+        "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

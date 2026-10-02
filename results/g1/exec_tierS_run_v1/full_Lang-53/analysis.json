@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_2fab58e19d34bdf67a8844f115f3ad2bfa24fb6f40dc85ae704e32407d716046",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+      ]
+    },
+    {
+      "candidate_id": "obscand_440f69b449bda415a556369982569a7693c2f65add63d44d1b6e597aa01115cc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+      ]
+    },
+    {
+      "candidate_id": "obscand_479f0af90b59ab7b26c95b62becae926f03fb5619449f748e1bfa7fd087b1884",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+      ]
+    },
+    {
+      "candidate_id": "obscand_976c614b71b1c1b47e809a063d2d9f026872d8d09b7a10425861b1d26f3ba864",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

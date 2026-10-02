@@ -1,0 +1,24 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_ab48f742069ec7a96785a2eb2c24f4729b5b70a69daa86af582167589a9c26bb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369"
+      ]
+    },
+    {
+      "candidate_id": "obscand_bb1817d28e0162efd9ca3222a779d4184cdffe53d31e8c963447836697e814ec",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

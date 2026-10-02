@@ -1,0 +1,54 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_31d8d799bed38b78af74ae85632e717f30e1e940dfc4ddd79e0ca9c5db785ea8",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6ca11b72613505325fb67f4f5e659a28c9f8b53fabd13fc7f9620479741c4ca8",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_cb4014515ee99272912c526851d93828ed23d815c8c9ed37ce6e92b35791ce8d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_eaf8b7d6ea02fae7670045b56f9f47caeb46044e0ef1d8ae8dfc01945a620c44",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    },
+    {
+      "candidate_id": "obscand_ed8b924dd489819a9651d56e7f400cb72c2c37c3f2698a107271bca783374c27",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_f4a85bf7aea1bf6d075043762a01a98ddbb56a08e099f280918bba9a28cc882f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

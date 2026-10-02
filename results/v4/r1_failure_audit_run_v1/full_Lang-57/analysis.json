@@ -1,0 +1,25 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+    "org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+    "org.apache.commons.lang.LocaleUtilsTest::testCountriesByLanguage",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+    "org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+    "org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+    "org.apache.commons.lang.LocaleUtilsTest::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_a91a8da491345463654a45368ebda4ed19a49bba219cc09bb4b0fc0edcbec648",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

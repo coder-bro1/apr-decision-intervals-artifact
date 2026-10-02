@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.WeekTests::testConstructor"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_73ce72baa72bdf5a8409a15643dde557f54ba3d64708bd75c33da06055f6d931",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

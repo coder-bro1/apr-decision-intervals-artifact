@@ -1,0 +1,36 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd",
+    "org.jsoup.parser.HtmlParserTest::commentAtEnd"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_34f9573b45979c53d7bd7331f6f429321615dc950dec8872c1c4cf7f13a86a82",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd"
+      ]
+    },
+    {
+      "candidate_id": "obscand_51aebb628161b1a9003c908bd12a2324de374ceec53e4d0faa286a8c6dff3e5d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd"
+      ]
+    },
+    {
+      "candidate_id": "obscand_608f612538abd7b912e291bb7d13d4ee36a955238bb6cff8c88270dd121905c1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd",
+        "org.jsoup.parser.HtmlParserTest::commentAtEnd"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

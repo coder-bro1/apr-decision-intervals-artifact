@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_0864b09c76733c6987f0d01f5e719ff24bd44f48e3c1c3278eec3cb2994418b2",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_1b764a96643ea73537ef5d693d2d691e1a6b518ec1915de9ea785bd378d744bc",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+      ]
+    },
+    {
+      "candidate_id": "obscand_dd2657a24ee3ac0d211eb33b27c7aa854678d29843c5e0fa4827a0b91109e9db",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

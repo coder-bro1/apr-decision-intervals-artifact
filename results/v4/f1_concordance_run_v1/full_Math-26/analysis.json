@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_1a0f1be8dda08fb677c711b1dabfe3b1ebce9b444f81c9486d73d6bb9cd6df47",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_3a6cb8846f7d02c5778463ef93a6829f5dc09b9e3c5b5163b76ea761a541ba03",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    },
+    {
+      "candidate_id": "obscand_7785fa03ac92d37dcebde9be4ec75b51965810d8457f70c227578f37b75f99c4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

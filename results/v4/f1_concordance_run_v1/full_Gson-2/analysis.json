@@ -1,0 +1,18 @@
+{
+  "admissible_triggers": [
+    "com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_d9988b840f23231ee7f8d5cf8dc592aefbf9217d075736a82088eae0ae383cdf",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

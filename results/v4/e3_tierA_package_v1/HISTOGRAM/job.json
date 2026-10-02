@@ -1,0 +1,14 @@
+{
+ "bug": "HISTOGRAM",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_ee62cd8b65f23d7daf58b1616cd182ee9869fd4343988a73f4a21feee7d0d776",
+   "original_sha256": "700895cb4a7e165e969f33be3e7d46c5914fc3f70cee47f1b7d8d3287d0e7d7b",
+   "normalized_original_sha256": "b26e17985e67bdc171f0662475881567cafccec6d9cca65ee41f91b4570a8aa7",
+   "patched_sha256": "044e82cf8256a1c2cc324733c20136ea8e0b31757ada61b3ed2fd52fb83e99cb",
+   "start_offset_lf": 554,
+   "anchor_sha256": "232eb85dbb534b9663decec6de83f8e009b2b14f47da58b6bc6500c171858c8a",
+   "patch_sha256": "ad17d723f63f44db7ba365ca960d7bcbf7d0d50af60baed8bcdde68a8cef9afb"
+  }
+ }
+}

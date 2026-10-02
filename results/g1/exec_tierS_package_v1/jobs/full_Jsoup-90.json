@@ -1,0 +1,35 @@
+{
+  "bug_id": "Jsoup-90",
+  "cases": [
+    {
+      "candidate_id": "obscand_1b1d6f06159d4abd2f50031c588d2cd39b0fa42a455a63b9aecaee9928621b9f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_1d1f224d7843b30d83aad0216c6ee6558074aa8865ebb531203ba56e480a5164",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_5131ed96bbcab16bac5a7481eada8379d870a2f20caa4b8c44bcd87842877088",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_bf2502fc16c2fd803e1b4d8140adc9b6d552177f4035899436629ff8eff7fccf",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_c97b03fea0c983dc39030544dfa0a0bb90e5207d185295c767dd3ff146173b01",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d7b4ca6f79fd233b21999724aafae6d1c268d33350315db376e6ab687d98639a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e276bb5959e3c985b039b85cf315f4282c832588a2b6a192458d38f992b2301e",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-90",
+  "phase": "full"
+}

@@ -1,0 +1,31 @@
+{
+  "bug_id": "JacksonDatabind-9",
+  "cases": [
+    {
+      "candidate_id": "obscand_48d6d0b01c49db84ce453ea33f94b7af8ab6edd98cfb5da03944c43f9240569f",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_55081dcd891f6c857e3542137e6fa97cf51ae30f86d7210639e31d121a522268",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_84c6be4d6def063b64f6dc2a03f5c1df5accf2e4046aacf30fc572fd63be4931",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d49c2c4e026f2d2570615b1dad27267d145a4b49745b4444d6af90070cb260da",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_defac078c383b801d4a924130bce50973c9e199ed970218f65d0572f75d76918",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e9cb54b82a1741f2b1219221a4ba2bb19046a4e213f952aef2091a25932493bd",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_JacksonDatabind-9",
+  "phase": "full"
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.joda.time.TestPartial_Basics::testWith3"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_60f24f23acb761921d8ab134f1e8d28b1911d71fdebbab7acf22e14430249ded",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestPartial_Basics::testWith3"
+      ]
+    },
+    {
+      "candidate_id": "obscand_c4911a95422f9c97bd9f0b334b7924cd8e7da37e4276edbd5896e7a10d6ef44c",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.joda.time.TestPartial_Basics::testWith3"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

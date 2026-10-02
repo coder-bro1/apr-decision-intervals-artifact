@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_401da21b1e2763925f006be5825cab17798d9c21217bf9d12d630260ce6d3b5f",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_e47baff1ea4a3364515f428b04a223c36fdf6ae35cf62e07ec6f9070b2b3334d",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

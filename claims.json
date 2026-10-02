@@ -1,0 +1,284 @@
+[
+ {
+  "claim": "Archive decides 12 of 16 Defects4J comparisons; layers give 12, 13, 13, 14, 15, 16",
+  "where": "Sec. 5.1, Table 4",
+  "file": "results/v4/decidability/decidability.json",
+  "path": [
+   "defects4j",
+   "decided_by_step"
+  ],
+  "expect": {
+   "E0 archived": 12,
+   "E1 +census": 13,
+   "+F2 census top-up": 13,
+   "+F3 generated tests": 14,
+   "+F4 human review": 15,
+   "Final (+R fix re-run)": 16
+  }
+ },
+ {
+  "claim": "Final interval against the pooled order [+9.27, +10.33]",
+  "where": "Table 4",
+  "file": "results/v4/decidability/decidability.json",
+  "path": [
+   "defects4j",
+   "comparisons",
+   {
+    "b": "mra"
+   },
+   "Final (+R fix re-run)",
+   "pp"
+  ],
+  "expect": [
+   9.27,
+   10.33
+  ],
+  "tol": 0.006
+ },
+ {
+  "claim": "Eleven decisions rest on reference and execution labels alone",
+  "where": "Abstract, Sec. 5.1",
+  "file": "results/v4/decision_basis/decision_basis.json",
+  "path": [
+   "summary",
+   "rest_on_reference_and_execution_only"
+  ],
+  "len": 11
+ },
+ {
+  "claim": "31 human-judged classes in the bases, 23 archived and 8 from the review",
+  "where": "Sec. 5.3",
+  "file": "results/v4/decision_basis/decision_basis.json",
+  "path": [
+   "summary"
+  ],
+  "expect_subset": {
+   "distinct_human_classes": 31,
+   "archived": 23,
+   "F4": 8
+  }
+ },
+ {
+  "claim": "Fix copies recorded as failing: 201 of 1,871 on Defects4J",
+  "where": "Abstract, Sec. 5.3",
+  "file": "results/v4/positive_controls/positive_controls.json",
+  "path": [
+   "artifacts",
+   "repairllama_defects4j",
+   "levels",
+   "L1_text",
+   "all",
+   "occurrences"
+  ],
+  "expect_subset": {
+   "k": 201,
+   "n": 1871
+  }
+ },
+ {
+  "claim": "Fix copies recorded as failing: 440 of 2,849 on HumanEval-Java",
+  "where": "Sec. 5.3",
+  "file": "results/v4/positive_controls/positive_controls.json",
+  "path": [
+   "artifacts",
+   "repairllama_humanevaljava",
+   "levels",
+   "L1_text",
+   "all",
+   "occurrences"
+  ],
+  "expect_subset": {
+   "k": 440,
+   "n": 2849
+  }
+ },
+ {
+  "claim": "None of 585 GitBug-Java copies recorded as failing",
+  "where": "Sec. 5.3",
+  "file": "results/v4/positive_controls/positive_controls.json",
+  "path": [
+   "artifacts",
+   "repairllama_gitbugjava",
+   "levels",
+   "L1_text",
+   "all",
+   "occurrences"
+  ],
+  "expect_subset": {
+   "k": 0,
+   "n": 585
+  }
+ },
+ {
+  "claim": "Fresh campaign primary comparison open after execution, [-3.53, +3.23]",
+  "where": "Sec. 5.2, Table 5",
+  "file": "results/g1/g1_final.json",
+  "path": [
+   "G-E1",
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence"
+   },
+   "bounds_pp"
+  ],
+  "expect": [
+   -3.53,
+   3.23
+  ],
+  "tol": 0.006
+ },
+ {
+  "claim": "All 16 decisions hold without the review's incorrect verdicts",
+  "where": "Sec. 5.3, Threats",
+  "file": "results/v4/f4_rubric_sensitivity_v1/f4_rubric_sensitivity.json",
+  "path": [
+   "decided_with_f4_incorrect_unknown"
+  ],
+  "expect": 16
+ },
+ {
+  "claim": "Target-aware pre-flight: one-stage decided by the generated tests (1 needed, 1 of 4 targeted refuted)",
+  "where": "Table 6",
+  "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
+  "path": [
+   "defects4j",
+   "campaigns",
+   "Generated tests",
+   "comparisons",
+   "one_stage",
+   "targeted"
+  ],
+  "expect_subset": {
+   "k_min": 1,
+   "helpful_classes_targeted": 4,
+   "helpful_targeted_refuted": 1
+  }
+ },
+ {
+  "claim": "Target-aware pre-flight: testability, 0 of 5 helpful classes targeted by the generated tests",
+  "where": "Table 6",
+  "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
+  "path": [
+   "defects4j",
+   "campaigns",
+   "Generated tests",
+   "comparisons",
+   "testability",
+   "targeted"
+  ],
+  "expect_subset": {
+   "helpful_classes_targeted": 0,
+   "helpful_classes_under_rule": 5
+  }
+ },
+ {
+  "claim": "Target-aware pre-flight: census decided the source-agnostic comparison (8 needed, 12 of 17 refuted)",
+  "where": "Table 6",
+  "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
+  "path": [
+   "defects4j",
+   "campaigns",
+   "Census",
+   "comparisons",
+   "source_agnostic",
+   "targeted"
+  ],
+  "expect_subset": {
+   "k_min": 8,
+   "helpful_classes_targeted": 17,
+   "helpful_targeted_refuted": 12
+  }
+ },
+ {
+  "claim": "Fresh primary comparison: 157 refutations needed, 133 obtained",
+  "where": "Sec. 5.2, Table 6",
+  "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
+  "path": [
+   "g1",
+   "comparisons",
+   "challenger_frozen vs occurrence",
+   "targeted"
+  ],
+  "expect_subset": {
+   "k_min": 157,
+   "helpful_targeted_refuted": 133
+  }
+ },
+ {
+  "claim": "Suspect-cell view: the final evidence still decides all 16 comparisons",
+  "where": "Sec. 5.3",
+  "file": "results/v4/r1_review_v1/r1_review_checks.json",
+  "path": [
+   "A1",
+   "views",
+   "S1 suspect cells",
+   "decided_final"
+  ],
+  "expect": 16
+ },
+ {
+  "claim": "Comparisons decided at a margin of 1 and 2 points: 14 and 12",
+  "where": "Sec. 5.1",
+  "file": "results/v4/r1_review_v1/r1_review_checks.json",
+  "path": [
+   "delta_margin"
+  ],
+  "expect_subset": {
+   "1": 14,
+   "2": 12
+  }
+ },
+ {
+  "claim": "Failure audit: 147 of 160 sampled failures reproduced, 5 did not",
+  "where": "Sec. 5.3",
+  "file": "results/v4/r1_failure_audit/analysis.json",
+  "path": [
+   "rates",
+   "all"
+  ],
+  "expect_subset": {
+   "reproduced": 147,
+   "not_reproduced": 5
+  }
+ },
+ {
+  "claim": "Failure audit: all 16 decisions hold in at least 96% of draws",
+  "where": "Sec. 5.3",
+  "file": "results/v4/r1_failure_audit/analysis.json",
+  "path": [
+   "decided_with_probability_ge_0_95"
+  ],
+  "expect": 16
+ },
+ {
+  "claim": "Prospective campaign: all eight frozen predictions correct",
+  "where": "Abstract, Sec. 5.2",
+  "file": "results/v4/p1_prospective/outcomes.json",
+  "path": [
+   "predictions_correct"
+  ],
+  "expect": 8
+ },
+ {
+  "claim": "Prospective campaign: selector vs PrevaRank decided after the campaign",
+  "where": "Sec. 5.2",
+  "file": "results/v4/p1_prospective/outcomes.json",
+  "path": [
+   "comparisons",
+   {
+    "comparison": "challenger vs prevarank"
+   },
+   "decided_at_end"
+  ],
+  "expect": true
+ },
+ {
+  "claim": "Second decision point: 13 of 21 decided with the final evidence",
+  "where": "Sec. 5.4",
+  "file": "results/v4/p1_prospective/predictions.json",
+  "path": [
+   "decided_at_start"
+  ],
+  "expect": 13
+ }
+]

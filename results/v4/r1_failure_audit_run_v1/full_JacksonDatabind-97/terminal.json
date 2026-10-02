@@ -1,0 +1,62 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "7b80ec57d19827643bf9f22706425a27b54852fdbc7924d37a1a717a1664671f",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "5075a2c68ec89929edb823c932405fcc93e6c5c873256ab4f8ad9bf4b11f3e40",
+    "evidence/benchmark_metadata/active-bugs.csv": "237ef50887fe69377330bded24811b008f245cf82c2860b06a755830e694e002",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "a035c7183d114fb46cad1749c70bd6a8cdb9735dcca292b8b091d8236c9bdde5",
+    "evidence/benchmark_metadata/failing_tests/0e06d15b5ce1d5f16d8bcd69e2418c18009bc1c8": "145852f1ecdd543b0614d177cde8fb96dab5eff1ebc230ae838d991768c57a5e",
+    "evidence/benchmark_metadata/failing_tests/dd57a2dd576a77423553c197df109a5b60c1c669": "400b3665dffec99f045ec644b5830152064bcf7abbf8ea82658a40b0dd623095",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "61e133da9cba089456de9c0dbfbd7205c181661387d61d33a5dbdb061d8812c8",
+    "evidence/buggy_r1_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/buggy_r1_test0_failing_tests.txt": "9b5b1e79a651410cfa92d746968f23aa7aa0658835bc20581ef20ff91c8bc3bf",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "61e133da9cba089456de9c0dbfbd7205c181661387d61d33a5dbdb061d8812c8",
+    "evidence/buggy_r2_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/buggy_r2_test0_failing_tests.txt": "9b5b1e79a651410cfa92d746968f23aa7aa0658835bc20581ef20ff91c8bc3bf",
+    "evidence/checkout_b.log": "1130757540414799c7c57ca6306339eec88a59be064e49d91edd362043a08f9d",
+    "evidence/checkout_f.log": "f37474f515449aba68cc91c47c22f61582b655086c7117aa4e73f272bd5afa5b",
+    "evidence/export_classes.modified.log": "731a24211cbe0b0946b60232407bb83fbafd8a2574a3c56921bdf86ee58f1cf7",
+    "evidence/export_dir.src.classes.log": "052aa4678353fa550a3662920fdb30ed75b881f0b93aa4dc354e0a7d93a1ebb6",
+    "evidence/export_tests.trigger.log": "cb28ecefeb860415ec0198c508b5254aacc79da42f6b600e819280f2b3d86e57",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "091ed36622e7262d70b0723f6f3acce79711f6e1568555cfea0d38f9abca3577",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_original.java": "e8afb515ce0321be857ddaf96e3f2ec3f783bab79b0046e1fa4e4a83244f69ec",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_patched.java": "757a4d9b732eb5685d7f4470c76ad6016dc7930fac425775d9503c0605ddcba9",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_test0.log": "61e133da9cba089456de9c0dbfbd7205c181661387d61d33a5dbdb061d8812c8",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r1_test0_failing_tests.txt": "9b5b1e79a651410cfa92d746968f23aa7aa0658835bc20581ef20ff91c8bc3bf",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_original.java": "e8afb515ce0321be857ddaf96e3f2ec3f783bab79b0046e1fa4e4a83244f69ec",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_patched.java": "757a4d9b732eb5685d7f4470c76ad6016dc7930fac425775d9503c0605ddcba9",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_test0.log": "61e133da9cba089456de9c0dbfbd7205c181661387d61d33a5dbdb061d8812c8",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_test0_all_tests.txt": "c1707d3f2f3e1612c58bba771db5e4f742e50360e0013a5f736183018699952a",
+    "evidence/obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27_r2_test0_failing_tests.txt": "9b5b1e79a651410cfa92d746968f23aa7aa0658835bc20581ef20ff91c8bc3bf",
+    "evidence/result.json": "f2ae626c2f2556845fe7becc25dffb9d75926d5595e959ee2c3ac53c311c7a73",
+    "launch.json": "6f1707135918a1ce825e9d5c010e1f556d0100e1a1e16282d28470577fe52eaa"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_58da9e47098993291d8182365435bfe581dadcbaa1f6cf3a455b59165540be27",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.fasterxml.jackson.databind.node.POJONodeTest::testPOJONodeCustomSer"
+      ]
+    }
+  ],
+  "job_id": "full_JacksonDatabind-97",
+  "package_sha256": "f110cd29e3058cc6a341ada6c774781af199cc6f8fa69618c544465650cc6402",
+  "seconds": 67.875
+}

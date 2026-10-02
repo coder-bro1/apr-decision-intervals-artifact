@@ -1,0 +1,42 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.cli.bug.BugCLI51Test::test"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_49783c10efbd41e30b767b26b81c52b52f092803de7a2fb254f0fe94e2d58c97",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI51Test::test"
+      ]
+    },
+    {
+      "candidate_id": "obscand_9b3f3121e15699c418dde4e4ed047995ebaca14dd7770c95768fdf4f77679df4",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI51Test::test"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a37addeaab453e7d0a778dcc649f2d5d17e5e76ce9ab52bdd0f832cb33bf22fe",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI51Test::test"
+      ]
+    },
+    {
+      "candidate_id": "obscand_e13e3849fe0358421c6592d5ddbc71572cdd28713b53569528bf05dc5bc10e07",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.cli.bug.BugCLI51Test::test"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

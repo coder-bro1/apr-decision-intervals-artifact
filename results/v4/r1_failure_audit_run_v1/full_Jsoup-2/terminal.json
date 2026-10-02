@@ -1,0 +1,63 @@
+{
+  "container_ok": true,
+  "controls_compile": true,
+  "files": {
+    "analysis.json": "0dfbc32369f2c20d77173cb2610719c0b0e56444b189097ce960788654dda6b2",
+    "container.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "container_inspect.json": "201bb4ff14eed76a805a7639bcb1b18fb61f297623589e5a2fbb4863266a1532",
+    "evidence/benchmark_metadata/active-bugs.csv": "38941070de58a082a4fb7384a35932ad6811f4d9fc12fddd88dd7591a41646eb",
+    "evidence/benchmark_metadata/dependent_tests": "bcc85e8c313010c84acb09b7822dc400ad49e859554d636c98e34bbb6ed1ad4d",
+    "evidence/benchmark_metadata/deprecated-bugs.csv": "0fbe3abca78da0fdce2789615accf5f67940407b7031b156263b9d2245d0bd55",
+    "evidence/benchmark_metadata/failing_tests/27a52f90a25699bebe23ff1ff94d6db361fdb11d": "510283827ce774ca7448a994b0b4f7a61c9c6bfdaaca78b24e2bb3986b4301e3",
+    "evidence/benchmark_metadata/failing_tests/bb4ead7c350695c1ed3c52d028090da4d4cecd1e": "2acb39afcac71336edeb405d4cc345df3b1418b4de5b8e9249260ca166d5ba9f",
+    "evidence/buggy_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r1_test0.log": "b5ebde9c7e4515df7057b3fa32b252ada181a2f94fc3d14cd77b25cec849d7b4",
+    "evidence/buggy_r1_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/buggy_r1_test0_failing_tests.txt": "641896642d7cb4f06692c6a103d9bb499aa188110eaee54376550c7c739ad437",
+    "evidence/buggy_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/buggy_r2_test0.log": "b5ebde9c7e4515df7057b3fa32b252ada181a2f94fc3d14cd77b25cec849d7b4",
+    "evidence/buggy_r2_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/buggy_r2_test0_failing_tests.txt": "641896642d7cb4f06692c6a103d9bb499aa188110eaee54376550c7c739ad437",
+    "evidence/checkout_b.log": "626638161013ea103743baee46274673b096a000a55376184f760c104cfd7fd5",
+    "evidence/checkout_f.log": "bc40b036f5368a964725c3260ff2b599f4f6f7eab63f797283cea3bda13736ef",
+    "evidence/export_classes.modified.log": "731a24211cbe0b0946b60232407bb83fbafd8a2574a3c56921bdf86ee58f1cf7",
+    "evidence/export_dir.src.classes.log": "052aa4678353fa550a3662920fdb30ed75b881f0b93aa4dc354e0a7d93a1ebb6",
+    "evidence/export_tests.trigger.log": "cb28ecefeb860415ec0198c508b5254aacc79da42f6b600e819280f2b3d86e57",
+    "evidence/fixed_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r1_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r1_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/fixed_r1_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/fixed_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/fixed_r2_test0.log": "b4bf1f1aaf09825dd0e55a9f3b6852cf7cf51e3de06c4d69932ef00a8d40f862",
+    "evidence/fixed_r2_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/fixed_r2_test0_failing_tests.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/manifest.json": "682a5f3b67e40effb13b69cd48a14b6678a3b0b6ea003222932d76f8f575c223",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_original.java": "fc9b600ee2976f5905066805f8f680dad4bb440951e038c614a185ee8dca563f",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_patched.java": "ea70a55e9c5753fc441beae8c4348baed916b97617cff46c8c7994e507d5213d",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_test0.log": "b5ebde9c7e4515df7057b3fa32b252ada181a2f94fc3d14cd77b25cec849d7b4",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r1_test0_failing_tests.txt": "641896642d7cb4f06692c6a103d9bb499aa188110eaee54376550c7c739ad437",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_compile.log": "c93682ce5d62f8fda98e6c3f9b27da261ae37efef35691c2857a7099498dfb90",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_original.java": "fc9b600ee2976f5905066805f8f680dad4bb440951e038c614a185ee8dca563f",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_patched.java": "ea70a55e9c5753fc441beae8c4348baed916b97617cff46c8c7994e507d5213d",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_test0.log": "b5ebde9c7e4515df7057b3fa32b252ada181a2f94fc3d14cd77b25cec849d7b4",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_test0_all_tests.txt": "29261c6aa3ac47c9c8245c36b2dbb4cd7f2f911355555d77bf79cf232da9cd85",
+    "evidence/obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812_r2_test0_failing_tests.txt": "641896642d7cb4f06692c6a103d9bb499aa188110eaee54376550c7c739ad437",
+    "evidence/result.json": "9e29cd10bff3502f195ac4a969759c927a51c89b5f04c2fe48a18128d37693d3",
+    "launch.json": "baa5aab0217d939ec5bea8a42216d7659870f3354e95d6fcdf7c7778dd37e631"
+  },
+  "findings": [
+    {
+      "candidate_id": "obscand_f3ac690a1bfe6d8be94e971e1ddcd3bdbe7b27ae5ff677c35e0e59cf32d38812",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.ParserTest::handlesTextAfterData"
+      ]
+    }
+  ],
+  "job_id": "full_Jsoup-2",
+  "package_sha256": "f110cd29e3058cc6a341ada6c774781af199cc6f8fa69618c544465650cc6402",
+  "seconds": 26.687999999994645
+}

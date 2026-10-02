@@ -1,0 +1,15 @@
+{
+  "bug_id": "Compress-35",
+  "cases": [
+    {
+      "candidate_id": "obscand_5257cb56e3d791f40ee864dcd8bf283d0e893e63be09be958b270901547ada6c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e38da3051fa93d56a8bf3a180a7179351522a49ff29911384f0b27880ec80014",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Compress-35",
+  "phase": "full"
+}

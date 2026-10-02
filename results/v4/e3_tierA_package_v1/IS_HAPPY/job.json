@@ -1,0 +1,14 @@
+{
+ "bug": "IS_HAPPY",
+ "candidates": {
+  "c0001": {
+   "candidate_id": "obscand_e2df485eda376ea13af0fa01e97669c94f8b55403135afa55b5904b96312e852",
+   "original_sha256": "d18834ef4ee1aaba5c26e84835733a746164caa135511709434c43acd84cf606",
+   "normalized_original_sha256": "e0b70cb489af3875d2b6dc75ef1df5bcd4ae7c41572830a925a4df19995bbbff",
+   "patched_sha256": "60a4649d1266c039102039a573beec4dec4b19eeb850010e9601ff73d9e2071a",
+   "start_offset_lf": 403,
+   "anchor_sha256": "d60bb0e97d5b9abe6babba68ecd3f32697c2ed810c5f9fa79bae366574ceed3e",
+   "patch_sha256": "2510e3b52520ce4446f190312ef4fb630afd80f0d56d55a4ac2667346ad5c29e"
+  }
+ }
+}

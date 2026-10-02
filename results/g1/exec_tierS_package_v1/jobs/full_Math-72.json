@@ -1,0 +1,23 @@
+{
+  "bug_id": "Math-72",
+  "cases": [
+    {
+      "candidate_id": "obscand_10a62b08f73ce50e93dd5d622586e88376212454e75ede75b01478aeea865ead",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_18a9dd39680d195ab4e98755c7edb9eef98cc5ece8335f696eaddfeb8807b1d9",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ad4b4e382fe024d3fe32acb502c69ad1ca97dc0a89390ae4174a6723a4b5df07",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f0640315d513b00b625d1eec82702ab3a934219184dfa9fae5220dd08b7c3f63",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Math-72",
+  "phase": "full"
+}

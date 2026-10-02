@@ -1,0 +1,34 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_04924da00b05581d12ab63ef67c34082c5113add49305960346a091f601ac7b1",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_0e2243b46a044b03772d4dfba14d61af37168ab8913781e467f2b62316722f77",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_7d31661e90ed7ca961dfcc470a88c6b3775fd4967610e5f390df87bdfbe5622b",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_91bcbf595ce3f53ffde7958947b403384ff6e19fb328e13f1658f522f97eb2b3",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

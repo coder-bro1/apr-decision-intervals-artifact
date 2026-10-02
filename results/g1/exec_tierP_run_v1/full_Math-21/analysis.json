@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testMath789",
+    "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testFullRank"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_6c0bde0dd5edc2fcba98d8479bc7f5271c23823822a7196313e5c9be54873f4f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testMath789",
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testFullRank"
+      ]
+    },
+    {
+      "candidate_id": "obscand_cdb691940cad6df82595a7b847bba7ce9bb6351a66dada0582269cfa2023a9b0",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testMath789",
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testFullRank"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

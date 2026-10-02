@@ -1,0 +1,50 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b",
+    "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_121d33170b4ec8a22e9a1714eddcf22fa5d665b6789529a7f40f0d9be234a884",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303"
+      ]
+    },
+    {
+      "candidate_id": "obscand_20ade739cf25cd96904877372cc519cb1ecbc953a76ac82127e031008dba85af",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b",
+        "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303"
+      ]
+    },
+    {
+      "candidate_id": "obscand_d304b5c7c0942ddbf62a81a02f6c0a3c5a6a82f1649f53f1d62b34df6743fbc5",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

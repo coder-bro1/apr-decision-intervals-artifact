@@ -1,0 +1,22 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.lang3.SystemUtilsTest::testJavaVersionAsInt"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_960b22bcfdac300d3d57f6213648681297a790f74e6b28ef9c749a3efa15fefb",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    },
+    {
+      "candidate_id": "obscand_96de5626745b980eadcc62ab56f565eea236390062db49686017a4be1f7de777",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

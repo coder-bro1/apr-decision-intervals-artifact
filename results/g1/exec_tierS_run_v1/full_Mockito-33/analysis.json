@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork",
+    "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_326b2bf56848567f1acf941b91c599c8482561030bc94b5ecee8d2d97da7f80d",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork",
+        "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks"
+      ]
+    },
+    {
+      "candidate_id": "obscand_f2105dae268f67f09231eb7f2ca7edfea9e588161aef063a13fdfe4067d7b683",
+      "compile_status": "compile_pass",
+      "evidence_status": "admissible_triggers_pass_semantics_unknown",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

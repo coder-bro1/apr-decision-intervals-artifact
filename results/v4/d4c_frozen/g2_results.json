@@ -1,0 +1,273 @@
+{
+ "status": "pre-specified on already-inspected data; not confirmatory",
+ "bugs": 276,
+ "candidates": 2594,
+ "classes": 2015,
+ "noop_candidates": 23,
+ "challenger_fit": [
+  {
+   "stage": "compile",
+   "C": 1.0
+  },
+  {
+   "stage": "test_given_compile",
+   "C": 10.0
+  },
+  {
+   "stage": "correct_given_test",
+   "C": 0.01
+  }
+ ],
+ "agnostic_fit": [
+  {
+   "stage": "compile",
+   "C": 10.0
+  },
+  {
+   "stage": "test_given_compile",
+   "C": 1.0
+  },
+  {
+   "stage": "correct_given_test",
+   "C": 0.01
+  }
+ ],
+ "endpoints": {
+  "trigger_passage": [
+   {
+    "a": "challenger_frozen",
+    "b": "mra",
+    "bounds_pp": [
+     -7.608696,
+     4.347826
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 57,
+    "relevant_unknown_classes": 33,
+    "topk_pp": {
+     "s1": [
+      -7.608696,
+      4.347826
+     ],
+     "s3": [
+      -7.246377,
+      6.521739
+     ],
+     "s5": [
+      -8.695652,
+      4.710145
+     ],
+     "e5": [
+      -0.19202898550724637,
+      0.3188405797101449
+     ]
+    }
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence",
+    "bounds_pp": [
+     -8.804348,
+     -0.543478
+    ],
+    "result": "identified -",
+    "bugs_with_identical_choice": 85,
+    "relevant_unknown_classes": 73,
+    "topk_pp": {
+     "s1": [
+      -8.804348,
+      -0.543478
+     ],
+     "s3": [
+      -6.469979,
+      4.880521
+     ],
+     "s5": [
+      -6.084944,
+      3.114792
+     ],
+     "e5": [
+      -0.11393777317690361,
+      0.25499338624338624
+     ]
+    }
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "uniform",
+    "bounds_pp": [
+     -5.260812,
+     6.435329
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 14,
+    "relevant_unknown_classes": 153,
+    "topk_pp": {
+     "s1": [
+      -5.260812,
+      6.435329
+     ],
+     "s3": [
+      -5.97136,
+      4.960317
+     ],
+     "s5": [
+      -6.063089,
+      2.91868
+     ],
+     "e5": [
+      -0.20881498734759604,
+      0.19176299746951922
+     ]
+    }
+   },
+   {
+    "a": "source_agnostic_frozen",
+    "b": "mra",
+    "bounds_pp": [
+     -0.362319,
+     0.362319
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 267,
+    "relevant_unknown_classes": 2,
+    "topk_pp": {
+     "s1": [
+      -0.362319,
+      0.362319
+     ],
+     "s3": [
+      -0.362319,
+      0.362319
+     ],
+     "s5": [
+      -1.086957,
+      1.449275
+     ],
+     "e5": [
+      -0.050724637681159424,
+      0.06159420289855073
+     ]
+    }
+   }
+  ],
+  "semantic_negatives_only": [
+   {
+    "a": "challenger_frozen",
+    "b": "mra",
+    "bounds_pp": [
+     -37.318841,
+     35.507246
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 57,
+    "relevant_unknown_classes": 201,
+    "topk_pp": {
+     "s1": [
+      -37.318841,
+      35.507246
+     ],
+     "s3": [
+      -55.072464,
+      54.347826
+     ],
+     "s5": [
+      -48.913043,
+      47.101449
+     ],
+     "e5": [
+      -1.8224637681159421,
+      1.8768115942028984
+     ]
+    }
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "occurrence",
+    "bounds_pp": [
+     -30.628019,
+     26.171498
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 85,
+    "relevant_unknown_classes": 396,
+    "topk_pp": {
+     "s1": [
+      -30.628019,
+      26.171498
+     ],
+     "s3": [
+      -45.290286,
+      37.307626
+     ],
+     "s5": [
+      -38.284737,
+      22.824362
+     ],
+     "e5": [
+      -1.2400103519668737,
+      1.29641994478951
+     ]
+    }
+   },
+   {
+    "a": "challenger_frozen",
+    "b": "uniform",
+    "bounds_pp": [
+     -36.799661,
+     37.220353
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 14,
+    "relevant_unknown_classes": 867,
+    "topk_pp": {
+     "s1": [
+      -36.799661,
+      37.220353
+     ],
+     "s3": [
+      -45.986025,
+      33.41313
+     ],
+     "s5": [
+      -38.972999,
+      21.029589
+     ],
+     "e5": [
+      -1.2967420059811363,
+      1.3631369335173682
+     ]
+    }
+   },
+   {
+    "a": "source_agnostic_frozen",
+    "b": "mra",
+    "bounds_pp": [
+     -2.536232,
+     2.536232
+    ],
+    "result": "open",
+    "bugs_with_identical_choice": 267,
+    "relevant_unknown_classes": 14,
+    "topk_pp": {
+     "s1": [
+      -2.536232,
+      2.536232
+     ],
+     "s3": [
+      -3.985507,
+      3.985507
+     ],
+     "s5": [
+      -6.15942,
+      5.797101
+     ],
+     "e5": [
+      -0.3442028985507246,
+      0.39492753623188404
+     ]
+    }
+   }
+  ]
+ }
+}

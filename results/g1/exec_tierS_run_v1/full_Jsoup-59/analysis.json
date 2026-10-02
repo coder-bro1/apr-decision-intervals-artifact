@@ -1,0 +1,29 @@
+{
+  "admissible_triggers": [
+    "org.jsoup.parser.HtmlParserTest::handlesControlCodeInAttributeName",
+    "org.jsoup.safety.CleanerTest::handlesControlCharactersAfterTagName"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_692ebda471727698e58025efafca3e1aeb1e02a532021b4ee49f76595c8351eb",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.HtmlParserTest::handlesControlCodeInAttributeName",
+        "org.jsoup.safety.CleanerTest::handlesControlCharactersAfterTagName"
+      ]
+    },
+    {
+      "candidate_id": "obscand_af5b9b499b2f99e5857d8617fc240743ccbc15aa00993fe0f09850deed8bafae",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.jsoup.parser.HtmlParserTest::handlesControlCodeInAttributeName",
+        "org.jsoup.safety.CleanerTest::handlesControlCharactersAfterTagName"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

@@ -1,0 +1,62 @@
+{
+  "admissible_triggers": [
+    "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+    "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+    "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+    "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+    "com.google.javascript.jscomp.IntegrationTest::testIssue724"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_37d662042a57c9fd75f9bca5a514474a036ccd552affbdff8246e15f9e4be2d1",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+        "com.google.javascript.jscomp.IntegrationTest::testIssue724"
+      ]
+    },
+    {
+      "candidate_id": "obscand_6664495677a346cf288787d3689b4ea786bcdfce682996eebb675a21cfba535b",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+        "com.google.javascript.jscomp.IntegrationTest::testIssue724"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a84eff7ee14e8e08780ca70479ca54a1e33cfd0fe2413c55755a50dfcb6880ae",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+        "com.google.javascript.jscomp.IntegrationTest::testIssue724"
+      ]
+    },
+    {
+      "candidate_id": "obscand_da86fb050b6213e0f4a35969bf09b7a8f19a9fd14a9465d345d2fa6f8024871f",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+        "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+        "com.google.javascript.jscomp.IntegrationTest::testIssue724"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

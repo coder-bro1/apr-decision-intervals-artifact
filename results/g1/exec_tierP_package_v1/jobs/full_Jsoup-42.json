@@ -1,0 +1,43 @@
+{
+  "bug_id": "Jsoup-42",
+  "cases": [
+    {
+      "candidate_id": "obscand_00a7d4a5ed21a1b0d5cd2f1dd4ccc3ad5f589b6aba9e29c950927b259416b15c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_1b600ac0cd34567919fc923a543fe2954c54770f2983e709dccb8231dcbe2877",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_44acedb9f1ab1b1acf0e9c8a4aaa5ce9c6d73fe7863db267ca0c8610ddc406fc",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_45fc3d50eabf876d148b74b3580438e9bf732ce9c145990c7e0e6f19f9df66bb",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_51270b4aac1f9d8fac30ce57000f6f6584450a72635dd795c044c6e84f95fafa",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_cd6dd77fe18bceb058ec393b2b91e94038c2ffeef68a17476bd3119250938b0e",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_d03da4501da8d57307a55bf19c14530f077d5d180d39172c03f685e097c02444",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f98bc8f470ac813ec8d51434f2f92455951b2d87efaa85ab868673974e301e3a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ff1d996fc2eda3697949d58979bc5cb1c1f78d2aaa2096181e29533b43880791",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-42",
+  "phase": "full"
+}

@@ -1,0 +1,26 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.codec.language.CaverphoneTest::testEndMb"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_65766854c0fbfb8d2f2ebd71f9731c2227bbb30b08dae78845fcf3d64763006a",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.language.CaverphoneTest::testEndMb"
+      ]
+    },
+    {
+      "candidate_id": "obscand_a52846d13e5c22c78ad0ed7c5571734ccc7172de9b69aa8409c594934e135ebe",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.codec.language.CaverphoneTest::testEndMb"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

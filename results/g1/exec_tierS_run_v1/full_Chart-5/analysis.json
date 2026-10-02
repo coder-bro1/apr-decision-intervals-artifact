@@ -1,0 +1,16 @@
+{
+  "admissible_triggers": [
+    "org.jfree.data.xy.junit.XYSeriesTests::testBug1955483"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_9da562b8f5250dbb681d1f4495ce9824ea97d71baf9a32ef7b5c2c47809abaad",
+      "compile_status": "compile_command_failed_twice",
+      "evidence_status": "compile_command_failed_twice",
+      "rejection_witnesses": []
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

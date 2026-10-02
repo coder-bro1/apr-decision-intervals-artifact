@@ -1,0 +1,20 @@
+{
+  "admissible_triggers": [
+    "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson",
+    "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth"
+  ],
+  "controls_compile": true,
+  "findings": [
+    {
+      "candidate_id": "obscand_e7abe084f45a08a6fa0c44e9e3ba414feac0e18b3dabba7ee01fd5084fa9b77e",
+      "compile_status": "compile_pass",
+      "evidence_status": "controlled_trigger_failure",
+      "rejection_witnesses": [
+        "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson",
+        "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth"
+      ]
+    }
+  ],
+  "labels_changed": false,
+  "scope": "Trigger rejection evidence only. Compile-command failures require diagnosis; passes never establish correctness."
+}

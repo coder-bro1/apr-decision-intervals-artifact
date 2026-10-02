@@ -1,0 +1,35 @@
+{
+  "bug_id": "Closure-112",
+  "cases": [
+    {
+      "candidate_id": "obscand_1a4c0613d8832fa778708d84862d97bc5fb98f8b4a4d371c980872aea3ae6d3c",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_38962836670dbc1a6b2c5b058a556f74c2fca0a2ae3fa176d9efd4d3377ef226",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_663b8b9c83acf00a1b44f8aac5f3c5fa7a721719e74d5d3b4d89880c494fc634",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_917373daccbf03f24d1100873d20f0d80899ca47c784e39c0d2f59b6c7f2e89a",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ae7a305149a71717a87ff87e6947983306e4ce8b78fcf26c02f10b75757e5cfb",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_e5cf6c36103adb200e0c270651425859b057bb9c8f1d108d3802d2f9c980d425",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_f39980ea524904b094807fa35d30b01154fe4a8bfb71bf0cf7d87fe4c78fa5b8",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Closure-112",
+  "phase": "full"
+}

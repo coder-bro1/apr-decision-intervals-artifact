@@ -1,0 +1,35 @@
+{
+  "bug_id": "Codec-3",
+  "cases": [
+    {
+      "candidate_id": "obscand_08b369695cda8f38f486d875389b13940f7214e326ed41275c55f8bea0f58337",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_2078ad9391f5da017cc5382313b0ff42e638a8d6aa474ac22cdf7e95b60ef876",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_233f76f381ecd5e506f40e13b2026b8ae65e6b4fdc9d7406dc25052e07d0c965",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_23a00a6b9d583c2cdf289f65dcf58ede64eab6de92c11a8649150b7205c642c6",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_5ff4a235c476bae4af4dbc53fe03a05088bd4c95314b0806cefa241143665249",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_972eb3068dd9110416609e8e707cd606ba3469996f7f599c3ec9c574492bcef7",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_a0a297839ec334e9f2a1be2aab98ca35e64093d6860a378372d900a45478eac9",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Codec-3",
+  "phase": "full"
+}

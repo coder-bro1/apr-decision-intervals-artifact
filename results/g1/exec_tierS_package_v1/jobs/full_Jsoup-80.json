@@ -1,0 +1,15 @@
+{
+  "bug_id": "Jsoup-80",
+  "cases": [
+    {
+      "candidate_id": "obscand_24ae13af04b5554e028abba9fe38350dcfc72708ac061e7532467f84ffa3e0fc",
+      "compile_only": false
+    },
+    {
+      "candidate_id": "obscand_ffd567c394d3d967a42a3f786d63c9188cb1fe08483ce3f8914afad75ecb4038",
+      "compile_only": false
+    }
+  ],
+  "job_id": "full_Jsoup-80",
+  "phase": "full"
+}
