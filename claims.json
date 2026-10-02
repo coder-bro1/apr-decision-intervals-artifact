@@ -280,5 +280,18 @@
    "decided_at_start"
   ],
   "expect": 13
+ },
+ {
+  "claim": "In 101 of the 107 bug-configuration cells with a failing fix copy, other outputs of the cell compile",
+  "where": "Sec. 5.3",
+  "file": "results/v4/r1_review_v1/r1_review_checks.json",
+  "path": [
+   "A2",
+   "cell_patterns"
+  ],
+  "expect_subset": {
+   "copy fails, other outputs of the cell compile": 101,
+   "every output of the cell fails to compile": 6
+  }
  }
 ]
