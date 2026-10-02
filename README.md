@@ -1,7 +1,6 @@
 # Replication package: Testing Can Only Refute
 
-Anonymised replication package for the FSE 2027 submission *Testing Can Only Refute: Deciding Patch-Selection
-Comparisons under Incomplete Correctness Evidence*.
+Anonymised replication package for the FSE 2027 submission *Testing Can Only Refute: Deciding Automated Program Repair Comparisons under Incomplete Evidence*.
 
 ## Quick check (about a minute, standard library only)
 
