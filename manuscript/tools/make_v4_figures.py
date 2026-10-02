@@ -234,6 +234,8 @@ def table_settings_decided(dec, rl):
     n_rb = sum(p["identified"] for p in O["repairbench"])
     n_d4c = sum(r["result"] != "open" for r in O["d4c_trigger_passage"])
     n_d2 = sum(r["identified"] for r in O["d2_plausible_pools"])
+    p1 = json.loads((R / "v4/p1_prospective/outcomes.json").read_text(encoding="utf-8"))
+    p1c = next(c for c in p1["comparisons"] if c["comparison"] == "challenger vs prevarank")
     pr = O["prevarank_input_order"]
     po = O["pod_pairs"]
     arrow = r" $\rightarrow$ "
@@ -247,7 +249,8 @@ def table_settings_decided(dec, rl):
          "vs occurrence", iv(*G["G-E0"]["pp"]), iv(*G["G-E1"]["pp"])),
         ("RepairBench", len(O["repairbench"]), str(n_rb), "vs occurrence", iv(*rb["pp"]), "--"),
         ("D4C", len(O["d4c_trigger_passage"]), str(n_d4c), "vs occurrence", iv(*d4c["pp"]), "--"),
-        ("Second decision point", len(O["d2_plausible_pools"]), str(n_d2), "vs PrevaRank", iv(*d2["pp"]), "--"),
+        ("Second decision point", len(O["d2_plausible_pools"]), f"{n_d2}{arrow}{p1['decided_at_end']}", "vs PrevaRank",
+         iv(*d2["pp"]), iv(*p1c["end_interval_pp"])),
         ("PrevaRank input order", pr["permutations_vs_canonical"], str(pr["decided"]), "hash vs supplied order", iv(*sh), "--"),
         ("Overfitting detectors", po["pairs"], str(po["identified"]), "LLM4PC vs DL4PC", iv(lo, hi), "--"),
     ]
