@@ -1,6 +1,9 @@
 """F3 relevance review helper: prints, per candidate with counterexamples, the candidate-vs-developer-fix diff and every
 counterexample (test source + failure head) so each can be read by hand. Writes nothing into results/.
 Usage: f3_review_view.py [--bugs Lang-45 ...] [--exclude-bugs ...] [--full-failure]"""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import argparse
 import difflib
 import json

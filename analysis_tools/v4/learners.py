@@ -6,6 +6,9 @@
    (per-source membership and per-source position columns), i.e. 'generator metadata removed' (R2 B6).
 Writes results/v4/learners/{one_stage,source_agnostic}.jsonl with held-out (test-rotation) scores.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from pathlib import Path

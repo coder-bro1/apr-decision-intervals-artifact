@@ -17,6 +17,7 @@ the stored results (compared byte for byte with `paper/`), and checks the princi
 |---|---|
 | `analysis_tools/v4/` | Every analysis behind the paper: decision intervals (`v4core.py`), evidence layers (`final_evidence.py`, `c1_fixrerun_analysis.py`), decision basis and flips (`decision_basis.py`, `decidability_table.py`), refutation limit and pre-flight check (`refutation_limit.py`, `target_aware_preflight.py`), positive controls (`positive_controls.py`), top-k bounds (`topk.py`, brute-force tests in `test_topk.py`), rubric and stress analyses (`f4_rubric_sensitivity.py`, `r1_review_checks.py`), transfer settings and audits. |
 | `execution_tools/` | The controlled re-execution protocol (census runner, evidence rules, Defects4J and HumanEval-Java runners). |
+| `lib/` | Shared helper modules (evidence contract, label rules, pilot and ledger utilities) imported by the analysis and execution tools. Scripts add `lib/` to their import path themselves; `BUILD_REPORT.json` lists every file whose location or import path differs from the research tree. |
 | `manuscript/tools/make_v4_figures.py` | Generates every table and figure of the paper from the result files. |
 | `protocols/` | The frozen protocol, the pre-registration of the fresh campaign, and every addendum, each frozen before its campaign ran. |
 | `results/v4/` | Result files of every analysis and campaign. Execution campaigns keep each job's `terminal.json` (findings and the SHA-256 of every raw log) and `analysis.json`, plus the package manifests and job lists. |

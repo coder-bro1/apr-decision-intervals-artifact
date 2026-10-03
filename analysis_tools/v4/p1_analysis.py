@@ -5,6 +5,9 @@ evidence). The 21 decision-point-2 comparisons are recomputed; for each comparis
 outcome is compared with the frozen prediction, and the Brier score of P(decide) is reported with the realised yield.
 Writes results/v4/p1_prospective/{outcomes.json, OUTCOMES.md}.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from pathlib import Path

@@ -4,6 +4,9 @@ Ties: uniform (primary), archived file order, label-independent hash.
 Eligibility: all (primary), compilable-only, plausible-only (archived unanimous compile/test outcomes, defined exactly as
 in run_evidence_pilot_step2.load_inputs; conflicting/missing outcomes -> not eligible in the restricted pools).
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from pathlib import Path

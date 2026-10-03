@@ -4,6 +4,9 @@ Writes only results/contract_step1 and the explicitly named Step 1 packet.
 Frozen V3.2 inputs and outputs are checked without regeneration.
 """
 
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 from collections import Counter, defaultdict
 from dataclasses import asdict
@@ -13,7 +16,7 @@ from audit_research_reassessment_20260913 import manifest_entries, sha256
 from validation_policy_contract import candidate_id, context_id, label_blind_fold, project_candidate, support_only_action
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results/contract_step1"
 DATA = ROOT / "llm_apr_dataset"
 PREFIX = "llm_apr_defects4j_candidates_v2"

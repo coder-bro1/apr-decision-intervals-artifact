@@ -1,5 +1,8 @@
 """Refit the September policy and run a separately charged label-query simulation."""
 
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import argparse
 import hashlib
 import json
@@ -21,7 +24,7 @@ from evidence_budget_bounds import comparison_bounds, difference_coefficients, e
 from validation_policy_contract import CandidateView, SourcePosition, decision_from_scores, native_scores
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "results/contract_step1"
 OUT = ROOT / "results/pilot_step2"
 METHODS = ("random_all", "random_disagreement", "uncertainty", "disagreement_first", "decision_focused")

@@ -1,6 +1,9 @@
 """F3 targets (ADDENDUM_V4_F3_DIFFTEST.md): decision-relevant unknown classes whose every member passed the archived
 tests unanimously; tier 1 = relevant to challenger vs any non-uniform baseline, tier 2 = uniform only.
 Writes results/v4/f3_targets/{tier1,tier2}_candidates.json (one representative per class)."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from pathlib import Path

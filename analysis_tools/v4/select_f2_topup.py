@@ -6,6 +6,9 @@ the census (they were executed) and classes whose every member passed the archiv
 reject those; they go to F3/F4). From each remaining class run one representative occurrence (smallest candidate id)
 through the unchanged witness protocol, full phase, v3 image. Writes the candidate list for prepare_v4_rerun_package.py.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from collections import defaultdict

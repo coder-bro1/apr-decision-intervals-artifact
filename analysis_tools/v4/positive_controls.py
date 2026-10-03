@@ -24,6 +24,9 @@ configuration, the in-scope bugs whose only obstacle is an archived failure of a
 
 Writes results/v4/positive_controls/{positive_controls.json, POSITIVE_CONTROLS.md, flagged_occurrences.jsonl}
 and tool caches under results/v4/positive_controls/cache/. Reads no new outcome and runs no container."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import base64
 import glob
 import hashlib

@@ -3,6 +3,9 @@ repetitions, valid controls) loses its archived 'incorrect' label; a controlled 
 anything else keeps it. Then the unchanged C1-fix rule: a class with no known label and a fix-equivalent member ->
 correct. View E1+F2+F3+F4+R, all comparisons, AST identity and C1-id. Partial runs are allowed (unrun = unchanged).
 Writes results/v4/c1_fixrerun/c1_fixrerun_results.json."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import glob
 import json
 import sys

@@ -1,6 +1,9 @@
 """E3 scope (ADDENDUM_V4_E3_HUMANEVAL.md): rebuild the decision-relevant unknown HumanEval-Java records for
 challenger vs native_position exactly as review_humaneval_contract_replication.py does, and attach each record's
 method texts and archived evidence. Reads no new outcome. Writes results/v4/humaneval/e3_targets.jsonl."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from collections import Counter, defaultdict

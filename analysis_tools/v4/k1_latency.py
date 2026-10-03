@@ -2,6 +2,9 @@
 on a fixed random sample of 1,000 Defects4J candidates (seed 20260929). Writes results/v4/cost/latency.json, which
 k1_cost.py reads. Challenger = feature extraction + the three logistic stages (CPU). CodeT5+, naturalness and APPT =
 model inference on GPU (model loading excluded and reported separately)."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import os
 import random

@@ -10,6 +10,9 @@ Selectors: mra (returned index), uniform (random), occurrence (number of returni
 all 488 Defects4J bugs (C chosen by the unchanged tuning rule of rotation 0) and applied as is. Its per-source features
 are all zero here (no RepairBench configuration was seen in training), so it acts through position/count features only.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import base64
 import hashlib
 import json

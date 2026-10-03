@@ -1,5 +1,8 @@
 """Independently review the completed HumanEval-Java contract replication."""
 
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import argparse
 from collections import Counter, defaultdict
 from fractions import Fraction

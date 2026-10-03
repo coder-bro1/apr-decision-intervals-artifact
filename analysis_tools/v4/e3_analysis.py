@@ -1,6 +1,9 @@
 """E3 analysis (ADDENDUM_V4_E3_HUMANEVAL.md): candidate statuses from the tier A/B runs, the evidence views
 (A0, A1, A2, X1, X2, HE-E1, X3) and challenger-minus-method bounds for every method. Tier B may be partial: an unrun
 record stays unknown. Writes results/v4/humaneval/e3_statuses.jsonl, e3_results.json and E3_REPORT.md."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import re
 import sys

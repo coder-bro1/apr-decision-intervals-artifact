@@ -1,6 +1,9 @@
 """C1 fix re-run selection (ADDENDUM_V4_C1_FIXRERUN.md): every candidate with an archived 'incorrect' label that sits
 in a rename-aware (C1-id) class containing a member equivalent to its context's developer fix. Reads no new outcome.
 Writes results/v4/c1_fixrerun/candidates.json (the census package input) and selection.json (details)."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import json
 import sys
 from collections import Counter, defaultdict

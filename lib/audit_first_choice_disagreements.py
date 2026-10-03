@@ -9,7 +9,7 @@ from pathlib import Path
 import subprocess
 import time
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = ROOT / "results/contract_step1"
 COMPARISONS = ROOT / "results/pilot_step2/context_comparisons.jsonl"
 JAVA = ROOT / "execution_tools/BatchMethodFingerprint.java"

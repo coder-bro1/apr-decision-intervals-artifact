@@ -1,6 +1,9 @@
 """G2 (ADDENDUM_V4_G2_D4C_FROZEN.md): frozen, pre-specified transfer of the Defects4J selectors to D4C patches.
 Order: (1) build pools and compute + save every policy score WITHOUT reading any outcome; (2) only then read the
 execution findings and compute the bounds. Pre-specified on already-inspected data, not confirmatory."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import base64
 import hashlib
 import json

@@ -7,6 +7,9 @@ removed and added cancels) in the official patch with the same multiset for anch
 contexts. A bug is flagged if the official patch changes lines the method-level fix does not account for, or touches
 more than one file. Patches: results/v4/single_function_audit/d4j_src_patches.tar (exported from the v3 image).
 Writes results/v4/single_function_audit/single_function_audit.json."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import difflib
 import json
 import re

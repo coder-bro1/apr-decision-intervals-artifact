@@ -6,6 +6,9 @@ within a bug. Settings: AST identity (contract) | C1-id (rename-aware classes) |
 label and a member equivalent to the developer fix becomes correct). Evidence views from final_evidence.py.
 Also checks the same normaliser against the frozen HumanEval-Java E3 fix-equivalence rule.
 Writes results/v4/c1_equivalence/c1_equivalence.json."""
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import base64
 import hashlib
 import json

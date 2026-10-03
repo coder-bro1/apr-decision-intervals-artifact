@@ -11,6 +11,9 @@ Both sets are merged and shuffled (seed 20260929) so annotators cannot tell whic
 The key file (results/v4/annotation_key/KEY_private.json) must NOT be given to annotators; it is kept outside
 the folder that is shared.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import difflib
 import html
 import json

@@ -1,5 +1,8 @@
 """Read-only audit of July evidence; write only a separate September report."""
 
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import argparse
 import csv
 import hashlib
@@ -11,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "results/reassessment_2026_09_13/integrity_audit.json"
 METHOD = "safe_gate_q95_r20"
 

@@ -7,7 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SEED = "multibug-execution-v1"
 EXCLUDED = {"Closure-78": "previously inspected and executed"}
 

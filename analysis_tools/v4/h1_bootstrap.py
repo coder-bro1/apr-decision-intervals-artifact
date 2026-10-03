@@ -11,6 +11,9 @@ Modes: gate (m = 1: must reproduce [+5.571, +11.513] and the archived scores), b
 20260929 + r), loo (leave-one-bug-out with retraining: m_b = 0 for one bug, 1 otherwise; 488 refits).
 Output is resumable JSONL under results/v4/inference/.
 """
+import sys as _sys  # release layout: shared helper modules live in lib/
+from pathlib import Path as _Path
+_sys.path.insert(0, str(next(p for p in _Path(__file__).resolve().parents if (p / "lib").is_dir()) / "lib"))
 import argparse
 import json
 import sys
